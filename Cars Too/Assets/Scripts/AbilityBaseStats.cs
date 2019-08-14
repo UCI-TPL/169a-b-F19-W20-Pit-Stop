@@ -6,6 +6,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "AbilityBaseStats.asset", menuName = "Capstone/AbilityBaseStats")]
 public class AbilityBaseStats : ScriptableObject
 {
+    //ability identifier
+    public string abilityname;
+
+    //description of ability for ui
+    public string abilitydescription;
+
     //base damage modifier for the ability
     public float damagemodifier = 2.5f;
 
