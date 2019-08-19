@@ -132,8 +132,8 @@ public class Abilities : MonoBehaviour
 public class Ability
 {
     public string abilityname = "PLACEHOLDER";
-    public float damagemodifier = 2.5f;
-    public float upgradeamt = .5f;
+    public float damagemodifier = 2.5f; // placeholder amount
+    public float upgradeamt = .5f; // placeholder amount
     public string abilitydescription = "PLACEHOLDER_TEXT";
 
     public Ability(AbilityBaseStats abs)
