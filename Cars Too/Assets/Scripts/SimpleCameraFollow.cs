@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimpleCameraFolow : MonoBehaviour
+public class SimpleCameraFollow : MonoBehaviour
 {
     [SerializeField] Transform target;
     public float hoverDistance = 6f;
