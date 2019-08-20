@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     int enemyCounter;
 
-    // public Player player;
+    public Player player;
 
 
     // Start is called before the first frame update
