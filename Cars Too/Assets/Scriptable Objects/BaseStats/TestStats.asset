@@ -12,3 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3943adeea0379864d82f5be256642583, type: 3}
   m_Name: TestStats
   m_EditorClassIdentifier: 
+  carmodel: {fileID: 4735282467803159115, guid: bda8cb6ea38794648949f30c748df1ca,
+    type: 3}
+  power: 10
+  engine: 10
+  handling: 10
+  weight: 10
+  hp: 100
+  armor: 10
+  description: This is a car
