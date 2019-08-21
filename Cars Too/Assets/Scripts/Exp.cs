@@ -6,7 +6,7 @@ public class Exp
 {
     public float currentxp = 0.0f;
     public float maxxp = 100.0f;
-    public int level = 1;
+    public int level = 0;
 
     //Adjustable numbers that determine the max level, and the increase of the exp requirement per level
     float xpincrementer = 1.5f;

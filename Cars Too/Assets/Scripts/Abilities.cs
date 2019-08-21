@@ -135,6 +135,7 @@ public class Ability
     public float damagemodifier = 2.5f; // placeholder amount
     public float upgradeamt = .5f; // placeholder amount
     public string abilitydescription = "PLACEHOLDER_TEXT";
+    public GameObject abilityprefab;
 
     public Ability(AbilityBaseStats abs)
     {
@@ -142,6 +143,7 @@ public class Ability
         damagemodifier = abs.damagemodifier;
         upgradeamt = abs.upgradeamt;
         abilitydescription = abs.abilitydescription;
+        abilityprefab = abs.abilityprefab;
 
     }
 

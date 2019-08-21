@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-abstract class Entity : MonoBehaviour
+public class Entity : MonoBehaviour
 {
     //Base Class for enemies and player class with a bunch of functions for doing damage
-    [SerializeField] Stats stats;
-    [SerializeField] BaseStats basestats;
+    [SerializeField] public Stats stats;
+    //[SerializeField] public BaseStats basestats;
 
     void Start()
     {
-        stats.InitializeStats(basestats);
+        //stats.InitializeStats(basestats);
     }
 
     //Deals damage based on ability modifer and power stats
@@ -19,7 +19,7 @@ abstract class Entity : MonoBehaviour
         target.ReceiveDamage(stats.power * abilitymod);
     }
 
-    //used for general damage from environ or ramming, where damage is not calculated here
+    //used for general damage from environ or ramming, where damage is not calculated within the class
     public void Damage(float amount, Entity target)
     {
         target.ReceiveDamage(amount);
@@ -42,7 +42,7 @@ abstract class Entity : MonoBehaviour
 
     //play Dying Anims
     //Default just destorys gameobject
-    public void Die()
+    public virtual void Die()
     {
         Destroy(this.gameObject);
     }
