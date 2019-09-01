@@ -8,15 +8,17 @@ public class GameManager : MonoBehaviour
 
     // public List<Enemy> enemyPrefabs;
 
-    int LevelCounter;
+    public int LevelCounter;
 
-    int enemyCounter;
+    public int enemyCounter;
 
     public Player player;
 
+    // public List<Enemy> enemies;
 
-    // Start is called before the first frame update
-    void Start()
+    // public List<Enemy> enemyPrefabs;
+
+    void Awake()
     {
         
     }
@@ -26,4 +28,6 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    
 }
