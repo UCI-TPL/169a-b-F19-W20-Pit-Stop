@@ -120,6 +120,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &327821628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4735282467803159115, guid: bda8cb6ea38794648949f30c748df1ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 7102358649852278320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &327821629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327821628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35929cd868521814caf3a51d69e3f70a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,6 +240,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -294,75 +313,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &7007315542291643655
-PrefabInstance:
+--- !u!114 &963194229
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7007315540531453528, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_Name
-      value: SawHolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007315540531453543, guid: 147ff81647b3c104d9b7dae0e4d01567,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 147ff81647b3c104d9b7dae0e4d01567, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d5491c0ee6e704fa4338aebfc24f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carinfo: {fileID: 11400000, guid: a2dcc2d766df3fe4ba3737dffd7fa1f9, type: 2}
 --- !u!1001 &7102358649852278320
 PrefabInstance:
   m_ObjectHideFlags: 0

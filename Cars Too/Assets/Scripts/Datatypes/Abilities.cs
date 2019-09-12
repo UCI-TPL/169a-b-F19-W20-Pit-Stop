@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Abilities stores what abilities are currently available, and unavailable, as well as which abilities are equipped. 
-public class Abilities : MonoBehaviour
+public class Abilities 
 {
     //The player's currently equipped abilities
     public List<Ability> equipped;
@@ -29,12 +29,14 @@ public class Abilities : MonoBehaviour
             //adds the first three to equipped, and any excess to locked to be unlocked later
             if (i < 3)
             {
+                Debug.Log(temp.abilityname);
                 equipped.Add(temp);
             }
             else
             {
                 locked.Add(temp);
-            }  
+            }
+            Debug.Log(equipped.Count);
         }
 
     }

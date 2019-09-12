@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //The stats class stores a "live version" of player stats that is manipulated by level up bonuses, and potentially temporarily by abilities
-public class Stats : MonoBehaviour
+public class Stats
 {
     //The stats are stored as public for easier access, but cannot be statics as that would interfere with other class's stats
     public float currenthp = 100;

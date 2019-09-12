@@ -12,7 +12,7 @@ public class CarStats : MonoBehaviour
     public Abilities abils;
 
     //Initializes exp, stats, and abilities based off of carinfo
-    private void Start()
+    private void Awake()
     {
         exp = new Exp();
         stats = new Stats();
@@ -28,7 +28,8 @@ public class CarStats : MonoBehaviour
     {
         foreach(Ability a in abils.equipped)
         {
-            Instantiate(a.abilityprefab, playercar.transform);
+           GameObject temp= Instantiate(a.abilityprefab, playercar.transform);
+            temp.GetComponent<AbilityEnabler>().setAbility(a);
         }
     }
 

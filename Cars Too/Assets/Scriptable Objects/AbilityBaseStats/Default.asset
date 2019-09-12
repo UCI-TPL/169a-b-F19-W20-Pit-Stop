@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3fc53c966453bb4489ef86acfd044b4, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  abilityname: 
+  abilitydescription: 
+  damagemodifier: 2.5
+  upgradeamt: 0.5
+  abilityprefab: {fileID: 7007315540531453528, guid: 147ff81647b3c104d9b7dae0e4d01567,
+    type: 3}
