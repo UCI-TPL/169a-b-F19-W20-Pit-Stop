@@ -2,26 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Entity
 {
-    public Player player;
+    [SerializeField] private GameObject player;
 
-    public Stats stats;
+    [SerializeField] private BaseStats baseStats;
 
-    public BaseStats baseStats;
-
-    //public NavMesh navMesh;
-
-    
+    [SerializeField] private UnityEngine.AI.NavMeshAgent navMeshAgent; // This is a reference to the navmesh agent component that is attached to the enemy 
 
     void Start()
     {
-        
+        player = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Vector3 playerLocation = player.transform.position;
+
+        navMeshAgent.SetDestination(playerLocation);
     }
 }
