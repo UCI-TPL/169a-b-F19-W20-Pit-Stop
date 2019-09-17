@@ -6,27 +6,52 @@ public class GameManager : MonoBehaviour
 {
     // private List<Enemy> enemies;
 
-    // public List<Enemy> enemyPrefabs;
+    [SerializeField] private List<Enemy> enemyPrefabs;
 
-    public int LevelCounter;
+    [SerializeField] private float spawnRate; // Per Seconds
 
-    public int enemyCounter;
+    [SerializeField] private GameObject player;
 
-    public Player player;
+    [SerializeField] private int LevelCounter;
 
-    // public List<Enemy> enemies;
+    private float timer;
 
-    // public List<Enemy> enemyPrefabs;
+    private bool stopSpawning;
+
+    private int index;
 
     void Awake()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+        timer = spawnRate;
+        stopSpawning = false;
+        index = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(!stopSpawning) {
+            
+            timer -= Time.deltaTime;
+
+            if(timer <= 0) {
+                
+                //This variable will be the location or locations that enemies spawn at
+                //List<Vector3> spawnLocations
+
+                Vector3 temporarySpawn = new Vector3(0,0,0);
+
+                Instantiate(enemyPrefabs[0], temporarySpawn, Quaternion.identity);
+
+                timer = spawnRate;
+                index++;
+
+                if(index >= enemyPrefabs.Count) {
+                    stopSpawning = true;
+                }
+            }
+        }
     }
 
     
