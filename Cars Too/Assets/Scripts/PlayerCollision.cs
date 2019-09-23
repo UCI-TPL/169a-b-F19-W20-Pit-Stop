@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // There will be four separate childs under player with their own collision box each of which will have this script on it to determine collision orientation
+    //same for enemies, but with the enemy collision script
     [SerializeField] private string part="side"; // Designates the part of the car the collision box is responsible for
     [SerializeField] private PlayerEntity p;
 

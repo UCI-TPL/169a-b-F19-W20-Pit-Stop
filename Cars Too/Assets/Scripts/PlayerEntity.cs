@@ -41,7 +41,8 @@ public class PlayerEntity : Entity
         //player and enemy speed calculated from vector 3s
         float playerspeed = Mathf.Sqrt(Mathf.Pow(this.gameObject.GetComponent<Rigidbody>().velocity.x, 2) + Mathf.Pow(this.gameObject.GetComponent<Rigidbody>().velocity.z, 2));
         float enemyspeed =  Mathf.Sqrt(Mathf.Pow(enemy.GetComponent<Rigidbody>().velocity.x, 2) + Mathf.Pow(enemy.GetComponent<Rigidbody>().velocity.z, 2));
-        float sidemultiplier = 1.5f;
+        float sidemultiplier = 1.5f; //damage multiplier when hit from the side
+        float backmultiplier = 2.0f; // damage multiplier when hit from behind
 
         //handles headon collision
         if (enemyposition == "front" && playerposition == "front")
