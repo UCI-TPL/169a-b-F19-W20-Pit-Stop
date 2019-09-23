@@ -36,7 +36,7 @@ public class Abilities
             {
                 locked.Add(temp);
             }
-            Debug.Log(equipped.Count);
+
         }
 
     }
