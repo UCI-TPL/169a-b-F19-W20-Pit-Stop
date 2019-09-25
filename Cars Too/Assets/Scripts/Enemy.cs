@@ -12,6 +12,7 @@ public class Enemy : Entity
 
     void Start()
     {
+        stats.InitializeStats(baseStats);
         player = GameObject.FindWithTag("Player");
     }
 
