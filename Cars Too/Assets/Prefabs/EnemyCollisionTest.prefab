@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  baseStats: {fileID: 0}
+  baseStats: {fileID: 11400000, guid: f80109a0f8e2360498a2adf6f64a58a6, type: 2}
   navMeshAgent: {fileID: 5314462955697988730}
 --- !u!136 &9051195824317901134
 CapsuleCollider:
