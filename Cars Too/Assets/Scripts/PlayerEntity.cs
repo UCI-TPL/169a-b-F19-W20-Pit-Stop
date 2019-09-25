@@ -43,32 +43,39 @@ public class PlayerEntity : Entity
         float enemyspeed =  Mathf.Sqrt(Mathf.Pow(enemy.GetComponent<Rigidbody>().velocity.x, 2) + Mathf.Pow(enemy.GetComponent<Rigidbody>().velocity.z, 2));
         float sidemultiplier = 1.5f; //damage multiplier when hit from the side
         float backmultiplier = 2.0f; // damage multiplier when hit from behind
+        float frontmultiplier = 1.0f; //damage multiplier in a headon collision
 
         //handles headon collision
         if (enemyposition == "front" && playerposition == "front")
         {
-            Damage(playerspeed*(stats.weight*.1f), enemy.GetComponent<Entity>());
-            Damage(enemyspeed * (stats.weight * .1f), this);
+            Debug.Log(playerspeed * (stats.weight * .1f) + "   "+ enemyspeed * (stats.weight * .1f));
+            //Deals damage to each based on the weight stat, and the velocity of the other
+            Damage(frontmultiplier*playerspeed*(stats.weight*.1f), enemy.GetComponent<Entity>());
+            Damage(frontmultiplier * enemyspeed * (stats.weight * .1f), this);
         }
         //handles front/side collision
         else if(enemyposition=="front"&& playerposition == "side")
         {
-
+            Damage(sidemultiplier * playerspeed * (stats.weight * .1f), enemy.GetComponent<Entity>());
+            Damage(frontmultiplier * enemyspeed * (stats.weight * .1f), this);
         }
         //handles front/back collision
         else if (enemyposition == "front" && playerposition == "back")
         {
-
+            Damage(backmultiplier * playerspeed * (stats.weight * .1f), enemy.GetComponent<Entity>());
+            Damage(frontmultiplier * enemyspeed * (stats.weight * .1f), this);
         }
         //handles side/front collision
         else if (enemyposition == "side" && playerposition == "front")
         {
-
+            Damage(frontmultiplier * playerspeed * (stats.weight * .1f), enemy.GetComponent<Entity>());
+            Damage(sidemultiplier * enemyspeed * (stats.weight * .1f), this);
         }
         //handles back/front collision
         else if (enemyposition == "back" && playerposition == "front")
         {
-
+            Damage(frontmultiplier * playerspeed * (stats.weight * .1f), enemy.GetComponent<Entity>());
+            Damage(backmultiplier * enemyspeed * (stats.weight * .1f), this);
         }
     }
 
