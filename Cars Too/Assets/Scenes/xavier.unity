@@ -748,7 +748,9 @@ MonoBehaviour:
   - {fileID: 754618783}
   forwardAcceleration: 8000
   reverseAcceleration: 4000
+  thrust: 0
   turnStrength: 1000
+  turnValue: 0
 --- !u!1 &980205951
 GameObject:
   m_ObjectHideFlags: 0

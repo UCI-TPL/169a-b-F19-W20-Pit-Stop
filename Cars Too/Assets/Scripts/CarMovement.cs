@@ -15,10 +15,10 @@ public class CarMovement : MonoBehaviour
 
     public float forwardAcceleration = 8000f;
     public float reverseAcceleration = 4000f;
-    float thrust = 0f;
+    [SerializeField] float thrust = 0f;
 
     public float turnStrength = 1000f;
-    float turnValue = 0f;
+    [SerializeField] public float turnValue = 0f;
 
     int layerMask;
 
@@ -99,18 +99,22 @@ public class CarMovement : MonoBehaviour
 
         //Adding the force to simulate forward and reverse thrust
         if (Mathf.Abs(thrust) > 0)
+        {
             rb.AddForce(transform.forward * thrust);
+            rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
+        }
 
         //When turning add relative torque to pivot/turn the car
         if (turnValue > 0 || turnValue < 0)
         {
-            rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
+            //rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
         }
 
         //Limit the velocity to a maximum
         if (rb.velocity.sqrMagnitude > (rb.velocity.normalized * maxVelocity).sqrMagnitude)
         {
             rb.velocity = rb.velocity.normalized * maxVelocity;
+            
         }
 
     }
