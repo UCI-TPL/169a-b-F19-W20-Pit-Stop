@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerEntity : Entity
 {
     CarStats cs;
+    
 
     //initializes stats based off of the stats stored in carstats
     void Start()
     {
+        
         cs = GameObject.FindObjectOfType<CarStats>();
         stats = cs.stats;
         cs.SpawnEquippedAbilities(this.gameObject);
@@ -45,6 +47,8 @@ public class PlayerEntity : Entity
         float backmultiplier = 2.0f; // damage multiplier when hit from behind
         float frontmultiplier = 1.0f; //damage multiplier in a headon collision
 
+        Debug.Log(playerspeed * (stats.weight * .1f) + "   " + enemyspeed * (stats.weight * .1f));
+        Debug.Log("Player HP: " + stats.currenthp);
         //handles headon collision
         if (enemyposition == "front" && playerposition == "front")
         {

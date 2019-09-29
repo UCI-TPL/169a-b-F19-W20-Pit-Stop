@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2360595849988298418, guid: 257e6d475728be049b13013c875e0bd1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5220146987902641253, guid: 257e6d475728be049b13013c875e0bd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -192,6 +197,12 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 4735282468087834354}
+    - target: {fileID: 5166003779307369035, guid: 257e6d475728be049b13013c875e0bd1,
+        type: 3}
+      propertyPath: baseStats
+      value: 
+      objectReference: {fileID: 11400000, guid: f80109a0f8e2360498a2adf6f64a58a6,
+        type: 2}
     - target: {fileID: 5314462955697988730, guid: 257e6d475728be049b13013c875e0bd1,
         type: 3}
       propertyPath: m_Speed
@@ -199,6 +210,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 257e6d475728be049b13013c875e0bd1, type: 3}
+--- !u!1 &496840763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2360595849988298418, guid: 257e6d475728be049b13013c875e0bd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 496840762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &496840764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496840763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0b9bcddd3f58a4fb0a8633052fae4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  part: side
+  enemy: {fileID: 496840763}
+  collidedrecently: 0
+--- !u!54 &496840765
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496840763}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &891503429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1130,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323435480387696, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00023
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323434285022938, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00009
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323434285022937, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_Name
+      value: FrontCollisionBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323435480387703, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_Name
+      value: BackCollisionBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323434285022939, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.00013929744
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323434285022939, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.0054235524
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323434285022939, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2508313580525403471, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: part
+      value: front
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323434736348206, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323435177187452, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 687323435480387697, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6532984309520803648, guid: 6eb3bed39945333488155c128d78a180,
+        type: 3}
+      propertyPath: part
+      value: back
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eb3bed39945333488155c128d78a180, type: 3}

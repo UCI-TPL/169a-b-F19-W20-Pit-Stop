@@ -9,11 +9,13 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] private string part="side"; // Designates the part of the car the collision box is responsible for
     [SerializeField] private PlayerEntity p;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        Debug.Log("Collided "+collision.tag);
+        if (collision.gameObject.CompareTag("Enemy")&&!collision.GetComponent<EnemyCollision>().collidedrecently)
         {
             p.CollidedEnemy(collision.gameObject.GetComponent<EnemyCollision>().enemy, collision.gameObject.GetComponent<EnemyCollision>().part, part);
+            collision.GetComponent<EnemyCollision>().collidedrecently = true;
         }
     }
 
