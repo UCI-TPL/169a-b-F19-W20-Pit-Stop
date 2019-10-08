@@ -5,15 +5,22 @@ using UnityEngine;
 public class PlayerEntity : Entity
 {
     CarStats cs;
+
+    [SerializeField] int carParts;
+    bool boostUnlocked = false;
+    bool hackUnlocked = false;
+    bool jumpUnlocked = false;
+    bool missilesUnlocked = false;
     
 
     //initializes stats based off of the stats stored in carstats
     void Start()
     {
-        
+        /*
         cs = GameObject.FindObjectOfType<CarStats>();
         stats = cs.stats;
         cs.SpawnEquippedAbilities(this.gameObject);
+        */
 
     }
 
@@ -80,6 +87,15 @@ public class PlayerEntity : Entity
         {
             Damage(frontmultiplier * playerspeed * (stats.weight * .1f), enemy.GetComponent<Entity>());
             Damage(backmultiplier * enemyspeed * (stats.weight * .1f), this);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("CarPart"))
+        {
+            carParts += other.GetComponent<CarPart>().GetValue();
+            Destroy(other.gameObject);
         }
     }
 
