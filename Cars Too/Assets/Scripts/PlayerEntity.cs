@@ -6,6 +6,8 @@ public class PlayerEntity : Entity
 {
     CarStats cs;
 
+    Dictionary<PresentType, int> gifts = new Dictionary<PresentType, int>();
+
     [SerializeField] int carParts;
     bool boostUnlocked = false;
     bool hackUnlocked = false;
@@ -16,6 +18,14 @@ public class PlayerEntity : Entity
     //initializes stats based off of the stats stored in carstats
     void Start()
     {
+        //Adds an entry to the dictionary for each present type with a value starting at 0
+        foreach(PresentType present in PresentType.GetValues(typeof(PresentType))) {
+            gifts.Add(present, 0);
+            //Debug.Log(present);
+        }
+
+        //PrintGifts();
+
         /*
         cs = GameObject.FindObjectOfType<CarStats>();
         stats = cs.stats;
@@ -96,6 +106,25 @@ public class PlayerEntity : Entity
         {
             carParts += other.GetComponent<CarPart>().GetValue();
             Destroy(other.gameObject);
+        }
+
+        if(other.CompareTag("PresentBox"))
+        {
+            PresentType present = other.GetComponent<PresentBox>().GetPresentType();
+
+            gifts[present]++;
+
+            Destroy(other.gameObject);
+            PrintGifts();
+        }
+    }
+
+    private void PrintGifts()
+    {
+        //Prints out key and values
+        foreach (KeyValuePair<PresentType, int> gift in gifts)
+        {
+            Debug.LogFormat("PresentType = {0}, Value = {1}", gift.Key, gift.Value);
         }
     }
 
