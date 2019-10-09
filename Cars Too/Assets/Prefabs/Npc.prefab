@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 772161964277437038}
   - component: {fileID: 6452475588410666647}
   m_Layer: 0
-  m_Name: TestPrefab
+  m_Name: Npc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: fe116608194bbc344bf1f56f04727506, type: 3}
+  - {fileID: 2100000, guid: 690a20c6bb8155a49b4015bfd0457451, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
