@@ -14,14 +14,14 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private bool instant = false; //detects whether the text should be displayed instantly
     [SerializeField] private bool running = false;
     [SerializeField] private bool finished = false;
-    [SerializeField] private List<Dialogue> test;
+    [SerializeField] private Conversation test;
 
     //All fields are currently serialized for testing purposes
 
     void Start()
     {
         canvasobjects.SetActive(false);
-        StartCoroutine(playConversation(test));
+        StartCoroutine(playConversation(test.converttoDialogue()));
     }
 
     // Update is called once per frame

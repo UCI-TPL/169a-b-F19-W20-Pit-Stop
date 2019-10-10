@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private Dictionary<int, List<Conversation>> PossDialogue;
     void Start()
     {
         

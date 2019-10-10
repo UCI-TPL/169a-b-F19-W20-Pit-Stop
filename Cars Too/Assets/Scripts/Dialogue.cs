@@ -2,10 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Dialogue.asset", menuName = "Capstone/Dialogue")]
-public class Dialogue : ScriptableObject
+
+public class Dialogue :MonoBehaviour
 {
     public string speaker = "Name";
     public string text = "Dialogue";
+
+    public Dialogue(string spk, string txt)
+    {
+        speaker = spk;
+        text = txt;
+
+    }
 }
   
