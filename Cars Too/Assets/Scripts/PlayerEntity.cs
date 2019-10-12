@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerEntity : Entity
 {
@@ -13,7 +14,9 @@ public class PlayerEntity : Entity
     bool hackUnlocked = false;
     bool jumpUnlocked = false;
     bool missilesUnlocked = false;
-    
+
+    public UnityEvent giftAcquired;
+    public UnityEvent carPartAcquired;
 
     //initializes stats based off of the stats stored in carstats
     void Start()
@@ -105,6 +108,9 @@ public class PlayerEntity : Entity
         if(other.CompareTag("CarPart"))
         {
             carParts += other.GetComponent<CarPart>().GetValue();
+
+            carPartAcquired.Invoke();
+
             Destroy(other.gameObject);
         }
 
@@ -113,6 +119,8 @@ public class PlayerEntity : Entity
             PresentType present = other.GetComponent<PresentBox>().GetPresentType();
 
             gifts[present]++;
+
+            giftAcquired.Invoke();
 
             Destroy(other.gameObject);
             PrintGifts();
@@ -126,6 +134,16 @@ public class PlayerEntity : Entity
         {
             Debug.LogFormat("PresentType = {0}, Value = {1}", gift.Key, gift.Value);
         }
+    }
+
+    public int GetGiftCount(PresentType present)
+    {
+        return gifts[present];
+    }
+
+    public int GetCarParts()
+    {
+        return carParts;
     }
 
     
