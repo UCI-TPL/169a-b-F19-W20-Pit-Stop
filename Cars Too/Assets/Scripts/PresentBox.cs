@@ -9,7 +9,7 @@ public class PresentBox : MonoBehaviour
 
     [SerializeField] PresentType myPresentType;
 
-    private int numberOfPresentTypes = 6;
+    private int numberOfPresentTypes = 5;
 
     // Start is called before the first frame update
     void Start()

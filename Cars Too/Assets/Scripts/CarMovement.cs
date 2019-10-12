@@ -36,6 +36,7 @@ public class CarMovement : MonoBehaviour
     {
         //Thrust forward
         thrust = 0.0f;
+
         float acceleration = Input.GetAxis("Vertical");
         if (acceleration > deadZone)
         {
@@ -98,7 +99,7 @@ public class CarMovement : MonoBehaviour
 
 
         //Adding the force to simulate forward and reverse thrust
-        if (Mathf.Abs(thrust) > 0)
+        if (Mathf.Abs(thrust) > deadZone)
         {
             rb.AddForce(transform.forward * thrust);
             rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
