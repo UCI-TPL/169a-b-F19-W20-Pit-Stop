@@ -21,5 +21,13 @@ MonoBehaviour:
     expression: {fileID: 0}
   Choice1: VROOOOM!~
   Choice2: No Vroom
-  Route1: []
-  Route2: []
+  Route1:
+  - speaker: Mustang
+    text: VRRRRRROOOOOOMMMM
+    expression: {fileID: 0}
+  Route2:
+  - speaker: Mustang
+    text: :(
+    expression: {fileID: 0}
+  C1Reward: 0
+  C2Reward: 0

@@ -11,4 +11,7 @@ public class Chat : Conversation
 
     public List<Dialogue> Route1;
     public List<Dialogue> Route2;
+
+    public int C1Reward = 0;
+    public int C2Reward = 0;
 }

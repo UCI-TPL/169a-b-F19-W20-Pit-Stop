@@ -29,7 +29,7 @@ public class DialogueManager : MonoBehaviour
     {
         canvasobjects.SetActive(false);
         Choicecanvas.SetActive(false);
-        StartCoroutine(playChoice(test.convo,test.Choice1,test.Choice2));
+        //StartCoroutine(playChoice(test.convo,test.Choice1,test.Choice2));
     }
 
     // Update is called once per frame
