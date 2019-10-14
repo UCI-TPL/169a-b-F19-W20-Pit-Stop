@@ -12,16 +12,24 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private int index = 0; //holds current place in dialogue
     [SerializeField] private int speed = 1; //controls speed at which text appears
     [SerializeField] private bool instant = false; //detects whether the text should be displayed instantly
-    [SerializeField] private bool running = false;
-    [SerializeField] private bool finished = false;
-    [SerializeField] private Conversation test;
+    [SerializeField] private bool running = false; //Detects whether the dialogue coroutine is running
+    [SerializeField] private bool finished = false; //Detects if the player is ready to proceed to the next line
+    [SerializeField] private int choice = 0; //Used to return the result of a choice
+    [SerializeField] private GameObject Choicecanvas;
+    [SerializeField] private TextMeshProUGUI Choicetext1;
+    [SerializeField] private TextMeshProUGUI Choicetext2;
+
+
+
+    [SerializeField] private Chat test; //Only used for testing purposes
 
     //All fields are currently serialized for testing purposes
 
     void Start()
     {
         canvasobjects.SetActive(false);
-        StartCoroutine(playConversation(test.convo));
+        Choicecanvas.SetActive(false);
+        StartCoroutine(playChoice(test.convo,test.Choice1,test.Choice2));
     }
 
     // Update is called once per frame
@@ -34,12 +42,37 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public IEnumerator playChoice(List<Dialogue> d, string choice1, string choice2)
+    {
+        StartCoroutine(playConversation(d));
+
+        //used to check when playconversation is done, and the canvas objs are turned off
+        while (canvasobjects.activeSelf)
+        {
+            yield return null;
+        }
+
+        Choicecanvas.SetActive(true);
+        Choicetext1.text = choice1;
+        Choicetext2.text = choice2;
+
+        while (Choicecanvas.activeSelf)
+        {
+            yield return null;
+        }
+    }
+
     public IEnumerator playConversation(List<Dialogue> d)
     {
+        //Turn on the Dialogue canvas objects
         canvasobjects.SetActive(true);
+
+        //For each line of dialogue play it separately
         for(int i=0; i < d.Count; i++)
         {
             StartCoroutine(playDialogue(d[i]));
+
+            //Wait here for dialogue to play
             while (running)
             {
                 
@@ -47,8 +80,10 @@ public class DialogueManager : MonoBehaviour
 
             }
 
+            //Wait a frame to allow for a click to expidite dialogue to not be counted again when proceeding to the next line.
             yield return null;
 
+            //Wait here with dialogue displayed until player clicks
             while (!finished)
             {
                 yield return null;
@@ -60,9 +95,11 @@ public class DialogueManager : MonoBehaviour
                 
             }
 
+            //reset variable
             finished = false;
         }
 
+        //Turn canvas off once all dialogue has been played
         canvasobjects.SetActive(false);
     }
 
@@ -112,5 +149,27 @@ public class DialogueManager : MonoBehaviour
     public void setTextSpeed(int newspeed)
     {
         speed = newspeed;
+    }
+
+    public int getChoice()
+    {
+        if (choice == 0)
+        {
+            return choice;
+        }
+        else
+        {
+
+            int temp = choice;
+            choice = 0;
+            return temp;
+        }
+    }
+
+    //Used by choice buttons to set correct choice
+    public void setChoice(int i)
+    {
+        choice = i;
+        Choicecanvas.SetActive(false);
     }
 }
