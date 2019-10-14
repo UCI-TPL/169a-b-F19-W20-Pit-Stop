@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class Dialogue :MonoBehaviour
+[System.Serializable]
+public class Dialogue 
 {
     public string speaker = "Name";
+    [TextArea(5, 100)]
     public string text = "Dialogue";
+    public Sprite expression = null;
 
     public Dialogue(string spk, string txt)
     {

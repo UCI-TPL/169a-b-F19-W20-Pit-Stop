@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         canvasobjects.SetActive(false);
-        StartCoroutine(playConversation(test.converttoDialogue()));
+        StartCoroutine(playConversation(test.convo));
     }
 
     // Update is called once per frame

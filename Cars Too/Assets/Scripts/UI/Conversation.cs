@@ -5,10 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Convo.asset", menuName = "Capstone/Conversation")]
 public class Conversation : ScriptableObject
 {
-    [TextArea(5,100)]
-    public List<string> convo;
+    
+    public List<Dialogue> convo;
     
 
+
+    /* Old code that converted a list of strings into dialogue
     public List<Dialogue> converttoDialogue()
     {
         List <Dialogue> d = new List<Dialogue>();
@@ -26,5 +28,6 @@ public class Conversation : ScriptableObject
 
         return d;
     }
+    */
 }
 

@@ -13,9 +13,14 @@ MonoBehaviour:
   m_Name: TestConvo
   m_EditorClassIdentifier: 
   convo:
-  - Chuck
-  - Hi Im chuck.
-  - Noname
-  - This is a very long line.BABABABAawaWFAWFAWFAWWFAA
-  - Toodles
-  - I really like headlights.
+  - speaker: Mustang
+    text: Vroom Vroom, The expression currently does nothing
+    expression: {fileID: 0}
+  - speaker: Mustang
+    text: 'But I can now Orient things much more nicely in the editor.
+
+'
+    expression: {fileID: 0}
+  - speaker: Mustang
+    text: It took a little bit but it should cut down on time in the long run.
+    expression: {fileID: 0}
