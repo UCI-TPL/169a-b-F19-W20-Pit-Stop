@@ -123,7 +123,7 @@ public class PlayerEntity : Entity
             giftAcquired.Invoke();
 
             Destroy(other.gameObject);
-            PrintGifts();
+            //PrintGifts();
         }
     }
 
