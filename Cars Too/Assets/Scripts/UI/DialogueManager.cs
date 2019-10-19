@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject Choicecanvas;
     [SerializeField] private TextMeshProUGUI Choicetext1;
     [SerializeField] private TextMeshProUGUI Choicetext2;
+    [SerializeField] public NPC currentnpc;
 
 
 
@@ -171,5 +172,10 @@ public class DialogueManager : MonoBehaviour
     {
         choice = i;
         Choicecanvas.SetActive(false);
+    }
+
+    public void chat()
+    {
+        currentnpc.playChat();
     }
 }

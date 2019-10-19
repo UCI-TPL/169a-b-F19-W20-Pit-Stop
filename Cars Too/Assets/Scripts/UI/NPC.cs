@@ -38,6 +38,17 @@ public class NPC : MonoBehaviour
         {
             Debug.Log("randomchats not instantiated");
         }
+
+        if (consprite == null)
+        {
+            Debug.Log("no confidant sprite");
+        }
+
+
+        if (dm == null)
+        {
+            dm = GameObject.FindObjectOfType<DialogueManager>();
+        }
     }
 
     // Update is called once per frame
@@ -72,6 +83,7 @@ public class NPC : MonoBehaviour
         confidantimage.gameObject.SetActive(true);
         confidantimage.sprite = consprite;
         close = false;
+        dm.currentnpc = this;
         //player.stopmoving
     }
 
