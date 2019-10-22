@@ -1,0 +1,154 @@
+[1mdiff --cc Cars Too/ProjectSettings/ProBuilderSettings.json[m
+[1mindex af401c0,88ceee6..0000000[m
+[1m--- a/Cars Too/ProjectSettings/ProBuilderSettings.json[m
+[1m+++ b/Cars Too/ProjectSettings/ProBuilderSettings.json[m
+[36m@@@ -113,30 -103,70 +113,93 @@@[m
+              },[m
+              {[m
+                  "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "key": "smoothing.previewDither",[m
+[32m++=======[m
+[32m+                 "key": "export.exportRecursive",[m
+[32m+                 "value": "{\"m_Value\":true}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "export.exportAsGroup",[m
+[32m+                 "value": "{\"m_Value\":true}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "export.objExportRightHanded",[m
+[32m+                 "value": "{\"m_Value\":true}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "export.objExportCopyTextures",[m
+[32m+                 "value": "{\"m_Value\":false}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "export.objExportVertexColors",[m
+[32m++>>>>>>> origin/master[m
+                  "value": "{\"m_Value\":false}"[m
+              },[m
+              {[m
+                  "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "key": "UVEditor.showPreviewMaterial",[m
+[32m++=======[m
+[32m+                 "key": "export.objTextureOffsetScale",[m
+[32m+                 "value": "{\"m_Value\":false}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "export.objQuads",[m
+                  "value": "{\"m_Value\":true}"[m
+              },[m
+              {[m
+                  "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "export.plyExportIsRightHanded",[m
+[32m++>>>>>>> origin/master[m
+[32m+                 "value": "{\"m_Value\":true}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "key": "mesh.newShapesSnapToGrid",[m
+[32m++=======[m
+[32m+                 "key": "export.plyQuads",[m
+[32m++>>>>>>> origin/master[m
+                  "value": "{\"m_Value\":true}"[m
+              },[m
+              {[m
+                  "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "key": "GrowSelection.useAngle",[m
+[32m++=======[m
+[32m+                 "key": "export.plyApplyTransform",[m
+[32m++>>>>>>> origin/master[m
+                  "value": "{\"m_Value\":true}"[m
+              },[m
+              {[m
+                  "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "key": "GrowSelection.iterativeGrow",[m
+[32m +                "value": "{\"m_Value\":false}"[m
+[32m +            },[m
+[32m +            {[m
+[32m++=======[m
+[32m+                 "key": "export.plyNGons",[m
+[32m+                 "value": "{\"m_Value\":false}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "meshImporter.quads",[m
+[32m+                 "value": "{\"m_Value\":true}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m+                 "key": "meshImporter.smoothing",[m
+[32m+                 "value": "{\"m_Value\":true}"[m
+[32m+             },[m
+[32m+             {[m
+[32m++>>>>>>> origin/master[m
+                  "type": "UnityEngine.ProBuilder.SelectionModifierBehavior, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",[m
+                  "key": "editor.rectSelectModifier",[m
+                  "value": "{\"m_Value\":2}"[m
+[36m@@@ -149,7 -179,7 +212,11 @@@[m
+              {[m
+                  "type": "UnityEngine.ProBuilder.SelectMode, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",[m
+                  "key": "editor.selectMode",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "value": "{\"m_Value\":1}"[m
+[32m++=======[m
+[32m+                 "value": "{\"m_Value\":8}"[m
+[32m++>>>>>>> origin/master[m
+              },[m
+              {[m
+                  "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",[m
+[36m@@@ -193,28 -223,18 +260,43 @@@[m
+              },[m
+              {[m
+                  "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m++<<<<<<< HEAD[m
+[32m +                "key": "smoothing.PreviewOpacity",[m
+[32m +                "value": "{\"m_Value\":0.5}"[m
+[32m +            },[m
+[32m +            {[m
+[32m +                "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m +                "key": "smoothing.NormalsSize",[m
+[32m +                "value": "{\"m_Value\":0.10000000149011612}"[m
+[32m +            },[m
+[32m +            {[m
+[32m +                "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m +                "key": "uv.uvEditorGridSnapIncrement",[m
+[32m +                "value": "{\"m_Value\":0.125}"[m
+[32m +            },[m
+[32m +            {[m
+[32m +                "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m +                "key": "GrowSelection.angleValue",[m
+[32m +                "value": "{\"m_Value\":15.0}"[m
+[32m +            },[m
+[32m +            {[m
+[32m +                "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",[m
+[32m +                "key": "BevelEdges.size",[m
+[32m +                "value": "{\"m_Value\":0.20000000298023225}"[m
+[32m++=======[m
+[32m+                 "key": "meshImporter.smoothingAngle",[m
+[32m+                 "value": "{\"m_Value\":1.0}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "UnityEditor.ProBuilder.Actions.Export+ExportFormat, Unity.ProBuilder.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",[m
+[32m+                 "key": "export.format",[m
+[32m+                 "value": "{\"m_Value\":3}"[m
+[32m+             },[m
+[32m+             {[m
+[32m+                 "type": "UnityEngine.ProBuilder.Stl.FileType, Unity.ProBuilder.Stl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",[m
+[32m+                 "key": "export.stlExportFormat",[m
+[32m+                 "value": "{\"m_Value\":0}"[m
+[32m++>>>>>>> origin/master[m
+              }[m
+          ][m
+      }[m
