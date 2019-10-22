@@ -14,9 +14,7 @@ public class DataManager : MonoBehaviour
     Dictionary<PresentType, int> gifts = new Dictionary<PresentType, int>();
 
     //Keeps track of which items have been collected
-    Dictionary<string, List<int>> giftids = new Dictionary<string, List<int>>();
-    //Keeps track of which items have been collected
-    Dictionary<string, List<int>> carpartids = new Dictionary<string, List<int>>();
+    Dictionary<string, List<int>> ids = new Dictionary<string, List<int>>();
 
     [SerializeField] public int carParts=0;
 
@@ -56,12 +54,9 @@ public class DataManager : MonoBehaviour
         scenename = SceneManager.GetActiveScene().name;
 
         //If this scene has not been visited before instantiate it in the ids dictionary
-        if (!giftids.ContainsKey(scenename))
+        if (!ids.ContainsKey(scenename))
         {
-            Debug.Log("Went Here");
-            giftids[scenename] = new List<int>();
-            carpartids[scenename] = new List<int>();
-            
+            ids[scenename] = new List<int>(); 
         }
         
     }
@@ -87,6 +82,20 @@ public class DataManager : MonoBehaviour
     public int GetConfidantEXP(string confidant)
     {
         return confidantExp[confidant];
+    }
+
+    public void PickedUpGift(PresentBox pb)
+    {
+        AddGift(pb.GetPresentType(), pb.GetValue());
+        AddID(pb.GetID());
+
+    }
+
+    public void PickedUpCarPart(CarPart cp)
+    {
+        AddCarParts(cp.GetValue());
+        AddID(cp.GetID());
+
     }
 
     //Adds Gifts of a given amount to the present type
@@ -117,24 +126,14 @@ public class DataManager : MonoBehaviour
         }
     }
 
-    public bool ContainsIdGift(int id)
+    public bool ContainsId(int id)
     {
-        return giftids[scenename].Contains(id);
+        return ids[scenename].Contains(id);
     }
 
-    public bool ContainsIdCarPart(int id)
+    public void AddID(int i)
     {
-        return carpartids[scenename].Contains(id);
-    }
-
-    public void AddGiftID(int i)
-    {
-        giftids[scenename].Add(i);
-    }
-
-    public void AddCarPartID(int i)
-    {
-        carpartids[scenename].Add(i);
+        ids[scenename].Add(i);
     }
 
     // Update is called once per frame

@@ -4,11 +4,10 @@ using UnityEngine;
 
 public enum PresentType {one, two, three, four, five};
 
-public class PresentBox : MonoBehaviour
+public class PresentBox : Id
 {
-
+    [SerializeField] int value = 1;
     [SerializeField] PresentType myPresentType;
-    [SerializeField] int id=0;
 
     private int numberOfPresentTypes = 5;
 
@@ -16,11 +15,7 @@ public class PresentBox : MonoBehaviour
     void Start()
     {
 
-        if (DataManager.instance.ContainsIdGift(id))
-        {
-            Destroy(this.gameObject);
-            return;
-        }
+        
 
         myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
         Debug.Log(myPresentType);
@@ -38,8 +33,8 @@ public class PresentBox : MonoBehaviour
         return myPresentType;
     }
 
-    public int GetID()
+    public int GetValue()
     {
-        return id;
+        return value;
     }
 }
