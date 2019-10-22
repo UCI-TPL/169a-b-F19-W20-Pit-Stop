@@ -8,14 +8,23 @@ public class PresentBox : MonoBehaviour
 {
 
     [SerializeField] PresentType myPresentType;
+    [SerializeField] int id=0;
 
     private int numberOfPresentTypes = 5;
 
     // Start is called before the first frame update
     void Start()
     {
+
+        if (DataManager.instance.ContainsIdGift(id))
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
         myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
         Debug.Log(myPresentType);
+
     }
 
     // Update is called once per frame
@@ -27,5 +36,10 @@ public class PresentBox : MonoBehaviour
     public PresentType GetPresentType()
     {
         return myPresentType;
+    }
+
+    public int GetID()
+    {
+        return id;
     }
 }

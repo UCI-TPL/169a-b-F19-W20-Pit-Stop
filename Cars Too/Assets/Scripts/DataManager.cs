@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class DataManager : MonoBehaviour
 {
@@ -12,10 +13,17 @@ public class DataManager : MonoBehaviour
 
     Dictionary<PresentType, int> gifts = new Dictionary<PresentType, int>();
 
+    //Keeps track of which items have been collected
+    Dictionary<string, List<int>> giftids = new Dictionary<string, List<int>>();
+    //Keeps track of which items have been collected
+    Dictionary<string, List<int>> carpartids = new Dictionary<string, List<int>>();
+
     [SerializeField] public int carParts=0;
 
     public UnityEvent giftAcquired;
     public UnityEvent carPartAcquired;
+
+    private string scenename = "";
 
     // Start is called before the first frame update
     void Awake()
@@ -27,6 +35,7 @@ public class DataManager : MonoBehaviour
         if (instance!=this&&instance!=null)
         {
             Destroy(this.gameObject);
+            return;
         }
         if (instance == null)
         {
@@ -43,6 +52,18 @@ public class DataManager : MonoBehaviour
                 gifts.Add(present, 0);
             }
         }
+
+        scenename = SceneManager.GetActiveScene().name;
+
+        //If this scene has not been visited before instantiate it in the ids dictionary
+        if (!giftids.ContainsKey(scenename))
+        {
+            Debug.Log("Went Here");
+            giftids[scenename] = new List<int>();
+            carpartids[scenename] = new List<int>();
+            
+        }
+        
     }
 
     public int GetGiftCount(PresentType present)
@@ -71,7 +92,6 @@ public class DataManager : MonoBehaviour
     //Adds Gifts of a given amount to the present type
     public void AddGift(PresentType present, int i)
     {
-        
         gifts[present] += i;
         giftAcquired.Invoke();
     }
@@ -95,6 +115,26 @@ public class DataManager : MonoBehaviour
         {
             Debug.LogFormat("PresentType = {0}, Value = {1}", gift.Key, gift.Value);
         }
+    }
+
+    public bool ContainsIdGift(int id)
+    {
+        return giftids[scenename].Contains(id);
+    }
+
+    public bool ContainsIdCarPart(int id)
+    {
+        return carpartids[scenename].Contains(id);
+    }
+
+    public void AddGiftID(int i)
+    {
+        giftids[scenename].Add(i);
+    }
+
+    public void AddCarPartID(int i)
+    {
+        carpartids[scenename].Add(i);
     }
 
     // Update is called once per frame
