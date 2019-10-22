@@ -7,8 +7,7 @@ using TMPro;
 public class InventoryPanel : MonoBehaviour
 {
 
-    private GameObject player;
-    private PlayerEntity playerScript;
+    //private PlayerEntity playerScript;
 
     [SerializeField] GameObject inventory;
 
@@ -19,19 +18,14 @@ public class InventoryPanel : MonoBehaviour
     [SerializeField] TextMeshProUGUI giftFiveText;
     [SerializeField] TextMeshProUGUI carPartsText;
 
-    private void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-        playerScript = player.GetComponent<PlayerEntity>();
-
-        playerScript.carPartAcquired.AddListener(OnPartAcquired);
-        playerScript.giftAcquired.AddListener(OnGiftAcquired);
-        
-    }
+   
 
     // Start is called before the first frame update
     void Start()
     {
+        DataManager.instance.carPartAcquired.AddListener(OnPartAcquired);
+        DataManager.instance.giftAcquired.AddListener(OnGiftAcquired);
+
         inventory.SetActive(false);
     }
 
@@ -51,17 +45,17 @@ public class InventoryPanel : MonoBehaviour
     void OnPartAcquired()
     {
         Debug.Log("Increase car parts");
-        carPartsText.text = string.Format("x {0}", playerScript.GetCarParts());
+        carPartsText.text = string.Format("x {0}",DataManager.instance.GetCarParts());
     }
 
     void OnGiftAcquired()
     {
         Debug.Log("Increase gifts");
-        giftOneText.text = string.Format("x {0}", playerScript.GetGiftCount(PresentType.one));
-        giftTwoText.text = string.Format("x {0}", playerScript.GetGiftCount(PresentType.two));
-        giftThreeText.text = string.Format("x {0}", playerScript.GetGiftCount(PresentType.three));
-        giftFourText.text = string.Format("x {0}", playerScript.GetGiftCount(PresentType.four));
-        giftFiveText.text = string.Format("x {0}", playerScript.GetGiftCount(PresentType.five));
+        giftOneText.text = string.Format("x {0}", DataManager.instance.GetGiftCount(PresentType.one));
+        giftTwoText.text = string.Format("x {0}", DataManager.instance.GetGiftCount(PresentType.two));
+        giftThreeText.text = string.Format("x {0}", DataManager.instance.GetGiftCount(PresentType.three));
+        giftFourText.text = string.Format("x {0}", DataManager.instance.GetGiftCount(PresentType.four));
+        giftFiveText.text = string.Format("x {0}", DataManager.instance.GetGiftCount(PresentType.five));
     }
 
     public void Display()
