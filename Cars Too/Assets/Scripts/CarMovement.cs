@@ -108,7 +108,7 @@ public class CarMovement : MonoBehaviour
         //When turning add relative torque to pivot/turn the car
         if (turnValue > 0 || turnValue < 0)
         {
-            rb.AddForce(transform.forward * 3000f);
+            //rb.AddForce(transform.forward * 3000f);
             rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
         }
 
