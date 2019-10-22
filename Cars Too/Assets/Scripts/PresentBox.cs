@@ -13,10 +13,7 @@ public class PresentBox : Id
 
     // Start is called before the first frame update
     void Start()
-    {
-
-        
-
+    { 
         myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
         Debug.Log(myPresentType);
 
