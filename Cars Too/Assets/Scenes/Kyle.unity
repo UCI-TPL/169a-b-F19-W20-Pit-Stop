@@ -6152,6 +6152,7 @@ MonoBehaviour:
   Choicetext1: {fileID: 604492446}
   Choicetext2: {fileID: 898138763}
   currentnpc: {fileID: 0}
+  ac: {fileID: 8300000, guid: 7e4febfbbec4a1b4bb8f80d2bfabe3dc, type: 3}
   test: {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
 --- !u!114 &1440689291
 MonoBehaviour:

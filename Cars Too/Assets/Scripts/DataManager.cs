@@ -19,6 +19,8 @@ public class DataManager : MonoBehaviour
     //Keeps track of which items have been collected
     Dictionary<string, List<int>> ids = new Dictionary<string, List<int>>();
 
+    public AudioManager am;
+
     //Tracks car parts
     [SerializeField] public int carParts=0;
 

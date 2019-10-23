@@ -19,6 +19,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Choicetext1;
     [SerializeField] private TextMeshProUGUI Choicetext2;
     [SerializeField] public NPC currentnpc;
+    [SerializeField] private AudioClip ac;
 
 
 
@@ -103,6 +104,7 @@ public class DialogueManager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     finished = true;
+                    DataManager.instance.am.PlaySound(ac);
                 }
                 
             }
@@ -132,6 +134,7 @@ public class DialogueManager : MonoBehaviour
                 dialgouebox.text = d.text;
                 instant = false;
                 index = d.text.Length;
+                //DataManager.instance.am.PlaySound(ac);
                 break;
                 
             }
