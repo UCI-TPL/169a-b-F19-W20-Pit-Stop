@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerEntity : MonoBehaviour
 {
 
-
+   [SerializeField] AudioClip pickup = null;
     bool boostUnlocked = false;
     bool hackUnlocked = false;
     bool jumpUnlocked = false;
@@ -25,7 +25,7 @@ public class PlayerEntity : MonoBehaviour
         if(other.CompareTag("CarPart"))
         {
             DataManager.instance.PickedUpCarPart(other.GetComponent<CarPart>());
-
+            DataManager.instance.am.PlaySound(pickup);
             Destroy(other.gameObject);
         }
 
@@ -33,6 +33,7 @@ public class PlayerEntity : MonoBehaviour
         {
 
             DataManager.instance.PickedUpGift(other.GetComponent<PresentBox>());
+            DataManager.instance.am.PlaySound(pickup);
             Destroy(other.gameObject);
             //PrintGifts();
         }

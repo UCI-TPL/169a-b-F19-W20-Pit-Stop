@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarPart : Id
 {
-
+    
     [SerializeField] int value;
 
     // Start is called before the first frame update
