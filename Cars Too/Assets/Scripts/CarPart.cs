@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarPart : MonoBehaviour
+public class CarPart : Id
 {
 
     [SerializeField] int value;
@@ -23,4 +23,6 @@ public class CarPart : MonoBehaviour
     {
         return value;
     }
+
+   
 }

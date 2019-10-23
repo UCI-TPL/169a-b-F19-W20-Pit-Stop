@@ -4,18 +4,19 @@ using UnityEngine;
 
 public enum PresentType {one, two, three, four, five};
 
-public class PresentBox : MonoBehaviour
+public class PresentBox : Id
 {
-
+    [SerializeField] int value = 1;
     [SerializeField] PresentType myPresentType;
 
     private int numberOfPresentTypes = 5;
 
     // Start is called before the first frame update
     void Start()
-    {
+    { 
         myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
         Debug.Log(myPresentType);
+
     }
 
     // Update is called once per frame
@@ -27,5 +28,10 @@ public class PresentBox : MonoBehaviour
     public PresentType GetPresentType()
     {
         return myPresentType;
+    }
+
+    public int GetValue()
+    {
+        return value;
     }
 }

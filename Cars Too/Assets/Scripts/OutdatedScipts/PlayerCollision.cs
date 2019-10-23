@@ -14,7 +14,7 @@ public class PlayerCollision : MonoBehaviour
         Debug.Log("Collided "+collision.tag);
         if (collision.gameObject.CompareTag("Enemy")&&!collision.GetComponent<EnemyCollision>().collidedrecently)
         {
-            p.CollidedEnemy(collision.gameObject.GetComponent<EnemyCollision>().enemy, collision.gameObject.GetComponent<EnemyCollision>().part, part);
+           // p.CollidedEnemy(collision.gameObject.GetComponent<EnemyCollision>().enemy, collision.gameObject.GetComponent<EnemyCollision>().part, part);
             collision.GetComponent<EnemyCollision>().collidedrecently = true;
         }
     }
