@@ -14,7 +14,8 @@ public class NPC : MonoBehaviour
     [SerializeField] private Image confidantimage = null;
     [SerializeField] private Sprite consprite=null;
     [SerializeField] private GameObject dialoguebox;
-    [SerializeField] private Chat introchat = null;
+    [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
+    [SerializeField] private Conversation idlechats=null; //small lines said in the confidant menu
     private bool met
     {
         get
@@ -97,6 +98,7 @@ public class NPC : MonoBehaviour
             StartCoroutine(playChatConversation(introchat));
             DataManager.instance.ConfidantMet(Confidantname);
         }
+        dm.DisplayLine(idlechats.convo[Random.Range(0, idlechats.convo.Count)]);
         //player.stopmoving
     }
 
@@ -106,6 +108,7 @@ public class NPC : MonoBehaviour
         confidantimage.gameObject.SetActive(false);
         confidantimage.sprite = consprite;
         close = true;
+        dm.CloseLine();
         //player can move again
     }
 
@@ -148,7 +151,7 @@ public class NPC : MonoBehaviour
         }
 
         //restart confidant menu
-        confidantmenu.SetActive(true);
+        openMenu();
     }
 
     //Displays the result on affinity based on player choice

@@ -42,6 +42,17 @@ public class DialogueManager : MonoBehaviour
             instant = true;
         }
     }
+    public void DisplayLine(Dialogue d)
+    {
+        canvasobjects.SetActive(true);
+        dialgouebox.text = d.text;
+        speakerbox.text = d.speaker;
+    }
+
+    public void CloseLine()
+    {
+        canvasobjects.SetActive(false);
+    }
 
     public IEnumerator playChoice(List<Dialogue> d, string choice1, string choice2)
     {
