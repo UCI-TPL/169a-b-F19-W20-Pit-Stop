@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cd6bb79de2ccf4da977cd705a56cb3, type: 3}
+  m_Name: TestConvo
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Mustang
+    text: Vroom Vroom, The expression currently does nothing
+    expression: {fileID: 0}
+  - speaker: Mustang
+    text: 'But I can now Orient things much more nicely in the editor.
+
+'
+    expression: {fileID: 0}
+  - speaker: Mustang
+    text: It took a little bit but it should cut down on time in the long run.
+    expression: {fileID: 0}

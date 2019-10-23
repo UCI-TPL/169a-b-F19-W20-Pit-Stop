@@ -95,10 +95,15 @@ public class NPC : MonoBehaviour
         dm.currentnpc = this;
         if (!met)
         {
-            StartCoroutine(playChatConversation(introchat));
+            //StartCoroutine(playChatConversation(introchat));
+            PlayConvorChat(introchat);
             DataManager.instance.ConfidantMet(Confidantname);
         }
-        dm.DisplayLine(idlechats.convo[Random.Range(0, idlechats.convo.Count)]);
+        else
+        {
+            dm.DisplayLine(idlechats.convo[Random.Range(0, idlechats.convo.Count)]);
+        }
+        
         //player.stopmoving
     }
 
@@ -106,7 +111,6 @@ public class NPC : MonoBehaviour
     {
         confidantmenu.SetActive(false);
         confidantimage.gameObject.SetActive(false);
-        confidantimage.sprite = consprite;
         close = true;
         dm.CloseLine();
         //player can move again
@@ -116,6 +120,33 @@ public class NPC : MonoBehaviour
     public void playChat()
     {
         StartCoroutine(playChatConversation(randomchats[Random.Range(0, randomchats.Count)]));
+    }
+
+    private void PlayConvorChat(Chat c)
+    {
+        if (c.isConversation)
+        {
+            StartCoroutine(playConversation(c));
+        }
+        else
+        {
+            StartCoroutine(playChatConversation(c));
+        }
+    }
+
+    private IEnumerator playConversation(Conversation c)
+    {
+        confidantmenu.SetActive(false);
+        StartCoroutine(dm.playConversation(c.convo));
+
+        //Wait for dialogue to finish
+        while (dialoguebox.activeSelf)
+        {
+            yield return null;
+        }
+
+        //restart confidant menu
+        openMenu();
     }
 
     private IEnumerator playChatConversation(Chat c)
