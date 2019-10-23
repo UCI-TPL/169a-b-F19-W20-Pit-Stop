@@ -14,6 +14,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private Image confidantimage = null;
     [SerializeField] private Sprite consprite=null;
     [SerializeField] private GameObject dialoguebox;
+    [SerializeField] private Chat introchat = null;
     private bool met
     {
         get
@@ -93,7 +94,8 @@ public class NPC : MonoBehaviour
         dm.currentnpc = this;
         if (!met)
         {
-           //StartCoroutine()
+            StartCoroutine(playChatConversation(introchat));
+            DataManager.instance.ConfidantMet(Confidantname);
         }
         //player.stopmoving
     }
@@ -110,8 +112,7 @@ public class NPC : MonoBehaviour
 
     public void playChat()
     {
-
-        StartCoroutine(playChatConversation(randomchats[Random.Range(0, randomchats.Count - 1)]));
+        StartCoroutine(playChatConversation(randomchats[Random.Range(0, randomchats.Count)]));
     }
 
     private IEnumerator playChatConversation(Chat c)
