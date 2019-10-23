@@ -8,19 +8,25 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager instance = null;
 
-    
-    Dictionary<string, int> confidantExp = new Dictionary<string, int>();
+    //Indicates the current phase
+    public int phase = 1;
 
+    Dictionary<string, ConfidantData> confidantExp = new Dictionary<string, ConfidantData>();
+
+    //tracks gifts
     Dictionary<PresentType, int> gifts = new Dictionary<PresentType, int>();
 
     //Keeps track of which items have been collected
     Dictionary<string, List<int>> ids = new Dictionary<string, List<int>>();
 
+    //Tracks car parts
     [SerializeField] public int carParts=0;
 
+    //Used to listen and call functions whenever gifts or car parts increase
     public UnityEvent giftAcquired;
     public UnityEvent carPartAcquired;
 
+    //keeps track of the current scenename
     private string scenename = "";
 
     // Start is called before the first frame update
@@ -39,11 +45,11 @@ public class DataManager : MonoBehaviour
         {
             instance = this;
 
-            confidantExp["Piper"] = 0;
-            confidantExp["Dex"] = 0;
-            confidantExp["Loco"] = 0;
-            confidantExp["Springtrap"] = 0;
-            confidantExp["Mustang"] = 0;
+            confidantExp["Piper"] = new ConfidantData("Piper");
+            confidantExp["Dex"] = new ConfidantData("Dex");
+            confidantExp["Loco"] = new ConfidantData("Loco");
+            confidantExp["Springtrap"] = new ConfidantData("Springtrap");
+            confidantExp["Mustang"] = new ConfidantData("Mustang");
 
             foreach (PresentType present in PresentType.GetValues(typeof(PresentType)))
             {
@@ -79,7 +85,22 @@ public class DataManager : MonoBehaviour
     }
 
     //returns the Exp of a given confidant
-    public int GetConfidantEXP(string confidant)
+    public int GetConfidantLevel(string confidant)
+    {
+        return confidantExp[confidant].GetConfidantLevel();
+    }
+
+    public bool AddConfidantAffinity(string confidant, int amt)
+    {
+        return confidantExp[confidant].AddAffinity(amt);
+    }
+
+    public void ConfidantMet(string confidant)
+    {
+        confidantExp[confidant].MetConfidant();
+    }
+
+    public ConfidantData GetConfidantData(string confidant)
     {
         return confidantExp[confidant];
     }

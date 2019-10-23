@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour
 {
     [SerializeField] private  List<Chat> randomchats =null; //holds all the dialogue for when the npc greets the player
-    [SerializeField] public int Confidantid = -1; //determines where to reference confidant exp from in the list
+    [SerializeField] public string Confidantname = ""; //determines where to reference confidant exp from in the list
     public Sprite appearance = null; //determines where
     public bool close = false;  //checks to see if te player is close
     [SerializeField] private GameObject confidantmenu = null;
@@ -14,6 +14,13 @@ public class NPC : MonoBehaviour
     [SerializeField] private Image confidantimage = null;
     [SerializeField] private Sprite consprite=null;
     [SerializeField] private GameObject dialoguebox;
+    private bool met
+    {
+        get
+        {
+            return DataManager.instance.GetConfidantData(Confidantname).met;
+        }
+    }
 
 
     void Start()
@@ -24,9 +31,9 @@ public class NPC : MonoBehaviour
     //Checks to make sure values have been instantiated
     private void checkValues()
     {
-        if (Confidantid == -1)
+        if (Confidantname == "")
         {
-            Debug.Log("Confidantid not instantiated");
+            Debug.Log("Confidantname not instantiated");
         }
 
         if (appearance == null)
@@ -84,6 +91,10 @@ public class NPC : MonoBehaviour
         confidantimage.sprite = consprite;
         close = false;
         dm.currentnpc = this;
+        if (!met)
+        {
+           //StartCoroutine()
+        }
         //player.stopmoving
     }
 
@@ -100,38 +111,33 @@ public class NPC : MonoBehaviour
     public void playChat()
     {
 
-        StartCoroutine(waitForChoice());
+        StartCoroutine(playChatConversation(randomchats[Random.Range(0, randomchats.Count - 1)]));
     }
 
-    private IEnumerator waitForChoice()
+    private IEnumerator playChatConversation(Chat c)
     {
-        //hide menu
         confidantmenu.SetActive(false);
-        
-        //Choose a chat at random
-        int randint = Random.Range(0, randomchats.Count - 1);
-
         //play the choice, and wait for a result
-        StartCoroutine(dm.playChoice(randomchats[randint].convo, randomchats[randint].Choice1, randomchats[randint].Choice2));
+        StartCoroutine(dm.playChoice(c.convo, c.Choice1, c.Choice2));
         int choice = 0;
         while (choice == 0)
         {
             choice = dm.getChoice();
             yield return null;
         }
-        
+
         //Play the conversation according to the choice, and show the player the result of their choice
-        List<Dialogue> route = randomchats[randint].Route1;
+        List<Dialogue> route = c.Route1;
         if (choice == 2)
         {
-            showResult(randomchats[randint].C2Reward >= randomchats[randint].C1Reward, randomchats[randint].C2Reward);
-            route= randomchats[randint].Route2;
+            showResult(c.C2Reward >= c.C1Reward, c.C2Reward);
+            route = c.Route2;
         }
         else
         {
-            showResult(randomchats[randint].C1Reward >= randomchats[randint].C2Reward, randomchats[randint].C1Reward);
+            showResult(c.C1Reward >= c.C2Reward, c.C1Reward);
         }
-        
+
         StartCoroutine(dm.playConversation(route));
 
         //Wait for dialogue to finish
@@ -154,6 +160,12 @@ public class NPC : MonoBehaviour
     //Adds Affinity to Confidant TBC
     public void addAffinity(int amount)
     {
-
+        if(DataManager.instance.AddConfidantAffinity(Confidantname, amount))
+        {
+            Debug.Log("LEVELED UP");
+        }
+        
     }
+
+    
 }
