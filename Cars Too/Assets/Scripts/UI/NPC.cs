@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
     [SerializeField] public string Confidantname = ""; //determines where to reference confidant exp from in the list
     public Sprite appearance = null; //determines where
     public bool close = false;  //checks to see if te player is close
+    [SerializeField] private GameObject player;
     [SerializeField] private GameObject confidantmenu = null;
     [SerializeField] private DialogueManager dm= null;
     [SerializeField] private Image confidantimage = null;
@@ -27,7 +28,7 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     //Checks to make sure values have been instantiated
@@ -103,8 +104,9 @@ public class NPC : MonoBehaviour
         {
             dm.DisplayLine(idlechats.convo[Random.Range(0, idlechats.convo.Count)]);
         }
-        
+
         //player.stopmoving
+        player.GetComponent<CarMovement>().Pause();
     }
 
     public void closeMenu()
@@ -114,6 +116,7 @@ public class NPC : MonoBehaviour
         close = true;
         dm.CloseLine();
         //player can move again
+        player.GetComponent<CarMovement>().Unpause();
     }
 
 

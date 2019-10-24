@@ -62,72 +62,74 @@ public class CarMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Add a force on all four hover corners of the car that allows the car to hover/simulates normal force and gravity
-        RaycastHit hit;
-        bool grounded = false;
-        for (int i = 0; i < hoverPoints.Length; i++)
-        {
-            var hoverPoint = hoverPoints[i];
-            if (Physics.Raycast(hoverPoint.transform.position, -Vector3.up, out hit, hoverHeight, layerMask))
+        if(!isPaused) {
+            //Add a force on all four hover corners of the car that allows the car to hover/simulates normal force and gravity
+            RaycastHit hit;
+            bool grounded = false;
+            for (int i = 0; i < hoverPoints.Length; i++)
             {
-                //More force is applied the closer the car is to the ground to stablize the car
-                rb.AddForceAtPosition(Vector3.up * hoverForce * (1.0f - (hit.distance / hoverHeight)), hoverPoint.transform.position);
-                grounded = true;
-            }
-            else
-            {
-                //Adds forces to the hover points to stabilize the car when it is in the air
-                if (transform.position.y > hoverPoint.transform.position.y)
+                var hoverPoint = hoverPoints[i];
+                if (Physics.Raycast(hoverPoint.transform.position, -Vector3.up, out hit, hoverHeight, layerMask))
                 {
-                    rb.AddForceAtPosition(hoverPoint.transform.up * gravityForce, hoverPoint.transform.position);
+                    //More force is applied the closer the car is to the ground to stablize the car
+                    rb.AddForceAtPosition(Vector3.up * hoverForce * (1.0f - (hit.distance / hoverHeight)), hoverPoint.transform.position);
+                    grounded = true;
                 }
                 else
                 {
-                    rb.AddForceAtPosition(hoverPoint.transform.up * -gravityForce, hoverPoint.transform.position);
+                    //Adds forces to the hover points to stabilize the car when it is in the air
+                    if (transform.position.y > hoverPoint.transform.position.y)
+                    {
+                        rb.AddForceAtPosition(hoverPoint.transform.up * gravityForce, hoverPoint.transform.position);
+                    }
+                    else
+                    {
+                        rb.AddForceAtPosition(hoverPoint.transform.up * -gravityForce, hoverPoint.transform.position);
+                    }
                 }
             }
-        }
 
-        //Changes the drag of vehicle based on whether its grounded or not
-        if (grounded)
-        {
-            rb.drag = m_groundedDrag;
-        }
-        else
-        {
-            rb.drag = 0.1f;
-            //Also limit the thrust/turn of the vehicle when in the air
-            thrust /= 100f;
-            turnValue /= 100f;
-        }
+            //Changes the drag of vehicle based on whether its grounded or not
+            if (grounded)
+            {
+                rb.drag = m_groundedDrag;
+            }
+            else
+            {
+                rb.drag = 0.1f;
+                //Also limit the thrust/turn of the vehicle when in the air
+                thrust /= 100f;
+                turnValue /= 100f;
+            }
 
 
-        //Adding the force to simulate forward and reverse thrust
-        if (Mathf.Abs(thrust) > deadZone)
-        {
-            rb.AddForce(transform.forward * thrust);
-            rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
-        }
+            //Adding the force to simulate forward and reverse thrust
+            if (Mathf.Abs(thrust) > deadZone)
+            {
+                rb.AddForce(transform.forward * thrust);
+                rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
+            }
 
-        //When turning add relative torque to pivot/turn the car
-        if (turnValue > 0 || turnValue < 0)
-        {
-            //rb.AddForce(transform.forward * 3000f);
-            rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
-        }
+            //When turning add relative torque to pivot/turn the car
+            if (turnValue > 0 || turnValue < 0)
+            {
+                //rb.AddForce(transform.forward * 3000f);
+                rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
+            }
 
-        //Limit the velocity to a maximum
-        if (rb.velocity.sqrMagnitude > (rb.velocity.normalized * maxVelocity).sqrMagnitude)
-        {
-            rb.velocity = rb.velocity.normalized * maxVelocity;
-            
-        }
+            //Limit the velocity to a maximum
+            if (rb.velocity.sqrMagnitude > (rb.velocity.normalized * maxVelocity).sqrMagnitude)
+            {
+                rb.velocity = rb.velocity.normalized * maxVelocity;
 
+            }
+        }
     }
 
     public void Pause()
     {
         isPaused = true;
+        rb.velocity = Vector3.zero;
     }
 
     public void Unpause()
