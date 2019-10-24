@@ -22,6 +22,8 @@ public class CarMovement : MonoBehaviour
 
     int layerMask;
 
+    [SerializeField] private bool isPaused = false;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -34,25 +36,27 @@ public class CarMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Thrust forward
-        thrust = 0.0f;
+        if(!isPaused) {
+            //Thrust forward
+            thrust = 0.0f;
 
-        float acceleration = Input.GetAxis("Vertical");
-        if (acceleration > deadZone)
-        {
-            thrust = acceleration * forwardAcceleration;
-        }
-        else if (acceleration < -deadZone)
-        {
-            thrust = acceleration * reverseAcceleration;
-        }
+            float acceleration = Input.GetAxis("Vertical");
+            if (acceleration > deadZone)
+            {
+                thrust = acceleration * forwardAcceleration;
+            }
+            else if (acceleration < -deadZone)
+            {
+                thrust = acceleration * reverseAcceleration;
+            }
 
-        //Turning mechanics
-        turnValue = 0.0f;
-        float turnAxis = Input.GetAxis("Horizontal");
-        if (Mathf.Abs(turnAxis) > deadZone)
-        {
-            turnValue = turnAxis;
+            //Turning mechanics
+            turnValue = 0.0f;
+            float turnAxis = Input.GetAxis("Horizontal");
+            if (Mathf.Abs(turnAxis) > deadZone)
+            {
+                turnValue = turnAxis;
+            }
         }
     }
 
@@ -119,6 +123,16 @@ public class CarMovement : MonoBehaviour
             
         }
 
+    }
+
+    public void Pause()
+    {
+        isPaused = true;
+    }
+
+    public void Unpause()
+    {
+        isPaused = false;
     }
 
 }
