@@ -4,6 +4,7 @@ using UnityEngine;
 
 //To be used mainly in the creation of chats, or conversations where there is only one set of choices.
 [CreateAssetMenu(fileName = "Chat.asset", menuName = "Capstone/Chat")]
+[System.Serializable]
 public class Chat : Conversation
 {
     //Text that will appear on each choice button
@@ -21,4 +22,7 @@ public class Chat : Conversation
     //Affinity rewarded for each choice
     public int C1Reward = 0;
     public int C2Reward = 0;
+
+    public string path;
+
 }

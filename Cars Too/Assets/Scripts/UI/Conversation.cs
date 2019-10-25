@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Convo.asset", menuName = "Capstone/Conversation")]
+[System.Serializable]
 public class Conversation : ScriptableObject
 {
     
-    public List<Dialogue> convo;
+    public List<Dialogue> convo=new List<Dialogue>();
     
 
 
