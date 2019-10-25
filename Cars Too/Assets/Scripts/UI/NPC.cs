@@ -17,6 +17,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private GameObject dialoguebox;
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] private Conversation idlechats=null; //small lines said in the confidant menu
+    [SerializeField] private GameObject talkui = null;
     private bool met
     {
         get
@@ -76,6 +77,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             close = true;
+            talkui.SetActive(true);
         }
     }
 
@@ -84,6 +86,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             close = false;
+            talkui.SetActive(false);
         }
     }
 
@@ -92,6 +95,7 @@ public class NPC : MonoBehaviour
         confidantmenu.SetActive(true);
         confidantimage.gameObject.SetActive(true);
         confidantimage.sprite = consprite;
+        talkui.SetActive(false);
         close = false;
         dm.currentnpc = this;
         if (!met)
@@ -114,6 +118,7 @@ public class NPC : MonoBehaviour
         confidantmenu.SetActive(false);
         confidantimage.gameObject.SetActive(false);
         close = true;
+        talkui.SetActive(true);
         dm.CloseLine();
         //player can move again
         player.GetComponent<CarMovement>().Unpause();

@@ -31,6 +31,7 @@ MonoBehaviour:
   Confidantname: Mustang
   appearance: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   close: 0
+  player: {fileID: 0}
   confidantmenu: {fileID: 0}
   dm: {fileID: 0}
   confidantimage: {fileID: 0}
@@ -38,6 +39,7 @@ MonoBehaviour:
   dialoguebox: {fileID: 0}
   introchat: {fileID: 11400000, guid: d073543be40565f42b78236edfee389d, type: 2}
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
+  talkui: {fileID: 5611003960058169850}
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48,7 +50,7 @@ PrefabInstance:
     - target: {fileID: 4735282467803159115, guid: 1fdc2d3f64522e04e89e4994362c76de,
         type: 3}
       propertyPath: m_Name
-      value: Npc
+      value: MustangDEMO
       objectReference: {fileID: 0}
     - target: {fileID: 8641356037269235800, guid: 1fdc2d3f64522e04e89e4994362c76de,
         type: 3}
@@ -125,6 +127,12 @@ PrefabInstance:
 --- !u!1 &6745429004265027189 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735282467803159115, guid: 1fdc2d3f64522e04e89e4994362c76de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2029867377690127422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5611003960058169850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5905841988578338244, guid: 1fdc2d3f64522e04e89e4994362c76de,
     type: 3}
   m_PrefabInstance: {fileID: 2029867377690127422}
   m_PrefabAsset: {fileID: 0}
