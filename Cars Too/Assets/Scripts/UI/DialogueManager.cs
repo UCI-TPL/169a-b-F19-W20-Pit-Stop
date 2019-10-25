@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {   
@@ -20,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Choicetext2;
     [SerializeField] public NPC currentnpc;
     [SerializeField] private AudioClip ac;
+    [SerializeField] private Image currentspeaker;
 
 
 
@@ -43,6 +45,12 @@ public class DialogueManager : MonoBehaviour
             instant = true;
         }
     }
+    public void setNPC(NPC npc, Sprite s)
+    {
+        currentnpc = npc;
+        //currentspeaker.sprite = s;
+    }
+
     public void DisplayLine(Dialogue d)
     {
         canvasobjects.SetActive(true);

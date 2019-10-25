@@ -7,17 +7,17 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] private  List<Chat> randomchats =null; //holds all the dialogue for when the npc greets the player
     [SerializeField] public string Confidantname = ""; //determines where to reference confidant exp from in the list
-    public Sprite appearance = null; //determines where
     public bool close = false;  //checks to see if te player is close
     [SerializeField] private GameObject player;
-    [SerializeField] private GameObject confidantmenu = null;
     [SerializeField] private DialogueManager dm= null;
-    [SerializeField] private Image confidantimage = null;
     [SerializeField] private Sprite consprite=null;
     [SerializeField] private GameObject dialoguebox;
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] private Conversation idlechats=null; //small lines said in the confidant menu
     [SerializeField] private GameObject talkui = null;
+    private ConfidantMenu cm = null;
+
+
     private bool met
     {
         get
@@ -30,6 +30,7 @@ public class NPC : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        cm = GameObject.FindObjectOfType<ConfidantMenu>();
     }
 
     //Checks to make sure values have been instantiated
@@ -38,11 +39,6 @@ public class NPC : MonoBehaviour
         if (Confidantname == "")
         {
             Debug.Log("Confidantname not instantiated");
-        }
-
-        if (appearance == null)
-        {
-            Debug.Log("appearance not instantiated");
         }
 
         if (randomchats == null)
@@ -92,12 +88,10 @@ public class NPC : MonoBehaviour
 
     public void openMenu()
     {
-        confidantmenu.SetActive(true);
-        confidantimage.gameObject.SetActive(true);
-        confidantimage.sprite = consprite;
+        cm.OpenMenu(consprite, Confidantname);
         talkui.SetActive(false);
         close = false;
-        dm.currentnpc = this;
+        dm.setNPC(this,consprite);
         if (!met)
         {
             //StartCoroutine(playChatConversation(introchat));
@@ -115,8 +109,8 @@ public class NPC : MonoBehaviour
 
     public void closeMenu()
     {
-        confidantmenu.SetActive(false);
-        confidantimage.gameObject.SetActive(false);
+        cm.CloseMenu();
+        //confidantimage.gameObject.SetActive(false);
         close = true;
         talkui.SetActive(true);
         dm.CloseLine();
@@ -144,7 +138,7 @@ public class NPC : MonoBehaviour
 
     private IEnumerator playConversation(Conversation c)
     {
-        confidantmenu.SetActive(false);
+        cm.CloseMenu(false);
         StartCoroutine(dm.playConversation(c.convo));
 
         //Wait for dialogue to finish
@@ -159,7 +153,7 @@ public class NPC : MonoBehaviour
 
     private IEnumerator playChatConversation(Chat c)
     {
-        confidantmenu.SetActive(false);
+        cm.CloseMenu(false);
         //play the choice, and wait for a result
         StartCoroutine(dm.playChoice(c.convo, c.Choice1, c.Choice2));
         int choice = 0;
