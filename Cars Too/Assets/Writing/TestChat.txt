@@ -1,5 +1,5 @@
-//Comment out line by starting it with two //
-Speaker: //Speaker separated from dialogue by line
+//Comment out line by starting it with two Not currently implemented but planned
+Speaker: //Speaker separated from dialogue by line and uses a colon at the end
 Dialouge....
 Dialouge....
 
@@ -19,11 +19,11 @@ Speaker:
 Dialouge....
 Dialogue....
 
-End
- 
-//Write Choice to designate that there is an option It will be associated with the previous set of Speakers and Dialogue
-//Follow this with the line for choice1 and then the line for choice 2
-Choice
+EndC
+//Write EndC to designate that there is an option It will be associated with the previous set of Speakers and Dialogue
+//Follow this with Choices and then two lines for each choice
+
+Choices
 Choice 1 line 
 Choice 2 line
 
@@ -37,7 +37,7 @@ Dialouge....
 Dialogue....
 
 //Mark the end of the result of the first choice with End1
-End1
+End
 
 Speaker:
 Dialouge....
@@ -48,4 +48,4 @@ Dialouge....
 Dialogue....
 
 //Mark the end of the result of the second choice with End2
-End2
+End

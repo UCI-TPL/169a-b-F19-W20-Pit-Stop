@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Chatlist.asset", menuName = "Capstone/Chatlist")]
@@ -16,6 +16,7 @@ public class Chatlist : ScriptableObject
     //generic title all chats will be indexed under
     public string title;
 
+    /*
     public void LoadChats()
     {
         chats = new List<Chat>();
@@ -128,4 +129,5 @@ public class Chatlist : ScriptableObject
         
         return choices;
     }
+    */
 }
