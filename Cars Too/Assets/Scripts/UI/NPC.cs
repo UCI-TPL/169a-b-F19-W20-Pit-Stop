@@ -88,7 +88,7 @@ public class NPC : MonoBehaviour
 
     public void openMenu()
     {
-        cm.OpenMenu(consprite, Confidantname);
+        cm.OpenMenu(this,consprite, Confidantname);
         talkui.SetActive(false);
         close = false;
         dm.setNPC(this,consprite);

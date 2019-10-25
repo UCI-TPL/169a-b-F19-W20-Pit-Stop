@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         //Detect Left Clicks and instant display text if it is not all displayed
-        if (Input.GetKeyDown(KeyCode.Mouse0)&&running)
+        if (GetInput()&&running)
         {
             instant = true;
         }
@@ -83,6 +83,11 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public bool GetInput()
+    {
+        return Input.GetKeyDown(KeyCode.Mouse0)|| Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.Return);
+    }
+
     public IEnumerator playConversation(List<Dialogue> d)
     {
         //Turn on the Dialogue canvas objects
@@ -109,7 +114,7 @@ public class DialogueManager : MonoBehaviour
             {
                 yield return null;
 
-                if (Input.GetKeyDown(KeyCode.Mouse0))
+                if (GetInput())
                 {
                     finished = true;
                     DataManager.instance.am.PlaySound(ac);
