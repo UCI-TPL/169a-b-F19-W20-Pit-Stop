@@ -14,31 +14,37 @@ public class Chatlist : ScriptableObject
     [TextArea(5,100)]
     public string createpath;
     //generic title all chats will be indexed under
-    public string titles;
+    public string title;
 
     public void LoadChats()
     {
-        
+        chats = new List<Chat>();
         string readpath = Application.dataPath + fileloc;
         
         StreamReader sr = new StreamReader(readpath);
-        Chat temp =(GetChat(sr));
-        //Debug.Log(temp.convo[0].text);
-        //chats[0].convo = new List<Dialogue>();
-        AssetDatabase.CreateAsset(temp,createpath);
-
-        foreach (Dialogue d in temp.convo)
+        while (true)
         {
-            //chats[0].convo.Add(d);
+            Chat temp = (GetChat(sr));
+            if (temp == null)
+            {
+                break;
+            }
+            if (!temp.isConversation)
+            {
+                List<string> cs = getChoices(sr);
+                temp.Choice1 = cs[0];
+                temp.Choice2 = cs[1];
+                temp.Route1 = GetChat(sr).convo;
+                temp.Route2 = GetChat(sr).convo;
+            }
+
+            AssetDatabase.CreateAsset(temp, createpath+title+chats.Count+1+".asset");
+
+            chats.Add(temp);
         }
 
-        foreach (Chat c in chats){
-            foreach(Dialogue d in c.convo)
-            {
-                Debug.Log(d.speaker);
-                Debug.Log(d.text);
-            }
-        }
+        sr.Close();
+
     }
 
     private Chat GetChat(StreamReader sr)
@@ -50,13 +56,19 @@ public class Chatlist : ScriptableObject
         string currentdialogue= "";
 
          //Continue until the End is reached
-        while (current != "End")
+        while (!sr.EndOfStream)
         {
             //read next line
             current = sr.ReadLine();
 
             if (current == "End")
             {
+                output.isConversation = true;
+                break;
+            }
+            else if (current == "EndC")
+            {
+                output.isConversation = false;
                 break;
             }
             //If current is a blank line it might indicate the end of the dialogue block or 
@@ -88,9 +100,32 @@ public class Chatlist : ScriptableObject
             }
         }
 
+        if (dl.Count == 0)
+        {
+            return null;
+        }
         output.convo = dl;
-        output.isConversation = true;
+        
 
         return output;
+    }
+
+    //checks if there are still lines to be read
+    private List<string> getChoices(StreamReader sr)
+    {
+        List<string> choices = new List<string>();
+        string current = "";
+        while (choices.Count<2)
+        {
+            current = sr.ReadLine();
+            if (!current.Equals("")&& !current.Equals("Choices"))
+            {
+                Debug.Log("here");
+                choices.Add(current);
+            }
+           
+        }
+        
+        return choices;
     }
 }

@@ -18,7 +18,9 @@ Speaker:
 Dialouge....
 Dialogue....
 
-Choice
+EndC
+
+Choices
 Choice 1 line 
 Choice 2 line
 
@@ -30,7 +32,7 @@ Speaker:
 Dialouge....
 Dialogue....
 
-End1
+End
 
 Speaker:
 Dialouge....
@@ -40,4 +42,4 @@ Speaker:
 Dialouge....
 Dialogue....
 
-End2
+End
