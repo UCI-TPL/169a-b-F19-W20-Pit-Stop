@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: Chatlist
   m_EditorClassIdentifier: 
-  chats: []
-  fileloc: /Writing/SimpleTest.txt
-  createpath: /Scriptable Objects/Dialogue/TestChats/generatedchats
-  titles: Ok
+  chats:
+  - {fileID: 11400000, guid: 90950b713bd50a24fa8a87b84715abe4, type: 2}
+  - {fileID: 11400000, guid: be17a08259adb8645b973daf29c2b381, type: 2}
+  - {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
+  - {fileID: 11400000, guid: 3d739d4adb6be4f4d84e916d5994e12e, type: 2}
+  - {fileID: 11400000, guid: 71b0491c616538746948f21a76e44e93, type: 2}
+  - {fileID: 11400000, guid: d073543be40565f42b78236edfee389d, type: 2}
+  fileloc: /Writing/TestChatNoComments.txt
+  createpath: Assets/Scriptable Objects/Dialogue/TestChats/generatedchats/
+  title: test

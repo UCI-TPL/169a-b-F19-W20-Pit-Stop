@@ -77,6 +77,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: giftvalues.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: Confidantname
       value: Piper
       objectReference: {fileID: 0}
@@ -116,5 +120,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: be17a08259adb8645b973daf29c2b381,
         type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: giftrecievedchats
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e41e2a01e710e34a8ebd77ab17dd3a6,
+        type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: giftvalues.Array.data[0]
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: giftvalues.Array.data[1]
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: giftvalues.Array.data[2]
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}

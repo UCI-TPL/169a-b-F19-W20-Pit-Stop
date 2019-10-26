@@ -15,6 +15,9 @@ public class NPC : MonoBehaviour
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] private Conversation idlechats=null; //small lines said in the confidant menu
     [SerializeField] private GameObject talkui = null;
+    [SerializeField] private List<int> giftvalues = new List<int>();
+    [SerializeField] private Chatlist giftrecievedchats;
+    
     private ConfidantMenu cm = null;
 
 
@@ -202,6 +205,15 @@ public class NPC : MonoBehaviour
             Debug.Log("LEVELED UP");
         }
         
+    }
+
+    public void RecieveGift(PresentType present)
+    {
+        
+        int affinitygained = giftvalues[(int)present];
+        showResult(affinitygained >= 25, affinitygained);
+        PlayConvorChat(giftrecievedchats.chats[(int)present]);
+
     }
 
     

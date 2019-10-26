@@ -135,6 +135,7 @@ public class DataManager : MonoBehaviour
         if (GetGiftCount(present)>=i)
         {
             gifts[present] -= i;
+            giftAcquired.Invoke();
             return true;
         }
         return false;
