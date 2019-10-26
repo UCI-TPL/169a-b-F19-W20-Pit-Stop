@@ -79,6 +79,7 @@ public class DialogueManager : MonoBehaviour
 
         while (Choicecanvas.activeSelf)
         {
+            
             yield return null;
         }
     }

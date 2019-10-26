@@ -624,6 +624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mypresent: 0
   amounttxt: {fileID: 5867729817282456313}
+  nogifts: {fileID: 8300000, guid: 8487f55817e72c04c9c909d7c27b0ea6, type: 3}
 --- !u!1 &2125977244952570763
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mypresent: 0
   amounttxt: {fileID: 0}
+  nogifts: {fileID: 0}
 --- !u!1 &3370107850406486630
 GameObject:
   m_ObjectHideFlags: 0
@@ -6296,6 +6298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mypresent: 4
   amounttxt: {fileID: 1623943981752104133}
+  nogifts: {fileID: 8300000, guid: 8487f55817e72c04c9c909d7c27b0ea6, type: 3}
 --- !u!1 &4845557841462121465
 GameObject:
   m_ObjectHideFlags: 0
@@ -6445,6 +6448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mypresent: 1
   amounttxt: {fileID: 5058701139263669434}
+  nogifts: {fileID: 8300000, guid: 8487f55817e72c04c9c909d7c27b0ea6, type: 3}
 --- !u!1 &4891338513567923636
 GameObject:
   m_ObjectHideFlags: 0
@@ -6594,6 +6598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mypresent: 2
   amounttxt: {fileID: 4374434645779603033}
+  nogifts: {fileID: 8300000, guid: 8487f55817e72c04c9c909d7c27b0ea6, type: 3}
 --- !u!1 &5149844398532950904
 GameObject:
   m_ObjectHideFlags: 0
@@ -7569,6 +7574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mypresent: 3
   amounttxt: {fileID: 4792522740318197756}
+  nogifts: {fileID: 8300000, guid: 8487f55817e72c04c9c909d7c27b0ea6, type: 3}
 --- !u!1 &8000556816872135622
 GameObject:
   m_ObjectHideFlags: 0

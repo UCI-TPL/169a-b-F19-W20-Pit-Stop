@@ -9,7 +9,7 @@ public class GiftingButton : MonoBehaviour
     public TextMeshProUGUI amounttxt;
     private int amount=0;
     private ConfidantMenu cm;
-    AudioClip nogifts;
+    public AudioClip nogifts;
 
     // Start is called before the first frame update
     private void Start()
