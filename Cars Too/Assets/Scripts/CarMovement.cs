@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CarMovement : MonoBehaviour
 {
+    PlayerEntity player;
+
     Rigidbody rb;
     public float deadZone = 0.1f;
     public float m_groundedDrag = 3f;
@@ -17,12 +19,17 @@ public class CarMovement : MonoBehaviour
     public float reverseAcceleration = 4000f;
     [SerializeField] float thrust = 0f;
 
+    [SerializeField] float currentBoostSpeed = 0f;
+    [SerializeField] float maxBoostSpeed = 2000f;
+    [SerializeField] float boostFactor;
+
     public float turnStrength = 1000f;
-    [SerializeField] public float turnValue = 0f;
+    [SerializeField] float turnValue = 0f;
 
     int layerMask;
 
-    [SerializeField] private bool isPaused = false;
+    [SerializeField] bool isPaused = false;
+    [SerializeField] bool boostUnlocked = true;
 
     void Awake()
     {
@@ -31,19 +38,31 @@ public class CarMovement : MonoBehaviour
 
         layerMask = 1 << LayerMask.NameToLayer("Vehicle");
         layerMask = ~layerMask;
+
+        player = this.GetComponent<PlayerEntity>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if(!isPaused) {
+            //Respawn
+            if(Input.GetKeyDown(KeyCode.R))
+            {
+                player.Respawn();
+            }
+
+            //Boost
+            if(boostUnlocked)
+                Boost();
+           
             //Thrust forward
             thrust = 0.0f;
 
             float acceleration = Input.GetAxis("Vertical");
             if (acceleration > deadZone)
             {
-                thrust = acceleration * forwardAcceleration;
+                thrust = (acceleration * forwardAcceleration) + currentBoostSpeed;
             }
             else if (acceleration < -deadZone)
             {
@@ -137,4 +156,29 @@ public class CarMovement : MonoBehaviour
         isPaused = false;
     }
 
+    public void Boost()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            if (currentBoostSpeed < maxBoostSpeed)
+                currentBoostSpeed += boostFactor;
+        }
+        else
+        {
+            if (currentBoostSpeed > 0)
+                currentBoostSpeed -= boostFactor;
+            if (currentBoostSpeed < 0)
+                currentBoostSpeed = 0;
+        }
+    }
+
+    public void UnlockBoost()
+    {
+        boostUnlocked = true;
+    }
+
+    public void LockBoost()
+    {
+        boostUnlocked = false;
+    }
 }
