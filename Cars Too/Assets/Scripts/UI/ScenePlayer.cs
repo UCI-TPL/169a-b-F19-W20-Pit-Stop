@@ -78,7 +78,7 @@ public class ScenePlayer : MonoBehaviour
             yield return null;
         }
 
-        Debug.Log("here2");
+       
         finished = true;
     }
 
@@ -86,7 +86,7 @@ public class ScenePlayer : MonoBehaviour
     {
         if (finished)
         {
-            Debug.Log("finished");
+         
             index++;
             if (index < cl.chats.Count)
             {
