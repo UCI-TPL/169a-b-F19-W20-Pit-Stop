@@ -16,18 +16,24 @@ MonoBehaviour:
   - speaker: Mustang
     text: Vroom Vroom.
     expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   - speaker: Mustang
     text: Vroom a Vroom vroom.
     expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   Choice1: VROOOOM!~
   Choice2: No Vroom
   Route1:
   - speaker: Mustang
     text: VRRRRRROOOOOOMMMM
     expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   Route2:
   - speaker: Mustang
     text: :(
     expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
+  isConversation: 0
   C1Reward: 25
   C2Reward: 10
+  path: 

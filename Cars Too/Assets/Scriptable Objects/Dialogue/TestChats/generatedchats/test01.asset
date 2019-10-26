@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: test01
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Speaker
+  - speaker: Piper
     text: Dialouge....Dialouge....
     expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: 81189a0ae50f7124f8571cdb75c63695, type: 3}
   - speaker: Speaker
     text: Dialouge....Dialogue....
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

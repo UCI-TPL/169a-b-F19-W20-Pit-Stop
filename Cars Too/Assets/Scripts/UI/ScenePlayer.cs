@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScenePlayer : MonoBehaviour
 {
@@ -10,12 +11,13 @@ public class ScenePlayer : MonoBehaviour
     public GameObject dialoguebox;
     private int index =-1;
     bool finished = true;
+    //Scene to go to after finishing
+    [SerializeField] private string destscene="LVL1";
 
     // Start is called before the first frame update
     void Start()
     {
         dm = GameObject.FindObjectOfType<DialogueManager>();
-        
     }
 
   
@@ -43,7 +45,7 @@ public class ScenePlayer : MonoBehaviour
             yield return null;
         }
 
-        Debug.Log("here1");
+        
         finished = true;
     }
 
@@ -84,6 +86,9 @@ public class ScenePlayer : MonoBehaviour
 
     private void Update()
     {
+        //Check if dialogue is finished
+        //if it is and there is more dialogue play it
+        //Otherwise go to the dest scene
         if (finished)
         {
          
@@ -91,6 +96,10 @@ public class ScenePlayer : MonoBehaviour
             if (index < cl.chats.Count)
             {
                 PlayConvorChat(cl.chats[index]);
+            }
+            else
+            {
+                SceneManager.LoadScene(destscene);
             }
             finished = false;
         }

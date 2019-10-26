@@ -9,6 +9,7 @@ public class Dialogue
     [TextArea(5, 100)]
     public string text = "Dialogue";
     public Sprite expression = null;
+    public Sprite Scenesprite = null;
 
     public Dialogue(string spk, string txt)
     {

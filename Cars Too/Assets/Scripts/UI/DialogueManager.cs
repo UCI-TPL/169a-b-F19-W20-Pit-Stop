@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Choicetext2;
     [SerializeField] public NPC currentnpc;
     [SerializeField] private AudioClip ac;
-    [SerializeField] private Image currentspeaker;
+    [SerializeField] private ScenePortraits sp=null;
 
 
 
@@ -138,7 +138,10 @@ public class DialogueManager : MonoBehaviour
         speakerbox.text = d.speaker;
         dialgouebox.text = "";
         index = 0;
-
+        if (sp != null&&d.Scenesprite!=null)
+        {
+            sp.UpdatePortraits(d.speaker, d.Scenesprite);
+        }
         while(index<d.text.Length)
         {
             //if the player has clicked display all text
