@@ -158,6 +158,7 @@ public class CarMovement : MonoBehaviour
 
     public void Boost()
     {
+        
         if (Input.GetKey(KeyCode.LeftShift))
         {
             if (currentBoostSpeed < maxBoostSpeed)
