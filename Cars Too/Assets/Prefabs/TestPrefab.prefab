@@ -921,13 +921,13 @@ MonoBehaviour:
   maxVelocity: 50
   hoverForce: 1000
   gravityForce: 1000
-  hoverHeight: 2
+  hoverHeight: 1
   hoverPoints:
   - {fileID: 596400386}
   - {fileID: 58414866}
   - {fileID: 1582797138}
   - {fileID: 754618783}
-  forwardAcceleration: 4000
+  forwardAcceleration: 6000
   reverseAcceleration: 3000
   thrust: 0
   currentBoostSpeed: 0
