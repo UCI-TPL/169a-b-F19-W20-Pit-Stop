@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerEntity : MonoBehaviour
 {
     private Vector3 spawnPoint;
+    private Vector3 spawnRot;
 
     [SerializeField] AudioClip pickup = null;
     bool boostUnlocked = false;
@@ -18,6 +19,9 @@ public class PlayerEntity : MonoBehaviour
     void Start()
     {
         spawnPoint = this.transform.position;
+        spawnRot = this.transform.localEulerAngles;
+        Debug.Log(spawnPoint);
+        Debug.Log(spawnRot);
 
     }
 
@@ -48,13 +52,15 @@ public class PlayerEntity : MonoBehaviour
     public void Respawn()
     {
         //play some sounds or do something
-
+        Debug.Log("Respawn");
         this.transform.position = spawnPoint;
+        this.transform.localEulerAngles = spawnRot;
     }
 
-    public void ChangeRespawnPoint(Vector3 newSpawn)
+    public void ChangeRespawnPoint(Vector3 newSpawn, Vector3 newRot)
     {
         spawnPoint = newSpawn;
+        spawnRot = newRot;
     }
     
 }
