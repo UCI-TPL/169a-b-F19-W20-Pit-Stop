@@ -736,7 +736,6 @@ GameObject:
   - component: {fileID: 850712865}
   - component: {fileID: 850712860}
   - component: {fileID: 8727739638878539369}
-  - component: {fileID: 850712863}
   - component: {fileID: 5720197855851049210}
   - component: {fileID: 850712864}
   - component: {fileID: 1921695438159015467}
@@ -826,7 +825,7 @@ BoxCollider:
   m_GameObject: {fileID: 4735282467803159115}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.013466336, y: 0.008065799, z: 0.013402912}
   m_Center: {x: -0.00007153131, y: -0.0016922386, z: -0.000008007862}
@@ -837,7 +836,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4735282467803159115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dcfe1dbd82a1505418ecb7bcad932189, type: 3}
   m_Name: 
@@ -870,7 +869,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4735282467803159115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35929cd868521814caf3a51d69e3f70a, type: 3}
   m_Name: 
@@ -905,66 +904,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007456488, y: 0.00812012, z: 0.010618443}
   m_Center: {x: 0, y: -0.000059745507, z: 0.00010373583}
---- !u!108 &850712863
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4735282467803159115}
-  m_Enabled: 1
-  serializedVersion: 9
-  m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!114 &5720197855851049210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,7 +921,7 @@ MonoBehaviour:
   maxVelocity: 50
   hoverForce: 1000
   gravityForce: 1000
-  hoverHeight: 1.3
+  hoverHeight: 2
   hoverPoints:
   - {fileID: 596400386}
   - {fileID: 58414866}
@@ -994,7 +933,7 @@ MonoBehaviour:
   currentBoostSpeed: 0
   maxBoostSpeed: 2000
   boostFactor: 100
-  turnStrength: 500
+  turnStrength: 350
   turnValue: 0
   isPaused: 0
   boostUnlocked: 1
