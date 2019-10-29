@@ -124,7 +124,8 @@ public class NPC : MonoBehaviour
 
     public void playChat()
     {
-        StartCoroutine(playChatConversation(randomchats[Random.Range(0, randomchats.Count)]));
+        PlayConvorChat(randomchats[Random.Range(0, randomchats.Count)]);
+      
     }
 
     private void PlayConvorChat(Chat c)

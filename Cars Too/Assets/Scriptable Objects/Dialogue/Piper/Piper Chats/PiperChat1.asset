@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: PiperChat1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Piper
+    text: What's revvin'?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What's with the lame catchphrase?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh Lightning. One of these days, you're going to have to lean into the whole
+      "being a car" thing. It's so much more fun!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I really don't see how making dumb puns is going to brighten my day.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Sure it will! Try it!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: Call me a car brand, cuz I'd rather Dodge the idea.
+  Choice2: I think I'd rather leave. Call me a car brand, cuz I'm Audi.
+  Route1:
+  - speaker: Piper
+    text: '*laughs**laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Piper
+    text: '*laughs**laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  path: 

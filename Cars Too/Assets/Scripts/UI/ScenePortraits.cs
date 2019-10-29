@@ -10,9 +10,10 @@ public class ScenePortraits : MonoBehaviour
     [SerializeField] private Image portrait2;
     public string portrait2name="";
     [SerializeField]private int recent = 0;
+    [SerializeField] private List<Dialogue> speakersandsprites;
     // Start is called before the first frame update
 
-    public void UpdatePortraits(string newportraitname, Sprite newportrait)
+    public void UpdatePortraits(string newportraitname)
     {
         if(newportraitname.Equals(portrait1name))
         {
@@ -23,6 +24,12 @@ public class ScenePortraits : MonoBehaviour
         }
         else
         {
+            Sprite newportrait = FindPortrait(newportraitname);
+            if (newportrait == null)
+            {
+                Debug.Log("No portrait found for char " + newportraitname);
+                return;
+            }
             if (recent == 0||recent==2)
             {
                 portrait1.gameObject.SetActive(true);
@@ -38,5 +45,17 @@ public class ScenePortraits : MonoBehaviour
                 recent = 2;
             }
         }
+    }
+
+    private Sprite FindPortrait(string portraitname)
+    {
+        foreach (Dialogue d in speakersandsprites)
+        {
+            if (d.speaker.Equals(portraitname))
+            {
+                return d.Scenesprite;
+            }
+        }
+        return null;
     }
 }

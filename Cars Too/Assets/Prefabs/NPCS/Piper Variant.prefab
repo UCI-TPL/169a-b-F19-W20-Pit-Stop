@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6ae44c1d767858e4798c4ea34a4a1490, type: 2}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: randomchats.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: giftvalues.Array.size
@@ -137,5 +137,15 @@ PrefabInstance:
       propertyPath: giftvalues.Array.data[2]
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: randomchats.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6420aca43c1d0c944bee6496e6df9227,
+        type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: randomchats.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}

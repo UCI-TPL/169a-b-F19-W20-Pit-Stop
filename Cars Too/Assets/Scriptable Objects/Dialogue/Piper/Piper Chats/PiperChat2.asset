@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: PiperChat2
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Piper
+    text: What's revvin'?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Is there a reason you called yourself Piper?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Well, firstly, I've got this NIFTY HAT! So, like, how could I not?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Secondly, they are just SO NEAT! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'What are? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: PIPES! Are you kidding me! They're just so cool! There's so much they can
+      do and so many things they're important for - they're amazing!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Pipe fanclub member much?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Hah, as if there were a fanclub -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*GASP*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: OMG, A PIPES FANCLUB!? Wouldn't that be motorific!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh boy.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: There could be weekly meetings where we could talk about a different pipe
+      each week, and maybe - OH - maybe like, a-a CONTEST where we each bring in our
+      favorite pipe and...!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*continues talking on and on in increasingly greater detail about a pipes
+      fanclub*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I'd better leave before I end up her vice president and treasurer.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  path: 

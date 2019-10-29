@@ -313,8 +313,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dm: {fileID: 278171659}
-  cl: {fileID: 11400000, guid: 5f37e842fcd5d95499fea938478b41d0, type: 2}
+  cl: {fileID: 11400000, guid: a3e2fe0187422f545b89b152cedc4431, type: 2}
   dialoguebox: {fileID: 2050181624}
+  destscene: LVL1
 --- !u!114 &278171658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +333,31 @@ MonoBehaviour:
   portrait2: {fileID: 535360016}
   portrait2name: 
   recent: 0
+  speakersandsprites:
+  - speaker: Piper
+    text: 
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: f56c5523a82f161458ed958ee530718d, type: 3}
+  - speaker: Mustang
+    text: 
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
+  - speaker: Springtrap
+    text: 
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: 5d72b3da3641ba34aa785d986da7302f, type: 3}
+  - speaker: Dex
+    text: 
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: a883c2df0d603fd43b4625c0b5d33e15, type: 3}
+  - speaker: Chief
+    text: 
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: 4eac3908037aaba44a0c8e68a635d827, type: 3}
+  - speaker: Loco
+    text: 
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 21300000, guid: 2a96a87ffdbcd6e46abf28f68a826370, type: 3}
 --- !u!114 &278171659 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4436490670072998279, guid: 4a516d422a367c441980708e2178ab00,
@@ -356,11 +382,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
-    - target: {fileID: 4436490670072998279, guid: 4a516d422a367c441980708e2178ab00,
-        type: 3}
-      propertyPath: sp
-      value: 
-      objectReference: {fileID: 278171658}
     - target: {fileID: 4436490670072998275, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -614,21 +635,6 @@ PrefabInstance:
     - target: {fileID: 4436490670782946206, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436490669095933999, guid: 4a516d422a367c441980708e2178ab00,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 700
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436490669095933999, guid: 4a516d422a367c441980708e2178ab00,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436490669306374003, guid: 4a516d422a367c441980708e2178ab00,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4436490670385869145, guid: 4a516d422a367c441980708e2178ab00,
@@ -1026,6 +1032,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4436490670072998279, guid: 4a516d422a367c441980708e2178ab00,
+        type: 3}
+      propertyPath: sp
+      value: 
+      objectReference: {fileID: 278171658}
     - target: {fileID: 4436490670846126642, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1035,6 +1046,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436490669095933999, guid: 4a516d422a367c441980708e2178ab00,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436490669095933999, guid: 4a516d422a367c441980708e2178ab00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436490669306374003, guid: 4a516d422a367c441980708e2178ab00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4436490669095933996, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}

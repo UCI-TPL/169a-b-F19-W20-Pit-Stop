@@ -138,9 +138,9 @@ public class DialogueManager : MonoBehaviour
         speakerbox.text = d.speaker;
         dialgouebox.text = "";
         index = 0;
-        if (sp != null&&d.Scenesprite!=null)
+        if (sp != null)
         {
-            sp.UpdatePortraits(d.speaker, d.Scenesprite);
+            sp.UpdatePortraits(d.speaker);
         }
         while(index<d.text.Length)
         {
