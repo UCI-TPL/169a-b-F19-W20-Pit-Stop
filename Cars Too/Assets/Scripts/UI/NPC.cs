@@ -17,6 +17,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private GameObject talkui = null;
     [SerializeField] private List<int> giftvalues = new List<int>();
     [SerializeField] private Chatlist giftrecievedchats;
+    [SerializeField] private int npcthemeindex=0;
     
     private ConfidantMenu cm = null;
 
@@ -130,6 +131,7 @@ public class NPC : MonoBehaviour
 
     private void PlayConvorChat(Chat c)
     {
+        DataManager.instance.am.PlayandTrackBGM(npcthemeindex);
         if (c.isConversation)
         {
             StartCoroutine(playConversation(c));

@@ -29,17 +29,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
   - {fileID: 11400000, guid: 71b0491c616538746948f21a76e44e93, type: 2}
   Confidantname: Mustang
-  appearance: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   close: 0
   player: {fileID: 0}
-  confidantmenu: {fileID: 0}
   dm: {fileID: 0}
-  confidantimage: {fileID: 0}
   consprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   dialoguebox: {fileID: 0}
   introchat: {fileID: 11400000, guid: d073543be40565f42b78236edfee389d, type: 2}
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
   talkui: {fileID: 5611003960058169850}
+  giftvalues: 
+  giftrecievedchats: {fileID: 0}
+  npcthemeindex: 2
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0

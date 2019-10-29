@@ -12,6 +12,7 @@ public class ConfidantMenu : MonoBehaviour
     public NPC currentNPC;
     public GameObject giftingmenu;
     public GameObject confidantbasemenu;
+    public int menuthemeindex = 0;
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class ConfidantMenu : MonoBehaviour
 
     public void OpenMenu(NPC npc,Sprite s, string n)
     {
+        DataManager.instance.am.PlayandTrackBGM(menuthemeindex);
         confidant.gameObject.SetActive(true);
         confidantmenu.SetActive(true);
         confidantbasemenu.SetActive(true);
@@ -38,8 +40,11 @@ public class ConfidantMenu : MonoBehaviour
     public void CloseMenu(bool imageclosed=true)
     {
         confidantmenu.SetActive(false);
-        if(imageclosed)
+        if (imageclosed)
+        {
+            DataManager.instance.am.PlayCurrentTheme();
             confidant.gameObject.SetActive(false);
+        }
     }
 
     public void OpenGiftingMenu()

@@ -3952,6 +3952,7 @@ MonoBehaviour:
   currentNPC: {fileID: 0}
   giftingmenu: {fileID: 5149844398532950904}
   confidantbasemenu: {fileID: 2125977244952570763}
+  menuthemeindex: 3
 --- !u!1 &4436490670138762477
 GameObject:
   m_ObjectHideFlags: 0
