@@ -34,12 +34,23 @@ public class DataManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        
         //Dont destory this gameobject between scenes
         DontDestroyOnLoad(this.gameObject);
 
         //Destroy this object if there is already another one
         if (instance!=this&&instance!=null)
         {
+            instance.scenename = SceneManager.GetActiveScene().name;
+
+            //If this scene has not been visited before instantiate it in the ids dictionary
+            if (!instance.ids.ContainsKey(instance.scenename))
+            {
+                instance.ids[instance.scenename] = new List<int>();
+            }
+ 
+            
+
             Destroy(this.gameObject);
             return;
         }
@@ -64,9 +75,12 @@ public class DataManager : MonoBehaviour
         //If this scene has not been visited before instantiate it in the ids dictionary
         if (!ids.ContainsKey(scenename))
         {
-            ids[scenename] = new List<int>(); 
+            ids[scenename] = new List<int>();
         }
-        
+
+
+
+
     }
 
     public int GetGiftCount(PresentType present)
@@ -152,6 +166,7 @@ public class DataManager : MonoBehaviour
 
     public bool ContainsId(int id)
     {
+      
         return ids[scenename].Contains(id);
     }
 

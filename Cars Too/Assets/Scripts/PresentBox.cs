@@ -13,8 +13,9 @@ public class PresentBox : Id
     private int numberOfPresentTypes = 5;
 
     // Start is called before the first frame update
-    void Start()
-    { 
+    public override void Start()
+    {
+        base.Start();
         myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
         Debug.Log(myPresentType);
         Instantiate(presentmodels[(int)myPresentType], this.transform);

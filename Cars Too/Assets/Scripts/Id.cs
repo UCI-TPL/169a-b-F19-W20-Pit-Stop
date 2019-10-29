@@ -9,7 +9,7 @@ public class Id : MonoBehaviour
     //At base the gameobject is just deleted if the id is contained
     //Any Class that inherits from this one will get the ID editor as well
     [SerializeField] int id = 0;
-    void Start()
+    public virtual void Start()
     {
         //If the id is contained do something
         if (DataManager.instance.ContainsId(id))
@@ -34,6 +34,7 @@ public class Id : MonoBehaviour
     //Overrite this function if you want something else to happen instead of deletion!
     public virtual void IDContained()
     {
+        
         Destroy(this.gameObject);
     }
 
