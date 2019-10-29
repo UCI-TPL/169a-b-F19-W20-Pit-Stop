@@ -8,6 +8,7 @@ public class PresentBox : Id
 {
     [SerializeField] int value = 1;
     [SerializeField] PresentType myPresentType;
+    [SerializeField] List<GameObject> presentmodels;
 
     private int numberOfPresentTypes = 5;
 
@@ -16,6 +17,7 @@ public class PresentBox : Id
     { 
         myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
         Debug.Log(myPresentType);
+        Instantiate(presentmodels[(int)myPresentType], this.transform);
 
     }
 
