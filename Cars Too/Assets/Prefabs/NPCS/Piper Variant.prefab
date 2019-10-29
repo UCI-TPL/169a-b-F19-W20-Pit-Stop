@@ -123,7 +123,7 @@ PrefabInstance:
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: giftrecievedchats
       value: 
-      objectReference: {fileID: 11400000, guid: 1e41e2a01e710e34a8ebd77ab17dd3a6,
+      objectReference: {fileID: 11400000, guid: 40cf7e50d33a48f4dbb941033e76f6f2,
         type: 2}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: giftvalues.Array.data[0]
