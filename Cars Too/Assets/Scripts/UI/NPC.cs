@@ -18,6 +18,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<int> giftvalues = new List<int>();
     [SerializeField] private Chatlist giftrecievedchats;
     [SerializeField] private int npcthemeindex=0;
+    [SerializeField] private AudioClip affinityupsfx;
     
     private ConfidantMenu cm = null;
 
@@ -142,7 +143,7 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private IEnumerator playConversation(Conversation c)
+    private IEnumerator playConversation(Chat c)
     {
         cm.CloseMenu(false);
         StartCoroutine(dm.playConversation(c.convo));
@@ -152,7 +153,10 @@ public class NPC : MonoBehaviour
         {
             yield return null;
         }
-
+        if (c.C1Reward > 0)
+        {
+            showResult(true, c.C1Reward);
+        }
         //restart confidant menu
         openMenu();
     }
@@ -197,6 +201,7 @@ public class NPC : MonoBehaviour
     public void showResult(bool goodChoice, int affinityrewarded)
     {
         //Display a happy face or an unhappy face here
+        StartCoroutine(cm.AffinityIcon());
         addAffinity(affinityrewarded);
     }
 

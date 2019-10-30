@@ -13,6 +13,8 @@ public class ConfidantMenu : MonoBehaviour
     public GameObject giftingmenu;
     public GameObject confidantbasemenu;
     public int menuthemeindex = 0;
+    public Image affinityup;
+    [SerializeField] private AudioClip affinityupsfx;
 
     private void Start()
     {
@@ -40,6 +42,7 @@ public class ConfidantMenu : MonoBehaviour
     public void CloseMenu(bool imageclosed=true)
     {
         confidantmenu.SetActive(false);
+        affinityup.gameObject.SetActive(false);
         if (imageclosed)
         {
             DataManager.instance.am.PlayCurrentTheme();
@@ -62,5 +65,23 @@ public class ConfidantMenu : MonoBehaviour
     public void GiveGift(PresentType present)
     {
         currentNPC.RecieveGift(present);
+    }
+
+    public IEnumerator AffinityIcon()
+    {
+        affinityup.gameObject.SetActive(true);
+        DataManager.instance.am.PlaySound(affinityupsfx);
+        //make opaque
+        affinityup.color = new Color(affinityup.color.r, affinityup.color.b, affinityup.color.g, 1.0f);
+        float i = 1.0f;
+        float activeframes = 180.0f;
+        float incrementer = i / activeframes;
+        while (i > 0)
+        {
+            affinityup.color = new Color(affinityup.color.r, affinityup.color.b, affinityup.color.g, i);
+            yield return null;
+            i -= incrementer;
+        }
+        affinityup.gameObject.SetActive(false);
     }
 }
