@@ -18,7 +18,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<int> giftvalues = new List<int>();
     [SerializeField] private Chatlist giftrecievedchats;
     [SerializeField] private int npcthemeindex=0;
-    [SerializeField] private AudioClip affinityupsfx;
+
     
     private ConfidantMenu cm = null;
 
