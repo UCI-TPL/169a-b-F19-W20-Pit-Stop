@@ -52,6 +52,8 @@ public class CarMovement : MonoBehaviour
                 player.Respawn();
             }
 
+            Brake();
+
             //Boost
             if(boostUnlocked)
                 Boost();
@@ -68,6 +70,8 @@ public class CarMovement : MonoBehaviour
             {
                 thrust = acceleration * reverseAcceleration;
             }
+
+            Brake();
 
             //Turning mechanics
             turnValue = 0.0f;
@@ -126,15 +130,27 @@ public class CarMovement : MonoBehaviour
             if (Mathf.Abs(thrust) > deadZone)
             {
                 rb.AddForce(transform.forward * thrust);
-                rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
+
+                if(thrust > 0)
+                {
+                    rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
+                    //Debug.Log("Forward: " + turnValue * turnStrength);
+                }
+                else
+                {
+                    rb.AddRelativeTorque(Vector3.down * turnValue * turnStrength );
+                    //Debug.Log("Backward: " + turnValue * turnStrength);
+                }
+                    
             }
 
             //When turning add relative torque to pivot/turn the car
-            if (turnValue > 0 || turnValue < 0)
+            
+            if ((turnValue > 0 || turnValue < 0) && thrust > -deadZone && thrust < deadZone)
             {
                 //rb.AddForce(transform.forward * 3000f);
                 rb.AddRelativeTorque(Vector3.up * turnValue * turnStrength);
-            }
+            } 
 
             //Limit the velocity to a maximum
             if (rb.velocity.sqrMagnitude > (rb.velocity.normalized * maxVelocity).sqrMagnitude)
@@ -159,8 +175,9 @@ public class CarMovement : MonoBehaviour
     public void Boost()
     {
         
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
+            //Debug.Log("boost");
             if (currentBoostSpeed < maxBoostSpeed)
                 currentBoostSpeed += boostFactor;
         }
@@ -181,5 +198,15 @@ public class CarMovement : MonoBehaviour
     public void LockBoost()
     {
         boostUnlocked = false;
+    }
+
+    public void Brake()
+    {
+        Debug.Log("Braking");
+        if(Input.GetKey(KeyCode.Space))
+        {
+            //rb.velocity = Vector3.zero;
+            thrust = 0;
+        }
     }
 }
