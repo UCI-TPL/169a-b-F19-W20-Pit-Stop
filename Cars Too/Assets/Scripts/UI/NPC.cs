@@ -253,7 +253,7 @@ public class NPC : MonoBehaviour
         {
             if (Confidantname.Equals("Piper"))
             {
-                DataManager.instance.canHack = true;
+                DataManager.instance.canBoost = true;
             }
             if (Confidantname.Equals("Dex"))
             {
