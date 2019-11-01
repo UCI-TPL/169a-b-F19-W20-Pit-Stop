@@ -18,6 +18,8 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<int> giftvalues = new List<int>();
     [SerializeField] private Chatlist giftrecievedchats;
     [SerializeField] private int npcthemeindex=0;
+    [SerializeField] private Chatlist LevelupChats;
+    bool running = false;
 
     
     private ConfidantMenu cm = null;
@@ -132,6 +134,7 @@ public class NPC : MonoBehaviour
 
     private void PlayConvorChat(Chat c)
     {
+        running = true;
         DataManager.instance.am.PlayandTrackBGM(npcthemeindex);
         if (c.isConversation)
         {
@@ -159,6 +162,7 @@ public class NPC : MonoBehaviour
         }
         //restart confidant menu
         openMenu();
+        running = false;
     }
 
     private IEnumerator playChatConversation(Chat c)
@@ -195,6 +199,8 @@ public class NPC : MonoBehaviour
 
         //restart confidant menu
         openMenu();
+        running = false;
+
     }
 
     //Displays the result on affinity based on player choice
@@ -210,19 +216,64 @@ public class NPC : MonoBehaviour
     {
         if(DataManager.instance.AddConfidantAffinity(Confidantname, amount))
         {
+            if (LevelupChats.chats[DataManager.instance.GetConfidantLevel(Confidantname)-1]!=null)
+            {
+                StartCoroutine(WaitforChattoEnd(LevelupChats.chats[DataManager.instance.GetConfidantLevel(Confidantname) - 1]));
+            }
+            
             Debug.Log("LEVELED UP");
         }
         
+    }
+
+    IEnumerator WaitforChattoEnd(Chat c)
+    {
+        
+        while (running) {
+            yield return null;
+        }
+        PlayConvorChat(c);
+        LevelUp();
     }
 
     public void RecieveGift(PresentType present)
     {
         
         int affinitygained = giftvalues[(int)present];
-        showResult(affinitygained >= 25, affinitygained);
         PlayConvorChat(giftrecievedchats.chats[(int)present]);
+        showResult(affinitygained >= 25, affinitygained);
 
     }
 
-    
+    private void LevelUp()
+    {
+        //at lvls 2 and 3 give player ability, and carparts respectively
+        int levelupfor = DataManager.instance.GetConfidantLevel(Confidantname);
+        if (levelupfor == 2)
+        {
+            if (Confidantname.Equals("Piper"))
+            {
+                DataManager.instance.canHack = true;
+            }
+            if (Confidantname.Equals("Dex"))
+            {
+                DataManager.instance.affinityBoost = true;
+            }
+            if (Confidantname.Equals("Loco"))
+            {
+                DataManager.instance.canHack = true;
+            }
+            if (Confidantname.Equals("Springtrap"))
+            {
+                DataManager.instance.canDestroy = true;
+            }
+        }
+        else if (levelupfor == 3)
+        {
+            DataManager.instance.AddCarParts(1);
+        }
+
+
+    }
+
 }

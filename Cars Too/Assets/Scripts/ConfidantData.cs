@@ -8,6 +8,7 @@ public class ConfidantData
     string confidantname= "";
     [SerializeField] List<int> clvlthresholds =new List<int>();
     public bool met = false;
+    
 
      public ConfidantData(string s)
     {
@@ -34,7 +35,7 @@ public class ConfidantData
     }
     public int GetConfidantLevel()
     {
-        //Debug.Log(affinity);
+        Debug.Log(affinity);
         for (int i =0;i<clvlthresholds.Count; i++)
         {
             if (affinity < clvlthresholds[i])
@@ -64,6 +65,8 @@ public class ConfidantData
             return 1.0f;
         
     }
+
+    
 
     public void MetConfidant()
     {

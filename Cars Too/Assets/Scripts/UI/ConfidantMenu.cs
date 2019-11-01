@@ -52,8 +52,11 @@ public class ConfidantMenu : MonoBehaviour
 
     public void OpenGiftingMenu()
     {
-        confidantbasemenu.SetActive(false);
-        giftingmenu.SetActive(true);
+        if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 1)
+        {
+            confidantbasemenu.SetActive(false);
+            giftingmenu.SetActive(true);
+        }
     }
 
     public void CloseGiftingMenu()
