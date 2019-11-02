@@ -10,17 +10,24 @@ public class Hat : MonoBehaviour
     [SerializeField] float speed = 5.0f;
     [SerializeField] GameObject hatprefab;
     [SerializeField] GameObject visualhat;
+    private bool throwing = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (!DataManager.instance.canThrow) {
+            visualhat.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (DataManager.instance.canThrow&&!throwing)
+        {
+            visualhat.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Q)&&DataManager.instance.canThrow)
         {
             TryThrowHat();
         }
@@ -35,7 +42,7 @@ public class Hat : MonoBehaviour
     }
     private IEnumerator ThrowHat()
     {
-
+        throwing = true;
         GameObject temphat = Instantiate(hatprefab,this.transform);
         temphat.transform.parent = null;
         startingpointz = temphat.transform.position.z;
@@ -49,5 +56,6 @@ public class Hat : MonoBehaviour
         }
         Destroy(temphat.gameObject);
         visualhat.SetActive(true);
+        throwing = false;
     }
 }

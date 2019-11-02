@@ -24,6 +24,7 @@ public class DataManager : MonoBehaviour
     public bool canBoost = false;
     public bool affinityBoost = false;
     public bool canHack = false;
+    public bool canThrow = false;
 
     public AudioManager am;
 

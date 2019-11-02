@@ -259,17 +259,21 @@ public class NPC : MonoBehaviour
             {
                 DataManager.instance.canBoost = true;
             }
-            if (Confidantname.Equals("Dex"))
+            else if (Confidantname.Equals("Dex"))
             {
                 DataManager.instance.affinityBoost = true;
             }
-            if (Confidantname.Equals("Loco"))
+            else if (Confidantname.Equals("Loco"))
             {
                 DataManager.instance.canHack = true;
             }
-            if (Confidantname.Equals("Springtrap"))
+            else if (Confidantname.Equals("Springtrap"))
             {
                 DataManager.instance.canDestroy = true;
+            }
+            else if (Confidantname.Equals("Mustang"))
+            {
+                DataManager.instance.canThrow = true;
             }
         }
         else if (c.carpartsgained>0)
