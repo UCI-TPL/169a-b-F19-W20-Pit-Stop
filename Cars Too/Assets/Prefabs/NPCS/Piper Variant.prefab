@@ -113,7 +113,7 @@ PrefabInstance:
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: consprite
       value: 
-      objectReference: {fileID: 21300000, guid: f56c5523a82f161458ed958ee530718d,
+      objectReference: {fileID: -594762361201314151, guid: af8ec38d74e3d4f6187179b70d43653e,
         type: 3}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: introchat
