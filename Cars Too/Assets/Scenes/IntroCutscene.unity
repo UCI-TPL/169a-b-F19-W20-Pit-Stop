@@ -351,7 +351,8 @@ MonoBehaviour:
   - speaker: Piper
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: f56c5523a82f161458ed958ee530718d, type: 3}
+    Scenesprite: {fileID: -594762361201314151, guid: af8ec38d74e3d4f6187179b70d43653e,
+      type: 3}
   - speaker: Mustang
     text: 
     expression: {fileID: 0}
@@ -1064,17 +1065,17 @@ PrefabInstance:
     - target: {fileID: 4436490670846126642, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 4436490669095933999, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 700
+      value: 900
       objectReference: {fileID: 0}
     - target: {fileID: 4436490669095933999, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 4436490669306374003, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
@@ -1091,6 +1092,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4436490669095933998, guid: 4a516d422a367c441980708e2178ab00,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -594762361201314151, guid: af8ec38d74e3d4f6187179b70d43653e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a516d422a367c441980708e2178ab00, type: 3}
 --- !u!114 &535360016 stripped
