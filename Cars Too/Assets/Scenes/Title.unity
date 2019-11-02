@@ -972,7 +972,7 @@ MonoBehaviour:
 
     Kyle Jones: Designer, Programmer
 
-    Muhammad Alabayati: Producer
+    Muhammad Albayati: Producer
 
     Xavier Chua: Artist, Programmer
 
@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_margin: {x: -284.95746, y: 0, z: -253.82771, w: -227.38428}
   m_textInfo:
     textComponent: {fileID: 903816606}
-    characterCount: 147
+    characterCount: 146
     spriteCount: 0
     spaceCount: 18
     wordCount: 18

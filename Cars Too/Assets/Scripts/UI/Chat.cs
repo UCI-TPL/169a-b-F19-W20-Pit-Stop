@@ -23,6 +23,9 @@ public class Chat : Conversation
     public int C1Reward = 0;
     public int C2Reward = 0;
 
+    public bool abilityactivation = false;
+    public int carpartsgained = 0;
+
     public string path;
 
 }

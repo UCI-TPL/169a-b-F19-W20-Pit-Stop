@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PiperLevelUpChats
   m_EditorClassIdentifier: 
   chats:
-  - {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
-  - {fileID: 11400000, guid: 9682298a49481564f8f30ca8c171cdcb, type: 2}
-  - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
+  - {fileID: 11400000, guid: 470e717210fbc1a4891a4c2b8ec82be1, type: 2}
+  - {fileID: 11400000, guid: a4c6738815f06d24f977b9471560ec36, type: 2}
+  - {fileID: 11400000, guid: d526afb7be352c847bac98b54215d363, type: 2}
   - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
   - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
   fileloc: /Writing/piper chats.txt

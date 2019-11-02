@@ -160,6 +160,9 @@ public class NPC : MonoBehaviour
         {
             showResult(true, c.C1Reward);
         }
+
+        //Give any additional rewards
+        Rewards(c);
         //restart confidant menu
         openMenu();
         running = false;
@@ -197,6 +200,8 @@ public class NPC : MonoBehaviour
             yield return null;
         }
 
+        //Give any additional rewards
+        Rewards(c);
         //restart confidant menu
         openMenu();
         running = false;
@@ -233,7 +238,7 @@ public class NPC : MonoBehaviour
             yield return null;
         }
         PlayConvorChat(c);
-        LevelUp();
+        
     }
 
     public void RecieveGift(PresentType present)
@@ -245,11 +250,10 @@ public class NPC : MonoBehaviour
 
     }
 
-    private void LevelUp()
+    private void Rewards(Chat c)
     {
-        //at lvls 2 and 3 give player ability, and carparts respectively
-        int levelupfor = DataManager.instance.GetConfidantLevel(Confidantname);
-        if (levelupfor == 2)
+        //give abilitys or carparts based on chat
+        if (c.abilityactivation)
         {
             if (Confidantname.Equals("Piper"))
             {
@@ -268,11 +272,10 @@ public class NPC : MonoBehaviour
                 DataManager.instance.canDestroy = true;
             }
         }
-        else if (levelupfor == 3)
+        else if (c.carpartsgained>0)
         {
-            DataManager.instance.AddCarParts(1);
+            DataManager.instance.AddCarParts(c.carpartsgained);
         }
-
 
     }
 
