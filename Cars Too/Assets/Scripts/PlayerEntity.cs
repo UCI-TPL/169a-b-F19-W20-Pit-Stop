@@ -25,27 +25,32 @@ public class PlayerEntity : MonoBehaviour
 
     }
 
-    void OnTriggerEnter(Collider other)
+     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("CarPart"))
+
+        ProcessPickup(other);
+        if(other.CompareTag("Floor"))
+        {
+            Respawn();
+        }
+    }
+    public void ProcessPickup(Collider other)
+    {
+        
+        if (other.CompareTag("CarPart"))
         {
             DataManager.instance.PickedUpCarPart(other.GetComponent<CarPart>());
             DataManager.instance.am.PlaySound(pickup);
             Destroy(other.gameObject);
         }
 
-        if(other.CompareTag("PresentBox"))
+        if (other.CompareTag("PresentBox"))
         {
 
             DataManager.instance.PickedUpGift(other.GetComponent<PresentBox>());
             DataManager.instance.am.PlaySound(pickup);
             Destroy(other.gameObject);
             //PrintGifts();
-        }
-
-        if(other.CompareTag("Floor"))
-        {
-            Respawn();
         }
     }
 
