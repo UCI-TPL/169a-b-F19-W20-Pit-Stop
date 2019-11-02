@@ -15,13 +15,15 @@ public class ConfidantMenu : MonoBehaviour
     public int menuthemeindex = 0;
     public Image affinityup;
     [SerializeField] private AudioClip affinityupsfx;
+    public GameObject hidegifts;
+    public GameObject hidedate;
 
     private void Start()
     {
         confidantmenu.SetActive(false);
     }
 
-    public void OpenMenu(NPC npc,Sprite s, string n)
+    public void OpenMenu(NPC npc, Sprite s, string n)
     {
         DataManager.instance.am.PlayandTrackBGM(menuthemeindex);
         confidant.gameObject.SetActive(true);
@@ -31,6 +33,14 @@ public class ConfidantMenu : MonoBehaviour
         nametext.text = n;
         confidant.sprite = s;
         currentNPC = npc;
+        if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 1)
+        {
+            hidegifts.SetActive(false);
+        }
+        if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 4)
+        {
+            hidedate.SetActive(false);
+        }
     }
 
     public void CloseMenuButton()
@@ -52,8 +62,10 @@ public class ConfidantMenu : MonoBehaviour
 
     public void OpenGiftingMenu()
     {
-        confidantbasemenu.SetActive(false);
-        giftingmenu.SetActive(true);
+        
+            confidantbasemenu.SetActive(false);
+            giftingmenu.SetActive(true);
+        
     }
 
     public void CloseGiftingMenu()

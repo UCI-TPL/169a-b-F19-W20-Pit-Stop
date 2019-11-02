@@ -19,6 +19,12 @@ public class DataManager : MonoBehaviour
     //Keeps track of which items have been collected
     Dictionary<string, List<int>> ids = new Dictionary<string, List<int>>();
 
+    //Ability bools
+    public bool canDestroy = false;
+    public bool canBoost = false;
+    public bool affinityBoost = false;
+    public bool canHack = false;
+
     public AudioManager am;
 
     //Tracks car parts

@@ -18,6 +18,8 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<int> giftvalues = new List<int>();
     [SerializeField] private Chatlist giftrecievedchats;
     [SerializeField] private int npcthemeindex=0;
+    [SerializeField] private Chatlist LevelupChats;
+    bool running = false;
 
     
     private ConfidantMenu cm = null;
@@ -132,6 +134,7 @@ public class NPC : MonoBehaviour
 
     private void PlayConvorChat(Chat c)
     {
+        running = true;
         DataManager.instance.am.PlayandTrackBGM(npcthemeindex);
         if (c.isConversation)
         {
@@ -157,8 +160,12 @@ public class NPC : MonoBehaviour
         {
             showResult(true, c.C1Reward);
         }
+
+        //Give any additional rewards
+        Rewards(c);
         //restart confidant menu
         openMenu();
+        running = false;
     }
 
     private IEnumerator playChatConversation(Chat c)
@@ -193,8 +200,12 @@ public class NPC : MonoBehaviour
             yield return null;
         }
 
+        //Give any additional rewards
+        Rewards(c);
         //restart confidant menu
         openMenu();
+        running = false;
+
     }
 
     //Displays the result on affinity based on player choice
@@ -210,8 +221,23 @@ public class NPC : MonoBehaviour
     {
         if(DataManager.instance.AddConfidantAffinity(Confidantname, amount))
         {
+            if (LevelupChats.chats[DataManager.instance.GetConfidantLevel(Confidantname)-1]!=null)
+            {
+                StartCoroutine(WaitforChattoEnd(LevelupChats.chats[DataManager.instance.GetConfidantLevel(Confidantname) - 1]));
+            }
+            
             Debug.Log("LEVELED UP");
         }
+        
+    }
+
+    IEnumerator WaitforChattoEnd(Chat c)
+    {
+        
+        while (running) {
+            yield return null;
+        }
+        PlayConvorChat(c);
         
     }
 
@@ -219,10 +245,38 @@ public class NPC : MonoBehaviour
     {
         
         int affinitygained = giftvalues[(int)present];
-        showResult(affinitygained >= 25, affinitygained);
         PlayConvorChat(giftrecievedchats.chats[(int)present]);
+        showResult(affinitygained >= 25, affinitygained);
 
     }
 
-    
+    private void Rewards(Chat c)
+    {
+        //give abilitys or carparts based on chat
+        if (c.abilityactivation)
+        {
+            if (Confidantname.Equals("Piper"))
+            {
+                DataManager.instance.canBoost = true;
+            }
+            if (Confidantname.Equals("Dex"))
+            {
+                DataManager.instance.affinityBoost = true;
+            }
+            if (Confidantname.Equals("Loco"))
+            {
+                DataManager.instance.canHack = true;
+            }
+            if (Confidantname.Equals("Springtrap"))
+            {
+                DataManager.instance.canDestroy = true;
+            }
+        }
+        else if (c.carpartsgained>0)
+        {
+            DataManager.instance.AddCarParts(c.carpartsgained);
+        }
+
+    }
+
 }
