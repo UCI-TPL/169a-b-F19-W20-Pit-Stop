@@ -23,7 +23,7 @@ MonoBehaviour:
   Choice2: 
   Route1: []
   Route2: []
-  isConversation: 0
+  isConversation: 1
   C1Reward: 0
   C2Reward: 0
   abilityactivation: 0

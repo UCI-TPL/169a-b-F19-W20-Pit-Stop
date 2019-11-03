@@ -65,6 +65,8 @@ public class DataManager : MonoBehaviour
         {
             instance = this;
 
+            ResetPhase();
+
             confidantExp["Piper"] = new ConfidantData("Piper");
             confidantExp["Dex"] = new ConfidantData("Dex");
             confidantExp["Loco"] = new ConfidantData("Loco");

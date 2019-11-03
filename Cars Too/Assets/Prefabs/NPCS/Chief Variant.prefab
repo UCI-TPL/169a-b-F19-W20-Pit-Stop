@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2053784352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5719924070912364178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eda2424b9e3be1469060083be38ee10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomchats:
+  - {fileID: 11400000, guid: 8f73ebb95eeb1254889c22e2ef201265, type: 2}
+  - {fileID: 11400000, guid: 5af028b9a4f65b24fae0a9abd596343c, type: 2}
+  Confidantname: Chief
+  close: 0
+  player: {fileID: 0}
+  dm: {fileID: 0}
+  consprite: {fileID: 21300000, guid: 4eac3908037aaba44a0c8e68a635d827, type: 3}
+  dialoguebox: {fileID: 0}
+  introchat: {fileID: 11400000, guid: 94239bd1ec2bd36429affee9f77fd960, type: 2}
+  idlechats: {fileID: 0}
+  talkui: {fileID: 6855491335893725469}
+  npcthemeindex: 0
+  carPartsToNextPhase: 0
+--- !u!1001 &3310243349854654583
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7102484934524116709, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_Name
+      value: Chief
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 161.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5079813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.86136806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 61.059002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109768078169042166, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: randomchats.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: dm
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: dialoguebox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: consprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4eac3908037aaba44a0c8e68a635d827,
+        type: 3}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: introchat
+      value: 
+      objectReference: {fileID: 11400000, guid: 94239bd1ec2bd36429affee9f77fd960,
+        type: 2}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: randomchats.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f73ebb95eeb1254889c22e2ef201265,
+        type: 2}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: Confidantname
+      value: Chief
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4543441094159872189, guid: 02ac3d654045492449833c4ea0cb8429, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 02ac3d654045492449833c4ea0cb8429, type: 3}
+--- !u!1 &5719924070912364178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7102484934524116709, guid: 02ac3d654045492449833c4ea0cb8429,
+    type: 3}
+  m_PrefabInstance: {fileID: 3310243349854654583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6855491335893725469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8274169994419970410, guid: 02ac3d654045492449833c4ea0cb8429,
+    type: 3}
+  m_PrefabInstance: {fileID: 3310243349854654583}
+  m_PrefabAsset: {fileID: 0}
