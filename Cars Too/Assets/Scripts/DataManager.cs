@@ -9,7 +9,7 @@ public class DataManager : MonoBehaviour
     public static DataManager instance = null;
 
     //Indicates the current phase
-    public int phase = 1;
+    public int phase = 0;
 
     Dictionary<string, ConfidantData> confidantExp = new Dictionary<string, ConfidantData>();
 
@@ -187,5 +187,15 @@ public class DataManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ResetPhase()
+    {
+        phase = 0;
+    }
+
+    public void IncreasePhase()
+    {
+        phase++;
     }
 }
