@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: SpringtrapChats1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Springtrap
+    text: You still around? I'm surprised.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: Me too.
+  Choice2: Why's that?
+  Route1:
+  - speaker: Springtrap
+    text: Heh.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You just don't seem the type to stick around. What made you stay?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What made you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*chuckles* You''re gonna have to try a li''l harder than that to get somethin''
+      out of me. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Later.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Springtrap
+    text: You just don't seem the type to stick around. What made you stay?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What made you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*chuckles* You''re gonna have to try a li''l harder than that to get somethin''
+      out of me. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Later.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 25
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

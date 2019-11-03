@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: DexChat2
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: So, what, did you wake up on a race track or something?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Oh! I'm glad you asked!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh no.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'I was actually one of the first to wake up! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'There was a blinding light for a split second. And then, boom! I knew who
+      I was! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: A champion!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'I''m the only one around here with the blinding light story, so it must
+      mean it was only for special cars. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: 'Dex:'
+    text: So don't feel too bad if you didn't get to see it! It just wasn't meant
+      for you!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh phew. I was really bummed about that for a second, but that really made
+      me feel better.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 25
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

@@ -1,0 +1,59 @@
+Springtrap:
+You still around? I'm surprised.
+
+EndC
+
+Choices
+Me too.
+Why's that?
+
+Springtrap:
+Heh.
+
+Springtrap:
+You just don't seem the type to stick around. What made you stay?
+
+Lightning:
+What made you?
+
+Springtrap:
+*chuckles* You're gonna have to try a li'l harder than that to get somethin' out of me. 
+
+Springtrap:
+Later.
+
+End
+
+Springtrap:
+You just don't seem the type to stick around. What made you stay?
+
+Lightning:
+What made you?
+
+Springtrap:
+*chuckles* You're gonna have to try a li'l harder than that to get somethin' out of me. 
+
+Springtrap:
+Later.
+
+End
+
+Springtrap:
+Stayin' out of trouble, tin toy?
+
+Lightning:
+Is there a particular reason you're suspicious of me?
+
+Springtrap:
+Is there a "particular" reason I shouldn't be?
+
+Springtrap:
+Strangers aren't exactly easy to come by in these parts with the roads bein' the way they are.
+
+Springtrap:
+We wake up, not a human in sight, and what? We're just supposed to trust anyone we come across?
+
+Springtrap:
+I dunno much about how things worked before, but I do know trust is something ya earn.
+
+End

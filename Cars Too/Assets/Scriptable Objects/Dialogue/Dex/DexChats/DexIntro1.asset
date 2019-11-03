@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: DexIntro1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Dex
+    text: Hey there! What's cookin' good lookin'?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Excuse me?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Oh, my bad!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I should've let you put your sunroof on before DAZZLING you with my presence!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh. I see.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Are you Dex?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: THE one and only! Five time world-class champion of the Nova Circuit, the
+      Krystal Circuit, the Rodney Circuit, AND -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: The Ultimate Rocket Raceway.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Isn't that a go-kart track?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: If it's got a checkered flag at the end of it, I've won it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: How noble.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Of course, I assume you've heard of me?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Piper mentioned you once or twice.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: She described you as "overwhelming at times"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Hah! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Well, it's not MY fault it's hard to keep my pure awesomeness from the exhaust!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You know, I could teach you a thing or two. It's important to give back
+      to the little guys, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Little guys?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Piper told me about you too. She said you're here to help look for parts,
+      yeah?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: If you get stuck, don't hesitate to come get me! Helping out the inexperienced
+      is MY specialty.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wow. Thanks.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I'll keep that in mind.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

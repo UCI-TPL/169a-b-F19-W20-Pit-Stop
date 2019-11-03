@@ -1,0 +1,89 @@
+Dex:
+Knew you'd be back for more!
+
+Lightning:
+More what?
+
+Dex:
+More of the MASTER.
+
+Lightning:
+Uh huh.
+
+Lightning:
+I think I'm gonna go...-
+
+Dex:
+Hey, hey, hey! Don't be like that!
+
+Dex:
+Don't you wanna see the sweet new tricks I've got? Fresh off the press!
+
+Lightning:
+Tricks? Aren't you a race car?
+
+Dex:
+Race AND trick car. Impressed?
+
+EndC
+
+Choices
+Indeed
+Indeed not
+
+Dex:
+Of course you are! 
+
+Dex:
+If there's gotta be one last racing champion, it's only natural that it be the BEST of the best!
+
+Lightning:
+Hm. Yes.
+
+Lightning:
+Your mirrors must get plenty of work.
+
+End
+
+Dex:
+Of course you are! 
+
+Dex:
+If there's gotta be one last racing champion, it's only natural that it be the BEST of the best!
+
+Lightning:
+Hm. Yes.
+
+Lightning:
+Your mirrors must get plenty of work.
+
+End
+
+Lightning:
+So, what, did you wake up on a race track or something?
+
+Dex:
+Oh! I'm glad you asked!
+
+Lightning:
+Oh no.
+
+Dex:
+I was actually one of the first to wake up! 
+
+Dex:
+There was a blinding light for a split second. And then, boom! I knew who I was! 
+
+Dex:
+A champion!
+
+Dex:
+I'm the only one around here with the blinding light story, so it must mean it was only for special cars. 
+
+Dex: 
+So don't feel too bad if you didn't get to see it! It just wasn't meant for you!
+
+Lightning:
+Oh phew. I was really bummed about that for a second, but that really made me feel better.
+
+End
