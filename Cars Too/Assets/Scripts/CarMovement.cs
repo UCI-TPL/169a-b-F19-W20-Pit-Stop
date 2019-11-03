@@ -202,7 +202,7 @@ public class CarMovement : MonoBehaviour
 
     public void Brake()
     {
-        Debug.Log("Braking");
+        //Debug.Log("Braking");
         if(Input.GetKey(KeyCode.Space))
         {
             //rb.velocity = Vector3.zero;
