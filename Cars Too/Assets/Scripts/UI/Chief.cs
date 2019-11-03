@@ -72,7 +72,7 @@ public class Chief : MonoBehaviour
     {
         if (close && Input.GetKeyDown(KeyCode.E))
         {
-            playChat();
+            openMenu();
         }
 
     }
@@ -95,22 +95,22 @@ public class Chief : MonoBehaviour
         }
     }
 
-/*
+
     public void openMenu()
     {
         //cm.OpenMenu(this, consprite, Confidantname);
         talkui.SetActive(false);
         close = false;
-        //dm.setNPC(this, consprite);
+
+        TurnOnSprite();
         if (!met)
         {
-            //StartCoroutine(playChatConversation(introchat));
             PlayConvorChat(introchat);
             DataManager.instance.ConfidantMet(Confidantname);
         }
         else
         {
-            dm.DisplayLine(idlechats.convo[Random.Range(0, idlechats.convo.Count)]);
+            playChat();
         }
 
         //player.stopmoving
@@ -128,11 +128,11 @@ public class Chief : MonoBehaviour
         player.GetComponent<CarMovement>().Unpause();
     }
 
-*/
+
     public void playChat()
     {
         //Pause PlayerMovement
-        PausePlayer();
+        //PausePlayer();
 
         //Turn on Chief sprite
         TurnOnSprite();
@@ -183,8 +183,7 @@ public class Chief : MonoBehaviour
         running = false;
 
         //Resume game
-        TurnOffSprite();
-        UnpausePlayer();
+        closeMenu();
     }
 
     //Assume that this will only be used for moving to next level
@@ -226,8 +225,8 @@ public class Chief : MonoBehaviour
         running = false;
 
         //Resume Game
-        TurnOffSprite();
-        UnpausePlayer();
+        closeMenu();
+
 
         if (moveToNextLevel)
         {
