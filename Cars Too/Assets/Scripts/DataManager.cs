@@ -70,6 +70,7 @@ public class DataManager : MonoBehaviour
             confidantExp["Loco"] = new ConfidantData("Loco");
             confidantExp["Springtrap"] = new ConfidantData("Springtrap");
             confidantExp["Mustang"] = new ConfidantData("Mustang");
+            confidantExp["Chief"] = new ConfidantData("Chief");
 
             foreach (PresentType present in PresentType.GetValues(typeof(PresentType)))
             {
