@@ -24,7 +24,7 @@ public class Hacking : Id
     // Update is called once per frame
     void Update()
     {
-        if (close&&Input.GetKeyDown(KeyCode.E))
+        if (close&&Input.GetKeyDown(KeyCode.E)&&DataManager.instance.canHack)
         {
             //On being hacked add its id to the datamanager
             DataManager.instance.AddID(GetID());
