@@ -5,24 +5,33 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
-    [SerializeField] private  List<Chat> randomchats =null; //holds all the dialogue for when the npc greets the player
+
     [SerializeField] public string Confidantname = ""; //determines where to reference confidant exp from in the list
     public bool close = false;  //checks to see if te player is close
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject player; 
     [SerializeField] private DialogueManager dm= null;
-    [SerializeField] private Sprite consprite=null;
-    [SerializeField] private GameObject dialoguebox;
-    [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
-    [SerializeField] private Conversation idlechats=null; //small lines said in the confidant menu
-    [SerializeField] private GameObject talkui = null;
-    [SerializeField] private List<int> giftvalues = new List<int>();
-    [SerializeField] private Chatlist giftrecievedchats;
+    [SerializeField] private Sprite consprite=null; //portrait
+    [SerializeField] private GameObject dialoguebox; //dialm object
+    [SerializeField] private GameObject talkui = null;//e to interact ui
+    [SerializeField] private List<int> giftvalues = new List<int>(); //affinity values for each gift
+    private ConfidantMenu cm = null; // confidantmenu reference
+    bool running = false; //indicates when a chat is being processed 
+
+    //index for the npc's theme within the audiomanager
     [SerializeField] private int npcthemeindex=0;
-    [SerializeField] private Chatlist LevelupChats;
-    bool running = false;
+
+
+    //Different Chat and Conversation SO 
+    [SerializeField] private List<Chatlist> randomchats = null; //holds chat dialogue that is played when the player chooses to chat
+    [SerializeField] private Chatlist LevelupChats; //chats that are played on confidant lvlup
+    [SerializeField] private Chatlist giftrecievedchats; //chats that are played when a gift is received
+    [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
+    [SerializeField] private Conversation idlechats = null; //small lines said in the confidant menu
+    [SerializeField] private Chat nomorechats = null; //default line for when there are no more chats in the current phase
+
 
     
-    private ConfidantMenu cm = null;
+
 
 
     private bool met
@@ -128,8 +137,22 @@ public class NPC : MonoBehaviour
 
     public void playChat()
     {
-        PlayConvorChat(randomchats[Random.Range(0, randomchats.Count)]);
+        //if we exceed the current amount of chats, play the default chat
+        if (nomorechatsaval())
+        {
+            PlayConvorChat(nomorechats);
+        }
+        else
+        {
+            //otherwise we play the chat and increment the index
+            PlayConvorChat(randomchats[DataManager.instance.phase].chats[DataManager.instance.GetConfidantData(Confidantname).getchatindex()]);
+            DataManager.instance.GetConfidantData(Confidantname).incrementchatindex();
+        }
       
+    }
+
+    public bool nomorechatsaval() {
+        return DataManager.instance.GetConfidantData(Confidantname).getchatindex() >= randomchats[DataManager.instance.phase].chats.Count;
     }
 
     private void PlayConvorChat(Chat c)

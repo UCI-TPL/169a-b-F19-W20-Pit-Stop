@@ -25,21 +25,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f28d820f24305cd478406dc1d97c0ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomchats:
-  - {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
-  - {fileID: 11400000, guid: 71b0491c616538746948f21a76e44e93, type: 2}
   Confidantname: Mustang
   close: 0
   player: {fileID: 0}
   dm: {fileID: 0}
   consprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
   dialoguebox: {fileID: 0}
+  talkui: {fileID: 5611003960058169850}
+  giftvalues: 320000003200000032000000320000003200000032000000
+  npcthemeindex: 2
+  randomchats:
+  - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
+  - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
+  - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
+  LevelupChats: {fileID: 11400000, guid: f0eaf491bef23614296a56224583bf2c, type: 2}
+  giftrecievedchats: {fileID: 11400000, guid: 40cf7e50d33a48f4dbb941033e76f6f2, type: 2}
   introchat: {fileID: 11400000, guid: d073543be40565f42b78236edfee389d, type: 2}
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
-  talkui: {fileID: 5611003960058169850}
-  giftvalues: 
-  giftrecievedchats: {fileID: 0}
-  npcthemeindex: 2
+  nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -33,13 +33,21 @@ public class ConfidantMenu : MonoBehaviour
         nametext.text = n;
         confidant.sprite = s;
         currentNPC = npc;
-        if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 1)
+        if (DataManager.instance.GetConfidantLevel(npc.Confidantname) >= 1)
         {
             hidegifts.SetActive(false);
         }
-        if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 4)
+        else
+        {
+            hidegifts.SetActive(true);
+        }
+        if (DataManager.instance.GetConfidantLevel(npc.Confidantname) >= 4)
         {
             hidedate.SetActive(false);
+        }
+        else
+        {
+            hidedate.SetActive(true);
         }
     }
 
@@ -62,7 +70,6 @@ public class ConfidantMenu : MonoBehaviour
 
     public void OpenGiftingMenu()
     {
-        
             confidantbasemenu.SetActive(false);
             giftingmenu.SetActive(true);
         

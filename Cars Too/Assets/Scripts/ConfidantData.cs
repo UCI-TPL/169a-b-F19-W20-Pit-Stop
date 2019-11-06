@@ -8,6 +8,7 @@ public class ConfidantData
     string confidantname= "";
     [SerializeField] List<int> clvlthresholds =new List<int>();
     public bool met = false;
+    public List<int> chatindex=new List<int>();
     
 
      public ConfidantData(string s)
@@ -15,6 +16,9 @@ public class ConfidantData
         affinity = 0;
         confidantname =s;
         initlvlthresholds();
+        chatindex.Add(0);
+        chatindex.Add(0);
+        chatindex.Add(0);
     }
 
     public ConfidantData(int i, string s)
@@ -22,6 +26,9 @@ public class ConfidantData
         affinity = i;
         confidantname = s;
         initlvlthresholds();
+        chatindex.Add(0);
+        chatindex.Add(0);
+        chatindex.Add(0);
     }
 
 
@@ -66,7 +73,21 @@ public class ConfidantData
         
     }
 
-    
+    public int getchatindex()
+    {
+        return chatindex[DataManager.instance.phase];
+    }
+    public void incrementchatindex()
+    {
+        chatindex[DataManager.instance.phase]++;
+    }
+
+    public void resetchatindex()
+    {
+        chatindex[DataManager.instance.phase]=0;
+    }
+
+
 
     public void MetConfidant()
     {
