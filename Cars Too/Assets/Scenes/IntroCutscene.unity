@@ -329,7 +329,7 @@ MonoBehaviour:
   dm: {fileID: 278171659}
   cl: {fileID: 11400000, guid: a3e2fe0187422f545b89b152cedc4431, type: 2}
   dialoguebox: {fileID: 2050181624}
-  destscene: LVL1Redesign
+  destscene: LVL1
 --- !u!114 &278171658
 MonoBehaviour:
   m_ObjectHideFlags: 0
