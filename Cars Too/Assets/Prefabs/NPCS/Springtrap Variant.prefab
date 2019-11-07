@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 3603995873594449220, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_Name
-      value: Springtrap
+      value: Springtrap Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: randomchats.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
@@ -51,13 +56,13 @@ PrefabInstance:
         type: 3}
       propertyPath: randomchats.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 4f67821d526eba94ab280499ad5f8fe7,
+      objectReference: {fileID: 11400000, guid: ebc6fe591c5fcf34ab37cfc7b7f28d6d,
         type: 2}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: randomchats.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: ad6b96034f4219349bb74c06b4d0a7d8,
+      objectReference: {fileID: 11400000, guid: ebc6fe591c5fcf34ab37cfc7b7f28d6d,
         type: 2}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
@@ -76,6 +81,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5d72b3da3641ba34aa785d986da7302f,
         type: 3}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: randomchats.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: ebc6fe591c5fcf34ab37cfc7b7f28d6d,
+        type: 2}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x

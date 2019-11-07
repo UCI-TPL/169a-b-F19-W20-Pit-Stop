@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
-{   
+{
     //The Text locations for the dialouge, and speaker name
     [SerializeField] private TextMeshProUGUI dialgouebox;
     [SerializeField] private TextMeshProUGUI speakerbox;
@@ -21,7 +21,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Choicetext2;
     [SerializeField] public NPC currentnpc;
     [SerializeField] private AudioClip ac;
-    [SerializeField] private ScenePortraits sp=null;
+    [SerializeField] private ScenePortraits sp = null;
+    [SerializeField] private bool skip = false;
+    [SerializeField] private GameObject skipbutton = null;
 
 
 
@@ -40,7 +42,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         //Detect Left Clicks and instant display text if it is not all displayed
-        if (GetInput()&&running)
+        if (GetInput() && running)
         {
             instant = true;
         }
@@ -56,6 +58,7 @@ public class DialogueManager : MonoBehaviour
         canvasobjects.SetActive(true);
         dialgouebox.text = d.text;
         speakerbox.text = d.speaker;
+        skipbutton.SetActive(false);
     }
 
     public void CloseLine()
@@ -79,36 +82,44 @@ public class DialogueManager : MonoBehaviour
 
         while (Choicecanvas.activeSelf)
         {
-            
+
             yield return null;
         }
     }
 
     public bool GetInput()
     {
-        return Input.GetKeyDown(KeyCode.Mouse0)|| Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.Return);
+        return Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
     }
 
     public IEnumerator playConversation(List<Dialogue> d)
     {
         //Turn on the Dialogue canvas objects
         canvasobjects.SetActive(true);
+        skipbutton.SetActive(true);
 
         //For each line of dialogue play it separately
-        for(int i=0; i < d.Count; i++)
+        for (int i = 0; i < d.Count; i++)
         {
             StartCoroutine(playDialogue(d[i]));
 
             //Wait here for dialogue to play
             while (running)
             {
-                
+
                 yield return null;
 
             }
 
-            //Wait a frame to allow for a click to expidite dialogue to not be counted again when proceeding to the next line.
+            if (skip)
+            {
+                skip = false;
+                break;
+            }
+            //Wait a frame to allow for a click to expedite dialogue to not be counted again when proceeding to the next line.
             yield return null;
+
+            
 
             //Wait here with dialogue displayed until player clicks
             while (!finished)
@@ -120,7 +131,7 @@ public class DialogueManager : MonoBehaviour
                     finished = true;
                     DataManager.instance.am.PlaySound(ac);
                 }
-                
+
             }
 
             //reset variable
@@ -142,7 +153,7 @@ public class DialogueManager : MonoBehaviour
         {
             sp.UpdatePortraits(d.speaker);
         }
-        while(index<d.text.Length)
+        while (index < d.text.Length)
         {
             //if the player has clicked display all text
             if (instant)
@@ -153,12 +164,16 @@ public class DialogueManager : MonoBehaviour
                 index = d.text.Length;
                 //DataManager.instance.am.PlaySound(ac);
                 break;
-                
+
+            }
+            else if (skip)
+            {
+                break;
             }
             else
             {
                 //Otherwise display a number of chars determined by speed
-                for(int i =index; i< index+speed; i++)
+                for (int i = index; i < index + speed; i++)
                 {
                     if (i >= d.text.Length)
                     {
@@ -208,5 +223,10 @@ public class DialogueManager : MonoBehaviour
     public void chat()
     {
         currentnpc.playChat();
+    }
+
+    public void skipped()
+    {
+        skip = true;
     }
 }

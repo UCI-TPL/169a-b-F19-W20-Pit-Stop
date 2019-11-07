@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3603995873594449220, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_Name
-      value: Dex
+      value: Dex Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
@@ -51,13 +51,13 @@ PrefabInstance:
         type: 3}
       propertyPath: randomchats.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 51442f7bc5808b44dabd39789d94cd69,
+      objectReference: {fileID: 11400000, guid: 4850e3d26bc0eaf4a8d26837c59cb458,
         type: 2}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: randomchats.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 955af481a323ba0428585170541c73e8,
+      objectReference: {fileID: 11400000, guid: 4850e3d26bc0eaf4a8d26837c59cb458,
         type: 2}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
@@ -76,6 +76,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a883c2df0d603fd43b4625c0b5d33e15,
         type: 3}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: randomchats.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4850e3d26bc0eaf4a8d26837c59cb458,
+        type: 2}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x
