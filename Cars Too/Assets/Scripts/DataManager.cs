@@ -31,6 +31,9 @@ public class DataManager : MonoBehaviour
     //Tracks car parts
     [SerializeField] public int carParts=0;
 
+    //Player name
+    [SerializeField] private string myName = "Mightning LcQueen";
+
     //Used to listen and call functions whenever gifts or car parts increase
     public UnityEvent giftAcquired;
     public UnityEvent carPartAcquired;
@@ -199,5 +202,16 @@ public class DataManager : MonoBehaviour
     public void IncreasePhase()
     {
         phase++;
+    }
+
+    public string GetName()
+    {
+        return myName;
+    }
+
+    public void SetName(string s)
+    {
+        myName = s;
+        Debug.Log("myName");
     }
 }
