@@ -36,9 +36,9 @@ public class ConfidantData
     {
         clvlthresholds.Add(50);
         clvlthresholds.Add(150);
-        clvlthresholds.Add(300);
-        clvlthresholds.Add(450);
-        clvlthresholds.Add(700);
+        clvlthresholds.Add(250);
+        clvlthresholds.Add(350);
+        clvlthresholds.Add(500);
     }
     public int GetConfidantLevel()
     {

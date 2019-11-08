@@ -103,4 +103,9 @@ public class ConfidantMenu : MonoBehaviour
         }
         affinityup.gameObject.SetActive(false);
     }
+
+    public void DateNPC()
+    {
+        currentNPC.PlayDate();
+    }
 }

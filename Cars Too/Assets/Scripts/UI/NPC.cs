@@ -28,6 +28,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] private Conversation idlechats = null; //small lines said in the confidant menu
     [SerializeField] private Chat nomorechats = null; //default line for when there are no more chats in the current phase
+    [SerializeField] private Chat date = null; //chat to be played when date is clicked
 
 
     
@@ -304,6 +305,11 @@ public class NPC : MonoBehaviour
             DataManager.instance.AddCarParts(c.carpartsgained);
         }
 
+    }
+
+    public void PlayDate()
+    {
+        PlayConvorChat(date);
     }
 
 }

@@ -43,6 +43,7 @@ MonoBehaviour:
   introchat: {fileID: 11400000, guid: d073543be40565f42b78236edfee389d, type: 2}
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
   nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
+  date: {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0
