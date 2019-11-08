@@ -146,9 +146,10 @@ public class DialogueManager : MonoBehaviour
     {
         //Reset defaults and set speaker
         running = true;
-        speakerbox.text = d.speaker;
+        speakerbox.text = d.speaker.Replace("Lightning",DataManager.instance.GetName());
         dialgouebox.text = "";
         index = 0;
+        string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
         if (sp != null)
         {
             sp.UpdatePortraits(d.speaker);
@@ -159,9 +160,9 @@ public class DialogueManager : MonoBehaviour
             if (instant)
             {
                 running = false;
-                dialgouebox.text = d.text;
+                dialgouebox.text = dialoguetext;
                 instant = false;
-                index = d.text.Length;
+                index = dialoguetext.Length;
                 //DataManager.instance.am.PlaySound(ac);
                 break;
 
@@ -175,13 +176,13 @@ public class DialogueManager : MonoBehaviour
                 //Otherwise display a number of chars determined by speed
                 for (int i = index; i < index + speed; i++)
                 {
-                    if (i >= d.text.Length)
+                    if (i >= dialoguetext.Length)
                     {
                         running = false;
                         break;
                     }
 
-                    dialgouebox.text += d.text[i];
+                    dialgouebox.text += dialoguetext[i];
                 }
                 index += speed;
             }
