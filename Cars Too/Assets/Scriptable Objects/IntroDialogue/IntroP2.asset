@@ -22,6 +22,10 @@ MonoBehaviour:
     text: Should be nothing Lightning can't plow through.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: He learned from the best after all.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

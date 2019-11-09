@@ -22,11 +22,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Dex
-    text: Anyway there should be a on your right there that you can hack into.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: Anyway there should be a on your right there that you can hack into.
+    text: Anyway there should be a door on your right there that you can hack into.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Dex

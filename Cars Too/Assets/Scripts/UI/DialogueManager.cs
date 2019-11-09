@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private ScenePortraits sp = null;
     [SerializeField] private bool skip = false;
     [SerializeField] private GameObject skipbutton = null;
-    [SerializeField] private float time = .6f;
+    [SerializeField] private float time = 1.25f; //wait time when autoplaying dialogue
 
 
 
@@ -250,7 +250,7 @@ public class DialogueManager : MonoBehaviour
         //For each line of dialogue play it separately
         for (int i = 0; i < d.Count; i++)
         {
-            StartCoroutine(playDialogue(d[i]));
+            StartCoroutine(playAutoDialogue(d[i]));
 
             //Wait here for dialogue to play
             while (running)
@@ -299,10 +299,10 @@ public class DialogueManager : MonoBehaviour
         dialgouebox.text = "";
         index = 0;
         string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
-        skipbutton.SetActive(false);
+        Debug.Log(dialoguetext);
       
 
-        while (index < d.text.Length)
+        while (index < dialoguetext.Length)
         {
             //if the player has clicked display all text
 
@@ -311,6 +311,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     if (i >= dialoguetext.Length)
                     {
+                        
                         running = false;
                         break;
                     }
@@ -319,9 +320,11 @@ public class DialogueManager : MonoBehaviour
                 }
                 index += speed;
 
+
             //Yield until next frame and then repeat
             yield return null;
         }
+
 
         running = false;
     }
