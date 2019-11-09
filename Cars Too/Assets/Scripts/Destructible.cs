@@ -5,6 +5,7 @@ using UnityEngine;
 public class Destructible : MonoBehaviour
 {
     Rigidbody rb;
+    public float m = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class Destructible : MonoBehaviour
     {
         if (DataManager.instance.canDestroy)
         {
-            rb.mass = 5;
+            rb.mass = m;
             Destroy(this);
         }
     }
