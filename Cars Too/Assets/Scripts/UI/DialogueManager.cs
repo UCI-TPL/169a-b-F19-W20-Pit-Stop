@@ -24,6 +24,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private ScenePortraits sp = null;
     [SerializeField] private bool skip = false;
     [SerializeField] private GameObject skipbutton = null;
+    [SerializeField] private float time = .6f;
 
 
 
@@ -90,6 +91,14 @@ public class DialogueManager : MonoBehaviour
     public bool GetInput()
     {
         return Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
+    }
+
+    //overrides other dialogues
+    public void PushConversation(Chat c)
+    {
+            StopAllCoroutines();
+            StartCoroutine(playAutoConversation(c.convo));
+        
     }
 
     public IEnumerator playConversation(List<Dialogue> d)
@@ -229,5 +238,91 @@ public class DialogueManager : MonoBehaviour
     public void skipped()
     {
         skip = true;
+    }
+
+
+    public IEnumerator playAutoConversation(List<Dialogue> d)
+    {
+        //Turn on the Dialogue canvas objects
+        canvasobjects.SetActive(true);
+        skipbutton.SetActive(false);
+
+        //For each line of dialogue play it separately
+        for (int i = 0; i < d.Count; i++)
+        {
+            StartCoroutine(playDialogue(d[i]));
+
+            //Wait here for dialogue to play
+            while (running)
+            {
+
+                yield return null;
+
+            }
+
+
+            //Wait a frame to allow for a click to expedite dialogue to not be counted again when proceeding to the next line.
+            yield return null;
+
+
+            float temp = 0.0f;
+            //Wait here with dialogue displayed until player clicks
+            while (!finished)
+            {
+
+                temp += Time.deltaTime;
+                yield return null;
+                
+                if (temp>=time)
+                {
+                    finished = true;
+                    DataManager.instance.am.PlaySound(ac);
+                    temp = 0.0f;
+                }
+
+            }
+
+            //reset variable
+            finished = false;
+        }
+
+        //Turn canvas off once all dialogue has been played
+        canvasobjects.SetActive(false);
+    }
+
+    //plays dialogue that automatically progresses
+    public IEnumerator playAutoDialogue(Dialogue d)
+    {
+        //Reset defaults and set speaker
+        running = true;
+        speakerbox.text = d.speaker.Replace("Lightning", DataManager.instance.GetName());
+        dialgouebox.text = "";
+        index = 0;
+        string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
+        skipbutton.SetActive(false);
+      
+
+        while (index < d.text.Length)
+        {
+            //if the player has clicked display all text
+
+                //Otherwise display a number of chars determined by speed
+                for (int i = index; i < index + speed; i++)
+                {
+                    if (i >= dialoguetext.Length)
+                    {
+                        running = false;
+                        break;
+                    }
+
+                    dialgouebox.text += dialoguetext[i];
+                }
+                index += speed;
+
+            //Yield until next frame and then repeat
+            yield return null;
+        }
+
+        running = false;
     }
 }
