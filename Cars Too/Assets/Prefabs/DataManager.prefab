@@ -47,8 +47,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   phase: 1
+  canDestroy: 0
+  canBoost: 0
+  affinityBoost: 0
+  canHack: 0
+  canThrow: 0
   am: {fileID: 2007899351147493872}
   carParts: 0
+  myName: Lightning
   giftAcquired:
     m_PersistentCalls:
       m_Calls: []
