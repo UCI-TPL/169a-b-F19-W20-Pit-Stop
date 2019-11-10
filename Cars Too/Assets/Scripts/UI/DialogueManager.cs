@@ -163,7 +163,7 @@ public class DialogueManager : MonoBehaviour
         {
             sp.UpdatePortraits(d.speaker);
         }
-        while (index < d.text.Length)
+        while (index < dialoguetext.Length)
         {
             //if the player has clicked display all text
             if (instant)
