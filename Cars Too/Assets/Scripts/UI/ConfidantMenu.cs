@@ -17,6 +17,8 @@ public class ConfidantMenu : MonoBehaviour
     [SerializeField] private AudioClip affinityupsfx;
     public GameObject hidegifts;
     public GameObject hidedate;
+    public GameObject confidantbar;
+    private float maxconfidantlevel = 5.0f;
 
     private void Start()
     {
@@ -33,6 +35,7 @@ public class ConfidantMenu : MonoBehaviour
         nametext.text = n;
         confidant.sprite = s;
         currentNPC = npc;
+        UpdateConfidantBar();
         if (DataManager.instance.GetConfidantLevel(npc.Confidantname) >= 1)
         {
             hidegifts.SetActive(false);
@@ -71,6 +74,7 @@ public class ConfidantMenu : MonoBehaviour
     public void OpenGiftingMenu()
     {
             confidantbasemenu.SetActive(false);
+            hidedate.SetActive(false);
             giftingmenu.SetActive(true);
         
     }
@@ -78,6 +82,15 @@ public class ConfidantMenu : MonoBehaviour
     public void CloseGiftingMenu()
     {
         confidantbasemenu.SetActive(true);
+        if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 4)
+        {
+            hidedate.SetActive(false);
+        }
+        else
+        {
+            hidedate.SetActive(true);
+        }
+        UpdateConfidantBar();
         giftingmenu.SetActive(false);
     }
 
@@ -107,5 +120,11 @@ public class ConfidantMenu : MonoBehaviour
     public void DateNPC()
     {
         currentNPC.PlayDate();
+    }
+
+    private void UpdateConfidantBar()
+    {
+        Image i =confidantbar.GetComponent<Image>();
+        i.fillAmount = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)/maxconfidantlevel;
     }
 }
