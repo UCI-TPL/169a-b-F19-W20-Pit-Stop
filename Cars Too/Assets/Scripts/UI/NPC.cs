@@ -48,6 +48,7 @@ public class NPC : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         cm = GameObject.FindObjectOfType<ConfidantMenu>();
+        dm = GameObject.FindObjectOfType<DialogueManager>();
     }
 
     //Checks to make sure values have been instantiated

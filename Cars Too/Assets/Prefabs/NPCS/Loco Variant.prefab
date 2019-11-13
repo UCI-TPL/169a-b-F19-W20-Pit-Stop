@@ -81,7 +81,7 @@ PrefabInstance:
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: giftvalues.Array.data[3]
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
