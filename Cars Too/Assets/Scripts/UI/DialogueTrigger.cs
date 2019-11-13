@@ -36,7 +36,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!hastriggered)
+        if (!hastriggered&&other.CompareTag("Player"))
         {
             StartCoroutine(playConversation(chat));
             hastriggered = true;

@@ -299,7 +299,7 @@ public class DialogueManager : MonoBehaviour
         dialgouebox.text = "";
         index = 0;
         string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
-        Debug.Log(dialoguetext);
+
       
 
         while (index < dialoguetext.Length)

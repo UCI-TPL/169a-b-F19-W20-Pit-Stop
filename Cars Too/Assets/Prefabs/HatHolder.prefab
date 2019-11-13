@@ -154,6 +154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cowboy_hat
       objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830631, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3247818134065830652, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
         type: 3}
       propertyPath: m_LocalPosition.x
