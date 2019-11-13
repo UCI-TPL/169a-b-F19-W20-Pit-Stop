@@ -5,7 +5,7 @@ using UnityEngine;
 public class TriggerGameobject : MonoBehaviour
 {
     [SerializeField] private GameObject triggerobject; //gameobject to be turned on or off
-    [SerializeField] private bool once = true;
+    [SerializeField] private bool once = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,16 +15,18 @@ public class TriggerGameobject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(this.gameObject.name);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&&!once)
         {
             triggerobject.SetActive(!triggerobject.activeSelf);
-            if(once)
-                 Destroy(this);//only triggers once
+            once = true;
+
+            
         }
     }
+
 }

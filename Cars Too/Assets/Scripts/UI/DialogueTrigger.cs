@@ -42,4 +42,13 @@ public class DialogueTrigger : MonoBehaviour
             hastriggered = true;
         }
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (!hastriggered && other.CompareTag("Player"))
+        {
+            StartCoroutine(playConversation(chat));
+            hastriggered = true;
+        }
+    }
 }

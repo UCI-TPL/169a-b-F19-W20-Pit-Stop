@@ -214,4 +214,21 @@ public class DataManager : MonoBehaviour
         myName = s;
         Debug.Log("myName");
     }
+
+    //resets datamanger values;
+    public void Reset()
+    {
+        affinityBoost = false;
+        canBoost = false;
+        canDestroy = false;
+        canHack = false;
+        canThrow = false;
+        carParts = 0;
+        foreach (PresentType present in PresentType.GetValues(typeof(PresentType)))
+        {
+            gifts[present] = 0;
+        }
+
+
+    }
 }

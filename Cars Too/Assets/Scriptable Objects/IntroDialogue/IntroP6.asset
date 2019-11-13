@@ -30,6 +30,18 @@ MonoBehaviour:
     text: Lightning, are you alright, we're working on getting you out of there.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: How did I get myself into this mess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Not too long ago I wanted nothing more than just to be left alone.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I can still remember it like it was yesterday.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

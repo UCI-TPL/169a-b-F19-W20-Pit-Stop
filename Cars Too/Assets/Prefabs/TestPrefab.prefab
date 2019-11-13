@@ -710,6 +710,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4556460356723554839, guid: f6b9d52c924f00e4b94a92e4c62f0901,
         type: 3}
       propertyPath: m_Enabled
@@ -724,6 +729,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314482, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314481, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b9d52c924f00e4b94a92e4c62f0901, type: 3}
@@ -856,11 +871,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8641356037269235800}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 5ecc23ba23863d7429595a96c33d5d0f,
-        type: 3}
-      propertyPath: m_Name
-      value: newPlayerCar
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ecc23ba23863d7429595a96c33d5d0f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -930,6 +940,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0032749032
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ecc23ba23863d7429595a96c33d5d0f,
+        type: 3}
+      propertyPath: m_Name
+      value: newPlayerCar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ecc23ba23863d7429595a96c33d5d0f, type: 3}
