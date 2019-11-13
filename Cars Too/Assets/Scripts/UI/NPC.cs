@@ -28,7 +28,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] private Conversation idlechats = null; //small lines said in the confidant menu
     [SerializeField] private Chat nomorechats = null; //default line for when there are no more chats in the current phase
-    [SerializeField] private Chat date = null; //chat to be played when date is clicked
+    [SerializeField] private Chatlist date1 = null; //chat to be played when date is clicked
 
 
     
@@ -309,7 +309,20 @@ public class NPC : MonoBehaviour
 
     public void PlayDate()
     {
-        PlayConvorChat(date);
+        StartCoroutine(PlayDaterun(date1));
+    }
+
+    private IEnumerator PlayDaterun(Chatlist date)
+    {
+        foreach (Chat c in date.chats)
+        {
+            while (running)
+            {
+                yield return null;
+            }
+            PlayConvorChat(c);
+        }
+
     }
 
 }

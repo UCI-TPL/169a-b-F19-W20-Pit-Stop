@@ -113,7 +113,7 @@ PrefabInstance:
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: consprite
       value: 
-      objectReference: {fileID: 21300000, guid: 183711d6c349b46eeb0fe0f1e4de24b6,
+      objectReference: {fileID: 7437909973014362801, guid: 183711d6c349b46eeb0fe0f1e4de24b6,
         type: 3}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: introchat
@@ -165,6 +165,11 @@ PrefabInstance:
       propertyPath: date
       value: 
       objectReference: {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7,
+        type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: date1
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: PiperDate1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: "Hey, I was wondering\u2026"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Yes?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: If you wanted to...uh...I guess talk about that history some more?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I\u2019m coming across more and more remnants of the past in this wasteland...."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I can\u2019t help but wonder if there\u2019s more to them than what I\u2019m
+      seeing."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh!!! Are you-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "DON\u2019T get your hopes up, it\u2019s not like any dead human is gonna
+      keep me from leaving. I\u2019m just curious is all."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "And, well\u2026You\u2019re the one to go to for that kinda stuff."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: So do you wanna hang out or-?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: 'Piper:'
+    text: "YES! Yes, I\u2019d love to hang out! "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: "What\u2019s your newest discovery?"
+  Choice2: Why do you care about this junk?
+  Route1:
+  - speaker: Piper
+    text: One second.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Piper
+    text: Junk!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'I thought you said you wanted to learn more about what I do!Lightning:I
+      do! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Still not past calling it junk. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Oh, Lightning. It\u2019s not just junk, it\u2019s really cool junk! Stuff
+      that I have the privilege of studying!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: OO OO OO!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No like that sound.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You really wanna see!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "To be honest, I\u2019m kinda hesitant now. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

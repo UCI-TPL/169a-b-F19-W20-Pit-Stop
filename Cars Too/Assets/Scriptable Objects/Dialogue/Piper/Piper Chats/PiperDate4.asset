@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: PiperDate4
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Piper
+    text: "Lightning, we\u2019re all that\u2019s left. The crew\u2019s been together
+      for years, and in all that time, we\u2019ve never found another car."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Everyday I try the radio frequencies to see if I pick anything up, but no
+      one ever comes through.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "So, of course I\u2019m lonely! We don\u2019t get a great big kingdom or
+      empire or-or society or whatever!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Sometimes I\u2019m really jealous of those humans. They had so many people
+      to go to and interact with and have fun with. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I just wish we could find that, some day.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Don\u2019t you already have that?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: What?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "It\u2019s the Spirit, isn\u2019t it? What you\u2019re talking about?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "People having fun with each other, working together, all that? That\u2019s
+      what you guys do already, right?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "*laughs* I guess you\u2019re right! "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: All we have is each other. Thank you for reminding me of that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You know, I really am grateful you decided to come join.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Even if it IS just because you wanna scram.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Well! I guess we should get back to work.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Thanks for hanging out with me today! It was a blast!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

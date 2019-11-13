@@ -53,6 +53,7 @@ public class ChatLoader : Editor
     private Chat GetChat(StreamReader sr)
     {
         Chat output = new Chat();
+        output.convo = new List<Dialogue>();
         string current = "";
         List<Dialogue> dl = new List<Dialogue>();
         string currentspeaker = "";
@@ -105,6 +106,7 @@ public class ChatLoader : Editor
 
         if (dl.Count == 0)
         {
+           
             return null;
         }
         output.convo = dl;

@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: PiperDate2
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Piper
+    text: '*Piper unveils a very shiny piece of what looks like aluminum foil*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: THIS is my latest discovery!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...what is it?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Oh hoh hoh, I\u2019m glad you asked!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I feel like you just waited for me to-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: THIS is - based on my analysis - a KEE-LON-DEE-KAY bar.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "What\u2019s it do?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "I\u2019m not sure, but it must have, once upon time, done something VERY
+      important. My past research leads me to believe that people from all over the
+      globe would do anything imaginable to get one."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "But it doesn\u2019t do anything?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Nnnnot that I can tell? But I\u2019m sure it served some incredible purpose
+      way back when! "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "It\u2019s cool stuff like this that I get to trail blaze!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: See, when the Awakening happened, all us cars woke up, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: NO IDEA what happened, who we were or where we were headed!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "All we know is that humans *used* to be here, and now they aren\u2019t!
+      Why do you think that is?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I dunno, you\u2019re the historian."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "EXACTLY! I\u2019m the historian! I get to find that out!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "I get to learn about a past we were never a part of, a time so different
+      from now that it\u2019s practically alien."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "EVERYTHING is new! And there\u2019s so much to learn! "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: How could you NOT care about junk when it could tell you stories of times
+      past and people gone, tales of heartache and drama and joy and thrill and -
+      and - !
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "It\u2019s just all so amazing! It\u2019s like stepping into a brand new
+      world."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "A world that\u2019s..."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: You feel lonely?
+  Choice2: "It doesn\u2019t have to be that way."
+  Route1:
+  - speaker: Piper
+    text: Hm?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Oh! N-No! I mean-....Well\u2026."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*sighs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "I guess I do feel kinda lonely sometimes. Springtrap\u2019s an awesome
+      friend and Chief is really great too, but, sometimes it\u2019s hard to get along
+      with Dex and Mustang."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "That\u2019s hard to believe. You\u2019re sort of annoyingly easy to get
+      along with. I\u2019m surprised you haven\u2019t made friendship bracelets for
+      everyone yet."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "*laughs* I\u2019ll take that as a compliment. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: So what makes those two so hard to get along with?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Well, Dex is always getting himself into trouble and making me a worrywart,
+      and Mustang is a fantastic machinist, but they\u2026"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "They talk about humans in this rude way that I just can\u2019t get behind."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Sometimes, I wish they\u2019d both see things my way, you know?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "And that kind of stuff makes me feel lonely! But that\u2019s not the only
+      reason."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Piper
+    text: What do you mean?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, well, uh, I mean...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I mean, you have the whole Spirit crew behind you. There\u2019s no reason
+      for you to feel lonely."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "If anyone is supposed to feel lonely, it should be me. And that\u2019s
+      only because I\u2019ve literally been alone in the desert for 6 years. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*laughs* True, true. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "But I really wish you hadn\u2019t been!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I know, I know-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Seriously, how many times did I have to call before you got your trunk up
+      here?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 48.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And you were always-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Wait. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You actually counted?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Piper, there are *very* few things you can do in a virtually empty desert.
+      If you can think of an inane activity, I\u2019ve probably done it. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh, I wish you had come join the crew sooner! We need each other!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
