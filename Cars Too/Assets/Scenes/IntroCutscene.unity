@@ -351,7 +351,7 @@ MonoBehaviour:
   - speaker: Piper
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: -594762361201314151, guid: af8ec38d74e3d4f6187179b70d43653e,
+    Scenesprite: {fileID: 7437909973014362801, guid: 183711d6c349b46eeb0fe0f1e4de24b6,
       type: 3}
   - speaker: Mustang
     text: 
@@ -1047,6 +1047,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4436490670846126643, guid: 4a516d422a367c441980708e2178ab00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4436490669016126738, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_IsActive
@@ -1083,11 +1088,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4436490669095933996, guid: 4a516d422a367c441980708e2178ab00,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436490670846126643, guid: 4a516d422a367c441980708e2178ab00,
         type: 3}
       propertyPath: m_IsActive
       value: 0
