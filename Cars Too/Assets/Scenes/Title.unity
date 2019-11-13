@@ -3492,6 +3492,16 @@ PrefabInstance:
       propertyPath: canThrow
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2007899351147493872, guid: edb9e9db26031c74fbfda2b64e3e91f5,
+        type: 3}
+      propertyPath: bgms.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007899351147493872, guid: edb9e9db26031c74fbfda2b64e3e91f5,
+        type: 3}
+      propertyPath: bgms.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f82d01a8d0943e499df2033efd7f42a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edb9e9db26031c74fbfda2b64e3e91f5, type: 3}
 --- !u!1 &1307420692
