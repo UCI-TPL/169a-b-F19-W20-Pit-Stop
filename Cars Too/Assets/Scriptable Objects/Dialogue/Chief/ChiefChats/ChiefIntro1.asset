@@ -14,9 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Chief
-    text: 'Howdy! My name is Chief
-
-'
+    text: 'Scavenging for parts isn''t as easy as it looks. You''d think a junkyard
+      would have parts left and right, but we''re looking for GOOD parts. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Parts that won't break if someone sneezed on 'em. If you wanna help out,
+      THOSE are the parts you're going to be looking for.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: 'Around here, you''re going to be finding COGS. They look like this one
+      right here. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Snag any you can find. Once you've got 4, you can come on back to me to
+      move on to the next scavenging location.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 

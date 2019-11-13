@@ -101,7 +101,7 @@ public class Chief : MonoBehaviour
         //cm.OpenMenu(this, consprite, Confidantname);
         talkui.SetActive(false);
         close = false;
-
+        dm.HaltDialogue();
         TurnOnSprite();
         if (!met)
         {
@@ -210,7 +210,8 @@ public class Chief : MonoBehaviour
         else
         {
             Debug.Log("Yes");
-            moveToNextLevel = true;
+            if(c!=introchat)
+                moveToNextLevel = true;
             //showResult(c.C1Reward >= c.C2Reward, c.C1Reward);
         }
 

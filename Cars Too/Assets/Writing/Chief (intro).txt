@@ -5,10 +5,17 @@ Chief:
 Parts that won't break if someone sneezed on 'em. If you wanna help out, THOSE are the parts you're going to be looking for.
 
 Chief:
-Around here, you're going to be finding COGS. They look like this. Snag any you can find. Once you've got enough, you can come on back to me to move on to the next scavenging location.
+Around here, you're going to be finding COGS. They look like this one right here. 
+
+Chief:
+Snag any you can find. Once you've got 4, you can come on back to me to move on to the next scavenging location.
+
+End
 
 Chief:
 Any questions?
+
+EndC
 
 Choices
 How long have you been doing this?
@@ -29,7 +36,7 @@ They also figured out how to put on hats. Which, truth be told, I'm still trying
 Chief:
 In any case...
 
-EndC
+End
 
 Chief:
 The Spirit came about because of me, so to speak.
@@ -43,7 +50,7 @@ I still don't know what our exact place in it is, but I know we can have a part 
 Chief:
 So I founded the Spirit. It was just me n Mustang to begin with, but we found Springtrap not long after. Dex came along, then Piper, and here we all are.
 
-EndC
+End
 
 Chief:
 We're here to make a change. And now you are too. 

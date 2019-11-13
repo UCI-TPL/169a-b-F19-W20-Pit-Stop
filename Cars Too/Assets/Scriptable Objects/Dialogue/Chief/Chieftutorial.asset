@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
+  m_Name: Chieftutorial
+  m_EditorClassIdentifier: 
+  chats:
+  - {fileID: 11400000, guid: 94239bd1ec2bd36429affee9f77fd960, type: 2}
+  - {fileID: 11400000, guid: 0c6fda78eedf2b94190823dafd15408b, type: 2}
+  - {fileID: 11400000, guid: ff94df3107f90a64680b37bb271def4d, type: 2}
+  fileloc: /Writing/Chief (intro).txt
+  createpath: Assets/Scriptable Objects/Dialogue/Chief/ChiefChats/
+  title: ChiefIntro
