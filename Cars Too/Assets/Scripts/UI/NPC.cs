@@ -160,6 +160,7 @@ public class NPC : MonoBehaviour
     {
         running = true;
         DataManager.instance.am.PlayandTrackBGM(npcthemeindex);
+        
         if (c.isConversation)
         {
             StartCoroutine(playConversation(c));

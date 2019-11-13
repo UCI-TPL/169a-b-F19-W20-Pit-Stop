@@ -19,15 +19,18 @@ public class ConfidantMenu : MonoBehaviour
     public GameObject hidedate;
     public GameObject confidantbar;
     private float maxconfidantlevel = 5.0f;
+    private DialogueManager dm;
 
     private void Start()
     {
         confidantmenu.SetActive(false);
+        dm = GameObject.FindObjectOfType<DialogueManager>();
     }
 
     public void OpenMenu(NPC npc, Sprite s, string n)
     {
         DataManager.instance.am.PlayandTrackBGM(menuthemeindex);
+        dm.HaltDialogue();
         confidant.gameObject.SetActive(true);
         confidantmenu.SetActive(true);
         confidantbasemenu.SetActive(true);

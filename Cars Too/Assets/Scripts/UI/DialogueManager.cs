@@ -328,4 +328,10 @@ public class DialogueManager : MonoBehaviour
 
         running = false;
     }
+
+    public void HaltDialogue()
+    {
+        StopAllCoroutines();
+        canvasobjects.SetActive(false);
+    }
 }
