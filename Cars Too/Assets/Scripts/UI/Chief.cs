@@ -138,7 +138,7 @@ public class Chief : MonoBehaviour
         TurnOnSprite();
 
         //If player has enough parts
-        if(DataManager.instance.carParts == carPartsToNextPhase)
+        if(DataManager.instance.carParts >= carPartsToNextPhase)
         {
             //hardcoded positions: 0 = choice to move to next stage, 1 = not enough parts
             PlayConvorChat(randomchats[0]);
