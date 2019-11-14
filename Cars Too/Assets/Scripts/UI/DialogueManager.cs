@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private ScenePortraits sp = null;
     [SerializeField] private bool skip = false;
     [SerializeField] private GameObject skipbutton = null;
-    [SerializeField] private float time = 1.25f; //wait time when autoplaying dialogue
+    [SerializeField] private float time = 4.0f; //wait time when autoplaying dialogue
 
 
 

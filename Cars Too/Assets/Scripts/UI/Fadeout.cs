@@ -27,7 +27,7 @@ public class Fadeout : MonoBehaviour
         float i = 1.0f;
         float activeframes = 180.0f;
         float incrementer = i / activeframes;
-        while (i > 0)
+        while (i >= 0)
         {
             Debug.Log("gere");
             im.color = new Color(im.color.r, im.color.b, im.color.g, i);
@@ -36,6 +36,7 @@ public class Fadeout : MonoBehaviour
             i -= incrementer;
         }
       tx.gameObject.SetActive(false);
+       im.gameObject.SetActive(false);
     }
 
 }
