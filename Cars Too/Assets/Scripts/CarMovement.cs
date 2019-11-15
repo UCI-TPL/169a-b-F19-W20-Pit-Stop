@@ -5,8 +5,10 @@ using UnityEngine;
 public class CarMovement : MonoBehaviour
 {
     PlayerEntity player;
-
     Rigidbody rb;
+    int layerMask;
+
+    [Header("Car variables")]
     public float deadZone = 0.1f;
     public float m_groundedDrag = 3f;
     public float maxVelocity = 50f;
@@ -19,15 +21,22 @@ public class CarMovement : MonoBehaviour
     public float reverseAcceleration = 4000f;
     [SerializeField] float thrust = 0f;
 
+    public float turnStrength = 1000f;
+    [SerializeField] float turnValue = 0f;
+
+    [Header("When in air variables")]
+    [SerializeField] float airThrustLoss = 100f;
+    [SerializeField] float airTurnLoss = 100f;
+    [SerializeField] bool airStabilize = true;
+
+
+    [Header("Boost variables")]
     [SerializeField] float currentBoostSpeed = 0f;
     [SerializeField] float maxBoostSpeed = 2000f;
     [SerializeField] float boostFactor;
 
-    public float turnStrength = 1000f;
-    [SerializeField] float turnValue = 0f;
-
-    int layerMask;
-
+    [Header("Bools")]
+    [SerializeField] bool isGrounded = false;
     [SerializeField] bool isPaused = false;
     [SerializeField] bool boostUnlocked = true;
 
@@ -88,7 +97,7 @@ public class CarMovement : MonoBehaviour
         if(!isPaused) {
             //Add a force on all four hover corners of the car that allows the car to hover/simulates normal force and gravity
             RaycastHit hit;
-            bool grounded = false;
+            isGrounded = false;
             for (int i = 0; i < hoverPoints.Length; i++)
             {
                 var hoverPoint = hoverPoints[i];
@@ -96,24 +105,28 @@ public class CarMovement : MonoBehaviour
                 {
                     //More force is applied the closer the car is to the ground to stablize the car
                     rb.AddForceAtPosition(Vector3.up * hoverForce * (1.0f - (hit.distance / hoverHeight)), hoverPoint.transform.position);
-                    grounded = true;
+                    isGrounded = true;
                 }
                 else
                 {
-                    //Adds forces to the hover points to stabilize the car when it is in the air
-                    if (transform.position.y > hoverPoint.transform.position.y)
+                    if(airStabilize)
                     {
-                        rb.AddForceAtPosition(hoverPoint.transform.up * gravityForce, hoverPoint.transform.position);
+                        //Adds forces to the hover points to stabilize the car when it is in the air
+                        if (transform.position.y > hoverPoint.transform.position.y)
+                        {
+                            rb.AddForceAtPosition(hoverPoint.transform.up * gravityForce, hoverPoint.transform.position);
+                        }
+                        else
+                        {
+                            rb.AddForceAtPosition(hoverPoint.transform.up * -gravityForce, hoverPoint.transform.position);
+                        }
                     }
-                    else
-                    {
-                        rb.AddForceAtPosition(hoverPoint.transform.up * -gravityForce, hoverPoint.transform.position);
-                    }
+                    
                 }
             }
 
             //Changes the drag of vehicle based on whether its grounded or not
-            if (grounded)
+            if (isGrounded)
             {
                 rb.drag = m_groundedDrag;
             }
@@ -121,8 +134,8 @@ public class CarMovement : MonoBehaviour
             {
                 rb.drag = 0.1f;
                 //Also limit the thrust/turn of the vehicle when in the air
-                thrust /= 100f;
-                turnValue /= 100f;
+                thrust /= airThrustLoss;
+                turnValue /= airTurnLoss;
             }
 
 
