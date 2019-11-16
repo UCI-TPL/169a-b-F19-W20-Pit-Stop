@@ -26093,7 +26093,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384045109}
-  m_LocalRotation: {x: -0.0013965105, y: -0.28291515, z: 0.9591323, w: -0.0047343667}
+  m_LocalRotation: {x: -0.0013964775, y: -0.28291515, z: 0.9591323, w: -0.004734357}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -28115,6 +28115,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HackerDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529550286699002813, guid: 58c2341f2ce7f2a4d97f6a380b98830d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5529550286699002791, guid: 58c2341f2ce7f2a4d97f6a380b98830d,
         type: 3}
@@ -36953,7 +36958,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623630090}
-  m_LocalRotation: {x: -0.025142374, y: 0.3212759, z: -0.9437663, w: -0.07385721}
+  m_LocalRotation: {x: -0.025142422, y: 0.3212759, z: -0.9437663, w: -0.073857225}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -94303,7 +94308,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893022029}
-  m_LocalRotation: {x: 0.20172785, y: -0.000000033716603, z: 0.0000000069443424, w: 0.97944164}
+  m_LocalRotation: {x: 0.20172785, y: 0.000000033716603, z: -0.000000006944342, w: 0.97944164}
   m_LocalPosition: {x: 20.5, y: 9, z: 97.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
