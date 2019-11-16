@@ -411,6 +411,10 @@ GameObject:
   - component: {fileID: 850712859}
   - component: {fileID: 850712862}
   - component: {fileID: 32146197791704354}
+  - component: {fileID: 190422145855676948}
+  - component: {fileID: 2934915868146143608}
+  - component: {fileID: 8137111420603991518}
+  - component: {fileID: 2289008553411832442}
   m_Layer: 8
   m_Name: TestPrefab
   m_TagString: Player
@@ -489,12 +493,12 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4735282467803159115}
-  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_Material: {fileID: 13400000, guid: c98980f38d96ab3419929cbd21172360, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011817857, y: 0.0057557244, z: 0.011473554}
-  m_Center: {x: 0.00011293181, y: -0.0015065229, z: -0.00036688749}
+  m_Size: {x: 0.011817857, y: 0.004992309, z: 0.01207371}
+  m_Center: {x: 0.00011293181, y: -0.00002109405, z: -0.00006681111}
 --- !u!114 &850712862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,9 +512,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deadZone: 0.1
-  m_groundedDrag: 3
+  m_groundedDrag: 4
   maxVelocity: 50
-  hoverForce: 2500
+  hoverForce: 1000
   gravityForce: 2500
   hoverHeight: 1
   hoverPoints:
@@ -518,16 +522,16 @@ MonoBehaviour:
   - {fileID: 1049595825772439296}
   - {fileID: 7083188748293468109}
   - {fileID: 6850433860954804325}
-  forwardAcceleration: 12000
-  reverseAcceleration: 3000
+  forwardAcceleration: 16000
+  reverseAcceleration: 12000
   thrust: 0
-  turnStrength: 1500
+  turnStrength: 2250
   turnValue: 0
   airThrustLoss: 100
   airTurnLoss: 100
   airStabilize: 1
   currentBoostSpeed: 0
-  maxBoostSpeed: 4000
+  maxBoostSpeed: 1500
   boostFactor: 100
   isGrounded: 0
   isPaused: 0
@@ -541,10 +545,62 @@ SphereCollider:
   m_GameObject: {fileID: 4735282467803159115}
   m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.00627969
   m_Center: {x: -0, y: 0.008535272, z: -0.000045823457}
+--- !u!135 &190422145855676948
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.001104508
+  m_Center: {x: -0.0041979416, y: -0.0025, z: -0.0043888055}
+--- !u!135 &2934915868146143608
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0011154511
+  m_Center: {x: 0.004353508, y: -0.0025, z: 0.0034288398}
+--- !u!135 &8137111420603991518
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0010122574
+  m_Center: {x: -0.004006441, y: -0.0025, z: 0.0034288398}
+--- !u!135 &2289008553411832442
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0010684811
+  m_Center: {x: 0.0043535074, y: -0.0025, z: -0.0044727596}
 --- !u!1 &6850433860954804325
 GameObject:
   m_ObjectHideFlags: 0
