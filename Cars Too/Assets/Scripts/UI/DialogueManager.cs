@@ -269,13 +269,13 @@ public class DialogueManager : MonoBehaviour
             //Wait here with dialogue displayed until player clicks
             while (!finished)
             {
-                Debug.Log(temp);
+
                 temp += Time.deltaTime;
                 yield return null;
                 
                 if (temp>=timer)
                 {
-                    Debug.Log(temp);
+
                     finished = true;
                     DataManager.instance.am.PlaySound(ac);
                     temp = 0.0f;
