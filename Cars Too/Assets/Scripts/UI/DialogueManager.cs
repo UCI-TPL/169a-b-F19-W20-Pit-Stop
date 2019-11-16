@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private ScenePortraits sp = null;
     [SerializeField] private bool skip = false;
     [SerializeField] private GameObject skipbutton = null;
-    [SerializeField] private float time = 4.0f; //wait time when autoplaying dialogue
+    [SerializeField] private float timer = 3.5f; //wait time when autoplaying dialogue
 
 
 
@@ -269,12 +269,13 @@ public class DialogueManager : MonoBehaviour
             //Wait here with dialogue displayed until player clicks
             while (!finished)
             {
-
+                Debug.Log(temp);
                 temp += Time.deltaTime;
                 yield return null;
                 
-                if (temp>=time)
+                if (temp>=timer)
                 {
+                    Debug.Log(temp);
                     finished = true;
                     DataManager.instance.am.PlaySound(ac);
                     temp = 0.0f;
