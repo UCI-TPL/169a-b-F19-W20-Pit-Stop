@@ -42,7 +42,7 @@ public class DialogueTrigger : MonoBehaviour
 
         if (fi != null)
         {
-            StartCoroutine(fi.fade());
+            fi.gameObject.SetActive(true);
         }
         cm.Unpause();
         
