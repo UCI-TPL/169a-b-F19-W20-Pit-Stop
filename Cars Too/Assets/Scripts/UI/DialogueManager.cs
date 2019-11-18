@@ -25,6 +25,10 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private bool skip = false;
     [SerializeField] private GameObject skipbutton = null;
     [SerializeField] private float timer = 3.5f; //wait time when autoplaying dialogue
+    
+    [SerializeField] public GameObject autodialogueobjects =null; //gameobject to be turned on when playing autodialogue
+    [SerializeField] private TextMeshProUGUI autodialoguebox = null; //textbox for autodialogue
+    [SerializeField] private AutoDialoguePortrait adp = null; //character portrait for autodialogue
 
 
 
@@ -101,11 +105,11 @@ public class DialogueManager : MonoBehaviour
         
     }
 
-    public IEnumerator playConversation(List<Dialogue> d)
+    public IEnumerator playConversation(List<Dialogue> d, bool canskip = true)
     {
         //Turn on the Dialogue canvas objects
         canvasobjects.SetActive(true);
-        skipbutton.SetActive(true);
+        skipbutton.SetActive(canskip);
 
         //For each line of dialogue play it separately
         for (int i = 0; i < d.Count; i++)
@@ -155,6 +159,7 @@ public class DialogueManager : MonoBehaviour
     {
         //Reset defaults and set speaker
         running = true;
+        
         speakerbox.text = d.speaker.Replace("Lightning",DataManager.instance.GetName());
         dialgouebox.text = "";
         index = 0;
@@ -244,8 +249,8 @@ public class DialogueManager : MonoBehaviour
     public IEnumerator playAutoConversation(List<Dialogue> d)
     {
         //Turn on the Dialogue canvas objects
-        canvasobjects.SetActive(true);
-        skipbutton.SetActive(false);
+        autodialogueobjects.SetActive(true);
+        //skipbutton.SetActive(false);
 
         //For each line of dialogue play it separately
         for (int i = 0; i < d.Count; i++)
@@ -288,7 +293,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         //Turn canvas off once all dialogue has been played
-        canvasobjects.SetActive(false);
+        autodialogueobjects.SetActive(false);
     }
 
     //plays dialogue that automatically progresses
@@ -296,8 +301,9 @@ public class DialogueManager : MonoBehaviour
     {
         //Reset defaults and set speaker
         running = true;
-        speakerbox.text = d.speaker.Replace("Lightning", DataManager.instance.GetName());
-        dialgouebox.text = "";
+        adp.ShowPortrait(d.speaker);
+        //speakerbox.text = d.speaker.Replace("Lightning", DataManager.instance.GetName());
+        autodialoguebox.text = "";
         index = 0;
         string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
 
@@ -317,7 +323,7 @@ public class DialogueManager : MonoBehaviour
                         break;
                     }
 
-                    dialgouebox.text += dialoguetext[i];
+                    autodialoguebox.text += dialoguetext[i];
                 }
                 index += speed;
 

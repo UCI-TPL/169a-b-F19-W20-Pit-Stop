@@ -12,24 +12,30 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private Fadein fi = null; // fadein to occur after dialogue trigger
     [SerializeField] private CarMovement cm;
     [SerializeField] private bool important = true; //signals whether the rest of the dialogue should stop to play this, and whether to pause the player or not
+    [SerializeField] private GameObject autodialogueobjects = null;
     //if null just does nothing.
     // Start is called before the first frame update
     void Start()
     {
         cm = GameObject.FindObjectOfType<CarMovement>();
         dm = GameObject.FindObjectOfType<DialogueManager>();
+        autodialogueobjects = dm.autodialogueobjects;
     }
 
     private IEnumerator playConversation(Chat c)
     {
         if (important)
         {
-            StartCoroutine(dm.playConversation(chat.convo));
+            StartCoroutine(dm.playConversation(chat.convo,false));
             cm.Pause();
+        }
+        else
+        {
+            StartCoroutine(dm.playAutoConversation(chat.convo));
         }
 
         //Wait for dialogue to finish
-        while (dialoguebox.activeSelf)
+        while (dialoguebox.activeSelf||autodialogueobjects.activeSelf)
         {
             yield return null;
         }
