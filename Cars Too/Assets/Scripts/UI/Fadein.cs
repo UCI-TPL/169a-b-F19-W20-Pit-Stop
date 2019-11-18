@@ -33,7 +33,7 @@ public class Fadein : MonoBehaviour
         //calculate total frames active
         float activeframes = timer * 60.0f;
         //calculate how much visibility should increase each frame
-        float incrementer = i / activeframes;
+        float incrementer = 1 / activeframes;
         while (i <= 1)
         {
             //change transparency of each if they have been assigned

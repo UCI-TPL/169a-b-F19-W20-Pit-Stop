@@ -593,5 +593,106 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4226b0c317bd2194dab83b31ad2180c9,
         type: 3}
+    - target: {fileID: 313083938, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001453691314, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001453691314, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001453691314, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001453691314, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001453691314, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001944238505, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001944238505, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001944238505, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782917001944238505, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 19588326, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083937, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19588328, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 19588328, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_Color.g
+      value: 0.2264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 19588328, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_fontSize
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}

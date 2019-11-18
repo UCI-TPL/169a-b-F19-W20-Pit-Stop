@@ -91,6 +91,7 @@ MonoBehaviour:
   timer: 5
   tx: {fileID: 313083939}
   im: {fileID: 19588328}
+  fadeonawake: 1
 --- !u!1 &313083937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,8 +5532,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5989,6 +5990,9 @@ MonoBehaviour:
   skip: 0
   skipbutton: {fileID: 8538447964763986148}
   timer: 3.5
+  autodialogueobjects: {fileID: 0}
+  autodialoguebox: {fileID: 0}
+  adp: {fileID: 0}
   test: {fileID: 11400000, guid: 58df4e125e07b5c44b9996869da73df7, type: 2}
 --- !u!114 &3782917001673969937
 MonoBehaviour:
@@ -6658,8 +6662,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
