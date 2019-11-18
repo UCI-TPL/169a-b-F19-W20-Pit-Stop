@@ -6,6 +6,7 @@ public class TriggerGameobject : MonoBehaviour
 {
     [SerializeField] private GameObject triggerobject; //gameobject to be turned on or off
     [SerializeField] private bool once = false;
+    [SerializeField] private bool triggerablebyhat = false; //determines if the trigger can be set off by the player's hat.
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,8 @@ public class TriggerGameobject : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")&&!once)
+        //if the player, or the player's hat enters the trigger box flip the gameobjects active state.
+        if ((other.CompareTag("Player")&&!once)||(other.CompareTag("PlayerHat") && !once&&triggerablebyhat))
         {
             triggerobject.SetActive(!triggerobject.activeSelf);
             once = true;
