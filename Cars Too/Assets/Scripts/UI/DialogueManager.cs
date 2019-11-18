@@ -98,10 +98,23 @@ public class DialogueManager : MonoBehaviour
     }
 
     //overrides other dialogues
-    public void PushConversation(Chat c)
+    public void PushConversation(Chat c,bool normalchat=true)
     {
             StopAllCoroutines();
+            autodialogueobjects.SetActive(false);
+            canvasobjects.SetActive(false);
+
+        //if the chat is not normal, it is an auto chat
+        if (!normalchat)
+        {
             StartCoroutine(playAutoConversation(c.convo));
+        }
+        else
+        {
+            StartCoroutine(playConversation(c.convo));
+        }
+            
+            
         
     }
 

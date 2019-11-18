@@ -26,12 +26,12 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (important)
         {
-            StartCoroutine(dm.playConversation(chat.convo,false));
+            dm.PushConversation(chat, important);
             cm.Pause();
         }
         else
         {
-            StartCoroutine(dm.playAutoConversation(chat.convo));
+            dm.PushConversation(chat,important);
         }
 
         //Wait for dialogue to finish
