@@ -80,7 +80,7 @@ public class DialogueManager : MonoBehaviour
         {
             yield return null;
         }
-
+        canvasobjects.SetActive(true);
         Choicecanvas.SetActive(true);
         Choicetext1.text = choice1;
         Choicetext2.text = choice2;
@@ -90,6 +90,7 @@ public class DialogueManager : MonoBehaviour
 
             yield return null;
         }
+        canvasobjects.SetActive(false);
     }
 
     public bool GetInput()
@@ -139,6 +140,8 @@ public class DialogueManager : MonoBehaviour
 
             if (skip)
             {
+                speakerbox.text = d[d.Count-1].speaker;
+                dialgouebox.text = d[d.Count-1].text;
                 skip = false;
                 break;
             }
