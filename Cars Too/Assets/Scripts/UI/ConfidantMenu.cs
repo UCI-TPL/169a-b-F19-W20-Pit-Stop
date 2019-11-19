@@ -24,7 +24,10 @@ public class ConfidantMenu : MonoBehaviour
 
     private void Start()
     {
-        bg.gameObject.SetActive(false);
+        if (bg != null)
+        {
+            bg.gameObject.SetActive(false);
+        }
         confidantmenu.SetActive(false);
         dm = GameObject.FindObjectOfType<DialogueManager>();
     }
