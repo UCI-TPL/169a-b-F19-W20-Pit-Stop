@@ -6151,6 +6151,7 @@ MonoBehaviour:
   hidedate: {fileID: 2668449039837938614}
   confidantleveltext: {fileID: 0}
   bg: {fileID: 0}
+  npcchaticon: {fileID: 0}
 --- !u!114 &278171657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7980,7 +7981,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3782917001673969940}
         m_MethodName: skipped
         m_Mode: 1
         m_Arguments:
