@@ -181,5 +181,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8fcd25be59308ff4882552810664ba6b,
         type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: talkui
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262835756, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: m_Size.x
+      value: 0.03743912
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262835756, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: m_Size.z
+      value: 0.03513515
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611003960058169850, guid: 648be5f8bc679b44e824f05c9b078757,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}

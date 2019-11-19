@@ -37,6 +37,7 @@ public class Chief : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         cm = GameObject.FindObjectOfType<ConfidantMenu>();
+        talkui = cm.npcchaticon;
 
         ResetcarPartsThreshold();
         moveToNextLevel = false;

@@ -30,6 +30,7 @@ MonoBehaviour:
   player: {fileID: 0}
   dm: {fileID: 0}
   consprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
+  npcbg: {fileID: 0}
   dialoguebox: {fileID: 0}
   talkui: {fileID: 5611003960058169850}
   giftvalues: 320000003200000032000000320000006400000032000000
@@ -44,6 +45,7 @@ MonoBehaviour:
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
   nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
   date1: {fileID: 0}
+  giftingchat: {fileID: 0}
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125,6 +127,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 305
+      objectReference: {fileID: 0}
+    - target: {fileID: 5905841988578338244, guid: 1fdc2d3f64522e04e89e4994362c76de,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7367035568429017821, guid: 1fdc2d3f64522e04e89e4994362c76de, type: 3}
