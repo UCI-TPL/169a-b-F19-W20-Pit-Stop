@@ -231,11 +231,18 @@ namespace VehicleBehaviour {
 
             // Get all the inputs!
             if (isPlayer) {
-                // Accelerate & brake
-                if (throttleInput != "" && throttleInput != null)
-                {
-                    throttle = GetInput(throttleInput) - GetInput(brakeInput);
+
+                if(Input.GetKey(KeyCode.W)) {
+                    _rb.velocity = new Vector3(_rb.velocity.x, _rb.velocity.y, -25f);
+                } else {
+                    _rb.velocity = new Vector3(_rb.velocity.x, _rb.velocity.y, 0);
                 }
+
+                // Accelerate & brake
+                // if (throttleInput != "" && throttleInput != null)
+                // {
+                //     throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                // }
                 // Boost
                 boosting = (GetInput(boostInput) > 0.5f);
                 // Turn
