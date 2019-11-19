@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private GameObject player; 
     [SerializeField] private DialogueManager dm= null;
     [SerializeField] private Sprite consprite=null; //portrait
+    [SerializeField] public Sprite npcbg = null; //bg to be displayed in confidant menu
     [SerializeField] private GameObject dialoguebox; //dialm object
     [SerializeField] private GameObject talkui = null;//e to interact ui
     [SerializeField] private List<int> giftvalues = new List<int>(); //affinity values for each gift

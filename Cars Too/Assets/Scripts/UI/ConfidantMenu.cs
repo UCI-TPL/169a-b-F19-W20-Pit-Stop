@@ -17,12 +17,14 @@ public class ConfidantMenu : MonoBehaviour
     [SerializeField] private AudioClip affinityupsfx;
     public GameObject hidegifts;
     public GameObject hidedate;
-    public GameObject confidantbar;
-    private float maxconfidantlevel = 5.0f;
+    public TextMeshProUGUI confidantleveltext;
+    private int maxconfidantlevel = 5;
     private DialogueManager dm;
+    [SerializeField] private Image bg;
 
     private void Start()
     {
+        bg.gameObject.SetActive(false);
         confidantmenu.SetActive(false);
         dm = GameObject.FindObjectOfType<DialogueManager>();
     }
@@ -39,6 +41,9 @@ public class ConfidantMenu : MonoBehaviour
         confidant.sprite = s;
         currentNPC = npc;
         UpdateConfidantBar();
+        bg.gameObject.SetActive(true);
+        bg.sprite = npc.npcbg;
+        /*
         if (DataManager.instance.GetConfidantLevel(npc.Confidantname) >= 1)
         {
             hidegifts.SetActive(false);
@@ -55,6 +60,7 @@ public class ConfidantMenu : MonoBehaviour
         {
             hidedate.SetActive(true);
         }
+        */
     }
 
     public void CloseMenuButton()
@@ -71,6 +77,7 @@ public class ConfidantMenu : MonoBehaviour
         {
             DataManager.instance.am.PlayCurrentTheme();
             confidant.gameObject.SetActive(false);
+            bg.gameObject.SetActive(false);
         }
     }
 
@@ -85,6 +92,7 @@ public class ConfidantMenu : MonoBehaviour
     public void CloseGiftingMenu()
     {
         confidantbasemenu.SetActive(true);
+        /*
         if (DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) >= 4)
         {
             hidedate.SetActive(false);
@@ -93,6 +101,7 @@ public class ConfidantMenu : MonoBehaviour
         {
             hidedate.SetActive(true);
         }
+        */
         UpdateConfidantBar();
         giftingmenu.SetActive(false);
     }
@@ -127,7 +136,8 @@ public class ConfidantMenu : MonoBehaviour
 
     private void UpdateConfidantBar()
     {
-        Image i =confidantbar.GetComponent<Image>();
-        i.fillAmount = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)/maxconfidantlevel;
+        //Image i =confidantbar.GetComponent<Image>();
+        //i.fillAmount = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)/maxconfidantlevel;
+        confidantleveltext.text = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)+1 + "/" + maxconfidantlevel;
     }
 }

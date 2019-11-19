@@ -171,5 +171,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642,
         type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: npcbg
+      value: 
+      objectReference: {fileID: 21300000, guid: 858969b5fa1f12b41ac7ef53397c0a4a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
