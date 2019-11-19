@@ -111,7 +111,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            StartCoroutine(playConversation(c.convo));
+            StartCoroutine(playConversation(c.convo,false));
         }
             
             
