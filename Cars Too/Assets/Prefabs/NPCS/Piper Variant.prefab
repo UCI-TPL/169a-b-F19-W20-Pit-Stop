@@ -176,5 +176,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 858969b5fa1f12b41ac7ef53397c0a4a,
         type: 3}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: giftingchat
+      value: 
+      objectReference: {fileID: 11400000, guid: 8fcd25be59308ff4882552810664ba6b,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}

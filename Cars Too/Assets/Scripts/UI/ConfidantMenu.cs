@@ -86,7 +86,8 @@ public class ConfidantMenu : MonoBehaviour
             confidantbasemenu.SetActive(false);
             hidedate.SetActive(false);
             giftingmenu.SetActive(true);
-        
+            dm.DisplayLine(currentNPC.giftingchat.convo[Random.Range(0, currentNPC.giftingchat.convo.Count)]);
+
     }
 
     public void CloseGiftingMenu()
@@ -104,6 +105,7 @@ public class ConfidantMenu : MonoBehaviour
         */
         UpdateConfidantBar();
         giftingmenu.SetActive(false);
+        dm.DisplayLine(currentNPC.idlechats.convo[Random.Range(0, currentNPC.idlechats.convo.Count)]);
     }
 
     public void GiveGift(PresentType present)
