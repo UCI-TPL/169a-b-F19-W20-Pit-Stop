@@ -19,6 +19,7 @@ public class Chief : MonoBehaviour
     [SerializeField] private int carPartsToNextPhase;
     bool running = false;
     bool moveToNextLevel = false;
+    [SerializeField] private string destlevel = "Phase2CS";
 
 
     private ConfidantMenu cm = null;
@@ -229,7 +230,10 @@ public class Chief : MonoBehaviour
         //Resume Game
         closeMenu();
 
-
+        if (c == introchat)
+        {
+            openMenu();
+        }
         if (moveToNextLevel)
         {
             Debug.Log("Move to level 2");
@@ -279,7 +283,7 @@ public class Chief : MonoBehaviour
     private void MoveToLevel2()
     {
         DataManager.instance.IncreasePhase();
-        SceneManager.LoadScene("LVL2");
+        SceneManager.LoadScene(destlevel);
     }
 
     private void TurnOnSprite()

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LVL1Redesign.unity
     guid: 5443bb16c93f5814bbd4fd3d00e77288
   - enabled: 1
+    path: Assets/Scenes/Phase2CS.unity
+    guid: dc615354fe19c9647aa78f47a1c7999e
+  - enabled: 1
     path: Assets/Scenes/LVL2.unity
     guid: 856a670526a0dde498d7c7cfb898cda2
   m_configObjects: {}
