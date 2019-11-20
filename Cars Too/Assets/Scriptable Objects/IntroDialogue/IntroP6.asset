@@ -13,33 +13,25 @@ MonoBehaviour:
   m_Name: IntroP6
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
+  - speaker: Feminine Voice
     text: Uhhh, Lightning did that door just close behind you.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Gack
+  - speaker: Gak
     text: Sorry about this friend, but I'm not letting you stop me from leaving.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Gack
+  - speaker: Gak
     text: All of you hold onto this dead world like the humans before us. The true
       future lies beyond.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: Lightning, are you alright, we're working on getting you out of there.
+  - speaker: Feminine Voice
+    text: Lightning, are you alright? We're working on getting you out of there.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Lightning
     text: How did I get myself into this mess.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Not too long ago I wanted nothing more than just to be left alone.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: I can still remember it like it was yesterday.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 

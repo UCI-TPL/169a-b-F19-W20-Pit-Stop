@@ -10,23 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
-  m_Name: IntroP5
+  m_Name: StuckIntro
   m_EditorClassIdentifier: 
   convo:
   - speaker: Feminine Voice
-    text: Nice job Lightning, that'll slow the launch down for a bit.
+    text: Lightning, are you alright?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Deep Voice
-    text: You're getting close to the control room, we'll meet up with you up ahead.
+    text: We're stuck nearby. You keep going and we'll catch up.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Deep Voice
-    text: Take the passageway on your left, and go straight ahead for a while.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Deep Voice
-    text: We'll be there.
+    text: Gak locked us in from the control room, so be careful Lightning.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 

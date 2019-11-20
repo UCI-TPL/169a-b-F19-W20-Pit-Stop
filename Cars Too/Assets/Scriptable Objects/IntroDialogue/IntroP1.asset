@@ -13,21 +13,20 @@ MonoBehaviour:
   m_Name: IntroP1
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
-    text: Lightning! We've got eyes on you through the cameras.
+  - speaker: Feminine Voice
+    text: We've got eyes on you through the cameras Lightning.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Chief
-    text: 'That rocket''s taking off, you''re going to have to move fast if we want
-      to stop Gack. '
+  - speaker: Deep Voice
+    text: That must be the rocket Gak's trying to use to escape.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Springtrap
-    text: Get moving before we lose all those damn parts you care so much about.
+  - speaker: Deep Voice
+    text: Our only chance will be gone if Gak succeeds.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: There should be a way to the rocket through the vent on your left.
+  - speaker: Feminine Voice
+    text: There should be a way to the rocket through the passageway on your left.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 

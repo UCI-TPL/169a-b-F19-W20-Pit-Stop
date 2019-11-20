@@ -16,64 +16,82 @@ MonoBehaviour:
   - speaker: Piper
     text: Heya! What's revvin'? Need some help?
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: Yeah, can you tell me again why you dragged me out here?
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: "\rCuz you need some fresh air!"
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: You're really gonna call rummaging around a junkyard for parts "getting
       fresh air"?
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: Well it's definitely better than aimlessly wandering a desert all by yourself.
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: '...'
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: Clearly, you and I are on different pages when it comes to having a good
       time.
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: Oh don't be such a rusty wheel! Would it really kill you to interact with
       other people once in a while?
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: '....'
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: "\rLightning?"
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: Huh? Oh, sorry, I stopped listening after that horrendous "rusty wheel"
       pun. What'd you say?
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: sigh Forget it! Just go find your dumb cogs since you're so eager to end
       this conversation. I think I saw a few over there.
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: THANK you, Piper.
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: Yeah yeah, just be careful. And don't you dare just leave without telling
       me!
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: Remember, you promised we'd check this place out together!
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: "Uuuuuughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-\r"
     expression: {fileID: 0}
-  - speaker: Lightning(You)
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
     text: Fine. But we're not gonna find anything just sitting here, so I'm gonna
       head out.
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   - speaker: Piper
     text: Take care!
     expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
@@ -81,3 +99,6 @@ MonoBehaviour:
   isConversation: 1
   C1Reward: 0
   C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
