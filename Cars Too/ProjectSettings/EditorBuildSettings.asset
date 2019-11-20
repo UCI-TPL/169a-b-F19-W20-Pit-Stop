@@ -9,15 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: b23aa977e2704374994f4ae22fce20ce
   - enabled: 1
-    path: Assets/Scenes/LVL2.unity
-    guid: 856a670526a0dde498d7c7cfb898cda2
+    path: Assets/Scenes/IntroLevel.unity
+    guid: 4281218237597f444ae7594f36c805c9
   - enabled: 1
     path: Assets/Scenes/IntroCutscene.unity
     guid: 4ab5a1f23666b634f9b9304dd10c1521
   - enabled: 1
+    path: Assets/Scenes/TimeskipCs.unity
+    guid: fa04a0ec00cc31e4a959b7ca084ef9f9
+  - enabled: 1
     path: Assets/Scenes/LVL1Redesign.unity
     guid: 5443bb16c93f5814bbd4fd3d00e77288
   - enabled: 1
-    path: Assets/Scenes/IntroLevel.unity
-    guid: 4281218237597f444ae7594f36c805c9
+    path: Assets/Scenes/LVL2.unity
+    guid: 856a670526a0dde498d7c7cfb898cda2
   m_configObjects: {}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
+  m_Name: Timeskipcs
+  m_EditorClassIdentifier: 
+  chats:
+  - {fileID: 11400000, guid: 54345d1f4e180164a9ef22e45ef18232, type: 2}
+  fileloc: 
+  createpath: 
+  title: 

@@ -13,6 +13,7 @@ public class Fadein : MonoBehaviour
     public Image im = null; //image to be faded in
     public bool fadeonawake = true; // if true, the fadeout will begin automatically when the script is awake
     //if it is false, the fade coroutine must be called by another script to start
+    public bool donefadeing = false; // is false while fading is not done
 
     void Awake()
     {
@@ -28,6 +29,7 @@ public class Fadein : MonoBehaviour
 
     public IEnumerator fade()
     {
+        donefadeing = false;
         //start at 0% visible
         float i = 0.0f;
         //calculate total frames active
@@ -50,6 +52,9 @@ public class Fadein : MonoBehaviour
             im.color = new Color(im.color.r, im.color.b, im.color.g, 1);
         if (tx != null)
             tx.color = new Color(tx.color.r, tx.color.b, tx.color.g, 1);
+        donefadeing = true;
     }
+
+   
 
 }

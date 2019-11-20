@@ -11,6 +11,7 @@ public class ScenePlayer : MonoBehaviour
     public GameObject dialoguebox;
     private int index =-1;
     bool finished = true;
+    [SerializeField] private Fadein fi;
     //Scene to go to after finishing
     [SerializeField] private string destscene="LVL1";
 
@@ -97,11 +98,22 @@ public class ScenePlayer : MonoBehaviour
             {
                 PlayConvorChat(cl.chats[index]);
             }
-            else
+            else if(fi!=null&&!fi.gameObject.activeSelf)
             {
+                fi.gameObject.SetActive(true);
+                
+            }
+            else if(fi==null||fi.donefadeing)
+            {
+                
                 SceneManager.LoadScene(destscene);
             }
             finished = false;
+        }
+        else if (fi != null && fi.donefadeing)
+        {
+            
+            SceneManager.LoadScene(destscene);
         }
     }
 }
