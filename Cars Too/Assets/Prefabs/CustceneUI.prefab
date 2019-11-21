@@ -6167,6 +6167,7 @@ MonoBehaviour:
   dm: {fileID: 3782917001673969940}
   cl: {fileID: 11400000, guid: a3e2fe0187422f545b89b152cedc4431, type: 2}
   dialoguebox: {fileID: 7390485774971326163}
+  fi: {fileID: 0}
   destscene: LVL1Redesign
 --- !u!114 &278171658
 MonoBehaviour:
@@ -6198,7 +6199,7 @@ MonoBehaviour:
   - speaker: Springtrap
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 5d72b3da3641ba34aa785d986da7302f, type: 3}
+    Scenesprite: {fileID: 21300000, guid: c590e71c69d744e368ddccb49bf48434, type: 3}
   - speaker: Dex
     text: 
     expression: {fileID: 0}
