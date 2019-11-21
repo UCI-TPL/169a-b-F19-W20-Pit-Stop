@@ -91,7 +91,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && close != true)
         {
             close = true;
             talkui.SetActive(true);
@@ -111,7 +111,7 @@ public class NPC : MonoBehaviour
     {
         cm.OpenMenu(this,consprite, Confidantname);
         talkui.SetActive(false);
-        close = false;
+        //close = false;
         dm.setNPC(this,consprite);
         if (!met)
         {

@@ -81,7 +81,7 @@ public class Chief : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && close != true)
         {
             close = true;
             talkui.SetActive(true);
@@ -102,7 +102,7 @@ public class Chief : MonoBehaviour
     {
         //cm.OpenMenu(this, consprite, Confidantname);
         talkui.SetActive(false);
-        close = false;
+        //close = false;
         dm.HaltDialogue();
         TurnOnSprite();
         if (!met)
