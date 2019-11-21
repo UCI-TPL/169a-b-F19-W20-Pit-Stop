@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: PiperDate21
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: Hey, you wanna hang out again?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Abso-toot-ly!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "...On second thought\u2026.."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh, quit it! I know your game.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What game?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Doing this whole \u201Ctough guy\u201D routine."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "It\u2019s not a \u201Croutine\u201D!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Uh-huh. And you\u2019re not back for more?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I\u2019m NOT-!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Ugh, whatever.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: How do you know how to push all my buttons?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "It\u2019s what I\u2019m built for, silly!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "So what\u2019d you wanna talk about?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: "What\u2019s the worst thing you\u2019ve found?"
+  Choice2: "What\u2019s the best thing you\u2019ve found?"
+  Route1:
+  - speaker: Piper
+    text: Ooooooooo, uh, well -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "That\u2019s a toughie. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Human society broke down so long ago and\u2026."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Well, to be honest, sometimes it\u2019s hard to look at all this \u201Cjunk\u201D
+      as you\u2019d like to call it."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "So I guess, on one hand, everything I\u2019ve come across is the worst
+      thing I\u2019ve found. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Toys, art, inventions, skyscrapers, homes -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: It all points to this exciting and bustling place!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "And that\u2019s what I love about it! I really do!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: But at the same time-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: It makes seeing it all empty so much worse.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: There USED to be people here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: People used to walk these roads. Play in these fields. Invent in those buildings.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Seeing everything abandoned is sad sometimes.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "But I can\u2019t let it get to me!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Piper
+    text: Oooooo, uh, well-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "That\u2019s a toughie."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I mean, I love everything I come across!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*Piper holds up a metal bowl with lots of holes in it*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I mean look at this thing? What the heck was this used for?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "My theory is that it\u2019s a helmet of some sorts, to protect workers
+      from certain substances."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Or-Or from maybe falling debris when they were building these massive things!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Right now, this is the best thing I\u2019ve found!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "But tomorrow, it\u2019ll probably be something else, and something else
+      after that!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Even though it\u2019s all so old, it\u2019ll always be new to me."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

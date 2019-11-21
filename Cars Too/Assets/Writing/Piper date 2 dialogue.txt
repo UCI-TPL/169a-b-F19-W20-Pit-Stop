@@ -1,0 +1,367 @@
+Lightning:
+Hey, you wanna hang out again?
+
+Piper:
+Abso-toot-ly!
+
+Lightning:
+...On second thought…..
+
+Piper:
+Oh, quit it! I know your game.
+
+Lightning:
+What game?
+
+Piper:
+Doing this whole “tough guy” routine.
+
+Lightning:
+It’s not a “routine”!
+
+Piper:
+Uh-huh. And you’re not back for more?
+
+Lightning:
+I’m NOT-!
+
+Lightning:
+Ugh, whatever.
+
+Lightning:
+How do you know how to push all my buttons?
+
+Piper:
+It’s what I’m built for, silly!
+
+Piper:
+So what’d you wanna talk about?
+
+Lightning:
+You’re always digging things up, so I’m curious -
+EndC
+
+Choices
+What’s the worst thing you’ve found?
+What’s the best thing you’ve found?
+
+Piper:
+Ooooooooo, uh, well -
+
+Piper:
+That’s a toughie. 
+
+Piper:
+Human society broke down so long ago and….
+
+Piper:
+Well, to be honest, sometimes it’s hard to look at all this “junk” as you’d like to call it.
+
+Piper:
+So I guess, on one hand, everything I’ve come across is the worst thing I’ve found. 
+
+Piper:
+Toys, art, inventions, skyscrapers, homes -
+
+Piper:
+It all points to this exciting and bustling place!
+
+Piper:
+And that’s what I love about it! I really do!
+
+Piper:
+But at the same time-
+
+Piper:
+It makes seeing it all empty so much worse.
+
+Piper:
+There USED to be people here.
+
+Piper:
+People used to walk these roads. Play in these fields. Invent in those buildings.
+
+Piper:
+Seeing everything abandoned is sad sometimes.
+
+Piper:
+But I can’t let it get to me!
+
+End
+
+Piper:
+Oooooo, uh, well-
+
+Piper:
+That’s a toughie.
+
+Piper:
+I mean, I love everything I come across!
+
+Narrator:
+*Piper holds up a metal bowl with lots of holes in it*
+
+Piper:
+I mean look at this thing? What the heck was this used for?
+
+Piper:
+My theory is that it’s a helmet of some sorts, to protect workers from certain substances.
+
+Piper:
+Or-Or from maybe falling debris when they were building these massive things!
+
+Piper:
+Right now, this is the best thing I’ve found!
+
+Piper:
+But tomorrow, it’ll probably be something else, and something else after that!
+
+Piper:
+Even though it’s all so old, it’ll always be new to me.
+
+End
+
+Piper:
+Human society left so much behind, it would be irresponsible of me to not look at it all!
+
+Piper:
+What about you?
+
+Lightning:
+Me?
+
+Piper:
+Yeah, what do you think of human society?
+
+Lightning:
+Well, you know what I think.
+
+Piper:
+Nope.
+
+Piper:
+I know what you THOUGHT!
+
+Piper:
+But now you’ve seen more than you ever got to see in that desert.
+
+Piper:
+So what’s the verdict now?
+
+Lightning:
+Uh, well….
+EndC
+
+Choices
+I still think it’s not worth looking into.
+I think it’s interesting.
+
+Lightning:
+I still think it’s not worth looking into.
+
+Lightning:
+They all died a long time ago.
+
+Lightning:
+And I don’t wanna go sticking my hood into why that happened.
+
+Piper:
+*GASP!!!*
+
+Lightning:
+?
+
+Lightning:
+What?
+
+Piper:
+You just unironically used a car pun!!!
+
+Lightning:
+What? No I didn’t!
+
+Piper:
+*laughs*
+
+Piper:
+Yeah you did~!
+
+Lightning:
+Alright, fine, I did, whatever!
+Piper:
+This is so going into my journal-
+
+Lightning:
+ANYWAY -
+
+Lightning:
+My point is, why in the world would you want to go looking into how they all died?
+
+Lightning:
+What if that ends up happening to us too?
+
+Lightning:
+All because we were meddling with something we shouldn’t have.
+
+Piper:
+Oh, Lightning.
+
+Piper:
+That’s not what history’s about! 
+
+Piper:
+Yes, the humans all died but it was probably because of some stupid mistake!
+
+Piper:
+And mistakes happen. They happen to all of us!
+
+Piper:
+All we can do is try our best to prevent them.
+
+Piper:
+We can’t do that without acknowledging them.
+
+End
+
+Lightning:
+Actually, I….
+
+Lightning:
+Yeah. I think it’s interesting.
+
+Piper:
+Oh, Lightning, you can’t always think that way! Remember you have to-
+
+Piper:
+…
+
+Piper:
+Wait.
+
+Piper:
+Did you say you…
+
+Piper:
+You DO think it’s interesting???
+
+Lightning:
+Well, yeah. 
+
+Piper:
+AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!
+
+Lightning:
+…
+
+Lightning:
+Hello. Testing.
+
+Lightning:
+Cool, I didn’t just go deaf.
+
+Piper:
+THIS IS SO MOTORIFIC!
+
+Piper:
+You actually like this kinda stuff now?? You don’t think it’s junk?
+
+Lightning:
+Yeah, I guess?
+
+Lightning:
+I mean, you’re right. 
+
+Lightning:
+I’ve seen more in this rundown town than I ever would have seen in that desert.
+
+Lightning:
+And humans are….
+
+Lightning:
+Now, disclaimer, I still think you give humans way more credit than they deserve-
+
+Lightning:
+But after seeing all the stuff you’ve dug up….
+
+Lightning:
+I see now that they really did care about things. Other than killing the planet, anyways.
+
+Lightning:
+Ignoring it would just make us…
+
+Piper:
+Ignorant?
+
+Lightning:
+I was trying to find a word a little less on the nose, but yeah.
+
+Piper:
+I think you’re right!
+
+Piper:
+We can’t ignore their world history, because their world history is our world history!
+
+End
+
+Piper:
+There’s an old human quote that goes-
+
+Piper:
+“Those who do not learn from history are doomed to eat it”
+
+Lightning:
+…
+
+Lightning:
+What the heck does that mean?
+
+Piper:
+I dunno, the words were pretty smeared -
+
+Piper:
+But-! I think it means we have to learn from the past to save our future!
+
+Piper:
+So that’s what I’m doing here. 
+
+Piper:
+Do you think that’s dumb?
+EndC
+
+Choices
+Yep. Totally.
+Not at all.
+
+Piper:
+Seriously?
+
+Lightning: 
+Yeah. But you know what-
+
+Lightning:
+You’re doing what you love. And you have a fun time with it.
+
+End
+
+Piper:
+Really?
+
+Lightning:
+Yeah. It’s important for you guys to know what happened.
+
+Lightning:
+Like you said, you have to learn from the past.
+
+Lightning:
+In the end, I think that’s all that matters.
+
+Piper:
+Yeah. Thanks, Lightning. That makes me feel better!
+
+Piper:
+Well, I think we’d better hit the road again.
+
+Piper:
+It was a pleasure, as always!
+
+End
