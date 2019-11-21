@@ -6,9 +6,27 @@ public class ConveyerBelt : MonoBehaviour
 {
     [SerializeField] private float speed = 1;
     [SerializeField] private Transform endpoint;
+    [SerializeField] private bool player = false;
 
     private void OnTriggerStay(Collider other)
     {
-        other.transform.position = Vector3.MoveTowards(other.transform.position, endpoint.position, speed * Time.deltaTime);
+        if (other.CompareTag("Player"))
+        {
+            if (!player)
+            {
+                other.transform.position = Vector3.MoveTowards(other.transform.position, endpoint.position, speed * Time.deltaTime);
+                player = true;
+            }
+        }
+        else
+        {
+            other.transform.position = Vector3.MoveTowards(other.transform.position, endpoint.position, speed * Time.deltaTime);
+        }
     }
+
+    private void Update()
+    {
+        player = false;
+    }
+
 }
