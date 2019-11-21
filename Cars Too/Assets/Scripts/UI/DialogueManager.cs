@@ -29,10 +29,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public GameObject autodialogueobjects =null; //gameobject to be turned on when playing autodialogue
     [SerializeField] private TextMeshProUGUI autodialoguebox = null; //textbox for autodialogue
     [SerializeField] private AutoDialoguePortrait adp = null; //character portrait for autodialogue
+    [SerializeField] private GameObject blinker = null; //blinker obj to display when done reading text
 
 
-
-    [SerializeField] private Chat test; //Only used for testing purposes
 
     //All fields are currently serialized for testing purposes
 
@@ -82,6 +81,7 @@ public class DialogueManager : MonoBehaviour
         }
         canvasobjects.SetActive(true);
         Choicecanvas.SetActive(true);
+        skipbutton.SetActive(false);
         Choicetext1.text = choice1;
         Choicetext2.text = choice2;
 
@@ -145,6 +145,7 @@ public class DialogueManager : MonoBehaviour
                 skip = false;
                 break;
             }
+            blinker.SetActive(true);
             //Wait a frame to allow for a click to expedite dialogue to not be counted again when proceeding to the next line.
             yield return null;
 
@@ -157,6 +158,7 @@ public class DialogueManager : MonoBehaviour
 
                 if (GetInput())
                 {
+                    blinker.SetActive(false);
                     finished = true;
                     DataManager.instance.am.PlaySound(ac);
                 }

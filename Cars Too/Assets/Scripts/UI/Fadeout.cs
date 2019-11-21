@@ -12,6 +12,7 @@ public class Fadeout : MonoBehaviour
     public Image im=null; //image to be faded in
     public bool fadeonawake = true; // if true, the fadeout will begin automatically when the script is awake
     //if it is false, the fade coroutine must be called by another script to start
+    public bool donefadeing = false;
 
     void Awake()
     {
@@ -27,6 +28,7 @@ public class Fadeout : MonoBehaviour
 
     public IEnumerator fade()
     {
+        donefadeing = false;
         //start at 100% visible
         float i = 1.0f;
         //calculate total frames active
@@ -43,8 +45,16 @@ public class Fadeout : MonoBehaviour
             yield return null;
             i -= incrementer;
         }
-      tx.gameObject.SetActive(false);
-      im.gameObject.SetActive(false);
+        if (tx != null) { 
+            tx.gameObject.SetActive(false);
+            tx.color = new Color(tx.color.r, tx.color.b, tx.color.g, 0.0f);
+        }
+        if (im != null)
+        {
+            im.gameObject.SetActive(false);
+            im.color = new Color(im.color.r, im.color.b, im.color.g, 0.0f);
+        }
+        donefadeing = true;
     }
 
 }
