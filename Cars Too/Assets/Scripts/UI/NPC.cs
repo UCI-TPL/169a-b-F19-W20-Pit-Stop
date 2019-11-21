@@ -17,6 +17,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<int> giftvalues = new List<int>(); //affinity values for each gift
     private ConfidantMenu cm = null; // confidantmenu reference
     bool running = false; //indicates when a chat is being processed 
+    private bool menuopen=false;
 
     //index for the npc's theme within the audiomanager
     [SerializeField] private int npcthemeindex=0;
@@ -100,15 +101,18 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&&!menuopen)
         {
+            
             close = false;
             talkui.SetActive(false);
+            
         }
     }
 
     public void openMenu()
     {
+        menuopen = true;
         cm.OpenMenu(this,consprite, Confidantname);
         talkui.SetActive(false);
         //close = false;
@@ -130,6 +134,7 @@ public class NPC : MonoBehaviour
 
     public void closeMenu()
     {
+        menuopen = false;
         cm.CloseMenu();
         //confidantimage.gameObject.SetActive(false);
         close = true;
