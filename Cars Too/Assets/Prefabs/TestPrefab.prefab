@@ -415,6 +415,7 @@ GameObject:
   - component: {fileID: 2934915868146143608}
   - component: {fileID: 8137111420603991518}
   - component: {fileID: 2289008553411832442}
+  - component: {fileID: 8782707823909404903}
   m_Layer: 8
   m_Name: TestPrefab
   m_TagString: Player
@@ -601,6 +602,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.0010684811
   m_Center: {x: 0.0043535074, y: -0.0025, z: -0.0044727596}
+--- !u!65 &8782707823909404903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Material: {fileID: 13400000, guid: c98980f38d96ab3419929cbd21172360, type: 2}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013647315, y: 0.009037018, z: 0.012316357}
+  m_Center: {x: 0.000029633222, y: 0.00023519238, z: -0.00021036174}
 --- !u!1 &6850433860954804325
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +704,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: HatHolder
       objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314482, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314481, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 9196077001080246423, guid: f6b9d52c924f00e4b94a92e4c62f0901,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -765,16 +799,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 4556460356723554839, guid: f6b9d52c924f00e4b94a92e4c62f0901,
         type: 3}
       propertyPath: m_Enabled
@@ -789,16 +813,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314482, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314481, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b9d52c924f00e4b94a92e4c62f0901, type: 3}
@@ -825,6 +839,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cowboy_hat
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830627, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3247818134065830652, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
         type: 3}
@@ -895,21 +924,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0018
-      objectReference: {fileID: 0}
-    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3247818134065830627, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3247818134065830626, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
         type: 3}

@@ -16,8 +16,13 @@ public class PresentBox : Id
     public override void Start()
     {
         base.Start();
-        myPresentType = (PresentType) Random.Range(0, numberOfPresentTypes);
-        Debug.Log(myPresentType);
+        int type = Random.Range(0, numberOfPresentTypes-1);
+        if (type == 2)
+        {
+            type = 4;
+        }
+        myPresentType = (PresentType) type;
+        //Debug.Log(myPresentType);
         Instantiate(presentmodels[(int)myPresentType], this.transform);
 
     }
