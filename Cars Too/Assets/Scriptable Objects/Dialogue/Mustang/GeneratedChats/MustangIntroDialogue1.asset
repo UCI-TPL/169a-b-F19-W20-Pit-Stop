@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: MustangIntroDialogue1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: ???
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Erm...Hello?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...Uh. Okay. I''ll move along then, I guess-'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: '*Beep!*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...Excuse me?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: '*Beep Beep!*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: That's. Uhm. That's nice? I'm just gonna head out-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: '*Beep Beep Be-* '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: '*Click!*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: Whoa hey! Sorry 'bout that! Dadgum transistors don't work as well as they
+      used ta. Name's Mustang, slick! Pleasure ta meet the new motor!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh! Er, yeah. Hello, Mustang.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I'm the techno-gizmo-whatever big bug 'round these parts.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: So if ya got a fizzin' gadget, get a wiggle on back to me lickity split.
+      Ya hear?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I...think?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Hah! I can set with that. Don't go gettin' rattled if yer at sea. The Simon
+      pure is my transmitter gave out a long time ago, I ain't just hazing a tenderfoot.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Then again you ain't no tenderfoot. Been a roaming wolf, haven't cha? How
+      many parts you got on yer own?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Ah, *achem* well, I got, uhm, that is to say-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Don''t go beatin'' ''round the bust now! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You got none, huh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '....Yeah.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '*laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: That's what happens when ya don't go fixin' the coon right!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Okay, that couldn't have EVER been a saying-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: When yer 'round here, you'll be gettin' your gears dirty. You'll be findin'
+      parts left 'n' right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: We'll see soon enough if ya got what it takes to rope 'em in.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Good luck!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

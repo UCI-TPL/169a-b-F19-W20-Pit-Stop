@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: MustangDialogue1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Mustang
+    text: What can I do ya for?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Can you tell me a little more about the gadgets you work on?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Oh, my gizmos? Sure, sure!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: First of all, I gots a modified fishin' rod that lets me pick up things
+      these ol' tires can't.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wait, you made the fishing rod too?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: That's right!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: How'd you manage that? Wish just tires and all?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '...I don''t appreciate personal questions.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

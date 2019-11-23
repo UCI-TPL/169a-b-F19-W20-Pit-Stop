@@ -36,16 +36,16 @@ MonoBehaviour:
   giftvalues: 320000003200000032000000320000006400000032000000
   npcthemeindex: 2
   randomchats:
-  - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
+  - {fileID: 11400000, guid: d9a025c83ab420d488d5568f39669670, type: 2}
   - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
   - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
   LevelupChats: {fileID: 11400000, guid: f0eaf491bef23614296a56224583bf2c, type: 2}
   giftrecievedchats: {fileID: 11400000, guid: 40cf7e50d33a48f4dbb941033e76f6f2, type: 2}
-  introchat: {fileID: 11400000, guid: d073543be40565f42b78236edfee389d, type: 2}
+  introchat: {fileID: 11400000, guid: 2cc6ecd151a580c4288c6bb10e7b227a, type: 2}
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
   nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
-  date1: {fileID: 0}
-  giftingchat: {fileID: 0}
+  date1: {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642, type: 2}
+  giftingchat: {fileID: 11400000, guid: 8fcd25be59308ff4882552810664ba6b, type: 2}
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,0 +1,25 @@
+Mustang:
+What can I do ya for?
+
+Lightning:
+Can you tell me a little more about the gadgets you work on?
+
+Mustang:
+Oh, my gizmos? Sure, sure!
+
+Mustang:
+First of all, I gots a modified fishin' rod that lets me pick up things these ol' tires can't.
+
+Lightning:
+Wait, you made the fishing rod too?
+
+Mustang:
+That's right!
+
+Lightning:
+How'd you manage that? Wish just tires and all?
+
+Mustang:
+...I don't appreciate personal questions.
+
+End
