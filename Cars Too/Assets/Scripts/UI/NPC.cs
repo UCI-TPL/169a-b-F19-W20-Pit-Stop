@@ -295,10 +295,7 @@ public class NPC : MonoBehaviour
             }
             else if (Confidantname.Equals("Dex"))
             {
-                DataManager.instance.affinityBoost = true;
-            }
-            else if (Confidantname.Equals("Loco"))
-            {
+                //DataManager.instance.affinityBoost = true;
                 DataManager.instance.canHack = true;
             }
             else if (Confidantname.Equals("Springtrap"))
