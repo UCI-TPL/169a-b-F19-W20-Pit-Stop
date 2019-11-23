@@ -9,6 +9,7 @@ public class ConfidantData
     [SerializeField] List<int> clvlthresholds =new List<int>();
     public bool met = false;
     public List<int> chatindex=new List<int>();
+    public int dateindex = 0;
     
 
      public ConfidantData(string s)

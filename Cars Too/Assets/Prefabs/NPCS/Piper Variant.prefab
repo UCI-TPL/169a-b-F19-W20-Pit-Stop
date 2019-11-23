@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5611003960058169850, guid: 648be5f8bc679b44e824f05c9b078757,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5017086935626629801, guid: 648be5f8bc679b44e824f05c9b078757,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -79,6 +84,10 @@ PrefabInstance:
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: giftvalues.Array.size
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: date1.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: Confidantname
@@ -169,8 +178,7 @@ PrefabInstance:
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: date1
       value: 
-      objectReference: {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: npcbg
       value: 
@@ -185,6 +193,16 @@ PrefabInstance:
       propertyPath: talkui
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: date1.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642,
+        type: 2}
+    - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
+      propertyPath: date1.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 61c4144c1dd1a5348a8c4bccc819149b,
+        type: 2}
     - target: {fileID: 1262835756, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: m_Size.x
       value: 0.03743912
@@ -192,11 +210,6 @@ PrefabInstance:
     - target: {fileID: 1262835756, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: m_Size.z
       value: 0.03513515
-      objectReference: {fileID: 0}
-    - target: {fileID: 5611003960058169850, guid: 648be5f8bc679b44e824f05c9b078757,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}

@@ -30,7 +30,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] public Conversation idlechats = null; //small lines said in the confidant menu
     [SerializeField] private Chat nomorechats = null; //default line for when there are no more chats in the current phase
-    [SerializeField] private Chatlist date1 = null; //chat to be played when date is clicked
+    [SerializeField] private List<Chatlist> date1 = null; //chat to be played when date is clicked
     [SerializeField] public Chat giftingchat = null; // chat to be displayed during gifting
 
 
@@ -319,7 +319,20 @@ public class NPC : MonoBehaviour
 
     public void PlayDate()
     {
-        StartCoroutine(PlayDaterun(date1));
+        if (DataManager.instance.GetConfidantData(Confidantname).dateindex == 0)
+        {
+            StartCoroutine(PlayDaterun(date1[0]));
+            DataManager.instance.GetConfidantData(Confidantname).dateindex++;
+        }
+        else if(DataManager.instance.GetConfidantData(Confidantname).dateindex == 1 && DataManager.instance.phase==1)
+        {
+            StartCoroutine(PlayDaterun(date1[1]));
+            DataManager.instance.GetConfidantData(Confidantname).dateindex++;
+        }
+        else
+        {
+            PlayConvorChat(nomorechats);
+        }
     }
 
     private IEnumerator PlayDaterun(Chatlist date)
