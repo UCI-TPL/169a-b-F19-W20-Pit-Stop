@@ -8,7 +8,7 @@ public class Id : MonoBehaviour
     //If an ID is addded to the datamanagers list of ids on reloading the scene it will do something
     //At base the gameobject is just deleted if the id is contained
     //Any Class that inherits from this one will get the ID editor as well
-    [SerializeField] int id = 0;
+    [SerializeField]public int id = 0;
     public virtual void Start()
     {
         //If the id is contained do something

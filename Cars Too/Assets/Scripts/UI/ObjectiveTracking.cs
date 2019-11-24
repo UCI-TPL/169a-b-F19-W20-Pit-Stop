@@ -12,6 +12,7 @@ public class ObjectiveTracking : MonoBehaviour
     {
         objtext = GetComponent<TextMeshProUGUI>();
         DataManager.instance.carPartAcquired.AddListener(UpdateQuest);
+        UpdateQuest();
     }
 
     // Update is called once per frame

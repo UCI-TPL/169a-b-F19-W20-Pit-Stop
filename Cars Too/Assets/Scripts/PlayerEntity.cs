@@ -37,16 +37,17 @@ public class PlayerEntity : MonoBehaviour
     public void ProcessPickup(Collider other)
     {
         
-        if (other.CompareTag("CarPart"))
+        if (other.CompareTag("CarPart")&&!other.GetComponent<CarPart>().GetCollected())
         {
             DataManager.instance.PickedUpCarPart(other.GetComponent<CarPart>());
             DataManager.instance.am.PlaySound(pickup);
+            other.GetComponent<CarPart>().CollectPart();
             Destroy(other.gameObject);
         }
 
-        if (other.CompareTag("PresentBox"))
+        if (other.CompareTag("PresentBox")&&!other.GetComponent<PresentBox>().GetCollected())
         {
-
+            other.GetComponent<PresentBox>().CollectGift();
             DataManager.instance.PickedUpGift(other.GetComponent<PresentBox>());
             DataManager.instance.am.PlaySound(pickup);
             Destroy(other.gameObject);

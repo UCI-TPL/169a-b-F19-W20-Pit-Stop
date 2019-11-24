@@ -9,6 +9,7 @@ public class PresentBox : Id
     [SerializeField] int value = 1;
     [SerializeField] PresentType myPresentType;
     [SerializeField] List<GameObject> presentmodels;
+    private bool collected = false;
 
     private int numberOfPresentTypes = 5;
 
@@ -41,5 +42,15 @@ public class PresentBox : Id
     public int GetValue()
     {
         return value;
+    }
+
+    public bool GetCollected()
+    {
+        return collected;
+    }
+
+    public void CollectGift()
+    {
+        collected = true;
     }
 }

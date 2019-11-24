@@ -17,6 +17,7 @@ public class IdEditor : Editor
             for(int i= 0; i < idobjs.Length; i++)
             {
                 idobjs[i].SetID(i);
+                EditorUtility.SetDirty(idobjs[i]);
             }
         }
     }

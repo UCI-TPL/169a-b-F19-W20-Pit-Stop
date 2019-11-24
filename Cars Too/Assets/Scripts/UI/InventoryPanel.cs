@@ -25,7 +25,8 @@ public class InventoryPanel : MonoBehaviour
     {
         DataManager.instance.carPartAcquired.AddListener(OnPartAcquired);
         DataManager.instance.giftAcquired.AddListener(OnGiftAcquired);
-
+        OnPartAcquired();
+        OnGiftAcquired();
         inventory.SetActive(false);
     }
 
