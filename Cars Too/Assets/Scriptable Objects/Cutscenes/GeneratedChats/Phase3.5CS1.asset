@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: Phase3.5CS1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: It wouldn't hurt to the radio try one more time.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Piper, can you hear me?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*static*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Springtrap?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Dex? Mustang?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*static*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Chief?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*static*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '!!'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: Hello? Someone there?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yes! I'm here-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: ???
+    text: Oh thank the stars! Someone's actually here!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wait.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You're not....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Who is this?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Right, sorry! I was just so excited to hear someone! My name is Gak.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: You have no idea how long I've been flipping through frequencies, praying
+      to some big car god that someone would hear me!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Guess I've gotta build a shrine now, or something.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I'm Lightning.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Why were you going through frequencies? Where are you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Well that's just the thing, I need help. Bad.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'I''m trapped in the space station. One of these decrepit machines broke
+      down and the door out of the room I''m in got stuck. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Those stupid humans had to make these things out of titanium, there's no
+      way I can open it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You want me to get you out?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Yeah that's the idea, genius.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Dude.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Er, sorry.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'Being stuck in a room for so long drives your impatience through the roof. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Ah, car puns.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '...What?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "You know, \u201Cthrough the roof\u201D?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: ??
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "\u2018Cause cars have a....have a roof-?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Look, I just wanna get out of here. Maybe help me before you start making
+      jokes.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Right, yeah, sorry. What do you need?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I'm gonna need at least [number of parts] of [name of parts] to get this
+      door working again.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: But - obviously - you can't get them to me. So you're gonna have to fix
+      the door yourself.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Please tell me you can do that?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah, I bet I can figure out. I'm pretty good with tools. Actually I-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I don't need your life story. Just get the tools and get me out of here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I can make it worth your time too. This space station's got all kinds of
+      shinies. Maybe we could make some kind of trade?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, I'm not really looking to trade-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Then don't waste time. I'm in the third level control room. Hurry up.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Okay, see you-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*click*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...then.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well, they're a charmer.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
