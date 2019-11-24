@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chats:
   - {fileID: 11400000, guid: 3fb09223ef1170548a5e9573fec5f60e, type: 2}
-  fileloc: /Writing/transition1.txt
+  fileloc: /Writing/Trans1.txt
   createpath: Assets/Scriptable Objects/Cutscenes/GeneratedChats/
   title: Phase2CS

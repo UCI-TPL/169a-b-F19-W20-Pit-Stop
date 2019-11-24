@@ -13,137 +13,76 @@ MonoBehaviour:
   m_Name: Phase2CS1
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
-    text: Hooray! You found your first part!
+  - speaker: Chief
+    text: Found what you could?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Lightning
-    text: "You\uFFFDfre actually excited about that?"
+    text: Yes sir.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "We had a deal didn\uFFFDft we? "
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: I just want to hold up my end of the bargain!
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: "Even if you\uFFFDfre end of the bargain helps me get off-planet?"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "*sighs* Yes, even if that\uFFFDfs still your plan."
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "Lightning, I know you only came because you knew we had the parts you could
-      use to help build your rocket or whatever, but\uFFFDc"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "I hope as you spend more time with the Spirit, you\uFFFDfll see how motorific
-      it is!"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: "Piper, I\uFFFDfm not gonna change my mind. Don\uFFFDft you see what this
-      wasteland\uFFFDfs turned into?"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: "There\uFFFDfs nothing but junk. I\uFFFDfm better off somewhere far away
-      from here."
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "But don\uFFFDft you see what this wasteland was? There were people and
-      there was life!"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "We could build something new! Something just for us! The world is ours
-      now, don\uFFFDft you see that?"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: "No, I don\uFFFDft. All I see is a big fat pile of-"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: ???
-    text: Yo!
+  - speaker: Chief
+    text: Good. Those parts will be essential for Mustang's purifier. Once we get
+      those toxins in the air out of our way, we can start fixing things around here.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
-    text: "Somethin\uFFFDf goin\uFFFDf on here I should know about?"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "Springtrap, Dex! You\uFFFDfre back from scouting?"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: Yes, we have returned! Did you miss me and my radiance?
+    text: Yo, chief.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
-    text: Ugh.
+    text: I got that bridge fixed. We have full access to that new area for parts
+      now.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: What did you find?
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: Oh have we got a haul for you!
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: "There\uFFFDfs a valley just west of here that looks to be filled with parts!
-      Though there\uFFFDfs an eensy weensy teeny tiny problem-"
+  - speaker: Chief
+    text: "Then we're moving. I'll tell the others and let them know they can enter\u2026.hmmm\u2026."
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
-    text: The bridge is completely blown out.
+    text: What is it?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: "A minor inconvenience! Luckily I\uFFFDfm the fastest car awake, so jumping
-      it won\uFFFDft be a-!"
+  - speaker: Chief
+    text: Do we have a name for the place yet?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "OO OO! Did I just hear \u201Cnaming\u201D!???"
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
-    text: "DEX! You\uFFFDfre not going to be jumping ANYTHING. We are FIXING the bridge
-      like normal people so that we can move supplies back and forth."
+    text: Here we go.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Affirmative. Springtrap just fixed the bridge to a new, unnamed area.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
-    text: "We\uFFFDfll be over by the border. I\uFFFDfll see ya, Piper."
+    text: Do we really have to name it? It's just another abandoned place chock full
+      of radiation.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Piper
-    text: Take care!
+    text: Hey, that's it! Radiation, and Springtrap cleared the way to it-
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Piper
-    text: Lightning, remember to introduce yourself when you have the time.
+    text: So how about Springs of Radiation!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: But-
+  - speaker: Springtrap
+    text: '*rubs the back of her head* Uhm, I mean, all I did was fix the bridge-'
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: Please!? Remember the deal?
+  - speaker: Chief
+    text: It's a wonderful name, Piper.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: "\uFFFDc."
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: 'Ugh, fine. '
+  - speaker: Chief
+    text: Okay everyone. If you still got stuff to do here feel free to stay. Otherwise,
+      let's move out!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 

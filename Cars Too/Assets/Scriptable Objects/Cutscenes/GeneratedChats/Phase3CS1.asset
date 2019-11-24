@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: Phase3CS1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Chief
+    text: Got all the parts you could find?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yes sir.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: 'You''re gettin'' good at this. At this rate, we''ll have enough parts for
+      the purifier in a flash. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Next time we'll have to time you, eh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: M-Maybe. Yeah, sure.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: '?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: You okay there?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah I'm fine. I just. Uhm. I need to...take care of something. I'll see
+      you around, Chief.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Alright. But we're gonna be moving on from this place soon, so keep your
+      radio on. Don't wanna miss us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: R-Right-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Hey!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh! Uh, hey, Piper.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: How's it going? Ready for the move?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah. Uh. About that ...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'What''s the matter? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: It's about the parts-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh yeah! You turned them in to Chief, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '...Right?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Piper, I....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You still have them!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Lightning, you're not actually....?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I mean, you can't still be planning on using them for yourself?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '.....I-'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Oh my gears. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You were!? Really?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Even after meeting with everyone? Even after hanging out and talking and-and-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And being our friend?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'That was all just a lie then, I guess. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Even after every hangout or-or chat, you still went looking for your stupid
+      parts, didn't you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Piper-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: DON'T!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Don't say anything. I-I need to process this. I mean-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: NOTHING mattered!? Really!? Nothing was enough for you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: We weren't enough?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'I mean, I guess not, because you just kept working on your dumb rocket...Piper:Sure,
+      I knew that from the beginning, I knew what you''re plan was, I agreed to it
+      and everything, but, I never thought you''d...you''d really just stay that way. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'You even kept up friendly conversations with all of us! But you weren''t
+      being friendly at all, were you? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Piper! I wanted to ask if-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You just wanted faster ways to get your parts! That's all! You just USED
+      us, didn't you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '!?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*Piper sees Springtrap*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Springtrap....!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Lightning. You....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: WHAT!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Uh oh.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: YOU WERE JUST *USING* US? Is THAT what I just heard!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: W-Wait, Springtrap, I can explain-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'NO, Piper. This metal scrap isn''t worth your defense. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Well, Lightning? We were just parts to you, huh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Once I'M through with you, that's all you'll be too.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Stop, Springtrap!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: What in tarnation is goin' on here!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Don't try to stop me! This piece of junk is going straight to the scrapyard.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: '[Dex appears'
+    text: Dex:Hey hey hey! Chillax, Springtrap, what did Lightning ever do to you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Ohoh, the list is getting longer every SECOND.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: What are you talking about?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'Lightning''s a TRAITOR. That''s what I''m talking about. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You're here to get parts for yourself and that's all.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You were probably planning on skipping town too, weren't you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: We'd all move next morning, and you'd be gone, with as many parts as you
+      felt like taking, you little THIEF-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Now that's enough!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Someone wanna tell me why Springtrap wants to rip out Lightning's engine?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: It's my fault, Chief!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Piper-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Please don't blame Lightning, this is my fault, I'm the one who should be
+      punished!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Hang on now, no one is punishing anyone. We're just confused is all.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Just tell us what's going on.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*sighs* Okay.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'I told Lightning they could have the parts we find. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: On the condition....that they at least talk to everyone in Spirit.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I just wanted them to make friends! And they did! Or at least....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Or at least I thought they did....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Did you, Lightning?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Well, slick? What'd ya got to say?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Lightning?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Lightning.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*Chief moves back to the Spirit''s trailer*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Chief, where are you going?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*Chief returns with a box*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Our parts! Chief, you're not-!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*Chief holds the box out to you*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: If all you wanted was the parts, then take them.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
