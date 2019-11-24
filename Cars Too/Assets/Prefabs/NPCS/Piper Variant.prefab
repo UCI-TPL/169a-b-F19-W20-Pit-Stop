@@ -67,16 +67,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5611003960058169850, guid: 648be5f8bc679b44e824f05c9b078757,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5017086935626629801, guid: 648be5f8bc679b44e824f05c9b078757,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6ae44c1d767858e4798c4ea34a4a1490, type: 2}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: randomchats.Array.size
       value: 3
@@ -182,7 +172,7 @@ PrefabInstance:
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: npcbg
       value: 
-      objectReference: {fileID: 21300000, guid: 858969b5fa1f12b41ac7ef53397c0a4a,
+      objectReference: {fileID: 21300000, guid: 50bbf03746a07fe42bbbe59bae785325,
         type: 3}
     - target: {fileID: 1262835757, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: giftingchat
@@ -203,6 +193,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 61c4144c1dd1a5348a8c4bccc819149b,
         type: 2}
+    - target: {fileID: 5611003960058169850, guid: 648be5f8bc679b44e824f05c9b078757,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017086935626629801, guid: 648be5f8bc679b44e824f05c9b078757,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ae44c1d767858e4798c4ea34a4a1490, type: 2}
     - target: {fileID: 1262835756, guid: 648be5f8bc679b44e824f05c9b078757, type: 3}
       propertyPath: m_Size.x
       value: 0.03743912

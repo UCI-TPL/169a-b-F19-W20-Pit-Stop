@@ -29,8 +29,8 @@ MonoBehaviour:
   close: 0
   player: {fileID: 0}
   dm: {fileID: 0}
-  consprite: {fileID: 21300000, guid: b0e556955b75f994b935a066e2b5fde1, type: 3}
-  npcbg: {fileID: 0}
+  consprite: {fileID: 21300000, guid: a634f002225cb694dad3db04082bf669, type: 3}
+  npcbg: {fileID: 21300000, guid: 99e8d0abff0dede45bb81855e8852fda, type: 3}
   dialoguebox: {fileID: 0}
   talkui: {fileID: 5611003960058169850}
   giftvalues: 320000003200000032000000320000006400000032000000
@@ -44,7 +44,7 @@ MonoBehaviour:
   introchat: {fileID: 11400000, guid: 2cc6ecd151a580c4288c6bb10e7b227a, type: 2}
   idlechats: {fileID: 11400000, guid: 175295eb59942d442b60b0d9aa658570, type: 2}
   nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
-  date1: {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642, type: 2}
+  date1: []
   giftingchat: {fileID: 11400000, guid: 8fcd25be59308ff4882552810664ba6b, type: 2}
 --- !u!1001 &2029867377690127422
 PrefabInstance:

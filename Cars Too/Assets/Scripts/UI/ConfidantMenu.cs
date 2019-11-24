@@ -8,6 +8,7 @@ public class ConfidantMenu : MonoBehaviour
 {
     public GameObject confidantmenu;
     public Image confidant;
+    public Image Mustangconfidant;
     public TextMeshProUGUI nametext;
     public NPC currentNPC;
     public GameObject giftingmenu;
@@ -40,9 +41,10 @@ public class ConfidantMenu : MonoBehaviour
         currentNPC = npc;
         DataManager.instance.am.PlayandTrackBGM(menuthemeindex);
         dm.HaltDialogue();
-        confidant.gameObject.SetActive(true);
+
         confidantmenu.SetActive(true);
         confidantbasemenu.SetActive(true);
+        SetConfidantPortrait(n, s);
         giftingmenu.SetActive(false);
         nametext.text = n;
         confidant.sprite = s;
@@ -83,7 +85,7 @@ public class ConfidantMenu : MonoBehaviour
         if (imageclosed)
         {
             DataManager.instance.am.PlayCurrentTheme();
-            confidant.gameObject.SetActive(false);
+            TurnOffPortrait();
             bg.gameObject.SetActive(false);
         }
     }
@@ -148,5 +150,25 @@ public class ConfidantMenu : MonoBehaviour
         //Image i =confidantbar.GetComponent<Image>();
         //i.fillAmount = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)/maxconfidantlevel;
         confidantleveltext.text = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)+1 + "/" + maxconfidantlevel;
+    }
+
+    private void SetConfidantPortrait(string n, Sprite s)
+    {
+        if (n.Equals("Mustang"))
+        {
+            Mustangconfidant.gameObject.SetActive(true);
+            Mustangconfidant.sprite = s;
+        }
+        else
+        {
+            confidant.gameObject.SetActive(true);
+            confidant.sprite = s;
+        }
+    }
+
+    private void TurnOffPortrait()
+    {
+        confidant.gameObject.SetActive(false);
+        Mustangconfidant.gameObject.SetActive(false);
     }
 }
