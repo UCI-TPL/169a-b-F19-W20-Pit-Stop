@@ -20,6 +20,7 @@ public class ConfidantMenu : MonoBehaviour
     public TextMeshProUGUI confidantleveltext;
     private int maxconfidantlevel = 5;
     private DialogueManager dm;
+    public HangoutLocker hl = null;
     [SerializeField] private Image bg;
     [SerializeField] public GameObject npcchaticon;//chat popup to be displayed when close to an npc
 
@@ -36,6 +37,7 @@ public class ConfidantMenu : MonoBehaviour
 
     public void OpenMenu(NPC npc, Sprite s, string n)
     {
+        currentNPC = npc;
         DataManager.instance.am.PlayandTrackBGM(menuthemeindex);
         dm.HaltDialogue();
         confidant.gameObject.SetActive(true);
@@ -44,7 +46,7 @@ public class ConfidantMenu : MonoBehaviour
         giftingmenu.SetActive(false);
         nametext.text = n;
         confidant.sprite = s;
-        currentNPC = npc;
+        hl.IsLocked(n);
         UpdateConfidantBar();
         bg.gameObject.SetActive(true);
         bg.sprite = npc.npcbg;
