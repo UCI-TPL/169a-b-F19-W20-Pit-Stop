@@ -237,8 +237,8 @@ MonoBehaviour:
     text: Don't try to stop me! This piece of junk is going straight to the scrapyard.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: '[Dex appears'
-    text: Dex:Hey hey hey! Chillax, Springtrap, what did Lightning ever do to you?
+  - speaker: Dex
+    text: Hey hey hey! Chillax, Springtrap, what did Lightning ever do to you?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
