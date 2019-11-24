@@ -48,8 +48,8 @@ MonoBehaviour:
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Lightning
-    text: "Piper, I'm not gonna change my mind. Don\uFFFDft you see what this wasteland's
-      turned into?"
+    text: Piper, I'm not gonna change my mind. Don't you see what this wasteland's
+      turned into?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Lightning
