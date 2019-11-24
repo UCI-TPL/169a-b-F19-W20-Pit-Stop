@@ -560,34 +560,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1080
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.r
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.b
-      value: 0.8490566
-      objectReference: {fileID: 0}
     - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -702,62 +674,62 @@ PrefabInstance:
     - target: {fileID: 5797020707223939640, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5797020707223939640, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5797020707223939640, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5797020707223939640, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1839661104673117033, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1839661104673117033, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1839661104673117033, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1839661104673117033, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2113998117807835371, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2113998117807835371, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2113998117807835371, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2113998117807835371, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: destscene
@@ -768,5 +740,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3964c1d671627954681480e62e2a0ffa,
         type: 2}
+    - target: {fileID: 19588327, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291090140385335622, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_AspectRatio
+      value: 7.4257426
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
