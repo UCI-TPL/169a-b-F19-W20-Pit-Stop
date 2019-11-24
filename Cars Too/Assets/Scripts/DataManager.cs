@@ -31,6 +31,9 @@ public class DataManager : MonoBehaviour
     public Color uicoloutline;
     public Color uicoltext;
 
+    //parts needed for the current main objective
+    public int partsneeded = 4;
+
     public AudioManager am;
 
     //Tracks car parts

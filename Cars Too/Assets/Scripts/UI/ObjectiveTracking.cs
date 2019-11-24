@@ -6,7 +6,7 @@ using TMPro;
 public class ObjectiveTracking : MonoBehaviour
 {
     private TextMeshProUGUI objtext = null;
-    public int partsneeded = 4;
+
     [SerializeField] private GameObject objcomplete = null;
     // Start is called before the first frame update
     void Start()
@@ -24,8 +24,8 @@ public class ObjectiveTracking : MonoBehaviour
 
     private void UpdateQuest()
     {
-        objtext.text = "Gather Parts: " + DataManager.instance.carParts + "/"+partsneeded;
-        if (DataManager.instance.carParts >= partsneeded)
+        objtext.text = "Gather Parts: " + DataManager.instance.carParts + "/"+ DataManager.instance.partsneeded;
+        if (DataManager.instance.carParts >= DataManager.instance.partsneeded)
         {
             objtext.fontStyle = FontStyles.Strikethrough| FontStyles.Bold;
             objcomplete.SetActive(true);
@@ -34,7 +34,7 @@ public class ObjectiveTracking : MonoBehaviour
 
     public void SetPartsNeeded(int n)
     {
-        partsneeded = n;
+        DataManager.instance.partsneeded = n;
         UpdateQuest();
         objtext.fontStyle =FontStyles.Bold;
         objcomplete.SetActive(false);
