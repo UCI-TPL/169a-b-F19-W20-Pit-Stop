@@ -53,8 +53,8 @@ MonoBehaviour:
   canHack: 0
   canThrow: 0
   uicol: {r: 1, g: 1, b: 1, a: 1}
-  uicoloutline: {r: 0.3820755, g: 1, b: 0.68359786, a: 1}
-  uicoltext: {r: 1, g: 0, b: 0.989954, a: 1}
+  uicoloutline: {r: 0.9811321, g: 0.7358491, b: 0.8903526, a: 1}
+  uicoltext: {r: 0, g: 0, b: 0, a: 1}
   am: {fileID: 2007899351147493872}
   carParts: 0
   myName: Lightning
