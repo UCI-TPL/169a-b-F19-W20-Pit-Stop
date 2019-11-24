@@ -560,39 +560,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1271
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -97
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.r
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.b
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4226b0c317bd2194dab83b31ad2180c9,
-        type: 3}
     - target: {fileID: 313083938, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: m_SizeDelta.x
       value: 700
@@ -764,5 +731,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 90ed888a43a2e8d4583801f1e291d7d8,
         type: 2}
+    - target: {fileID: 19588327, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00012207031
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291090140385335622, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_AspectRatio
+      value: 2.6785715
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
