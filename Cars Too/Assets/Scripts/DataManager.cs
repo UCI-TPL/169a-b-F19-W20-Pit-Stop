@@ -26,6 +26,11 @@ public class DataManager : MonoBehaviour
     public bool canHack = false;
     public bool canThrow = false;
 
+    //ui color
+    public Color uicol;
+    public Color uicoloutline;
+    public Color uicoltext;
+
     public AudioManager am;
 
     //Tracks car parts
