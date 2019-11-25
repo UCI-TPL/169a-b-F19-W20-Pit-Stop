@@ -37,6 +37,7 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        skip = false;
         canvasobjects.SetActive(false);
         Choicecanvas.SetActive(false);
         //StartCoroutine(playChoice(test.convo,test.Choice1,test.Choice2));
@@ -112,6 +113,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+
             StartCoroutine(playConversation(c.convo,false));
         }
             
@@ -140,6 +142,7 @@ public class DialogueManager : MonoBehaviour
 
             if (skip)
             {
+                
                 speakerbox.text = d[d.Count-1].speaker;
                 dialgouebox.text = d[d.Count-1].text;
                 skip = false;
@@ -165,6 +168,7 @@ public class DialogueManager : MonoBehaviour
 
             }
 
+            
             //reset variable
             finished = false;
         }

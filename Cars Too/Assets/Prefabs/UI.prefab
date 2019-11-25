@@ -4594,7 +4594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4436490669016126765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7142,7 +7142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.599734
+  m_AspectRatio: 1.6011877
 --- !u!1 &4436490670138762477
 GameObject:
   m_ObjectHideFlags: 0

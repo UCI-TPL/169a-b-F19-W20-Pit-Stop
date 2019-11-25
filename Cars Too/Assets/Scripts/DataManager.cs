@@ -187,9 +187,7 @@ public class DataManager : MonoBehaviour
 
     public bool ContainsId(int id)
     {
-        Debug.Log(scenename);
-        Debug.Log(id);
-        Debug.Log(ids[scenename]);
+        
         return ids[scenename].Contains(id);
     }
 
