@@ -7142,7 +7142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.5999498
+  m_AspectRatio: 1.599734
 --- !u!1 &4436490670138762477
 GameObject:
   m_ObjectHideFlags: 0
@@ -13817,7 +13817,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 72fefc8ba78906d4a93634faef7b74b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26876aba7e7ae5349b0efe9125defecc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13848,7 +13848,7 @@ MonoBehaviour:
   - speaker: Mustang
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 1080aa27f825c364e8bf4d940b41aece, type: 3}
+    Scenesprite: {fileID: 21300000, guid: 26876aba7e7ae5349b0efe9125defecc, type: 3}
   - speaker: Springtrap
     text: 
     expression: {fileID: 0}
