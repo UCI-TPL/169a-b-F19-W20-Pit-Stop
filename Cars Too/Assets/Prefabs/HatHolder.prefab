@@ -116,6 +116,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.4000793, y: 7.3100796, z: 5.7755075}
   m_Center: {x: 0.2944845, y: 0.002270016, z: -0.032490537}
+--- !u!65 &6036175200881751778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015813478367314485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5747576, y: 1.8811018, z: 4.0297565}
+  m_Center: {x: 0.00000023841864, y: -0.0000001192093, z: 0}
 --- !u!114 &6313466126397084741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: PlayerHat
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830631, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3247818134065830652, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
         type: 3}

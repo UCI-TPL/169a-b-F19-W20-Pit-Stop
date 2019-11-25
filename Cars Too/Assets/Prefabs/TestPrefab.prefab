@@ -692,6 +692,7 @@ MonoBehaviour:
   hatprefab: {fileID: 5843042724718919198, guid: f6b9d52c924f00e4b94a92e4c62f0901,
     type: 3}
   visualhat: {fileID: 6760590687267283310}
+  hitwall: 0
 --- !u!1001 &2398371240461971363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -703,26 +704,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HatHolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314482, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314481, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 9196077001080246423, guid: f6b9d52c924f00e4b94a92e4c62f0901,
         type: 3}
@@ -799,10 +780,30 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314485, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997658469444657044, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4556460356723554839, guid: f6b9d52c924f00e4b94a92e4c62f0901,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 141015367516607614, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1633806997645457996, guid: f6b9d52c924f00e4b94a92e4c62f0901,
         type: 3}
@@ -813,6 +814,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314482, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9015813478367314481, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b9d52c924f00e4b94a92e4c62f0901, type: 3}
@@ -839,21 +850,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cowboy_hat
-      objectReference: {fileID: 0}
-    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3247818134065830627, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3247818134065830652, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
         type: 3}
@@ -924,6 +920,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0018
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830624, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247818134065830627, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3247818134065830626, guid: 0660fa7ddcfb2ca4785e34a49081c03c,
         type: 3}

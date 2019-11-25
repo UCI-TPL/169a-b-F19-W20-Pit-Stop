@@ -11,6 +11,7 @@ public class Hat : MonoBehaviour
     [SerializeField] GameObject hatprefab;
     [SerializeField] GameObject visualhat;
     private bool throwing = false;
+    public bool hitwall = false;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +50,7 @@ public class Hat : MonoBehaviour
         startingpointx = temphat.transform.position.x;
         visualhat.SetActive(false);
 
-        while (Mathf.Sqrt(Mathf.Pow(temphat.transform.position.z-startingpointz,2)+ Mathf.Pow(temphat.transform.position.x - startingpointx, 2)) < throwdist)
+        while (Mathf.Sqrt(Mathf.Pow(temphat.transform.position.z-startingpointz,2)+ Mathf.Pow(temphat.transform.position.x - startingpointx, 2)) < throwdist&&!hitwall)
         {
             temphat.transform.Translate(Vector3.forward * speed*Time.deltaTime);
             yield return null;
@@ -57,5 +58,6 @@ public class Hat : MonoBehaviour
         Destroy(temphat.gameObject);
         visualhat.SetActive(true);
         throwing = false;
+        hitwall = false;
     }
 }
