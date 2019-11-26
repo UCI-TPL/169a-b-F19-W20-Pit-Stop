@@ -7142,7 +7142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.6011877
+  m_AspectRatio: 1.7110442
 --- !u!1 &4436490670138762477
 GameObject:
   m_ObjectHideFlags: 0
@@ -13860,7 +13860,7 @@ MonoBehaviour:
   - speaker: Dex
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 1080aa27f825c364e8bf4d940b41aece, type: 3}
+    Scenesprite: {fileID: 21300000, guid: 366dd9a1bf3154e1e91e507c388ae4e2, type: 3}
   - speaker: Gak
     text: 
     expression: {fileID: 0}

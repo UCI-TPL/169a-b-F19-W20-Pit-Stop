@@ -74,7 +74,7 @@ PrefabInstance:
         type: 3}
       propertyPath: consprite
       value: 
-      objectReference: {fileID: 21300000, guid: a883c2df0d603fd43b4625c0b5d33e15,
+      objectReference: {fileID: 21300000, guid: 54e5698e8420f4d57a079f5296057832,
         type: 3}
     - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
