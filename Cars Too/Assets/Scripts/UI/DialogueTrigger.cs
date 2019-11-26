@@ -26,7 +26,12 @@ public class DialogueTrigger : Id
 
     private IEnumerator playConversation(Chat c)
     {
-    
+        if (OnlyTriggersOncePerGame && DataManager.instance.ContainsId(GetID()))
+        {
+            this.enabled = false;
+            yield return null;
+        }
+
         if (important)
         {
             dm.PushConversation(chat, important);
