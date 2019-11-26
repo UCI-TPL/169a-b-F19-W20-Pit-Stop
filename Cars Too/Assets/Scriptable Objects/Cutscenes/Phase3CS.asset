@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Phase3CS
   m_EditorClassIdentifier: 
   chats:
-  - {fileID: 11400000, guid: 3fb09223ef1170548a5e9573fec5f60e, type: 2}
+  - {fileID: 11400000, guid: d82622c99165c244287ce583cb2ac1d5, type: 2}
   fileloc: /Writing/Trans2.txt
   createpath: Assets/Scriptable Objects/Cutscenes/GeneratedChats/
   title: Phase3CS
