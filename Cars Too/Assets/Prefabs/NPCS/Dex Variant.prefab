@@ -92,6 +92,18 @@ PrefabInstance:
       propertyPath: giftvalues.Array.data[0]
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: giftingchat
+      value: 
+      objectReference: {fileID: 11400000, guid: dbde4a63930e53b4ba2339ca8e010424,
+        type: 2}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: idlechats
+      value: 
+      objectReference: {fileID: 11400000, guid: fc4cc8855cb40434b8b05b57ab63cdc8,
+        type: 2}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x

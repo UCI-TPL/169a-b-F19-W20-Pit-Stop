@@ -41,6 +41,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 388545039}
     m_Modifications:
+    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
+        type: 3}
+      propertyPath: m_Name
+      value: jeep_tire (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893845, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -110,11 +115,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0011838011
-      objectReference: {fileID: 0}
-    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
-        type: 3}
-      propertyPath: m_Name
-      value: jeep_tire (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893844, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
@@ -781,6 +781,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 388545039}
     m_Modifications:
+    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
+        type: 3}
+      propertyPath: m_Name
+      value: jeep_tire (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893845, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -850,11 +855,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0011252688
-      objectReference: {fileID: 0}
-    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
-        type: 3}
-      propertyPath: m_Name
-      value: jeep_tire (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893844, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
@@ -1521,6 +1521,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9007955303884285639}
     m_Modifications:
+    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
+        type: 3}
+      propertyPath: m_Name
+      value: back_tire
+      objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893845, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1590,11 +1595,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0024045587
-      objectReference: {fileID: 0}
-    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
-        type: 3}
-      propertyPath: m_Name
-      value: back_tire
       objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893844, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
@@ -2255,6 +2255,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 388545039}
     m_Modifications:
+    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
+        type: 3}
+      propertyPath: m_Name
+      value: jeep_tire (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893845, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2324,11 +2329,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0010849109
-      objectReference: {fileID: 0}
-    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
-        type: 3}
-      propertyPath: m_Name
-      value: jeep_tire (4)
       objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893844, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
@@ -2995,6 +2995,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 388545039}
     m_Modifications:
+    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
+        type: 3}
+      propertyPath: m_Name
+      value: jeep_tire (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893845, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3064,11 +3069,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0010420308
-      objectReference: {fileID: 0}
-    - target: {fileID: 5438266907365893840, guid: 32d74ae542e25f5419397b875727ff4e,
-        type: 3}
-      propertyPath: m_Name
-      value: jeep_tire (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5438266907365893844, guid: 32d74ae542e25f5419397b875727ff4e,
         type: 3}
@@ -3868,6 +3868,18 @@ PrefabInstance:
       propertyPath: introchat
       value: 
       objectReference: {fileID: 11400000, guid: b1cb8798a0afdc04780375945be3d828,
+        type: 2}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: idlechats
+      value: 
+      objectReference: {fileID: 11400000, guid: 11da5ce1a06d635439d2ed34d51f35f8,
+        type: 2}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: giftingchat
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d8dd9ebc87f8a947bc2230c8db294a2,
         type: 2}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
