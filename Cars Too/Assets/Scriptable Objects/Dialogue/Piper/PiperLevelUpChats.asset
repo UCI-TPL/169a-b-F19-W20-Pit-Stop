@@ -18,6 +18,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d526afb7be352c847bac98b54215d363, type: 2}
   - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
   - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
-  fileloc: /Writing/piper chats.txt
-  createpath: Assets/Scriptable Objects/Dialogue/Piper/Piper Chats/
-  title: PiperChat
+  fileloc: 
+  createpath: 
+  title: 

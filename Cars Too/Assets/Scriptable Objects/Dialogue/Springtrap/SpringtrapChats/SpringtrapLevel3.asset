@@ -10,27 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
-  m_Name: PiperLevel3
+  m_Name: SpringtrapLevel3
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
-    text: I just kind of found this lying around, I figured you might need it.
+  - speaker: ' '
+    text: You feel like you've gotten closer with Springtrap
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Oh, a part, thanks Piper
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: No probs, thanks for hangin out so much with me Lightning.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: 
-    text: You gain one part.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: 
-    text: You feel like you've gotten closer with Piper.
+  - speaker: ' '
+    text: You got a part.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 

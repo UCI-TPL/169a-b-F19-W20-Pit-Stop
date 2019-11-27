@@ -10,23 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
-  m_Name: PiperLevel1
+  m_Name: DexLevel2
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
-    text: Thanks for taking the time Lightning.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: I mean, I promised right.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: But still, It's nice to see you really trying to fit in here,
+  - speaker: ' '
+    text: You Feel Like You've gotten closer with Dex.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: ' '
-    text: You feel like you've gotten closer with Piper
+    text: You can now hack open doors by pressing E.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 
@@ -34,8 +26,8 @@ MonoBehaviour:
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 50
+  C1Reward: 0
   C2Reward: 0
-  abilityactivation: 0
+  abilityactivation: 1
   carpartsgained: 0
   path: 

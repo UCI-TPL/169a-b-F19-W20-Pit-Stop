@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Lightning
-    text: In human terms please.
+    text: In normal terms please.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Piper
@@ -47,7 +47,7 @@ MonoBehaviour:
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 0
+  C1Reward: 25
   C2Reward: 0
   abilityactivation: 1
   carpartsgained: 0

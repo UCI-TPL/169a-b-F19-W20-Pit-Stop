@@ -251,7 +251,7 @@ MonoBehaviour:
     Scenesprite: {fileID: 0}
   isConversation: 0
   C1Reward: 0
-  C2Reward: 0
+  C2Reward: 25
   abilityactivation: 0
   carpartsgained: 0
   path: 

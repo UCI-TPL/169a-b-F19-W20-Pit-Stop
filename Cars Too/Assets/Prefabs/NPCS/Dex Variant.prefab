@@ -110,6 +110,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 19e5fea1f0179e74aa26c24d0b4569b0,
         type: 2}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: LevelupChats
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c61181606e019344b571d77755f0edf,
+        type: 2}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x
