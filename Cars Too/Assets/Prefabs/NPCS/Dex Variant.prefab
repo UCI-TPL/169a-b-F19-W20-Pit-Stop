@@ -104,6 +104,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: fc4cc8855cb40434b8b05b57ab63cdc8,
         type: 2}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: giftrecievedchats
+      value: 
+      objectReference: {fileID: 11400000, guid: 19e5fea1f0179e74aa26c24d0b4569b0,
+        type: 2}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x
