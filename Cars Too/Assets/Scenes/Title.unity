@@ -1053,7 +1053,6 @@ GameObject:
   - component: {fileID: 608762465}
   - component: {fileID: 608762464}
   - component: {fileID: 608762463}
-  - component: {fileID: 608762462}
   m_Layer: 5
   m_Name: Close Button
   m_TagString: Untagged
@@ -1081,18 +1080,6 @@ RectTransform:
   m_AnchoredPosition: {x: 11.999908, y: -303.99994}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &608762462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 608762460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27741584c01814549889e26de7af7a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &608762463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1435,7 +1422,6 @@ GameObject:
   - component: {fileID: 789959701}
   - component: {fileID: 789959700}
   - component: {fileID: 789959699}
-  - component: {fileID: 789959698}
   m_Layer: 5
   m_Name: Start Button
   m_TagString: Untagged
@@ -1463,18 +1449,6 @@ RectTransform:
   m_AnchoredPosition: {x: 12, y: -29}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &789959698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789959696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27741584c01814549889e26de7af7a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &789959699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,9 +1492,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 789959698}
-        m_MethodName: GoToScene
-        m_Mode: 5
+      - m_Target: {fileID: 1680051374}
+        m_MethodName: StartGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2475,7 +2449,6 @@ GameObject:
   - component: {fileID: 973295495}
   - component: {fileID: 973295494}
   - component: {fileID: 973295493}
-  - component: {fileID: 973295496}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -2597,18 +2570,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973295491}
   m_CullTransparentMesh: 0
---- !u!114 &973295496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973295491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27741584c01814549889e26de7af7a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1013610089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,7 +2807,6 @@ GameObject:
   - component: {fileID: 1029226397}
   - component: {fileID: 1029226396}
   - component: {fileID: 1029226395}
-  - component: {fileID: 1029226394}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -2874,18 +2834,6 @@ RectTransform:
   m_AnchoredPosition: {x: 530.00006, y: 289.17102}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1029226394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029226392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27741584c01814549889e26de7af7a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1029226395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2928,7 +2876,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1029226396}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1680051374}
+        m_MethodName: ContinueGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1029226396
@@ -3255,7 +3214,6 @@ GameObject:
   - component: {fileID: 1206861012}
   - component: {fileID: 1206861011}
   - component: {fileID: 1206861010}
-  - component: {fileID: 1206861009}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -3283,18 +3241,6 @@ RectTransform:
   m_AnchoredPosition: {x: 530.00006, y: 159.17099}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1206861009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206861007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27741584c01814549889e26de7af7a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1206861010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4233,7 +4179,6 @@ GameObject:
   - component: {fileID: 1586906221}
   - component: {fileID: 1586906220}
   - component: {fileID: 1586906219}
-  - component: {fileID: 1586906218}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -4261,18 +4206,6 @@ RectTransform:
   m_AnchoredPosition: {x: 530.00006, y: 29.170998}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1586906218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586906216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27741584c01814549889e26de7af7a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1586906219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4531,6 +4464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d81259e9f6d8544bf8f36a9670f493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingscene: IntroLevel
 --- !u!114 &1680051375
 MonoBehaviour:
   m_ObjectHideFlags: 0

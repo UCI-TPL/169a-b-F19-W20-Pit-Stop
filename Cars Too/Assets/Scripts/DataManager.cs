@@ -49,6 +49,8 @@ public class DataManager : MonoBehaviour
     //keeps track of the current scenename
     private string scenename = "";
 
+    public string lastscene = ""; 
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -59,6 +61,7 @@ public class DataManager : MonoBehaviour
         //Destroy this object if there is already another one
         if (instance!=this&&instance!=null)
         {
+            instance.lastscene = instance.scenename;
             instance.scenename = SceneManager.GetActiveScene().name;
 
             //If this scene has not been visited before instantiate it in the ids dictionary
@@ -238,5 +241,17 @@ public class DataManager : MonoBehaviour
         }
 
 
+    }
+
+    public void HardReset()
+    {
+        confidantExp["Piper"] = new ConfidantData("Piper");
+        confidantExp["Dex"] = new ConfidantData("Dex");
+        confidantExp["Loco"] = new ConfidantData("Loco");
+        confidantExp["Springtrap"] = new ConfidantData("Springtrap");
+        confidantExp["Mustang"] = new ConfidantData("Mustang");
+        confidantExp["Chief"] = new ConfidantData("Chief");
+        ResetPhase();
+        Reset();
     }
 }

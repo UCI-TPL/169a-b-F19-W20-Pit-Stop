@@ -752,5 +752,10 @@ PrefabInstance:
       propertyPath: m_AspectRatio
       value: 2.6785715
       objectReference: {fileID: 0}
+    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: cl
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d2f35e2a8d99c64d867e02f39db74ef,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
