@@ -55,6 +55,7 @@ MonoBehaviour:
   uicol: {r: 1, g: 1, b: 1, a: 1}
   uicoloutline: {r: 0.9811321, g: 0.7358491, b: 0.8903526, a: 1}
   uicoltext: {r: 0, g: 0, b: 0, a: 1}
+  partsneeded: 4
   am: {fileID: 2007899351147493872}
   carParts: 0
   myName: Lightning
@@ -68,6 +69,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  lastscene: 
 --- !u!114 &2007899351147493872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +90,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 79602a3ee9e9e8345a16aad27b1c2f57, type: 3}
   - {fileID: 8300000, guid: 28faff7a124f52a4e8abebfaade60e2e, type: 3}
   - {fileID: 8300000, guid: bc4f61f280e74ef4fbd8b87fd650a21e, type: 3}
+  - {fileID: 8300000, guid: da7b366b650c73e4d8bc0c46be469a57, type: 3}
 --- !u!82 &1436425417351931629
 AudioSource:
   m_ObjectHideFlags: 0
