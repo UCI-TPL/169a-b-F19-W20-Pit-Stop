@@ -6507,7 +6507,7 @@ MonoBehaviour:
   - speaker: Chief
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 4eac3908037aaba44a0c8e68a635d827, type: 3}
+    Scenesprite: {fileID: 21300000, guid: eb13ad278c3c743d993fe5ef955f11e0, type: 3}
   - speaker: Loco
     text: 
     expression: {fileID: 0}
@@ -6525,7 +6525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.5986037
+  m_AspectRatio: 1.7782755
 --- !u!1 &3782917001710653564
 GameObject:
   m_ObjectHideFlags: 0
