@@ -743,15 +743,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: destscene
-      value: LVL2
-      objectReference: {fileID: 0}
-    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: cl
-      value: 
-      objectReference: {fileID: 11400000, guid: 180d72f5cf754bb4e89b44c163f69d52,
-        type: 2}
     - target: {fileID: 19588327, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -761,5 +752,14 @@ PrefabInstance:
       propertyPath: m_AspectRatio
       value: 2.6785715
       objectReference: {fileID: 0}
+    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: destscene
+      value: LVL2Gak
+      objectReference: {fileID: 0}
+    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: cl
+      value: 
+      objectReference: {fileID: 11400000, guid: 180d72f5cf754bb4e89b44c163f69d52,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
