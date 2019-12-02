@@ -797,6 +797,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 700
       objectReference: {fileID: 0}
+    - target: {fileID: 313083938, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 3782917001453691314, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_enableVertexGradient
@@ -959,6 +963,19 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 19588327, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19588327, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291090140385335622, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_AspectRatio
+      value: 2.6785715
+      objectReference: {fileID: 0}
     - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: cl
       value: 
@@ -972,18 +989,14 @@ PrefabInstance:
       propertyPath: destscene
       value: IntroCutscene
       objectReference: {fileID: 0}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.data[4].Scenesprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eb13ad278c3c743d993fe5ef955f11e0,
+        type: 3}
     - target: {fileID: 19588330, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: fadeonawake
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19588327, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1291090140385335622, guid: f854a958657ac6547841f4f9bc4d13ff,
-        type: 3}
-      propertyPath: m_AspectRatio
-      value: 2.6785715
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
