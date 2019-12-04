@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: DexDate11
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: Hey Dex. You mentioned some racing tricks earlier, so I-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Ohohohoho!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Say no more, citizen! It would be my absolute PLEASURE to dazzle you with
+      them! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "That\u2019s actually not what-"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: ONWARD!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: '[date background change'
+    text: Dex:And THAT is how you perform a backspin into a triple axel...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '...as a car.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh is that what that was? It kinda just looked like you just hopped on your
+      axles a few times.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Exactly!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: A triple-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: AXLE!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Good grief.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Might you have any personal requests for a trick?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "OH! Or a race? Granted, you won\u2019t win, but seeing me in action is
+      sure to be a trophy in itself!Lightning:Nope, I think I\u2019m good for now. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Ah well. Another time then! As I\u2019ve mentioned before, anything racing
+      or trick related -"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "I\u2019m your car."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: How did you get into racing?
+  Choice2: How did you get into tricks?
+  Route1:
+  - speaker: Dex
+    text: "Oh well that\u2019s easy!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: As you can tell, my model is a sports car, and not just ANY sports car-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'The BEST sports car. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'It was the most recent model developed before the Crash. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: So when I awoke, well -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: It was only natural for me to speed right out of that garage and hit that
+      wide open dirt road.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "To bolt across incredible distances faster than the starter can yell \u201CGO!\u201D
+      -"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "To veer corners at speeds that would take a human\u2019s breath away in
+      an instant -"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Why, it\u2019s simply breathtaking just to think about! It\u2019s no wonder
+      I picked up the skill so fast."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*laughs* When I started out, I wanted to race everything I came across!'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: A tumbleweed, the clouds, anything that moved!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Which was silly of me, I know, but since then I\u2019ve learned."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Now it\u2019s obvious that WIND is the real challenge. One day I\u2019m
+      sure to beat the coward."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Dex
+    text: "Oh well that\u2019s easy!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: As you can tell, my model is a sports car, and not just ANY sports car-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'The BEST sports car. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'It was the most recent model developed before the Crash. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: So when I awoke, I realized my increased dexterity compared to other cars.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: It gave me a boost in my cylinders when I first realized how smoothly my
+      tires could turn over a surface -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '- just feeling the road slip beneath you, almost like ice.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "It\u2019s exhilarating just to think about it! On one tire, when you spin
+      out, it\u2019s so fast that when it\u2019s over, you can barely come to terms
+      with what just happened. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "But on the other tire, in the moment, you wonder if it\u2019ll ever end."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "That feeling is what I\u2019ll always be chasing, but in the meantime,
+      I\u2019ll have to make do with coming up with new, better tricks!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Ones that humans would\u2019ve never even dreamed of! "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Triple axel? Why stop there? How about Quadruple? Sextuple? Sky\u2019s
+      the limit!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "One day, I\u2019ll be able to do a Septuple into a full-on-"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Backflip! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: As a car?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Of course!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

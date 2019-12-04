@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: DexDate21
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: Hey Dex, think you could show me more of those tricks?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Think? Oh, I KNOW I can! C\u2019mon!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: And THAT is how one performs a perfect aerial cartwheel.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Which is...hopping in the air and turning your wheel.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "Precisely! An \u201Caerial\u201D cart-\u201Cwheel\u201D."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '*laughs* Wow, okay. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: And what about you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Me?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Sure! You must have learned some bold techniques out on the dust trail,
+      all on your own.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Really? You want to learn tricks from li\u2019l ol\u2019, amateur me?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Oh, Lightning. NO ONE gets this good without learning a bit from others!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: And there it is.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Well, I hate to brake it to you, but I didn\u2019t learn anything flashy
+      out there on my own."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "There isn\u2019t really an audience out in the desert."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "That\u2019s not true! There\u2019s always an audience!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Why, I impress myself all the time!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I\u2019m not surprised."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: There must be SOMETHING that impresses you!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: "I\u2019m good at navigating."
+  Choice2: "I\u2019m good at being on my own."
+  Route1:
+  - speaker: Lightning
+    text: "Well, I guess you could say I\u2019m good at navigating."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "There aren\u2019t very many great landmarks in the desert, but I always
+      knew where I was."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Really? How did you manage that?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "The stars. It\u2019s actually pretty easy when you get the hang of it. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "There\u2019s one bright star in the sky that always stays in the northern
+      direction."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "So as long as you know the cardinal directions, you\u2019ll know which
+      way you\u2019re going. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "What about certain places? Even if you know all the directions, surely
+      the stars can\u2019t serve as landmarks for everything."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "That\u2019s true. Stars move fairly frequently, so it\u2019s impossible
+      for them to really mark any specific place on their own. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But if you know the speed at which they rotate, it becomes simple!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "As long as there\u2019s a night sky, I\u2019ll never get lost."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Lightning
+    text: "I mean...if I had to choose, I suppose I\u2019m good at being on my own."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: On your own? Like when you were in the desert?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Yeah. I didn\u2019t really care about other people. No offense."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "None taken! I think I\u2019d go crazy with no one else."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I mean look at me! I was always meant for display, not storage!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Yeah, I can\u2019t imagine someone like you being kept on the shelf."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Precisely! So how did you do it?Lightning:I roamed, I scavenged. I found
+      full gas stations I could drive between and I found parts to maintain myself. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "But it\u2019s not like I did do more than survive, to be honest. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I wasn\u2019t living...not really."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: But still...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

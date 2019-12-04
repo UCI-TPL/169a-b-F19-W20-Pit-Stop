@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: SpringtrapDate13
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Springtrap
+    text: Let me tell you something.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "The people you see around here? They ain\u2019t perfect."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "I won\u2019t hide the fact that some of them get on my nerves."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "But I also won\u2019t hide the fact that they\u2019re my family now, and
+      I\u2019ll protect them no matter the cost.Springtrap:Do you get the picture
+      now, new motor?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: To be honest? Not really.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Whaddya mean?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I don\u2019t know how else to say it but that \u201Cfamily\u201D is sort
+      of a foreign term for me."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I don\u2019t\u2026.really get it. But the way you describe it. It sounds
+      nice."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Whoa, was that a smile?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "NO. That was a pity laugh, because THAT was probably the most pathetic
+      thing I\u2019ve ever heard."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Oh sure, thanks, I\u2019m glad my existence is a joke to you."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Ahhh, not like that, I don\u2019t mean to make fun of ya. What I mean is\u2026"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "You sound like the type of person who could really use a family. At least
+      a couple of friends wouldn\u2019t hurt."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "And hey, if you want to stick around a little while longer\u2026."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Well...why don\u2019t you hit me up again?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: This chat was surprisingly not the worst thing in the world.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

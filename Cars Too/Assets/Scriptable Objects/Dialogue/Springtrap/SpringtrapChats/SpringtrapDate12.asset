@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: SpringtrapDate12
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Springtrap
+    text: Aside from all that, rookie, being here, is WAY better than being anywhere
+      out there.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I mean, sure, I can handle my own. No problems there.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'But out there again? Oh no. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "You\u2019d have to pay me a heckuva lot and THEN some if you think I\u2019d
+      so much as stick my tail light in that wilderness one more time."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Why? What do you think is out there?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "It\u2019s not about what\u2019s OUT there rookie, it\u2019s about what\u2019s
+      NOT out there."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Namely, a life.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "You really think I\u2019d enjoy aimlessly wandering junkyards for the rest
+      of the time I have in this body?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "No way. I\u2019d take Dex every day of my life if it meant not spending
+      one day alone in the wilderness."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "I\u2019m going to assume you had a bad time there-?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Lightning, I\u2019ll talk about literally anything else."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Right. So...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: How did you join the Spirit?
+  Choice2: How did you become good friends with Piper?
+  Route1:
+  - speaker: Springtrap
+    text: Chief and Mustang came along.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "To tell ya the truth, they didn\u2019t even hafta try convincing me of
+      their \u201Cgreat cause\u201D or whatever."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I woulda gone with them either way. It was something new, something different.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: But I will say that I stayed because of their purpose.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "I don\u2019t always agree with Chief and I\u2019ll do things on my own,
+      with or without our dear leader\u2019s permission, but\u2026."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "I won\u2019t lie and say I\u2019m just here for a safe place. I\u2019m
+      here because there\u2019s a goal in mind."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I see. That makes sense.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Why are *you* here?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Me? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: See anyone else, genius?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Well, it\u2019s just like Piper probably already told you. I\u2019m here
+      to help."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Yeah, but why?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Cuz...Piper told me to?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Look, I don\u2019t really need a reason, do I?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You do if you intend on sticking around.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Springtrap
+    text: Oh yeah, that gal.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Piper and I didn\u2019t really get off to a great start."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "For starters, she\u2019s a total nerd. Really cramps my style, ya know?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "But she\u2019s the only one here who has everyone else\u2019s best interests
+      in mind."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I assumed everyone was just in it for themselves until she showed up.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "If you talk to her, you\u2019ll know what I mean. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: When I first got here, I tried to avoid her. But her personality can be...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Overwhelming?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Yeah, that\u2019s the word. I just wanted to keep to myself, but she just
+      wouldn\u2019t leave me alone."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I know the feeling.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "And, ya know...I\u2019m very grateful for that. Everyone\u2019s got flaws
+      and hers was not understanding boundaries. Like, at all."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "But because of that, she genuinely taught me so much. About what this world
+      was before. About what it could be again, if we\u2019re successful here..."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "So even though I\u2019ll call her annoying sometimes - which she definitely
+      is -"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "I wouldn\u2019t change that wagon for the world."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

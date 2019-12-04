@@ -1,0 +1,335 @@
+Lightning:
+Hey Dex, think you could show me more of those tricks?
+
+Dex:
+Think? Oh, I KNOW I can! C’mon!
+
+Dex:
+And THAT is how one performs a perfect aerial cartwheel.
+
+Lightning:
+Which is...hopping in the air and turning your wheel.
+
+Dex:
+Precisely! An “aerial” cart-“wheel”.
+
+Lightning:
+*laughs* Wow, okay. 
+
+Dex:
+And what about you?
+
+Lightning:
+Me?
+
+Dex:
+Sure! You must have learned some bold techniques out on the dust trail, all on your own.
+
+Lightning:
+Really? You want to learn tricks from li’l ol’, amateur me?
+
+Dex:
+Oh, Lightning. NO ONE gets this good without learning a bit from others!
+
+Lightning:
+And there it is.
+
+Lightning:
+Well, I hate to brake it to you, but I didn’t learn anything flashy out there on my own.
+
+Lightning:
+There isn’t really an audience out in the desert.
+
+Dex:
+That’s not true! There’s always an audience!
+
+Dex:
+You!
+
+Dex:
+Why, I impress myself all the time!
+
+Lightning:
+I’m not surprised.
+
+Dex:
+There must be SOMETHING that impresses you!
+
+Lightning:
+Well...
+
+EndC
+
+Choices
+I’m good at navigating.
+I’m good at being on my own.
+
+Lightning:
+Well, I guess you could say I’m good at navigating.
+
+Lightning:
+There aren’t very many great landmarks in the desert, but I always knew where I was.
+
+Dex:
+Really? How did you manage that?
+
+Lightning:
+The stars. It’s actually pretty easy when you get the hang of it. 
+
+Lightning:
+There’s one bright star in the sky that always stays in the northern direction.
+
+Lightning:
+So as long as you know the cardinal directions, you’ll know which way you’re going. 
+
+Dex:
+What about certain places? Even if you know all the directions, surely the stars can’t serve as landmarks for everything.
+
+Lightning:
+That’s true. Stars move fairly frequently, so it’s impossible for them to really mark any specific place on their own. 
+
+Lightning:
+But if you know the speed at which they rotate, it becomes simple!
+
+Lightning:
+As long as there’s a night sky, I’ll never get lost.
+
+End
+
+Lightning:
+I mean...if I had to choose, I suppose I’m good at being on my own.
+
+Dex:
+On your own? Like when you were in the desert?
+
+Lightning:
+Yeah. I didn’t really care about other people. No offense.
+
+Dex:
+None taken! I think I’d go crazy with no one else.
+
+Dex:
+I mean look at me! I was always meant for display, not storage!
+
+Lightning:
+Yeah, I can’t imagine someone like you being kept on the shelf.
+
+Dex:
+Precisely! So how did you do it?
+Lightning:
+I roamed, I scavenged. I found full gas stations I could drive between and I found parts to maintain myself. 
+
+Lightning:
+But it’s not like I did do more than survive, to be honest. 
+
+Lightning:
+I wasn’t living...not really.
+
+Dex:
+But still...
+
+End
+
+Dex:
+That’s amazing!
+
+Lightning:
+Really?
+
+Dex:
+Of course! To be able to do all that on your own is a feat in itself!
+
+Lightning:
+Well, Piper always complains when I do things on my own.
+
+Dex:
+As she should!
+
+Lightning:
+Huh?
+
+Dex:
+Being independent is one thing, but what good are stars like us if we don’t share the gifts we have!
+
+Lightning:
+I...never thought of it that way.
+
+Dex:
+You should start then, Lightning. Maybe one day you could become a celebrity like me~!
+
+Lightning:
+Uh, I don’t know about that...
+
+Dex:
+You never know! It’d be quite the challenge!
+
+Lightning:
+Hey, I have a question for you, Dex.
+
+Dex:
+Fire away!
+
+EndC
+
+Choices
+What’s your favorite place you’ve been to?
+What’s the farthest you’ve gone?
+
+Dex:
+Oh, now that’s tricky.
+
+Dex:
+I’ve sped all over this county, I’ve been to so many places.
+
+Dex:
+It almost seems impossible to choose but there’s one place that’s always been one I go back to.
+
+Dex:
+The Colosseum.
+
+Lightning:
+The Colosseum? Where’s that?
+
+Dex:
+Oh it’s this magnificent place some tens of miles north of here.
+
+Dex:
+And it’s the most beautiful place I’ve ever seen.
+
+Lightning:
+Lemme guess. It’s a race track?
+
+Dex:
+You bet your exhaust pipes it’s a race track!
+
+Dex:
+And not just any race track! It’s a NOT-collapsed race track!
+
+Dex:
+The road, the stands, the walls, everything’s intact still!
+
+Dex:
+I like to think it’s the spirit of all those fans, holding the place together in hopes of seeing just one more race car zoom past!
+
+Dex:
+To feel just one more rush of excitement as rubber burns over the finish line.
+
+Dex:
+When Chief lets me, I’ll take a trip up there to brush up on my tricks.
+
+Dex:
+It almost feels like home.
+
+Lightning:
+Almost?
+
+Dex:
+Yeah. In the end...
+
+Dex:
+The Spirit will always be my real home.
+
+End
+
+Dex:
+Oh, have I got a story for you!
+
+Dex:
+When I was out speeding without a care in the world -
+
+Lightning:
+Because you forgot gas tanks exist and have limits...
+
+Dex:
+Right, right, ANYWAY -
+
+Dex:
+When I was out there, in the vast world, I saw places you wouldn’t believe!
+
+Dex:
+HUGE towers! Some barely standing, some crumbled in a heap. 
+
+Dex:
+And long, wide rivers, crashing in anger at times, and bubbling along peacefully other times.
+
+Dex:
+But the farthest I went was way way up north.
+
+Dex:
+Where I saw snow.
+
+Lightning:
+You saw snow? REAL snow?
+
+Dex:
+Yep! Of course, not much. Piper still believes I was imagining it because at that time, my gas was running pretty low, but I swear it was there!
+
+Dex:
+The tiniest patch, just sitting there in the dry grass.
+
+Dex:
+And then a snowflake. A SNOWFLAKE, can you believe that!
+
+Dex:
+Fell right on my hood. I’ve never seen anything like it. Not by then or since.
+
+Dex:
+It melted just an hour later. 
+
+Dex:
+You know, that’s part of the reason I’m still with the Spirit.
+
+Dex:
+After that, you’d think all I’d want to do is chase snow in the wilderness, but-
+
+Dex:
+If there’s even the smallest chance that Mustang can bring any of that back, any of those colors we’ve lost...
+
+Dex:
+Then I’ll be there!
+
+End
+
+Dex:
+Even when the crew can drive me crazy sometimes, I don’t know where I’d be without them by my side, especially Chief.
+
+Lightning:
+Are you close to Chief?
+
+Dex:
+Well, they’re the leader after all!
+
+Dex:
+I don’t see a reason not to be!
+
+Dex:
+One day, that might be me, dishing out orders.
+
+Dex:
+I’ve got to be prepared if that ever happens!
+
+Dex:
+*laughs* I don’t know if I could ever be as great as Chief is though!
+
+Lightning:
+Well, you never know. 
+
+Dex:
+True!
+
+Lightning:
+I suppose you should probably learn humility first.
+
+Dex:
+Hmmmmm I don’t know that one!
+
+Dex:
+Is it a trick?
+
+Lightning:
+Er...How about we talk about it next time?
+
+Dex:
+Sounds good!
+
+End

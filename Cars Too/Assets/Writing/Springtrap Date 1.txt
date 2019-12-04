@@ -1,0 +1,299 @@
+Lightning:
+Springtrap. 
+
+Springtrap:
+Yes?
+
+Lightning:
+Do you, uh, do you wanna hang out?
+
+Springtrap:
+...
+
+Springtrap:
+...why?
+
+Lightning:
+Well because...because uh, it’d give you a chance to keep your eye on me?
+
+Lightning:
+“Eyes on the rearview” and all that, right?
+
+Springtrap:
+...
+
+Springtrap:
+Okay, sounds good to me.
+
+Lightning:
+Cool.
+
+Springtrap:
+Did Piper put you up to this?
+
+Lightning:
+Oh...uh, yeah. Yeah, you got me.
+
+Springtrap:
+Yeah, I figured. That girl would put a stranger up to talking with us, wouldn’t she?
+
+Lightning:
+Haha, yeah…..
+
+Lightning:
+So, humor me then?
+
+Springtrap:
+If it’s for her, then sure. Got questions?
+
+Lightning:
+Actually, yeah.
+
+Springtrap:
+Go ahead. 
+
+EndC
+
+Choices
+Do you like your job around here?
+Do you like being part of the Spirit?
+
+Springtrap:
+My job?
+
+Springtrap:
+Well, it’s A job.
+
+Springtrap:
+I just keep an eye on everyone, make sure no one’s doing anything to stir up trouble.
+
+Springtrap:
+Which means I usually end up having to tow in a certain show-off from doing something stupid.
+
+Lightning:
+I’m gonna assume you’re talking about Dex?
+
+Springtrap:
+OH yeah, I’m talking about Dex, that bigheaded, egotistical, loud-mouth, self-absORBED, CONCEITED-
+
+Lightning:
+WHOA, okay I get the idea. Not gonna bring up Dex again, check.
+
+Springtrap:
+Anyways, ASIDE from that good-for-nothing, I’ll be honest and say the job is boring. 
+
+Springtrap:
+Nothin’ happens most days so ya get to laze around, but ya also don’t get to do much.
+
+End
+
+Springtrap:
+Oh sure.
+
+Springtrap:
+I mean, this ain’t no five-star hotel, you can tell that from one glance, but this IS a team.
+
+Springtrap:
+We have a surefire way to maintain ourselves and we have multiple people for conversations.
+
+Springtrap:
+Not having to worry about going insane? That’s a high score for me.
+
+Springtrap:
+Of course, I don’t really think Mustang will be able to pull some hail-mary out of his trunk with all these parts we’re finding….
+
+Springtrap:
+But it keeps us busy. And that’s what matters.
+
+End
+
+Springtrap:
+Aside from all that, rookie, being here, is WAY better than being anywhere out there.
+
+Springtrap:
+I mean, sure, I can handle my own. No problems there.
+
+Springtrap:
+But out there again? Oh no. 
+
+Springtrap:
+You’d have to pay me a heckuva lot and THEN some if you think I’d so much as stick my tail light in that wilderness one more time.
+
+Lightning:
+Why? What do you think is out there?
+
+Springtrap:
+It’s not about what’s OUT there rookie, it’s about what’s NOT out there.
+
+Springtrap:
+Namely, a life.
+
+Springtrap:
+You really think I’d enjoy aimlessly wandering junkyards for the rest of the time I have in this body?
+
+Springtrap:
+No way. I’d take Dex every day of my life if it meant not spending one day alone in the wilderness.
+
+Lightning:
+I’m going to assume you had a bad time there-?
+
+Springtrap:
+Lightning, I’ll talk about literally anything else.
+
+Lightning:
+Right. So...
+
+EndC
+
+Choices
+How did you join the Spirit?
+How did you become good friends with Piper?
+
+Springtrap:
+Chief and Mustang came along.
+
+Springtrap:
+To tell ya the truth, they didn’t even hafta try convincing me of their “great cause” or whatever.
+
+Springtrap:
+I woulda gone with them either way. It was something new, something different.
+
+Springtrap:
+But I will say that I stayed because of their purpose.
+
+Springtrap:
+I don’t always agree with Chief and I’ll do things on my own, with or without our dear leader’s permission, but….
+
+Springtrap:
+I won’t lie and say I’m just here for a safe place. I’m here because there’s a goal in mind.
+
+Lightning:
+I see. That makes sense.
+
+Springtrap:
+Why are *you* here?
+
+Lightning:
+Me? 
+
+Springtrap:
+See anyone else, genius?
+
+Lightning:
+Well, it’s just like Piper probably already told you. I’m here to help.
+
+Springtrap:
+Yeah, but why?
+
+Lightning:
+Cuz...Piper told me to?
+
+Lightning:
+Look, I don’t really need a reason, do I?
+
+Springtrap:
+You do if you intend on sticking around.
+
+End
+
+Springtrap:
+Oh yeah, that gal.
+
+Springtrap:
+Piper and I didn’t really get off to a great start.
+
+Springtrap:
+For starters, she’s a total nerd. Really cramps my style, ya know?
+
+Springtrap:
+But she’s the only one here who has everyone else’s best interests in mind.
+
+Springtrap:
+I assumed everyone was just in it for themselves until she showed up.
+
+Springtrap:
+If you talk to her, you’ll know what I mean. 
+
+Springtrap:
+When I first got here, I tried to avoid her. But her personality can be...
+
+Lightning:
+Overwhelming?
+
+Springtrap:
+Yeah, that’s the word. I just wanted to keep to myself, but she just wouldn’t leave me alone.
+
+Lightning:
+I know the feeling.
+
+Springtrap:
+And, ya know...I’m very grateful for that. Everyone’s got flaws and hers was not understanding boundaries. Like, at all.
+
+Springtrap:
+But because of that, she genuinely taught me so much. About what this world was before. About what it could be again, if we’re successful here...
+
+Springtrap:
+So even though I’ll call her annoying sometimes - which she definitely is -
+
+Springtrap:
+I wouldn’t change that wagon for the world.
+
+End
+
+Springtrap:
+Let me tell you something.
+
+Springtrap:
+The people you see around here? They ain’t perfect.
+
+Springtrap:
+I won’t hide the fact that some of them get on my nerves.
+
+Springtrap:
+But I also won’t hide the fact that they’re my family now, and I’ll protect them no matter the cost.
+Springtrap:
+Do you get the picture now, new motor?
+
+Lightning:
+To be honest? Not really.
+
+Springtrap:
+Whaddya mean?
+
+Lightning:
+I don’t know how else to say it but that “family” is sort of a foreign term for me.
+
+Lightning:
+I don’t….really get it. But the way you describe it. It sounds nice.
+
+Springtrap:
+...
+
+Springtrap:
+*laughs*
+
+Lightning:
+Whoa, was that a smile?
+
+Springtrap:
+NO. That was a pity laugh, because THAT was probably the most pathetic thing I’ve ever heard.
+
+Lightning:
+Oh sure, thanks, I’m glad my existence is a joke to you.
+
+Springtrap:
+Ahhh, not like that, I don’t mean to make fun of ya. What I mean is…
+
+Springtrap:
+You sound like the type of person who could really use a family. At least a couple of friends wouldn’t hurt.
+
+Springtrap:
+And hey, if you want to stick around a little while longer….
+
+Springtrap:
+Well...why don’t you hit me up again?
+
+Springtrap:
+This chat was surprisingly not the worst thing in the world.
+
+End
