@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: GBetray1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: Alright, I found all the parts, fixing the door now.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh good! Can't wait to get out of this cursed room.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: How did you get stuck up here in the first place?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Well aren't you nosey.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Hey, I'm getting you out of this mess, the least you could do is tell me
+      how you got in it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh now we're making deals?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: That does seem to be your language. So?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'Ugh, fine, but I''ll keep it brief. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Like you've got other things to do?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh, you-you-! Do you want the damn story or not?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '*laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: YES, yes, sheesh. Continue, please.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: No interruptions.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I woke up about 3 months ago, way back east.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Nobody else had woken up yet back there, 'least from what I could tell.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I didn't really see any reason to stick around the junkyard, so I just started
+      driving. When I hit water, I started driving the other way.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: And along the way I saw....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You saw...?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'It doesn''t matter. What matters is I decided to get out of here. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: So I started searching for this space station. And now I'm here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '....Oh.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Nothing I just...nevermind.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Now who's being the quiet one?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Alright already. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: The door should be fixed now.  Try the panel.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'Hah! It worked! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Told you I was good with tools.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You can get out now.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Actually....I kinda can't.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh boy.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I'm STUCK stuck.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I thought you said only the door closed behind you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: That WAS all that happened. But then I tried looking for something I could
+      use to get the door open and....well....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Can you blame me for lying? My pride's on the line here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: And I'm sure you're very proud. Now come on-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 1...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 2...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: PUSH!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'Phew. Glad that''s over with, finally. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: So what were you planning here, then?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Uh....A rocket? Duh.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: If you look out the window there, you can see it from here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Whoa....is it done!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'No, no, no, of course not. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: If it was done I wouldn't be in the desert. I'd be up there.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Where none of this garbage matters.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Right....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: What were you doing around this space station anyway?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '''Cause if you''re here to steal, you''ve got another thing coming.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Whoa whoa whoa, no one''s stealing anything. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: If I was gonna steal, don't you think I would have done it while you were
+      stuck in a ditch?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Then what ARE you here for?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Hmmm, I thought you didn't want my life story?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: The abridged version that doesn't criminalize you would be nice.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Again - not a criminal. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I'll be the one making that call.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '*sigh* Okay. Look. I''m actually here for the same reason you are.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I heard about this space station a while back too, and now I'm here to use
+      it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: You....You are? You wanna get off this wasteland too?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No! I mean, yeah, er...obviously....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: THANK the stars there's actually someone else who ISN'T a complete IDIOT!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: This rock has done NOTHING for us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Those humans destroyed it for some stupid reason, and they think they can
+      leave the cleanup to us!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'I mean, the AUDACITY! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Just because they made us doesn't mean we should be sweeping up THEIR messes.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah....yeah, exactly.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Who do they think they are trying to order us around from beyond the grave!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'They''re DEAD! This planet is EMPTY. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'There''s no point in staying. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: And those other morons are only more reason to leave.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wait, uh....other morons?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: YES! All those stupid cars thinking they'll be anything better than SCRAP.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well....I mean, I've met some other cars. I don't know if I'd call them
+      morons, though.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh, *really*?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: They had a crew, a goal. I wouldn't call that just scrap, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '*laughs* They''re just kidding themselves.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Now, US on the other hand-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: We're the ones who are going to find a REAL purpose, and it's gonna be way
+      beyond this abandoned rock.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Uh-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Hang on.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: What are those?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What? Oh, these?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: They're parts that....that Chief....-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Well hand 'em over!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '!? What?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Let's have a look! We might be able to finish that rocket up! Then it's
+      home free!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, sure, I guess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Hmmm....yeah! Yeah this all looks like it'll work! Let's head down-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Actually...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: What?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: I can't let you use these parts
+  Choice2: These parts are from my friends
+  Route1:
+  - speaker: Lightning
+    text: I can't let you use these parts.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: What did you say?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Not yet, anyway. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: There are things I still need to figure out with them-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Lightning
+    text: These parts....they were from my friends.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: What did you say.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: My friends. Who are also cars.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: They gave them to me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I can't just let them get used like that-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

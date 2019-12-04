@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: GBetray2
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Gak
+    text: I don't think so.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: HEY! What are you doing!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Something you obviously don't have the guts to do.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I have to get off this rock, and I'm not gonna let your indecision keep
+      me from it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No, hey, just wait a sec, okay?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I DID come here to leave, alright? I did.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But don't you realize what leaving means?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'You''ll never know if there are people down here for you! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What if you're leaving them too?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '*laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I already did.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'No, Gak! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: You know, this room's pretty unstable, Lightning.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: That's actually how I got stuck in the first place. Messing with volatile
+      control panels didn't heed the best results.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No, don't-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: It can be very dangerous. You should really get out of here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Stop!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Gak, I cannot stress how much you don't have to do this.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh, I know.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I just don't care.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
