@@ -23,7 +23,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Springtrap
-    text: He learned from the best after all.
+    text: Lightning learned from the best after all.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 
