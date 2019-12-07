@@ -52,9 +52,9 @@ MonoBehaviour:
   affinityBoost: 0
   canHack: 0
   canThrow: 0
-  uicol: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
-  uicoloutline: {r: 0.24528302, g: 0.41553834, b: 0.9811321, a: 1}
-  uicoltext: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+  uicol: {r: 0.10980392, g: 0.3529412, b: 0.36078432, a: 1}
+  uicoloutline: {r: 0.53333336, g: 0.7607843, b: 0.6392157, a: 1}
+  uicoltext: {r: 1, g: 1, b: 1, a: 1}
   partsneeded: 4
   am: {fileID: 2007899351147493872}
   carParts: 0
