@@ -34,11 +34,15 @@ public class CarMovement : MonoBehaviour
     [SerializeField] float currentBoostSpeed = 0f;
     [SerializeField] float maxBoostSpeed = 2000f;
     [SerializeField] float boostFactor;
+    [SerializeField] AudioClip boostsfx;
+    [SerializeField] GameObject boostparts;
+    [SerializeField] AudioSource boostplayer; //Boosting has its own as to prevent it from being interupted
 
     [Header("Bools")]
     [SerializeField] bool isGrounded = false;
     [SerializeField] bool isPaused = false;
-    [SerializeField] bool boostUnlocked = true;
+    [SerializeField] bool boostUnlocked = false;
+    [SerializeField] bool booststarted = false;
 
     void Awake()
     {
@@ -49,11 +53,16 @@ public class CarMovement : MonoBehaviour
         layerMask = ~layerMask;
 
         player = this.GetComponent<PlayerEntity>();
+        boostplayer = boostparts.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (DataManager.instance.canBoost)
+        {
+            boostUnlocked = true;
+        }
         if(!isPaused) {
             //Respawn
             if(Input.GetKeyDown(KeyCode.R))
@@ -188,14 +197,25 @@ public class CarMovement : MonoBehaviour
     public void Boost()
     {
         
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        if (DataManager.instance.canBoost && (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)))
         {
+            if (!booststarted)
+            {
+                boostparts.SetActive(true);
+                boostplayer.clip=(boostsfx);
+                boostplayer.Play();
+
+                booststarted = true;
+            }
             //Debug.Log("boost");
             if (currentBoostSpeed < maxBoostSpeed)
                 currentBoostSpeed += boostFactor;
+            
         }
         else
         {
+            boostparts.SetActive(false);
+            booststarted = false;
             if (currentBoostSpeed > 0)
                 currentBoostSpeed -= boostFactor;
             if (currentBoostSpeed < 0)

@@ -53,4 +53,14 @@ public class AudioManager : MonoBehaviour
     {
         PlayandTrackBGM(currenttheme);
     }
+
+    public void StopAudioSFX()
+    {
+        a.Pause();
+    }
+
+    public void StopAudioBGM()
+    {
+        bgmsource.Pause();
+    }
 }
