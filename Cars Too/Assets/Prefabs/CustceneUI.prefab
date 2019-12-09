@@ -6333,7 +6333,7 @@ MonoBehaviour:
   - speaker: Springtrap
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: bcba8e0a903fd4ef3a080872e0e83b49, type: 3}
+    Scenesprite: {fileID: 21300000, guid: da83f4c768628754880348bb53c33f37, type: 3}
   - speaker: Dex
     text: 
     expression: {fileID: 0}
