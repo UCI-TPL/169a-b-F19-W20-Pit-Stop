@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class ScenePlayer : MonoBehaviour
 {
     public DialogueManager dm;
-    [SerializeField] private Chatlist cl;
+    [SerializeField] public Chatlist cl;
     public GameObject dialoguebox;
     private int index =-1;
     bool finished = true;
