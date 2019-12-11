@@ -8245,7 +8245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.6663834
+  m_AspectRatio: 1.6805484
 --- !u!114 &3385860894711152096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15232,7 +15232,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 26876aba7e7ae5349b0efe9125defecc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f85f7cf36955e5e4281d230368d7ae57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15267,7 +15267,7 @@ MonoBehaviour:
   - speaker: Springtrap
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 0be359e2d48f0f1409cf2619fbfd2edf, type: 3}
+    Scenesprite: {fileID: 21300000, guid: f85f7cf36955e5e4281d230368d7ae57, type: 3}
   - speaker: Chief
     text: 
     expression: {fileID: 0}
