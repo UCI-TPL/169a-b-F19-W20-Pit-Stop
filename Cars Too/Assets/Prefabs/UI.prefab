@@ -15232,7 +15232,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f85f7cf36955e5e4281d230368d7ae57, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ca34aa86a0d92647ba65b33e3b20887, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15275,7 +15275,7 @@ MonoBehaviour:
   - speaker: Dex
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 366dd9a1bf3154e1e91e507c388ae4e2, type: 3}
+    Scenesprite: {fileID: 21300000, guid: 5ca34aa86a0d92647ba65b33e3b20887, type: 3}
   - speaker: Gak
     text: 
     expression: {fileID: 0}
@@ -17292,7 +17292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &658406989012341815
 RectTransform:
   m_ObjectHideFlags: 0
