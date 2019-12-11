@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: MustangEnd1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: This is it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Let's get in there and get those parts back.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Gak!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Well. If it isn't the delicate little motor come to save the day.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Put. Down. The parts.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: OR what?? You'll sic one of your little pals on me?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No. I didn't come to hurt you. I came to negotiate.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: "Oh? A trade? Finally decided to speak \u201Cmy language\u201D huh?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Can you cut the scrap for two seconds, Gak? Lightning:Look around you! This
+      place is way too unstable for a rocket!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: As soon as you try to take off, it's all gonna collapse.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Yeah, on YOU. Me? I'll take my chances in a giant metal tube.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: If you're not going to stop for your own safety, then just listen to me,
+      okay?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You're making a HUGE mistake doing this.G
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'And I know because I was going to do the same exact thing. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I thought this was the only way out too but that's not true anymore.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Oh stop being ignorant! You've seen this planet!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: EVERYTHING IS DEAD.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: How can you say that when we're all right here?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: US, Gak! We're still here, we're still alive!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: You can't possibly call this living.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: Scrounging for scraps? Barely making it by on the shitty tools those humans
+      left us with?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: 'How long do you think we''ll last here, huh? Everything''s limited, and
+      supply is running out fast. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: We can make our own. We can build OUR way.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Why do you keep limiting yourself by what humans did for us?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: They aren't here anymore Gak! We aren't fixing things for them, we're fixing
+      things for ourselves!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But you're too stubborn to see that, aren't you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: You don't know anything about me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yes I do.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I know you want to think all humans were evil, all humans did this to the
+      planet.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I know you just want someone to blame.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You want this whole world to be irredeemable so leaving can be justified.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You want everyone else to look stupid, look naive, for staying.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "\u201CThey're just weak.\u201D That's what you're telling yourself, right?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "\u201CThey're weak but I'm strong.\u201D"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You think you're smarter than them. You think you're clever for thinking
+      up this whole scheme.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well, I hate to brake it to you, but you're no better than the rest of us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: YES I AM!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I AM better than you! Better than all of you!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: You'll WASTE these parts! We don't have that many left!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Gak, calm down.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: YOU DON'T KNOW WHAT I'VE BEEN THROUGH TO GET HERE!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Gak
+    text: I can't go back! I've come so far!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Whoa, slow down there. No one said anything about goin' back.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Look, Gak. I know why you're really leavin'.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "It's \u2018cause you don't think you can make it down here."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You're tired of it, ain't ya? You don't wanna go back to the way it was.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Well, that ain''t what''s gonna happen. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: This crew, these folks....we can fix things.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You don't think it's possible? Just look at that rocket you made.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: If you put even just half of that effort into gettin' this world back on
+      its feet, well....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Don't worry about bitin' off more'n you can chew. Your mouth is probably
+      a whole lot bigger'n you think.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
