@@ -6860,7 +6860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 748, y: 12.631561}
+  m_AnchoredPosition: {x: 748, y: 12.631592}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4436490669751480778
@@ -8245,7 +8245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.7770787
+  m_AspectRatio: 1.6663834
 --- !u!114 &3385860894711152096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15267,7 +15267,7 @@ MonoBehaviour:
   - speaker: Springtrap
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 21300000, guid: 72fefc8ba78906d4a93634faef7b74b1, type: 3}
+    Scenesprite: {fileID: 21300000, guid: 0be359e2d48f0f1409cf2619fbfd2edf, type: 3}
   - speaker: Chief
     text: 
     expression: {fileID: 0}
