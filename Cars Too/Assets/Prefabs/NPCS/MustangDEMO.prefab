@@ -34,7 +34,7 @@ MonoBehaviour:
   dialoguebox: {fileID: 0}
   talkui: {fileID: 5611003960058169850}
   giftvalues: 320000003200000032000000320000006400000032000000
-  npcthemeindex: 2
+  npcthemeindex: 11
   randomchats:
   - {fileID: 11400000, guid: d9a025c83ab420d488d5568f39669670, type: 2}
   - {fileID: 11400000, guid: d9a025c83ab420d488d5568f39669670, type: 2}

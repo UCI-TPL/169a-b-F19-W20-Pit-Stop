@@ -3899,6 +3899,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 52cd553eeacc92c45b9b1b7e289201dd,
         type: 2}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: npcthemeindex
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x
