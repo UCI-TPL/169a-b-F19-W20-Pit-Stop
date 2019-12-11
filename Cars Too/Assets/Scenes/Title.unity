@@ -2373,13 +2373,13 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Ariana Mertz: Artist, Writer
+  m_text: 'Ariana Mertz:Writer
 
     Diana Melgarejo: Artist
 
     Kyle Jones: Designer, Programmer
 
-    Muhammad Albayati: Producer
+    Muhammad Albayati: Producer, Programmer
 
     Xavier Chua: Artist, Programmer
 
