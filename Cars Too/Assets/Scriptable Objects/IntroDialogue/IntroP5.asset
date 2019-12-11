@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: IntroP5
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Feminine Voice
+  - speaker: Piper
     text: Nice job Lightning, that'll slow the launch down for a bit.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Deep Voice
+  - speaker: Chief
     text: You're getting close to the control room, we'll meet up with you up ahead.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Deep Voice
+  - speaker: Chief
     text: Take the passageway on your left, and go straight ahead for a while.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Deep Voice
+  - speaker: Chief
     text: We'll be there.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
