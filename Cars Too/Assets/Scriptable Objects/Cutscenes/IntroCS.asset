@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IntroCS
   m_EditorClassIdentifier: 
   chats:
-  - {fileID: 11400000, guid: be17a08259adb8645b973daf29c2b381, type: 2}
-  fileloc: 
-  createpath: 
-  title: 
+  - {fileID: 11400000, guid: a4e29377d90db004aa0b51bb0f520388, type: 2}
+  fileloc: /Writing/newintro.txt
+  createpath: Assets/Scriptable Objects/Cutscenes/GeneratedChats/
+  title: Nintro

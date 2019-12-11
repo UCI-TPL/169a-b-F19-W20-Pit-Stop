@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: Nintro1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Piper
+    text: 'THERE you are! I was started to worry you wouldn''t show! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah, well....I figured it would be worth getting the parts I need. Worth
+      even putting up with you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Awwww, that's sweet!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: That wasn't a compliment.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*laughs* I take what I can get in the post-apocalypse.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: And who's this we have here?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh, perfect timing! I was about to suggest introductions!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Lightning, this is Chief. They - '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Would like to introduce themself, thank you, Piper.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Okie dokie! I'll let you take it from here.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Lightning, I'll be nearby if you wanna come chat!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And don't forget to introduce yourself to the rest of the crew!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: They'll be around.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: '*Piper leaves*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: So, Chief, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: It's a pleasure to meet you, Lightning. You know, Piper's been off her rims
+      waiting for you to arrive.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Can't imagine a good reason why.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Heh, well, whether you like it or not, that girl thinks you're somethin'.
+      We'll see if that's true in a minute.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What do you mean?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: I mean I'm gonna show you the ropes on parts retrieval. The way WE do it.
+      You did come to help out, didn't you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Y-Yeah. I did.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Chief
+    text: Then let's get started.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

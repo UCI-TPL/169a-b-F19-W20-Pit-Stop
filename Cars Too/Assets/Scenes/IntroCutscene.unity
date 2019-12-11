@@ -678,6 +678,14 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_text
+      value: 2 Weeks Ago...
+      objectReference: {fileID: 0}
+    - target: {fileID: 313083939, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7830130138001559381, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -762,5 +770,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: eb13ad278c3c743d993fe5ef955f11e0,
         type: 3}
+    - target: {fileID: 3782917000350309019, guid: f854a958657ac6547841f4f9bc4d13ff,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
