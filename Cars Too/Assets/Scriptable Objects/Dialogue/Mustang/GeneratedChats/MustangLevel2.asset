@@ -20,7 +20,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: ' '
-    text: you can blow through debris and boxes.
+    text: you can now throw a hat to collect gifts, and car parts.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Choice1: 
@@ -28,7 +28,7 @@ MonoBehaviour:
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 0
+  C1Reward: 25
   C2Reward: 0
   abilityactivation: 1
   carpartsgained: 0

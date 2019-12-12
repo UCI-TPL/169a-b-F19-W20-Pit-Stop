@@ -98,7 +98,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   isConversation: 0
-  C1Reward: 25
+  C1Reward: 0
   C2Reward: 0
   abilityactivation: 0
   carpartsgained: 0

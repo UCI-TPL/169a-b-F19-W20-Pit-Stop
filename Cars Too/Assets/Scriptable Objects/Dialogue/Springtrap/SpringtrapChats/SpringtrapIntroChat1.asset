@@ -84,7 +84,7 @@ MonoBehaviour:
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 0
+  C1Reward: 25
   C2Reward: 0
   abilityactivation: 0
   carpartsgained: 0
