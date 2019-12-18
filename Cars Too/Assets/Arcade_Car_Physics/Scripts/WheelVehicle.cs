@@ -31,6 +31,8 @@ namespace VehicleBehaviour {
         [SerializeField] string jumpInput = "Jump";
         [SerializeField] string driftInput = "Drift";
 	    [SerializeField] string boostInput = "Boost";
+
+        [SerializeField] float maxSpeed;
         
         /* 
          *  Turn input curve: x real input, y value used
@@ -46,7 +48,7 @@ namespace VehicleBehaviour {
         public WheelCollider[] TurnWheel { get { return turnWheel; } }
 
         // This code checks if the car is grounded only when needed and the data is old enough
-        bool isGrounded = false;
+        [SerializeField] bool isGrounded = false;
         int lastGroundCheck = 0;
         public bool IsGrounded { get {
             if (lastGroundCheck == Time.frameCount)
@@ -232,10 +234,30 @@ namespace VehicleBehaviour {
             // Get all the inputs!
             if (isPlayer) {
 
+                
+
                 if(Input.GetKey(KeyCode.W)) {
-                    _rb.velocity = new Vector3(_rb.velocity.x, _rb.velocity.y, -25f);
+
+                        Vector3 newVector = new Vector3(0, 0, 20000);
+                        _rb.AddForce(_rb.rotation * newVector);
+
+                        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 25f);
+
+
+                } else if (Input.GetKey(KeyCode.S)) {
+
+                    
+
+                    Vector3 newVector = new Vector3(0, 0, -20000);
+                    _rb.AddForce(_rb.rotation * newVector); 
+
+                    _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 25);
+
                 } else {
-                    _rb.velocity = new Vector3(_rb.velocity.x, _rb.velocity.y, 0);
+                    if(_rb.velocity.magnitude > 0.1)
+                    {
+                        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, _rb.velocity.magnitude - 0.3f);
+                    }
                 }
 
                 // Accelerate & brake
