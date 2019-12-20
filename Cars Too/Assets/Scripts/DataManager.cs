@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class DataManager : MonoBehaviour
 {
@@ -26,10 +27,11 @@ public class DataManager : MonoBehaviour
     public bool canHack = false;
     public bool canThrow = false;
 
-    //ui color
+    //ui color and font
     public Color uicol;
     public Color uicoloutline;
     public Color uicoltext;
+    public TMP_FontAsset uifont;
 
     //parts needed for the current main objective
     public int partsneeded = 4;

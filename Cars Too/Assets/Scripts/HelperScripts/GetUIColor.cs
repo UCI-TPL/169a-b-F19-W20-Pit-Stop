@@ -14,6 +14,7 @@ public class GetUIColor : MonoBehaviour
         TextMeshProUGUI txt= GetComponent<TextMeshProUGUI>();
         if (txt != null)
         {
+            txt.font = DataManager.instance.uifont;
             txt.color = DataManager.instance.uicoltext;
         }
         Image i = GetComponent<Image>();
