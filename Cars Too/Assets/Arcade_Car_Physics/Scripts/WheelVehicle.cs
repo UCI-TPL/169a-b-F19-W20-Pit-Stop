@@ -33,6 +33,8 @@ namespace VehicleBehaviour {
 	    [SerializeField] string boostInput = "Boost";
 
         [SerializeField] float maxSpeed;
+
+
         
         /* 
          *  Turn input curve: x real input, y value used
@@ -234,39 +236,65 @@ namespace VehicleBehaviour {
             // Get all the inputs!
             if (isPlayer) {
 
-                
+                isGrounded = false;
 
-                if(Input.GetKey(KeyCode.W)) {
+                //Check for grounding
+                foreach (WheelCollider wheel in wheels)
+                {
+                    if(wheel.GetGroundHit(out WheelHit hit))
+                    {
+                        isGrounded = true;
+                    } 
+                }
 
+                if (Input.GetKey(KeyCode.W) && isGrounded) {
+
+
+                    if(_rb.velocity.magnitude < 25)
+                    {
                         Vector3 newVector = new Vector3(0, 0, 20000);
                         _rb.AddForce(_rb.rotation * newVector);
+                    }
 
-                        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 25f);
 
-
-                } else if (Input.GetKey(KeyCode.S)) {
-
-                    
+                } else if (Input.GetKey(KeyCode.S) && isGrounded) {
 
                     Vector3 newVector = new Vector3(0, 0, -20000);
-                    _rb.AddForce(_rb.rotation * newVector); 
+                    _rb.AddForce(_rb.rotation * newVector);
 
-                    _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 25);
+                    float zVal = gameObject.transform.InverseTransformDirection(_rb.velocity).z;
+
+                    Debug.Log(zVal);
+                    if (zVal < 0)
+                    {
+                        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 10);   
+                    }
 
                 } else {
+
                     if(_rb.velocity.magnitude > 0.1)
                     {
-                        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, _rb.velocity.magnitude - 0.3f);
+                        //_rb.velocity = Vector3.ClampMagnitude(_rb.velocity, _rb.velocity.magnitude - 0.3f);
                     }
                 }
 
-                // Accelerate & brake
-                // if (throttleInput != "" && throttleInput != null)
-                // {
-                //     throttle = GetInput(throttleInput) - GetInput(brakeInput);
-                // }
-                // Boost
-                boosting = (GetInput(boostInput) > 0.5f);
+
+                // Car can reset indefenitely right now. Needs a timer
+                if (Input.GetKeyDown("r"))
+                {
+                    
+                    gameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
+                    transform.Translate(0, 3, 0);
+                }
+            
+
+            // Accelerate & brake
+            // if (throttleInput != "" && throttleInput != null)
+            // {
+            //     throttle = GetInput(throttleInput) - GetInput(brakeInput);
+            // }
+            // Boost
+            boosting = (GetInput(boostInput) > 0.5f);
                 // Turn
                 steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
                 // Dirft
