@@ -90,6 +90,7 @@ public class KeyboardSelector : MonoBehaviour
     private void UpdateIndicator()
     {
         indicator.transform.position = buttons[index].transform.position;
+        indicator.transform.localScale = buttons[index].transform.localScale;
         RectTransform brt = buttons[index].GetComponent<RectTransform>();
         rt.sizeDelta = new Vector2(brt.rect.width+highlightwidth, brt.rect.height+highlightheight);
     }
