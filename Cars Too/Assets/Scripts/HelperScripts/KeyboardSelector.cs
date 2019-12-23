@@ -8,10 +8,12 @@ public class KeyboardSelector : MonoBehaviour
 {
     [SerializeField] private List<Button> buttons;
     [SerializeField] private int index =0;
+    [SerializeField] private GameObject indicator;
+    private RectTransform rt;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rt = indicator.GetComponent<RectTransform>();
     }
 
     // Update is called once per frame
@@ -19,6 +21,8 @@ public class KeyboardSelector : MonoBehaviour
     {
         CheckMovement();
         CheckEnter();
+        UpdateIndicator();
+        
     }
 
     private void OnEnable()
@@ -50,9 +54,16 @@ public class KeyboardSelector : MonoBehaviour
 
     private void CheckEnter()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return)&&buttons[index].interactable==true)
         {
             buttons[index].onClick.Invoke();
         }
+    }
+
+    private void UpdateIndicator()
+    {
+        indicator.transform.position = buttons[index].transform.position;
+        RectTransform brt = buttons[index].GetComponent<RectTransform>();
+        rt.sizeDelta = new Vector2(brt.rect.width+10, brt.rect.height+10);
     }
 }
