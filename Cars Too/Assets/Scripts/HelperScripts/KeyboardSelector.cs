@@ -9,6 +9,8 @@ public class KeyboardSelector : MonoBehaviour
     [SerializeField] private List<Button> buttons;
     [SerializeField] private int index =0;
     [SerializeField] private GameObject indicator;
+    [SerializeField] private int highlightwidth = 10;
+    [SerializeField] private int highlightheight = 10;
     private RectTransform rt;
     // Start is called before the first frame update
     void Start()
@@ -64,6 +66,6 @@ public class KeyboardSelector : MonoBehaviour
     {
         indicator.transform.position = buttons[index].transform.position;
         RectTransform brt = buttons[index].GetComponent<RectTransform>();
-        rt.sizeDelta = new Vector2(brt.rect.width+10, brt.rect.height+10);
+        rt.sizeDelta = new Vector2(brt.rect.width+highlightwidth, brt.rect.height+highlightheight);
     }
 }
