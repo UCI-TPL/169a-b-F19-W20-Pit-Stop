@@ -11,10 +11,17 @@ public class KeyboardSelector : MonoBehaviour
     [SerializeField] private GameObject indicator;
     [SerializeField] private int highlightwidth = 10;
     [SerializeField] private int highlightheight = 10;
+    [SerializeField] private int numrows = 0;
+    [SerializeField] private int numcolumns = 0;
     private RectTransform rt;
     // Start is called before the first frame update
     void Start()
     {
+        if (numrows == 0)
+        {
+            numrows = buttons.Count;
+            numcolumns = 1;
+        }
         rt = indicator.GetComponent<RectTransform>();
     }
 
@@ -50,6 +57,24 @@ public class KeyboardSelector : MonoBehaviour
             if (index >= buttons.Count)
             {
                 index = 0;
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        {
+            index += numrows;
+
+            if (index >= buttons.Count)
+            {
+                index -=numrows;
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        {
+            index -= numrows;
+
+            if (index <= 0)
+            {
+                index += numrows;
             }
         }
     }
