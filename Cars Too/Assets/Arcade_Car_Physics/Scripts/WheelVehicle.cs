@@ -238,6 +238,9 @@ namespace VehicleBehaviour {
 
                 isGrounded = false;
 
+                //TODO: Check if car is facing angle greater than 80
+                // Shouldn't drive up walls
+
                 //Check for grounding
                 foreach (WheelCollider wheel in wheels)
                 {
@@ -247,36 +250,40 @@ namespace VehicleBehaviour {
                     } 
                 }
 
-                if (Input.GetKey(KeyCode.W) && isGrounded) {
+                if (isGrounded)
+                {
+                    if (Input.GetKey(KeyCode.W)) {
 
 
-                    if(_rb.velocity.magnitude < 25)
-                    {
-                        Vector3 newVector = new Vector3(0, 0, 20000);
+                        if(_rb.velocity.magnitude < 25)
+                        {
+                            Vector3 newVector = new Vector3(0, 0, 20000);
+                            _rb.AddForce(_rb.rotation * newVector);
+                        }
+
+
+                    } else if (Input.GetKey(KeyCode.S)) {
+
+                        Vector3 newVector = new Vector3(0, 0, -20000);
                         _rb.AddForce(_rb.rotation * newVector);
-                    }
 
+                        float zVal = gameObject.transform.InverseTransformDirection(_rb.velocity).z;
 
-                } else if (Input.GetKey(KeyCode.S) && isGrounded) {
+                        Debug.Log(zVal);
+                        if (zVal < 0)
+                        {
+                            _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 10);   
+                        }
 
-                    Vector3 newVector = new Vector3(0, 0, -20000);
-                    _rb.AddForce(_rb.rotation * newVector);
+                    } else {
 
-                    float zVal = gameObject.transform.InverseTransformDirection(_rb.velocity).z;
-
-                    Debug.Log(zVal);
-                    if (zVal < 0)
-                    {
-                        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 10);   
-                    }
-
-                } else {
-
-                    if(_rb.velocity.magnitude > 0.1)
-                    {
-                        //_rb.velocity = Vector3.ClampMagnitude(_rb.velocity, _rb.velocity.magnitude - 0.3f);
+                        if(_rb.velocity.magnitude > 0.1)
+                        {
+                            _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, _rb.velocity.magnitude - 0.3f);
+                        }
                     }
                 }
+
 
 
                 // Car can reset indefenitely right now. Needs a timer
