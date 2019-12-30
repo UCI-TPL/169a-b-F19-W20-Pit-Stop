@@ -26,6 +26,7 @@ public class DataManager : MonoBehaviour
     public bool affinityBoost = false;
     public bool canHack = false;
     public bool canThrow = false;
+    public bool piperExamine = false;
 
     //ui color and font
     public Color uicol;
@@ -82,6 +83,7 @@ public class DataManager : MonoBehaviour
         }
         if (instance == null)
         {
+            //instantiate new datamanager
             instance = this;
 
             ResetPhase();
@@ -231,7 +233,7 @@ public class DataManager : MonoBehaviour
         Debug.Log("myName");
     }
 
-    //resets datamanger values;
+    //resets datamanger values but doesn't reset confidant values;
     public void Reset()
     {
         affinityBoost = false;
@@ -239,6 +241,7 @@ public class DataManager : MonoBehaviour
         canDestroy = false;
         canHack = false;
         canThrow = false;
+        piperExamine = false;
         carParts = 0;
         foreach (PresentType present in PresentType.GetValues(typeof(PresentType)))
         {
@@ -248,6 +251,7 @@ public class DataManager : MonoBehaviour
 
     }
 
+    //resets all game-related datamanager values
     public void HardReset()
     {
         confidantExp["Piper"] = new ConfidantData("Piper");
