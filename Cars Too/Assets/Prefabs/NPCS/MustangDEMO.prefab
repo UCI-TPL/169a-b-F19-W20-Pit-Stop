@@ -30,7 +30,7 @@ MonoBehaviour:
   player: {fileID: 0}
   dm: {fileID: 0}
   consprite: {fileID: 21300000, guid: a634f002225cb694dad3db04082bf669, type: 3}
-  npcbg: {fileID: 21300000, guid: 99e8d0abff0dede45bb81855e8852fda, type: 3}
+  npcbg: {fileID: 21300000, guid: eeb53cc4890a055419503e1ac2502e20, type: 3}
   dialoguebox: {fileID: 0}
   talkui: {fileID: 5611003960058169850}
   giftvalues: 320000003200000032000000320000006400000032000000
@@ -48,6 +48,84 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642, type: 2}
   - {fileID: 11400000, guid: 61c4144c1dd1a5348a8c4bccc819149b, type: 2}
   giftingchat: {fileID: 11400000, guid: a11d19447daef6d4182a0d9cea1d90cf, type: 2}
+--- !u!1 &7352069738749540217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3315365945526379398}
+  - component: {fileID: 2144928078580040944}
+  - component: {fileID: 8664433099855944514}
+  m_Layer: 0
+  m_Name: Mustang
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3315365945526379398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352069738749540217}
+  m_LocalRotation: {x: 0.004912705, y: 0.70708984, z: 0.70708966, w: -0.004912641}
+  m_LocalPosition: {x: 0.0001, y: -0.00013245335, z: 0.00136}
+  m_LocalScale: {x: 0.34697154, y: 0.0705693, z: 0.21404293}
+  m_Children: []
+  m_Father: {fileID: 7766398356229948518}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 180.79599}
+--- !u!33 &2144928078580040944
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352069738749540217}
+  m_Mesh: {fileID: -1213744347464686493, guid: 22a47288a84e6ad438ba7a70dfaa2c9a, type: 3}
+--- !u!23 &8664433099855944514
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352069738749540217}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 55783992df0473645b75ecc87a4f686d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1001 &2029867377690127422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60,20 +138,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: MustangDEMO
       objectReference: {fileID: 0}
+    - target: {fileID: 6452475588410666647, guid: 1fdc2d3f64522e04e89e4994362c76de,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8641356037269235800, guid: 1fdc2d3f64522e04e89e4994362c76de,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.96809
+      value: -53.503044
       objectReference: {fileID: 0}
     - target: {fileID: 8641356037269235800, guid: 1fdc2d3f64522e04e89e4994362c76de,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.99
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8641356037269235800, guid: 1fdc2d3f64522e04e89e4994362c76de,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.110433
+      value: 148
       objectReference: {fileID: 0}
     - target: {fileID: 8641356037269235800, guid: 1fdc2d3f64522e04e89e4994362c76de,
         type: 3}
@@ -135,12 +218,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7367035568429017821, guid: 1fdc2d3f64522e04e89e4994362c76de, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fdc2d3f64522e04e89e4994362c76de, type: 3}
 --- !u!1 &6745429004265027189 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735282467803159115, guid: 1fdc2d3f64522e04e89e4994362c76de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2029867377690127422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7766398356229948518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8641356037269235800, guid: 1fdc2d3f64522e04e89e4994362c76de,
     type: 3}
   m_PrefabInstance: {fileID: 2029867377690127422}
   m_PrefabAsset: {fileID: 0}
