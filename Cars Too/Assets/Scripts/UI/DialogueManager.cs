@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialgouebox;
     [SerializeField] private TextMeshProUGUI speakerbox;
     [SerializeField] private GameObject canvasobjects; //visible canvas objects associated with dialogue to be turned on or off
-    [SerializeField] private int index = 0; //holds current place in dialogue
+    [SerializeField] private float index = 0; //holds current place in dialogue
     [SerializeField] private int speed = 1; //controls speed at which text appears
     [SerializeField] private bool instant = false; //detects whether the text should be displayed instantly
     [SerializeField] private bool running = false; //Detects whether the dialogue coroutine is running
@@ -210,7 +210,7 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 //Otherwise display a number of chars determined by speed
-                for (int i = index; i < index + speed; i++)
+                for (int i = Mathf.CeilToInt(index); i < index + DataManager.instance.textspeed; i++)
                 {
                     if (i >= dialoguetext.Length)
                     {
@@ -220,7 +220,7 @@ public class DialogueManager : MonoBehaviour
 
                     dialgouebox.text += dialoguetext[i];
                 }
-                index += speed;
+                index += DataManager.instance.textspeed;
             }
 
             //Yield until next frame and then repeat
@@ -336,7 +336,7 @@ public class DialogueManager : MonoBehaviour
             //if the player has clicked display all text
 
                 //Otherwise display a number of chars determined by speed
-                for (int i = index; i < index + speed; i++)
+                for (int i = Mathf.CeilToInt(index); i < index + DataManager.instance.textspeed; i++)
                 {
                     if (i >= dialoguetext.Length)
                     {
@@ -347,7 +347,7 @@ public class DialogueManager : MonoBehaviour
 
                     autodialoguebox.text += dialoguetext[i];
                 }
-                index += speed;
+                index += DataManager.instance.textspeed;
 
 
             //Yield until next frame and then repeat

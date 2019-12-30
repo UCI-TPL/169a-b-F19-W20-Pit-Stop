@@ -44,6 +44,9 @@ public class DataManager : MonoBehaviour
     //Player name
     [SerializeField] private string myName = "Mightning LcQueen";
 
+    //settings
+    [SerializeField] public float textspeed = 1.0f;
+
     //Used to listen and call functions whenever gifts or car parts increase
     public UnityEvent giftAcquired;
     public UnityEvent carPartAcquired;
