@@ -63,4 +63,14 @@ public class AudioManager : MonoBehaviour
     {
         bgmsource.Pause();
     }
+
+    public void setsfxvol(float val)
+    {
+        a.volume = val;
+    }
+
+    public void setbgmvol(float val)
+    {
+        bgmsource.volume = val;
+    }
 }

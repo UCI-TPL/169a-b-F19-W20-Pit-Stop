@@ -14,10 +14,10 @@ public class ConveyerBelt : MonoBehaviour
         {
             if (!player)
             {
-                Debug.Log(other.transform.parent.name);
+                
                 if (other.transform.parent != null)
                 {
-                    Debug.Log("here");
+                    
                     other.transform.parent.transform.parent.transform.position = Vector3.MoveTowards(other.transform.position, endpoint.position, speed * Time.deltaTime);
                     player = true;
                 }
