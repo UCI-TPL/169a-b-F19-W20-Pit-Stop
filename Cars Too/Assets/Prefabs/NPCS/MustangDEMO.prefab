@@ -29,7 +29,7 @@ MonoBehaviour:
   close: 0
   player: {fileID: 0}
   dm: {fileID: 0}
-  consprite: {fileID: 21300000, guid: a634f002225cb694dad3db04082bf669, type: 3}
+  consprite: {fileID: 21300000, guid: 739ea6ae4af2a144592129e6f1cae9bc, type: 3}
   npcbg: {fileID: 21300000, guid: eeb53cc4890a055419503e1ac2502e20, type: 3}
   dialoguebox: {fileID: 0}
   talkui: {fileID: 5611003960058169850}
