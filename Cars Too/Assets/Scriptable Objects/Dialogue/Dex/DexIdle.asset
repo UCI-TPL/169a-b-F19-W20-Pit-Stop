@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: DexIdle
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
-    text: Hey Lightning, Whats good?
+  - speaker: Dex
+    text: Whats cookin good lookin?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: Hiya Lightining how do you like my racing stripes?
+  - speaker: Dex
+    text: What's up?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: You learn any new stunts Lightning?
+  - speaker: Dex
+    text: How you doin?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
