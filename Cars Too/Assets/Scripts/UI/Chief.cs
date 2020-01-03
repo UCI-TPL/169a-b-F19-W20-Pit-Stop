@@ -41,7 +41,7 @@ public class Chief : MonoBehaviour
         dm = GameObject.FindObjectOfType<DialogueManager>();
         talkui = cm.npcchaticon;
 
-        ResetcarPartsThreshold();
+        //ResetcarPartsThreshold();
         moveToNextLevel = false;
     }
 
