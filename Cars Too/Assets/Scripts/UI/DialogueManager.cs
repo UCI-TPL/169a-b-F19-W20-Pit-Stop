@@ -31,6 +31,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private AutoDialoguePortrait adp = null; //character portrait for autodialogue
     [SerializeField] private GameObject blinker = null; //blinker obj to display when done reading text
 
+    [SerializeField] private List<Color> namecolors;
+
 
 
     //All fields are currently serialized for testing purposes
@@ -125,11 +127,13 @@ public class DialogueManager : MonoBehaviour
     {
         //Turn on the Dialogue canvas objects
         canvasobjects.SetActive(true);
+        DetermineNameColor(d[0].speaker);
         skipbutton.SetActive(canskip);
 
         //For each line of dialogue play it separately
         for (int i = 0; i < d.Count; i++)
         {
+           
             StartCoroutine(playDialogue(d[i]));
 
             //Wait here for dialogue to play
@@ -181,11 +185,12 @@ public class DialogueManager : MonoBehaviour
     {
         //Reset defaults and set speaker
         running = true;
-        
+        DetermineNameColor(d.speaker);
         speakerbox.text = d.speaker.Replace("Lightning",DataManager.instance.GetName());
         dialgouebox.text = "";
         index = 0;
         string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
+        
         if (sp != null)
         {
             sp.UpdatePortraits(d.speaker);
@@ -362,5 +367,38 @@ public class DialogueManager : MonoBehaviour
     {
         StopAllCoroutines();
         canvasobjects.SetActive(false);
+    }
+
+    private void DetermineNameColor(string n)
+    {
+        if (n.Equals("Chief"))
+        {
+            
+            speakerbox.color = namecolors[0];
+        }
+        else if (n.Equals("Dex"))
+        {
+            speakerbox.color = namecolors[1];
+        }
+        else if (n.Equals("Lightning"))
+        {
+            speakerbox.color = namecolors[2];
+        }
+        else if (n.Equals("Mustang"))
+        {
+            speakerbox.color = namecolors[3];
+        }
+        else if (n.Equals("Piper"))
+        {
+            speakerbox.color = namecolors[4];
+        }
+        else if (n.Equals("Springtrap"))
+        {
+            speakerbox.color = namecolors[5];
+        }
+        else
+        {
+            Debug.Log("NAME COLOR NOT FOUND");
+        }
     }
 }
