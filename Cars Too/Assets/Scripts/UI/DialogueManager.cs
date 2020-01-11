@@ -32,7 +32,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject blinker = null; //blinker obj to display when done reading text
 
     [SerializeField] private List<Color> namecolors;
-
+    [SerializeField] private Image dboxoutline;
+    [SerializeField] private Image sboxoutline;
 
 
     //All fields are currently serialized for testing purposes
@@ -373,31 +374,44 @@ public class DialogueManager : MonoBehaviour
     {
         if (n.Equals("Chief"))
         {
-            
-            speakerbox.color = namecolors[0];
+            sboxoutline.color = namecolors[0];
+            dboxoutline.color = namecolors[0];
+            //speakerbox.color = namecolors[0];
         }
         else if (n.Equals("Dex"))
         {
-            speakerbox.color = namecolors[1];
+            sboxoutline.color = namecolors[1];
+            dboxoutline.color = namecolors[1];
+            //speakerbox.color = namecolors[1];
         }
         else if (n.Equals("Lightning"))
         {
-            speakerbox.color = namecolors[2];
+            sboxoutline.color = namecolors[2];
+            dboxoutline.color = namecolors[2];
+            //speakerbox.color = namecolors[2];
         }
         else if (n.Equals("Mustang"))
         {
-            speakerbox.color = namecolors[3];
+            sboxoutline.color = namecolors[3];
+            dboxoutline.color = namecolors[3];
+            //speakerbox.color = namecolors[3];
         }
         else if (n.Equals("Piper"))
         {
-            speakerbox.color = namecolors[4];
+            sboxoutline.color = namecolors[4];
+            dboxoutline.color = namecolors[4];
+            //speakerbox.color = namecolors[4];
         }
         else if (n.Equals("Springtrap"))
         {
-            speakerbox.color = namecolors[5];
+            sboxoutline.color = namecolors[5];
+            dboxoutline.color = namecolors[5];
+            //speakerbox.color = namecolors[5];
         }
         else
         {
+            sboxoutline.color = namecolors[2];
+            dboxoutline.color = namecolors[2];
             Debug.Log("NAME COLOR NOT FOUND");
         }
     }

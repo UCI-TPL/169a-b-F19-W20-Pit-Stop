@@ -6,6 +6,8 @@ public class AudioManager : MonoBehaviour
 {
    [SerializeField] private AudioSource a;
    [SerializeField] private AudioSource bgmsource;
+    private float bgmvol = 0.0f;
+    private float sfxvol = 0.0f;
     //List of all the bgms in the game
    [SerializeField] private List<AudioClip> bgms;
     //the index of the current level's theme
@@ -13,6 +15,8 @@ public class AudioManager : MonoBehaviour
     private Dictionary<AudioClip, float> bgmtimes = new Dictionary<AudioClip, float>();
     private void Awake()
     {
+        bgmvol = bgmsource.volume;
+        sfxvol = a.volume;
         foreach (AudioClip ac in bgms)
         {
             bgmtimes[ac] = 0.0f;
@@ -34,15 +38,61 @@ public class AudioManager : MonoBehaviour
         bgmsource.Play();
     }
 
-    public void PlayandTrackBGM(int index)
+    public void PlayandTrackBGM(int index, bool fade = true, float fadetime =1.25f)
     {
         if (bgmsource.clip != null)
         {
             bgmtimes[bgmsource.clip] = bgmsource.time;
         }
-
-        PlayBGM(bgms[index], bgmtimes[bgms[index]]);
+        if (fade)
+        {
+            StopAllCoroutines();
+            StartCoroutine(BGMfade(bgms[index], fadetime));
+        }
+        else
+        {
+            PlayBGM(bgms[index], bgmtimes[bgms[index]]);
+        }
     }
+
+    private IEnumerator BGMfade(AudioClip a,float fadetime)
+    {
+        float currentvol = bgmvol;
+        Debug.Log("currentvol: "+currentvol);
+        float volincrementer = currentvol / (fadetime * 60.0f);
+        while (bgmsource.volume > 0)
+        {
+            
+            float temp = bgmsource.volume-volincrementer;
+            if (temp <= 0)
+            {
+                bgmsource.volume = 0;
+            }
+            else
+            {
+                bgmsource.volume = temp;
+            }
+            yield return null;
+        }
+
+        PlayBGM(a, bgmtimes[a]);
+
+        while (bgmsource.volume < currentvol)
+        {
+            float temp = bgmsource.volume + volincrementer;
+            if (temp >=currentvol)
+            {
+                bgmsource.volume = currentvol;
+            }
+            else
+            {
+                bgmsource.volume = temp;
+            }
+            yield return null;
+        }
+        Debug.Log("finished");
+    }
+    
 
     public void SetTheme(int i)
     {
@@ -51,7 +101,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayCurrentTheme()
     {
-        PlayandTrackBGM(currenttheme);
+        PlayandTrackBGM(currenttheme,false);
     }
 
     public void StopAudioSFX()
@@ -67,10 +117,12 @@ public class AudioManager : MonoBehaviour
     public void setsfxvol(float val)
     {
         a.volume = val;
+        sfxvol = val;
     }
 
     public void setbgmvol(float val)
     {
         bgmsource.volume = val;
+        bgmvol = val;
     }
 }
