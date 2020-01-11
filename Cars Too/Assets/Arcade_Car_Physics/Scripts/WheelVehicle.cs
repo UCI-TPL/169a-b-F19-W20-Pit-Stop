@@ -50,21 +50,28 @@ namespace VehicleBehaviour {
         public WheelCollider[] TurnWheel { get { return turnWheel; } }
 
         // This code checks if the car is grounded only when needed and the data is old enough
-        [SerializeField] bool isGrounded = false;
-        int lastGroundCheck = 0;
-        public bool IsGrounded { get {
-            if (lastGroundCheck == Time.frameCount)
-                return isGrounded;
 
-            lastGroundCheck = Time.frameCount;
-            isGrounded = true;
-            foreach (WheelCollider wheel in wheels)
-            {
-                if (!wheel.gameObject.activeSelf || !wheel.isGrounded)
-                    isGrounded = false;
-            }
-            return isGrounded;
-        }}
+
+        [SerializeField] bool isGrounded = false;
+
+
+        // Muhammad 12/29/2019: This code can be commented out since we are checking if the car is grounded
+        // in the FixedUpdate
+
+        //int lastGroundCheck = 0;
+        //public bool IsGrounded { get {
+        //    if (lastGroundCheck == Time.frameCount)
+        //        return isGrounded;
+
+        //    lastGroundCheck = Time.frameCount;
+        //    isGrounded = true;
+        //    foreach (WheelCollider wheel in wheels)
+        //    {
+        //        if (!wheel.gameObject.activeSelf || !wheel.isGrounded)
+        //            isGrounded = false;
+        //    }
+        //    return isGrounded;
+        //}}
 
         [Header("Behaviour")]
         /*
@@ -73,7 +80,9 @@ namespace VehicleBehaviour {
          *  The higher the torque the faster it accelerate
          *  the longer the curve the faster it gets
          */
-        [SerializeField] AnimationCurve motorTorque = new AnimationCurve(new Keyframe(0, 200), new Keyframe(50, 300), new Keyframe(200, 0));
+
+        // Muhammad 12/29/2019: No longer need this since we are using a different way to move now
+        //[SerializeField] AnimationCurve motorTorque = new AnimationCurve(new Keyframe(0, 200), new Keyframe(50, 300), new Keyframe(200, 0));
 
         // Differential gearing ratio
         [Range(2, 16)]
@@ -95,9 +104,12 @@ namespace VehicleBehaviour {
         public float SteerSpeed { get { return steerSpeed; } set { steerSpeed = Mathf.Clamp(value, 0.001f, 1.0f); } }
 
         // How hight do you want to jump?
-        [Range(1f, 1.5f)]
-        [SerializeField] float jumpVel = 1.3f;
-        public float JumpVel { get { return jumpVel; } set { jumpVel = Mathf.Clamp(value, 1.0f, 1.5f); } }
+        // Muhammad 12/29/2019: Removing this because we don't care about jumping anymore
+
+
+        //[Range(1f, 1.5f)]
+        //[SerializeField] float jumpVel = 1.3f;
+        //public float JumpVel { get { return jumpVel; } set { jumpVel = Mathf.Clamp(value, 1.0f, 1.5f); } }
 
         // How hard do you want to drift?
         [Range(0.0f, 2f)]
@@ -147,9 +159,10 @@ namespace VehicleBehaviour {
 
         [Header("Boost")]
         // Disable boost
-        [HideInInspector] public bool allowBoost = true;
+        [HideInInspector] public bool allowBoost = false;
 
         // Maximum boost available
+        
         [SerializeField] float maxBoost = 10f;
         public float MaxBoost { get { return maxBoost; } set {maxBoost = value;} }
 
@@ -238,8 +251,6 @@ namespace VehicleBehaviour {
 
                 isGrounded = false;
 
-                //TODO: Check if car is facing angle greater than 80
-                // Shouldn't drive up walls
 
                 //Check for grounding
                 foreach (WheelCollider wheel in wheels)
@@ -249,6 +260,15 @@ namespace VehicleBehaviour {
                         isGrounded = true;
                     } 
                 }
+
+                //TODO: Check if car is facing angle greater than 80
+                // Shouldn't drive up walls
+                Quaternion carRotation = gameObject.transform.rotation;
+                float angle = 0;
+                Vector3 axis = Vector3.zero;
+                carRotation.ToAngleAxis(out angle, out axis);
+                //Debug.Log(angle);
+                Debug.Log(axis);
 
                 if (isGrounded)
                 {
@@ -268,8 +288,8 @@ namespace VehicleBehaviour {
                         _rb.AddForce(_rb.rotation * newVector);
 
                         float zVal = gameObject.transform.InverseTransformDirection(_rb.velocity).z;
-
-                        Debug.Log(zVal);
+                        
+                        
                         if (zVal < 0)
                         {
                             _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 10);   
@@ -331,13 +351,13 @@ namespace VehicleBehaviour {
                     wheel.brakeTorque = brakeForce;
                 }
             }
-            else if (Mathf.Abs(speed) < 4 || Mathf.Sign(speed) == Mathf.Sign(throttle))
-            {
-                foreach (WheelCollider wheel in driveWheel)
-                {
-                    wheel.motorTorque = throttle * motorTorque.Evaluate(speed) * diffGearing / driveWheel.Length;
-                }
-            }
+            //else if (Mathf.Abs(speed) < 4 || Mathf.Sign(speed) == Mathf.Sign(throttle))
+            //{
+            //    foreach (WheelCollider wheel in driveWheel)
+            //    {
+            //        wheel.motorTorque = throttle * motorTorque.Evaluate(speed) * diffGearing / driveWheel.Length;
+            //    }
+            //}
             else
             {
                 foreach (WheelCollider wheel in wheels)
@@ -347,12 +367,12 @@ namespace VehicleBehaviour {
             }
 
             // Jump
-            if (jumping && isPlayer) {
-                if (!IsGrounded)
-                    return;
+            //if (jumping && isPlayer) {
+            //    if (!IsGrounded)
+            //        return;
                 
-                _rb.velocity += transform.up * jumpVel;
-            }
+            //    _rb.velocity += transform.up * jumpVel;
+            //}
 
             // Boost
             if (boosting && allowBoost && boost > 0.1f) {
