@@ -6244,6 +6244,8 @@ MonoBehaviour:
   - {r: 1, g: 0.46217278, b: 0.015686274, a: 1}
   - {r: 1, g: 0.023584902, b: 0.8206846, a: 1}
   - {r: 0, g: 1, b: 0.13798285, a: 1}
+  dboxoutline: {fileID: 8647550377169405843}
+  sboxoutline: {fileID: 2289110763665354680}
 --- !u!114 &3782917001673969937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6366,7 +6368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.7791412
+  m_AspectRatio: 1.778004
 --- !u!1 &3782917001710653564
 GameObject:
   m_ObjectHideFlags: 0
