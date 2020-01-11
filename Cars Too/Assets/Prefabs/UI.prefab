@@ -2817,7 +2817,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2153579127824317823}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fce6f7c3a79e124a9b9c217e606efff, type: 3}
   m_Name: 
@@ -3071,7 +3071,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2599381019356676673}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fce6f7c3a79e124a9b9c217e606efff, type: 3}
   m_Name: 
@@ -7904,6 +7904,8 @@ MonoBehaviour:
   - {r: 1, g: 0.46217278, b: 0.015686274, a: 1}
   - {r: 1, g: 0.023584902, b: 0.8206846, a: 1}
   - {r: 0, g: 1, b: 0.13798285, a: 1}
+  dboxoutline: {fileID: 2295446269675632700}
+  sboxoutline: {fileID: 3196184329105266329}
 --- !u!114 &4436490670072998274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7978,7 +7980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.7782258
+  m_AspectRatio: 1.7775674
 --- !u!114 &3385860894711152096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8481,7 +8483,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
