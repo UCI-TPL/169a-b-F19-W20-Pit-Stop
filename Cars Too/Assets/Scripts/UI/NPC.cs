@@ -10,7 +10,8 @@ public class NPC : MonoBehaviour
     public bool close = false;  //checks to see if te player is close
     [SerializeField] private GameObject player; 
     [SerializeField] private DialogueManager dm= null;
-    [SerializeField] private Sprite consprite=null; //portrait
+    [SerializeField] public Sprite consprite=null; //portrait
+    [SerializeField] public Sprite blinkstate = null; //img while blinking
     [SerializeField] public Sprite npcbg = null; //bg to be displayed in confidant menu
     [SerializeField] private GameObject dialoguebox; //dialm object
     [SerializeField] private GameObject talkui = null;//e to interact ui

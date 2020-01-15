@@ -3923,6 +3923,12 @@ PrefabInstance:
       propertyPath: npcthemeindex
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8043258331839738652, guid: 1b9167da5e331a944afb2f29c28b756a,
+        type: 3}
+      propertyPath: blinkstate
+      value: 
+      objectReference: {fileID: 21300000, guid: 06fb713a9959f354d9f83903ef638d87,
+        type: 3}
     - target: {fileID: 313192580416597847, guid: 1b9167da5e331a944afb2f29c28b756a,
         type: 3}
       propertyPath: m_LocalPosition.x
