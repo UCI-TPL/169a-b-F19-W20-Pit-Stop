@@ -6,12 +6,17 @@ public class SetNewQuest : Id
 {
     [SerializeField] private int newpartsneeded = 8;
     //Used to Set the New Objective number of parts at the beginning of the level.
-   public override void Start()
+    private void Awake()
     {
-        //Only due this once
         base.Start();
         GameObject.FindObjectOfType<ObjectiveTracking>().SetPartsNeeded(newpartsneeded);
         DataManager.instance.AddID(GetID());
+    }
+    public override void Start()
+    {
+        //Only do this once
+        //base.Start();
+        
     }
 
     // Update is called once per frame
