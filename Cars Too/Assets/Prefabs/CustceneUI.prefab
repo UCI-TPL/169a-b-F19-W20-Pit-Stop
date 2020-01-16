@@ -6333,8 +6333,7 @@ MonoBehaviour:
   - speaker: Piper
     text: 
     expression: {fileID: 0}
-    Scenesprite: {fileID: 7437909973014362801, guid: 183711d6c349b46eeb0fe0f1e4de24b6,
-      type: 3}
+    Scenesprite: {fileID: 21300000, guid: 414e9b467d73feb439a1c3cc8b1ac441, type: 3}
   - speaker: Mustang
     text: 
     expression: {fileID: 0}
@@ -6368,7 +6367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.778004
+  m_AspectRatio: 1.7769377
 --- !u!1 &3782917001710653564
 GameObject:
   m_ObjectHideFlags: 0
