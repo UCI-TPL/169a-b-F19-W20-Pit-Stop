@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
@@ -78,7 +79,8 @@ public class SaveManager : MonoBehaviour
         DataManager.instance.am.bgmvol = sd.bgmvolume;
         DataManager.instance.am.sfxvol = sd.sfxvolume;
 
-        DataManager.instance.lastscene = sd.currentscene;
+        //DataManager.instance.lastscene = sd.currentscene;
+        SceneManager.LoadScene(sd.currentscene);
 
 
     }
