@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
+    List<List<int>> ids = new List<List<int>>();
+    List<string> scenes = new List<string>();
     // Start is called before the first frame update
     public void Save()
     {
+        ConvertIds();
         SaveData sd = new SaveData
         {
             phase = DataManager.instance.phase,
@@ -39,6 +42,9 @@ public class SaveManager : MonoBehaviour
             playername = DataManager.instance.GetName(),
 
             currentscene = DataManager.instance.scenename,
+
+            scenenames = scenes,
+            idlists = ids,
 
         };
         string json =JsonUtility.ToJson(sd);
@@ -82,6 +88,10 @@ public class SaveManager : MonoBehaviour
         //DataManager.instance.lastscene = sd.currentscene;
         SceneManager.LoadScene(sd.currentscene);
 
+        for (int i = 0; i<sd.scenenames.Count;i++)
+        {
+            DataManager.instance.ids[sd.scenenames[i]] = sd.idlists[i];
+        }
 
     }
     // Update is called once per frame
@@ -90,6 +100,17 @@ public class SaveManager : MonoBehaviour
         
     }
 
+    private void ConvertIds()
+    {
+        ids = new List<List<int>>();
+        scenes=new List<string>();
+        foreach( string s in DataManager.instance.ids.Keys)
+        {
+            scenes.Add(s);
+            ids.Add(DataManager.instance.ids[s]);
+        }
+
+    }
 
     //The save data class that is 
     private class SaveData
@@ -128,6 +149,10 @@ public class SaveManager : MonoBehaviour
 
         //level
         public string currentscene;
+
+        //ids
+        public List<string> scenenames;
+        public List<List<int>> idlists;
     }
     
 }
