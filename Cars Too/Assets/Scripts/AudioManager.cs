@@ -6,8 +6,8 @@ public class AudioManager : MonoBehaviour
 {
    [SerializeField] private AudioSource a;
    [SerializeField] private AudioSource bgmsource;
-    private float bgmvol = 0.0f;
-    private float sfxvol = 0.0f;
+    public float bgmvol = 0.0f;
+    public float sfxvol = 0.0f;
     //List of all the bgms in the game
    [SerializeField] private List<AudioClip> bgms;
     //the index of the current level's theme

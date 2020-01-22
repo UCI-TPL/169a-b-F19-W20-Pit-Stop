@@ -12,13 +12,13 @@ public class DataManager : MonoBehaviour
     //Indicates the current phase
     public int phase = 0;
 
-    Dictionary<string, ConfidantData> confidantExp = new Dictionary<string, ConfidantData>();
+     public Dictionary<string, ConfidantData> confidantExp = new Dictionary<string, ConfidantData>();
 
     //tracks gifts
-    Dictionary<PresentType, int> gifts = new Dictionary<PresentType, int>();
+    public Dictionary<PresentType, int> gifts = new Dictionary<PresentType, int>();
 
     //Keeps track of which items have been collected
-    Dictionary<string, List<int>> ids = new Dictionary<string, List<int>>();
+    public Dictionary<string, List<int>> ids = new Dictionary<string, List<int>>();
 
     //Ability bools
     public bool canDestroy = false;
@@ -53,7 +53,7 @@ public class DataManager : MonoBehaviour
     public UnityEvent carPartAcquired;
 
     //keeps track of the current scenename
-    private string scenename = "";
+    public string scenename = "";
 
     public string lastscene = ""; 
 

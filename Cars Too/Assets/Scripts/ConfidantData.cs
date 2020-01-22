@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ConfidantData 
 {
-    int affinity = 0;
+    public int affinity = 0;
     string confidantname= "";
     [SerializeField] List<int> clvlthresholds =new List<int>();
     public bool met = false;
