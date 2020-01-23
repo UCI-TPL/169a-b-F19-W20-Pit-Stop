@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: Event22
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Dex
+    text: 'Hey, Springtrap. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...Hey.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '...I apologize.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '!?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: What? No, Dex, I'm the one who-Dex:Listen, I-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: No, YOU listen, I didn't-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*chuckles* I''m doing it again, huh?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Mhm. It would seem so.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'Ergh, I-...I''m not good at this. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You go ahead. I'll listen.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Really?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Yes really. Now hurry it up, I don't have all-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Wow, I am REALLY not good at this.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*laughs*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Oh, just get on with it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Right. Well...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Springtrap, I...I know you''re doing your job. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: And being security is...important. We all have our jobs on this crew and
+      you're right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: ALL of them are crucial to our survival.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'But...you treat me like a child every time you see me. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I flinch when you turn my way because I know you'll only insult whatever
+      I'm doing.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You're constantly suspicious and probing and I feel like...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You don't see any value in me as a crew member...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '...or even as a person.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'So it makes me wonder if there''s ever going to be a time when you actually
+      see me as an equal, as an individual. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: And not just some toddler.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...Dex-'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*sighs* And here it comes. Here comes the jab at me.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Well, go ahead. I'm used to it by now.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...Dex, you''re really brave.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '!?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Uh, okay, so...NOT what I was expecting-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Who are you and what have you done with our vicious guard dog?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: EXCUSE ME!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Ah, there she is.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: GUARD DOG!? YOU-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Keep it together.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: What I MEANT by that is-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I DO value you, Dex.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You're the most ambitious person I could ever imagine.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You're so optimistic and determined that...I'm envious.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: So envious that you're -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Don't say it-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: ' - GREEEEEN with it?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: ALRIGHT THAT'S IT-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*laughs* Wait, wait, wait, I''m sorry, okay?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I admire you too.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Wh-? Really?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Yes. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: When you...when you mentioned that part back there...about Chief...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I couldn't help but think of you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You're responsible. You're careful. You keep an eye on everyone.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You always seem to know what you're doing and the truth is -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You'd be a good leader. Not me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I'm sorry for those awful things I said about you, I didn't mean to-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: No.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'You don''t have to apologize for that. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I'm the one who needs to apologize.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You're right. I've been treating you like a child.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: And it's because...I know how far you can go if you just FOCUS.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "But I never realized how harsh that made me sound. I thought I was \uFFFDgwhipping
+      you into shape\uFFFDh I guess, but I was really only driving you further away."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I'm sorry Dex. I'll try to stop getting on your case so often.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '...Thank you, Springtrap.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I'll try to be more responsible from now on. 50-foot gaps only!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*sighs* Right. Baby steps. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

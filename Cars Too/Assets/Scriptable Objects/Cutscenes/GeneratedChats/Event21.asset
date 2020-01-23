@@ -1,0 +1,733 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: Event21
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Piper
+    text: Now that you can check the new place out, we can start finding more-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '...Uh oh.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What's-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I DON'T CARE! I'm TELLING you that it IS - NOT - SAFE!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Springtrap and Dex are at it again.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: And I'm telling YOU you have no sense of adventure! We won't get anywhere
+      if we don't try!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Don''t worry, they''ll probably burn themselves out soon enough. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'll go help Mustang with his stuff.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Dex, we've been over this. I'm security, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Yes, but-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: RIGHT?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '...right.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: SO, if you want your WHEELS to stay on your BODY, you'll listen to me when
+      I say -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: DO NOT TRY THAT JUMP.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You know, Springtrap, you can quit that lying.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: ExCUSE ME?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "*laughs* You don't care about my \uFFFDgsafety\uFFFDh!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: You just don't like the fact that I'm better than you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: WHAT!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "It's obvious you would like nothing better than for me to \uFFFDgknow my
+      place\uFFFDh because you're afraid I'll take yours."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Ooooo- that DOES IT!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Let me make this PERFECTLY - CRYSTAL for you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I couldn't care LESS about some stupid hierarchy you built up in that bratty
+      little head of yours.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: NONE of us are better than each other, esPECIALLY not YOU.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: That's not true. Chief is looking out for all of us, they-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Oh don't you dare bring up Chief now, Dex. They aren't better than us either!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: How can you say that after everything they've done for us? We wouldn't be
+      here if it weren't for them-Springtrap:Why do you keep acting like you're indebted
+      to them!? Like something will go wrong if you don't do what Chief says?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: They KNOW what to do, Springtrap. Why can't YOU have any sense of authority?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Because I, for one, care if someone's walking all over me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I do NOT let people walk-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtra
+    text: 'How would you even know!? You''re so self-absorbed, I''d bet anything that
+      you can''t see past your own windshield. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: At least I HAVE confidence! You're too scared to drive over GRAVEL, let
+      alone actually get somewhere meaningful.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: If YOU were leading this crew, we would've already been broken down in a
+      ditch somewhere because you were too afraid to crawl out of it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Are you KIDDING me!? If YOU were leading this crew, we would've EXPLODED
+      somewhere because you can't tell the difference between propane and gasoline!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You're SO bent on being this GREAT leader to fill in for Chief, but you
+      just AREN'T.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: And you'll NEVER be!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I don't know why you even try-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: Springtrap pauses in horror as she realizes her mistake. She's gone too
+      far.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: Dex looks devastated. Both of them are at a loss for words. Narrator:Dex
+      spins on his wheels and takes off. Springtrap remains, still angry but silent.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: Comfort Dex
+  Choice2: Stay with Springtrap
+  Route1:
+  - speaker: Lightning
+    text: Dex!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: 'Considering his speed, it takes a little longer than expected to catch
+      up with Dex. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: In the end, you find him secluded and alone.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Ah, Lightning! I'm sorry you had to be there for-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*sniff*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: ?? A-Are you-!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: NO!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I've just got a bit of oil leakage that's all. It'll fix itself in just
+      a moment.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Did you need something?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Well, yeah. I wanted to see how you were doing. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: And I'm guessing your biggest trouble right now isn't really maintenance.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: No, hah, I suppose it's pretty obvious.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Listen...I haven't known you all for very long but...I know Springtrap didn't
+      really mean what she said to you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Oh really? Because it seems perfectly natural to me. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: She always does this. Always makes me seem like I'm a simple child.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well...uh...maybe you are.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: What!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I-I mean, don't take that the wrong way-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*laughs* How else am I supposed to take it?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I-...*sigh* Let me explain.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: The way it looks to me - at least after that big blow-up - is that Springtrap
+      really cares about you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Pardon? Uh, were you even there for that?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah, I was. And I also saw that jump you were attempting.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Oh you did? It was nothing, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, sure, a 100-foot gap is definitely an eyes-closed, piece-of-cake problem.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Exactly!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'If I wanted my words to make it any farther over your head, I''d need a
+      freakin'' rocket. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Okay, cutting all unnecessary wordplay from here on out. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Let me get straight to the point. Springtrap was right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Ah....right. Then I have nothing to say to you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Good. Then you'll listen.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What I mean is - she was worried about you. So worried that she was screaming
+      in your face, in fact.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: If she really didn't care about you, like you think she does, she would've
+      stood by and watched you throw yourself off that cliff.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: But it's just her JOB, Lightning. She HAS to do things like that, it being
+      me doesn't make a difference-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Yes it does. Even if she was just doing her duty, she could've stopped
+      at telling you \uFFFDgno\uFFFDh."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But she didn't. She really wanted you to hear her. She wanted you to be
+      okay.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Well, if she really cared...she wouldn't have gone as far as she did.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: People make mistakes. I don't think she meant that. Just like you didn't
+      mean everything you said to her.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: But I-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*sighs* You''re right. It''s just that....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: I am so tired of being constantly bullied around by her. I'm so sick of
+      how she treats me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: She goes on and on about how we're all equal when it's so obvious she looks
+      down on me!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: "If you ask me, it's not me who has a \uFFFDghierarchy\uFFFDh issue, it's
+      her!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Then you should tell her that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*laughs* Now I KNOW you''re joking. She would never even apologize for
+      what she said, let alone listen to me.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'You''ll never know if you don''t try. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What do you think is gonna happen if you never do anything about it?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'I don''t think Springtrap will just ASSUME everything you''re thinking. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Unless she's telepathic. In which case, wow, rude for not telling.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '*laughs* No, she''s not telepathic. And...you''re right.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: 'Nothing will change if I don''t tell her that. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: But how do you know she won't just get mad at me for saying it?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Dex, Springtrap wasn't mad at you for your thoughts. She was mad because
+      you were insulting her on every other word.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: If you just speak calmly...maybe she'll get what you're saying.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You know, without feeling the need for immediate revenge.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: '....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Dex
+    text: Alright. I'll try.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: You and Dex return to Springtrap.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Lightning
+    text: Whoa, uh, are you-?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Save your gas. I'm in the mood for talking right now-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: CLEARLY. You're more in the mood for yelling, huh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: YOU-! *sighs* Why are you still here? Don't you have better things to do?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "Nah, not really. \uFFFDeSides, it seems like you...need to get some things
+      off your chest. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I already told you, I'm not in the mood for talking.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I know. But venting and talking aren't really the same. So...?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Ugh.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You're really not gonna leave until I say something, huh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I seem to recall saying I have nothing better to do.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '....Fine.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Dex is a dramatic, selfish little BRAT, who needs to get some SEMBLANCE
+      of a grip on reality before he gets himself - or others - KILLED.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wow. How long were you mentally rehearsing that?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Long enough, apparently.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Feel any better?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Eh...a little.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You know...if it's any consolation, I think you're right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*scoffs* Of COURSE I''m right! That idiot''s going to get us all scrapped
+      if he keeps-'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: AND-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I think you're wrong.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "\uFFFDeScuse me?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Look, Springtrap, you''re right. Trying to make a 100-foot leap off of
+      pure willpower is REALLY stupid, and Dex should know better. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'But I can''t imagine you really believe everything else you said. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'You think I care if I hurt his PRECIOUS feelings? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Uh, yeah. Yeah I do. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Because the way it sounded, you really do care about Dex.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You see how hard he works to be the best he can be.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: And you know much MUCH more than me when it comes to how much being a good
+      leader means to him.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You don't really want him to throw out those parts of himself, do you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "No I don't-!Lightning:So what gives? You just give him a hard time \uFFFDecause
+      it makes you feel good? Is that it?"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: NO-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Then is it because-?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: IT'S BECAUSE-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*sigh*'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: It's because, I know he can be better.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'The truth is, I have no doubt in my mind he can make a 100-foot gap jump. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wait, seriously?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Well, metaphorically. The way Dex is...if he can set his mind to it, there's
+      really no telling what he can do.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: But he's completely unfocused! I feel like he's throwing all this potential
+      out the window because his EGO takes up at least 98% of his conscience at any
+      given time.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: If he'd JUST spend the LEAST bit of time on self-reflection, then MAYBE
+      he'd learn something.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Then why don''t you tell him that? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'Oh, please. You saw what just happened. That''s what ALWAYS happens. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: If I told him any of that, he'd just blow up at me again.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: What do you think is gonna happen? He'll suddenly some great epiphany and
+      learn the error of his ways?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Well, One: You never know unless you try, and Two: No I do not think that
+      will happen.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But don't you think the reason you keep failing in the first place has something
+      to do with the way you say it?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: If you insult him in every other sentence, do you really think he'll listen?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Yeah, well HE always-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: HE also shouldn't be. But someone's gotta break the cycle somewhere, right?
+      Otherwise, you're both stuck.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I know.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'I know that. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: But I've just been...I don't know.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I didn't want it to change, I guess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*laughs* Guess he wasn''t wrong. I really am afraid of things changing.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: But...if it means that maybe something will finally get through his thick
+      SKULL-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Springtrap-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Sorry - force of habit.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: If it means he'll finally understand what I really mean.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Then you're right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: It's worth a shot.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: You and Springtrap go to Dex.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
