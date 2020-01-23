@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: Event3
   m_EditorClassIdentifier: 
-  chats: []
+  chats:
+  - {fileID: 11400000, guid: 78c79a1bcb738364fa2d5fdcfa86de3f, type: 2}
   fileloc: /Writing/Event3.txt
   createpath: Assets/Scriptable Objects/Cutscenes/GeneratedChats/
   title: Event3
