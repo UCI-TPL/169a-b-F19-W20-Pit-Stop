@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Event1.unity
     guid: 229479ded95eb9f44b334a6c95d9aafe
   - enabled: 1
+    path: Assets/Scenes/Event2.unity
+    guid: 976ef0637f40cc845a074bfb8680c0c9
+  - enabled: 1
     path: Assets/Scenes/Phase2CS.unity
     guid: dc615354fe19c9647aa78f47a1c7999e
   - enabled: 1
