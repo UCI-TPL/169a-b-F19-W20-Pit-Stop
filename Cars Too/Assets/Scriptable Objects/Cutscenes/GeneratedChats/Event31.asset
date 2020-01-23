@@ -1,0 +1,1008 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: Event31
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: 'Piper:'
+    text: Lightning!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: 'Lightning:'
+    text: Oh, hey, Piper! Something wrong?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: 'Piper:'
+    text: Nope, just wanted to check on you. How're you doing?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh. Well, I just got 4 parts and now I'm on my-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I didn't mean like that! I mean how are you getting on with everyone?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh. Fine, I guess?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You guess?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Look, I'm just working on getting these parts, I'm not really-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh, come on. You promised me you'd talk to people. So how is everyone?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: They're all.....fine? I'll be honest, Everyone here seems just a little
+      crazy in one way or another.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Hah, we wouldn't be a family if we weren't.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Howdy slick! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Mustang? What're you-?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Just made some real progress on the device schematics. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Figured I''d fill you in since you''re the one pickin'' up more parts than
+      a scrapper in a junkyard. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh, what're the updates?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "Well, I've got good news \u2018n' bad news."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: The good news is - thanks to the whiz kid over here - we're basically done
+      with the original device.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "Uhm, I don't like how you referred to our device as \u201Cthe original\u201D. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Well, there''s the bad news. Since drawin'' up our original blueprints,
+      Big Bad Mr. Climate''s gotten mad as a march hare. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Thanks to those humans handin' down THEIR debt to pay, we're gonna need
+      even more parts if we wanna keep that hornet from stingin' us back.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I see.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You understood all that?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Nope, but I got that we definitely need more parts overall, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You betcha. And fast.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Right. We need to pick up the pace.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "\u2018Course, we wouldn't NEED to do anything if the humans hadn't mucked
+      it up in the first place...."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh, Mustang I wished you'd quit putting so much blame on them.Mustang:Oh?
+      Ya think? So tell me where that blame falls then, hm?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Cuz I know it sure as rain ain't any of us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Unless you figured out how to do decades of climate damage while I had my
+      back turned.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: No, Mustang, I know it wasn't any of us but-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Good! Glad you agree. Now maybe you'll stop siftin' through their garbage.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Hey! It isn't GARBAGE! You're getting all your tools from them!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Oh, that's right. Just cuz I have to USE their junk to fix THEIR problem,
+      I should be thanking them, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: That's not what I-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Ya think they're so much better than what they really are, Piper.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: But, ya GOTTA face it. You're panning for gold in SEWAGE.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Er, Mustang, maybe you should-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm tired of it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Pardon?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm tired of you being so MEAN with them all the time!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: O-hoh! If you think THAT'S mean-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Hey! No! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'You let me finish, Mustang. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm standing my ground this time.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Because I've had enough of your constant bullying.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Look around you!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: What's the point of nagging about people who are DEAD?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Do you think they wanted this? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Do you honestly believe every single human deserved to die?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Do YOU honestly believe those SCUM shouldn't a' cleaned up their OWN MESS?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You didn't answer my question!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "\u2018N' you didn't answer mine!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Answer mine first.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Oh, we don't have time fer this! Didn' you hear me earlier about beatin'
+      the clock?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'You always do this! You always dodge the question! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "You avoid going any deeper than \u201CEverything's the humans fault, humans
+      are the Devil \u2018n' lazier than a tired old dog sittin' in a sunbeam.\u201D"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: FIRST of all -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: ' - that was surprisingly an ace-high impression, missy -'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Thank you, I've been working on it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: SECOND of all -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: That's because I don't NEED to go any deeper. We already know all we need
+      to condemn those lazy vermin.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You're calling the HUMANS lazy, when you won't even give them at least a
+      second look?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Oh I've given them a second look!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: 'Mustang:'
+    text: "And a third, and a fourth, and every single time, it ends with a custom
+      climate DISASTER and a sign over their heads spellin' out \u201CGUILTY\u201D
+      in neon letters!"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You're right, Piper! They're all gone, and they can't do nothin' about the
+      past.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "But if you think for a second that I'll forgive \u2018em just because they're
+      pushin' up daisies -"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Then we really got our wires crossed here. Piper:.....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: What do you think, Lightning?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: What?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I want to know...if you agree with what Mustang's saying.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: So what do you think?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: Mustang and Piper both look to you in curious anticipation.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: Take Piper's side
+  Choice2: Take Mustang's side
+  Route1:
+  - speaker: Lightning
+    text: I-....I think you're right, Piper.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Phew!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: See, Mustang! Even Lightning agrees with me, you shouldn't be so-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But, Piper...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Yes?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'You''re jumping to conclusions too fast. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I think you should also hear what Mustang has to say. They know more-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I've heard all I need to-!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Oh. Yeah, I hear it now.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I think it's pretty cool of you to jump in to defend people like that, you
+      know.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I mean, since these people in particular can't defend themselves and all....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But that doesn't mean you can just assume people's intentions like that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "\u2018Sides...I know you're better than that."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Aw, Lightning....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'You''re right! I am better than this! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Mustang, I owe you an apology.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I didn't mean to shut your opinions out like that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: They just made me mad! So I'd hear the first sentence...and then I wouldn't
+      want to listen anymore.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: But now.....I'd like to know.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Why are you so mad at all of them?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You know as well as I do that it's just not possible for every human to
+      have been in on it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You KNOW they couldn't have wanted this.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: So...why don't you give them a REAL closer look? One that's not just another
+      hateful glance.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '...'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I-If you don't mind telling me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: No.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: No, I don't mind.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: The truth is, Piper-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "It's not that I hate every single one of \u2018em."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: It's that I don't want THEM to go on haunting us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Especially you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: ??
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I-I don't understand. What do you mean?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You spend every single day siftin' through their garb-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Er...their PAST...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: And with every single little trinket, or artifact, or whatever you find,
+      you come up with some great purpose it must've had.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: You never acknowledge the corn and just admit some things were just MUNDANE.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Sometimes a stick is just a stick, and you don't gotta give it a purpose.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "I don't want you givin' \u2018em glory they don't deserve."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I respect your passion for history.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: But you gotta face the facts sometimes and drop the optimism for realism.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: They weren't all perfect and innocent-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I know that!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I know that, Mustang.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I know not every human was perfect. I-If they were...you're right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: We probably wouldn't be in this mess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I just...wanted to find the good in them.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I know there were good ones, there HAD to be!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And I figured I could honor them by finding that good in whatever I could
+      get my hands on.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "I didn't realize, to you, I was...making them ALL look \u201Cperfect and
+      innocent\u201D."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: But, really, that wasn't my intention.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'I just...don''t want the ones who made the right differences...to be forgotten. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I don't want to glorify the bad ones.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: But I can't give up on all of them just because they can't defend themselves.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm happy you respect my passion, Mustang. But I need you to respect them
+      too.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: A-And I'm not asking for forgiveness. Or pity or mercy or anything like
+      that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm asking you to treat them like we treat each other. Like sentient beings.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: They all had personalities and feelings. And lives.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'So they ALL deserve our consideration. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'This planet is their tomb. Not their waste basket. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: They were people, Mustang. I don't want you to treat them like the relics
+      they left behind.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Can you promise me that? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Look, they may've been sentient, but the things they did-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: That SOME of them did. And besides, it's not like we have proof the same
+      thing won't happen to us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: If we want to truly be better than them, we have to at least try to understand
+      who they are.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: So will you try?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I'll be honest. I can't promise anything....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You don't have to promise results! You just have to promise effort.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Please?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I...uh.....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Ah, I never was any good at bein' saccharine with HUMANS.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*laughs* Tell me something I don''t know!'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Yeah, well.....here goes -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'I''m glad you let me have the simon-pure. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I'll stop making TOO many jabs at those meat bags-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Come again?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Er...those PEOPLE. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: But I can't change in a day!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Neither can I! But I'll try anyway.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: And so will I.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And, Lightning.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Thank you for believing in me back there.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: It means a lot that you had my back, even when I was...acting up, I guess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Anytime, Pipes.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Lightning
+    text: I-....I think I have to side with Mustang on this one.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Aha! See, lamb chop! Rookie's still got SOME brains under that hood-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: BUT, I think you're being shallow here, Mustang.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "\u2018Scuse me??"
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'Look, you''re right. Humans OBVIOUSLY messed up this planet, not us. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: But what are you gaining by turning on Piper like this?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'You''re not even letting her explain why she does what she does. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "She has more to say than just \u201CHumans are great!\u201D and you're
+      not giving her enough credit there."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: And...And I know you're better than that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I know you might not care about humans...but I know you care about us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: Piper looks to Mustang in anticipation.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Narrator
+    text: Mustang sinks just a little, as if they have resigned to something.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '....You ain''t wrong slick.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: And I'm not about to let my hatred for those meat bags get in the way of
+      what really matters.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Piper, I owe you an apology.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I was so caught up in gettin' you to see how horrible those good-for-nothin's
+      were, that I didn't even see I was hurting you.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: The truth is, I just didn't want you to GLORIFY those skeletons. I don't
+      think they deserve your forgiveness.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "So...it's okay for you to tell me what's really on your mind about \u2018em."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: R-Really? But you always peel out when I talk about the humans?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Yeah, well, this time consider my ears open.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Well?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: S-Sorry, I just got a little derailed there, you've never, er, stayed this
+      long.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And you won't insult them while I talk? Because if you just make fun of
+      them the whole time then there's really no point in-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Piper, I swear on my workshop.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'You''re good to go. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Okay, well, first of all, I want you to understand that...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I know not every human was perfect. I-If they were...you're right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: We probably wouldn't be in this mess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I just...wanted to find the good in them.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: 'Piper:'
+    text: "You might think it's stupid to \u201Cpan for gold in sewage\u201D but the
+      truth is, I KNOW there's gold in there."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I know there were good ones, there HAD to be!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: And I figured I could honor them by finding that good in whatever I could
+      get my hands on.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: "I didn't realize, to you, I was...making them ALL look \u201Cperfect and
+      innocent\u201D."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: But, really, that wasn't my intention.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'I just...don''t want the ones who made the right differences...to be forgotten. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I don't want to glorify the bad ones.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: But I can't give up on all of them just because they can't defend themselves.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm happy you respect my passion, Mustang. But I need you to respect them
+      too.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: A-And I'm not asking for forgiveness. Or pity or mercy or anything like
+      that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: I'm asking you to treat them like we treat each other. Like sentient beings.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: They all had personalities and feelings. And lives.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'So they ALL deserve our consideration. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'This planet is their tomb. Not their waste basket. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: They were people, Mustang. I don't want you to treat them like the relics
+      they left behind.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: 'Can you promise me that? '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Look, They may've been sentient, but the things they did-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: That SOME of them did. And besides, it's not like we have proof the same
+      thing won't happen to us.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: If we want to truly be better than them, we have to at least try to understand
+      who they are.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: So will you try?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I can't promise anything....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: You don't have to promise results! You just have to promise effort.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Please?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: '.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I...uh.....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Ah, I was never any good at bein' saccharine with HUMANS.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: '*laughs* Tell me something I don''t know!'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Yeah, well.....here goes -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'I''m glad you let me have the simon-pure. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I'll stop....making TOO many jabs at those meat bags-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Come again?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'Er...those PEOPLE. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: But I can't change in a day!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Piper
+    text: Neither can I! But I'll try anyway.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: So will I.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: And, Lightning.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Thanks for reelin' me in back there.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Sometimes, I could use someone to pull in my horns. It means a lot.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Anytime, Mustang.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

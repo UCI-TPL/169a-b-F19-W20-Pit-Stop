@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: SpringtrapDate21
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: Springtrap, you mind if I join you on your perimeter check?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'Sure, why not. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Have some more questions for the security guard?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: "\u201CDoes it get boring?\u201D is the first thing that comes to mind."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'Oh, yeah it gets boring up here. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Last week I timed the tumbleweeds in a race.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Seriously?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Li'l Junie won that one, I knew he had it in \u2018im. "
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Why do you do this check anyway? What's there to look out for?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Aren't we the only things left?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'Nah, we''re not sure of that. Better safe than sorry. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: And anyway, I'm not usually looking out for anything living.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I'm looking out in case THAT eggbeater tries anything.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '.....The sky?'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Yep.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: It's not like we have forecasts to check, so I have to keep my eye out for
+      storms.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: They can pop out of nowhere. Even before the Crash Piper says they were
+      a problem.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'But it''s worse than ever with the climate being like this. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Luckily, my model came with temperature gauges and a couple more measurement
+      gadgets that helps me make sure we aren't heading towards a tornado.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I think we'd be able to see a tornado way beforehand-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: You would THINK, right? But they come up faster than you can blink.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I've gotta keep one eye open until the day we finally clean up some of this
+      mess.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: What would you rather be doing?
+  Choice2: Do you wish you could've seen the world before the Crash?
+  Route1:
+  - speaker: Lightning
+    text: If you didn't have to be looking out for storms 24/7, what would you be
+      doing?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrip
+    text: '*scoffs* That''s a loaded question.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: But if you don't ask the good questions...then what's the point, right?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: So...hm. What would I do if I didn't have to make sure Dex didn't blow himself
+      up every other day.....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I guess I'd spend more time with the others.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Really? You?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Yeah, ME. Got a problem with that?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No, it's just- I dunno. I thought you were more.....you know.....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: A lone wolf?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: A hermit. But, sure, lone wolf if you wanna sound cool.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: "Oh I don't need a title to \u201Csound cool\u201D, wise guy."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Now you're starting to sound like Dex.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Ugh, don't even SAY that.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Anyways, yeah, I would wanna spend more time with the Spirit Crew.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Even Dex?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: EVEN Dex. Sometimes I'd like to ram that smug face of his into the track
+      dirt for all those stupid stunts he pulls but.....
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Now, do NOT tell him I said this-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: But he's a lot of fun to hang out with.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: SOMETIMES. Most of the time he's like a fly you can't bat away.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: And the others...They all have something to say.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Things you don't think of, you CAN'T think of on your own, just because
+      they're all different PEOPLE.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: If we're all that's left.....there's gotta be something in knowing more
+      about each other.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: '.....Yeah. I guess there is.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Lightning
+    text: The world is...pretty messed up right now.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*scoffs* Tell me somethin'' I don''t know.'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well, let me finish. I wanted to know if you would've liked to have seen
+      what it was before.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Before the Crash?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: That's an easy one.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Nope.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Really? No?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: No way in hell. That world was filled with the people that destroyed this
+      world in the first place.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well.....that's true, but you're not even curious?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Nah. Besides, then where's the fun in Piper's crazy speculations?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: I wouldn't wanna let her down.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well, what if it was just you?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: '*laughs* Just me? Now I REALLY wouldn''t care. Although.....'
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: 'I guess it WOULD be pretty nice to know way more than everyone else. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Then maybe I would know what it's like to be Chief.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Point is, how those humans squandered away the Earth's resources doesn't
+      particularly interest me.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: It's up to us to not do the same mistakes.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Don't you think it's important to know what those mistakes are?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Springtrap
+    text: Whatever they were, they were HUMAN mistakes. Not car mistakes. We're bound
+      to do something different. To MAKE something different.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I don't know.....I think.....I think Piper's right.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: We should know what they did. They made us, after all.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: I think we should know the consequences.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

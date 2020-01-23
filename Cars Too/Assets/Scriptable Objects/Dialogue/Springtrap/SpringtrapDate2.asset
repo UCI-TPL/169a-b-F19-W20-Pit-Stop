@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
+  m_Name: SpringtrapDate2
+  m_EditorClassIdentifier: 
+  chats:
+  - {fileID: 11400000, guid: 34844dd5c68414d4a9938d9b6bf87e04, type: 2}
+  - {fileID: 11400000, guid: 150698dcf37926843b602ed130d427ef, type: 2}
+  - {fileID: 11400000, guid: f7b0902cbfc22194c92ade92d2d011b1, type: 2}
+  fileloc: /Writing/Springtrap Date 2.txt
+  createpath: Assets/Scriptable Objects/Dialogue/Springtrap/SpringtrapChats/
+  title: SpringtrapDate2
