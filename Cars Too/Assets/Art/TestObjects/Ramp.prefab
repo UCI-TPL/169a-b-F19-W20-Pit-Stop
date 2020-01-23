@@ -242,9 +242,8 @@ MonoBehaviour:
   - m_Vertices: 040000000f00000017000000
   - m_Vertices: 05000000160000001b000000
   - m_Vertices: 010000000c00000012000000
-  - m_Vertices: 0300000010000000
+  - m_Vertices: 03000000100000000a000000
   - m_Vertices: 020000000b0000000d000000
-  - m_Vertices: 0a000000
   - m_Vertices: 090000000e00000014000000
   - m_Vertices: 070000001100000019000000
   - m_Vertices: 06000000150000001c000000
@@ -356,7 +355,7 @@ MonoBehaviour:
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
-  m_SelectedVertices: 020000000b0000000c0000000d000000
+  m_SelectedVertices: 02000000
 --- !u!64 &7542760701871077145
 MeshCollider:
   m_ObjectHideFlags: 0
