@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Event31
   m_EditorClassIdentifier: 
   convo:
-  - speaker: 'Piper:'
+  - speaker: Piper
     text: Lightning!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: 'Lightning:'
+  - speaker: Lightning
     text: Oh, hey, Piper! Something wrong?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: 'Piper:'
+  - speaker: Piper
     text: Nope, just wanted to check on you. How're you doing?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
@@ -286,7 +286,7 @@ MonoBehaviour:
     text: Oh I've given them a second look!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: 'Mustang:'
+  - speaker: Mustang
     text: "And a third, and a fourth, and every single time, it ends with a custom
       climate DISASTER and a sign over their heads spellin' out \u201CGUILTY\u201D
       in neon letters!"
@@ -828,7 +828,7 @@ MonoBehaviour:
     text: I just...wanted to find the good in them.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: 'Piper:'
+  - speaker: Piper
     text: "You might think it's stupid to \u201Cpan for gold in sewage\u201D but the
       truth is, I KNOW there's gold in there."
     expression: {fileID: 0}

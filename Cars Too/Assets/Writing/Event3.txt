@@ -1,10 +1,10 @@
-Piper: 
+Piper:
 Lightning!
 
-Lightning: 
+Lightning:
 Oh, hey, Piper! Something wrong?
 
-Piper: 
+Piper:
 Nope, just wanted to check on you. How're you doing?
 
 Lightning:
@@ -196,7 +196,7 @@ You're calling the HUMANS lazy, when you won't even give them at least a second 
 Mustang:
 Oh I've given them a second look!
 
-Mustang: 
+Mustang:
 And a third, and a fourth, and every single time, it ends with a custom climate DISASTER and a sign over their heads spellin' out “GUILTY” in neon letters!
 
 Mustang:
@@ -596,7 +596,7 @@ We probably wouldn't be in this mess.
 Piper:
 I just...wanted to find the good in them.
 
-Piper: 
+Piper:
 You might think it's stupid to “pan for gold in sewage” but the truth is, I KNOW there's gold in there.
 
 Piper:

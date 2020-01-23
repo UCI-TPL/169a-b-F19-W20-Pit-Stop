@@ -55,7 +55,7 @@ public class ScenePortraits : MonoBehaviour
                 if (newportraitname.Equals("Mustang"))
                 {
                     MustangPortrait2.gameObject.SetActive(true);
-                    portrait1.gameObject.SetActive(false);
+                    portrait2.gameObject.SetActive(false);
                     MustangPortrait2.sprite = newportrait;
                 }
                 else
