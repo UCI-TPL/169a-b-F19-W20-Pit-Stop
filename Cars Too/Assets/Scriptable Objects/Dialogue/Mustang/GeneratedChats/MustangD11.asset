@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: MustangD11
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Lightning
+    text: Hey, any chance you'd show me your workshop?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: My workshop? Where all them gizmos are put together?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah. I'd like to see it.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Well, tough luck. It's gated, padlocked, laser-enforced, and guarded by
+      vicious hounds.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Uh, seriously?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Well, one of those might be a fabrication.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: But you have no IDEA which one.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Well, I was kinda thinking, YOU would take me?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: ?? Oh?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Well now, not just ANYONE gets into my workshop.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: But, I'll tell ya what. You answer some questions, MAYBE I'll let you have
+      the passcode.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, that's alright, I don't really need to-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Nah, hey, wait! C'mon now, no one's asked to get into my workshop before!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I figured it'd be fun to finally try out the questions on someone who actually
+      wanted to!Lightning:Er.....well, okay.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Bust my boots, let's get these riddles started!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Wait, riddles?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Yep! Made 'em myself. Alright, first one-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I am not man, I am not car,However, I can still wind up pretty far.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: I sit atop a head of steel, That, somehow, can learn and feel.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: What am I?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: I have no idea.
+  Choice2: Can you say it again?
+  Route1:
+  - speaker: Mustang
+    text: Awh, come on! You sure you wanna give up already?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Yeah, I'm not really a riddle person-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Well, lemme just say it again-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Mustang
+    text: Sure thing!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

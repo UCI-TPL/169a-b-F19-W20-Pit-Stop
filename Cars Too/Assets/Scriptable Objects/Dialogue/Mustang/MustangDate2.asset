@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
+  m_Name: MustangDate2
+  m_EditorClassIdentifier: 
+  chats:
+  - {fileID: 11400000, guid: caa7a34f15419fa42bb58770f1d008b8, type: 2}
+  - {fileID: 11400000, guid: c49326682237c07439725d8c168b8874, type: 2}
+  - {fileID: 11400000, guid: 39b33d0f8dc44ec4eb849731f70919b6, type: 2}
+  - {fileID: 11400000, guid: d44d571274dfa3845bcef8a368e6c91d, type: 2}
+  - {fileID: 11400000, guid: 6215db304bb6f1e4eaf0a90ac6d31c59, type: 2}
+  fileloc: /Writing/Mustang Date2.txt
+  createpath: Assets/Scriptable Objects/Dialogue/Mustang/GeneratedChats/
+  title: MustangD2

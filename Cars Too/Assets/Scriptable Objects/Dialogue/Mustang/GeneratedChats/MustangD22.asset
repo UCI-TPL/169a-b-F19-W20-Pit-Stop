@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: MustangD22
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Mustang
+    text: Oh no thanks there, scout.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Why not?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Nothin' it's just...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "Me \uFFFDen' Piper ain't exactly peas in a pod."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: We got two pretty different views when it comes to humans.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: So to speak.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: Oh. Well...
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Choice1: Is there someone in particular you like to hang out with?
+  Choice2: What's up with humans?
+  Route1:
+  - speaker: Mustang
+    text: Well, if I had to choose, it'd probably be Chief.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: They're patient, resourceful, admirable, and most importantly-
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Most fun to tease.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: You TEASE Chief?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Absolutely. You should try it sometime!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: It is the darnedest thing to see them get all flustered, hah!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: No way. Remind me to try that out sometime.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Hehe, no problem!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  Route2:
+  - speaker: Mustang
+    text: What's up with humans? What ISN'T up with humans!?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: "As the former residents of this here rock, it's hard to NOT have an opinion
+      on \uFFFDeem."
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: To me, they're a bunch of irresponsible ingrates forkin' over THEIR mess
+      for US to clean up!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Everytime I have to work on that weather machine of ours, I'm reminded of
+      those selfish snakes.
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: How long ago did they all blow to kingdom come, and we STILL got some of
+      their problems?
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Lightning
+    text: 'I see what you mean. '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 

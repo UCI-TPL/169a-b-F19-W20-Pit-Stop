@@ -1,0 +1,323 @@
+Lightning:
+Hey, any chance you'd show me your workshop?
+
+Mustang:
+My workshop? Where all them gizmos are put together?
+
+Lightning:
+Yeah. I'd like to see it.
+
+Mustang:
+Well, tough luck. It's gated, padlocked, laser-enforced, and guarded by vicious hounds.
+
+Lightning:
+Uh, seriously?
+
+Mustang:
+Well, one of those might be a fabrication.
+
+Mustang:
+But you have no IDEA which one.
+
+Lightning:
+Well, I was kinda thinking, YOU would take me?
+
+Mustang:
+?? Oh?
+
+Mustang:
+Well now, not just ANYONE gets into my workshop.
+
+Mustang:
+But, I'll tell ya what. You answer some questions, MAYBE I'll let you have the passcode.
+
+Lightning:
+Oh, that's alright, I don't really need to-
+
+Mustang:
+Nah, hey, wait! C'mon now, no one's asked to get into my workshop before!
+
+Mustang:
+I figured it'd be fun to finally try out the questions on someone who actually wanted to!
+Lightning:
+Er.....well, okay.
+
+Mustang:
+Bust my boots, let's get these riddles started!
+
+Lightning:
+Wait, riddles?
+
+Mustang:
+Yep! Made 'em myself. Alright, first one-
+
+Mustang:
+I am not man, I am not car,
+However, I can still wind up pretty far.
+
+Mustang:
+I sit atop a head of steel, 
+That, somehow, can learn and feel.
+
+Mustang:
+What am I?
+
+EndC
+
+Choices
+I have no idea.
+Can you say it again?
+
+Mustang:
+Awh, come on! You sure you wanna give up already?
+
+Lightning:
+Yeah, I'm not really a riddle person-
+
+Mustang:
+Well, lemme just say it again-
+
+End
+
+Mustang:
+Sure thing!
+
+End
+
+Mustang:
+I am not man, I am not car,
+However, I can still wind up pretty far.
+
+Mustang:
+I sit atop a head of steel, 
+That, somehow, can learn and feel.
+
+Mustang:
+What am I?
+
+EndC
+
+Choices
+Is it your hat?
+Is it Dex's hair?
+
+Lightning:
+Uh....is it your hat?
+
+Mustang:
+Ding ding ding!
+
+Mustang:
+You're our lucky winner! 
+
+Mustang:
+Alright, next one!
+
+End
+
+Lightning:
+Uh...psh, I dunno, Dex's hair?
+
+Mustang:
+EEEEHRRRRRRR wrong answer!
+
+Mustang:
+Sorry, the right answer is -
+
+Mustang:
+My hat!
+
+Lightning:
+Oh, darn. Oh well.
+
+Mustang:
+That's alright, slick! You'll get it on the next one!
+
+End
+
+Lightning:
+Next one-?
+
+Mustang:
+I do not hurt, I do not harm,
+But many folks say I got a lot of charm-
+
+Lightning:
+Is it your hat again?
+
+Mustang:
+-I do not walk, I do not drive,
+But atop this roof, I do indeed thrive!
+
+Lightning:
+Are they all your hat?
+
+Mustang:
+What am I?
+
+Lightning:
+.....
+
+Mustang:
+.....
+
+Lightning:
+...Is it your hat?
+
+Mustang:
+Ding ding ding! 
+
+Lightning:
+Good grief.
+
+Mustang:
+Heheh, alright I'll quit messin' with ya. Even though it's fun.
+
+Mustang:
+Let's get onto the real questions.
+
+Lightning:
+There are REAL questions?
+
+Lightning:
+I was kinda hoping they'd all be different variations of the exact same riddle.
+
+Mustang:
+Oh we can always go back to that! 
+
+Mustang:
+Achem!
+
+Mustang:
+To what a gaze-
+
+Lightning:
+NO, No, no I'll take the real questions please.
+
+Mustang:
+Heheh, alrighty then.
+
+Mustang:
+First up, what're you doing here?
+
+Lightning:
+I'm here because Piper had me-
+
+Mustang:
+No, no, not that.
+
+Mustang:
+Why're you REALLY here?
+
+Lightning:
+Er, I'm...I'm not sure what you mean-
+
+Mustang:
+I mean I wanna hear it straight from the horse's mouth!
+
+Mustang:
+YOU tell me why you're here, don't wanna hear it from no one else.
+
+Lightning:
+Oh, I see. Okay, well-
+
+EndC
+
+Choices
+I'm here because Piper forced me to be.
+I'm here because I want to help.
+
+Lightning:
+I'm here because Piper forced me to be here.
+
+Mustang:
+Ha! I appreciate the honesty! Why'd our lovely Piper put ya here?
+
+Lightning:
+She said I needed to make friends. So...I guess that's what I'm doing here?
+
+Mustang:
+Well that's a tall order! But not an impossible one! 
+
+Mustang:
+Folks 'round here aren't the lonely type. We all need each other in some way.
+
+Mustang:
+So findin' someone to hang with'll be a cinch!
+
+Mustang:
+Hey, ya already got me!
+
+Lightning:
+Oh, I - uh - I do?
+
+Mustang:
+Sure thing! Anybody who can put up with my riddles is alright in my book!
+
+End
+
+Lightning:
+I'm here because I want to help out around here.
+
+Lightning:
+It's a good enough cause. You can't get better than Ågtrying to save the EarthÅh.
+
+Mustang:
+Oh we ain't Ågtryin' Åh. We're doin' it!
+
+Mustang:
+Thanks to my tech ex-per-teese, buildin' a climate control device'll be easier than herding geese in a garden!
+
+Lightning:
+Okay, I'm just going to casually nod like I understand and move on.
+
+Lightning:
+Why do you think you'll be able to build a device that can fix everything?
+
+Mustang:
+Oh that's simple. Cuz I'm the best!
+
+Lightning:
+I see Dex has rubbed off on everyone.
+
+Mustang:
+Hah, well that's only part of it.
+
+Mustang:
+Really, it's cuz you're here and finding parts like a bee findin' pollen!
+
+End
+
+Lightning:
+Oh...er, thanks for the compliment.
+
+Mustang:
+You're welcome! I take it you don't get 'em often?
+Lightning:
+No need to rub it in-
+
+Mustang:
+Nah, nah, heh, I don't mean it like that. 
+
+Lightning:
+No, yeah, I know. I just...uhm...
+
+Lightning:
+I'm not used to getting compliments from anyone other than Piper.
+
+Mustang:
+Oh, I gotcha. Well, stop by again sometime for more.
+
+Mustang:
+Although I can't guarantee they'll be untarnished by Western slang.
+
+Lightning:
+It wouldn't be you if it wasn't.
+
+End
+
+
+
+
+
+

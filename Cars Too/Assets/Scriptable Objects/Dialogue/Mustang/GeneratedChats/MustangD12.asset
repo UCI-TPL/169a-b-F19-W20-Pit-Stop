@@ -10,71 +10,68 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
-  m_Name: DexGiftDice
+  m_Name: MustangD12
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Dex
-    text: Are these dice..
+  - speaker: Mustang
+    text: I am not man, I am not car,However, I can still wind up pretty far.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Yes?
+  - speaker: Mustang
+    text: I sit atop a head of steel, That, somehow, can learn and feel.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: They're awesome! They will show the world just how magnificent the great
-      and mighty Dex is.
+  - speaker: Mustang
+    text: What am I?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightining
-    text: I think I have regrets about this.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: No such thing as regrets when it comes to Dex.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  Choice1: Indeed
-  Choice2: Indeed not
+  Choice1: Is it your hat?
+  Choice2: Is it Dex's hair?
   Route1:
-  - speaker: Dex
-    text: 'Of course you are! '
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: If there's gotta be one last racing champion, it's only natural that it
-      be the BEST of the best!
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
   - speaker: Lightning
-    text: Hm. Yes.
+    text: Uh....is it your hat?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Your mirrors must get plenty of work.
+  - speaker: Mustang
+    text: Ding ding ding!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: 'You''re our lucky winner! '
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Alright, next one!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   Route2:
-  - speaker: Dex
-    text: 'Of course you are! '
+  - speaker: Lightning
+    text: Uh...psh, I dunno, Dex's hair?
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: If there's gotta be one last racing champion, it's only natural that it
-      be the BEST of the best!
+  - speaker: Mustang
+    text: EEEEHRRRRRRR wrong answer!
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: Sorry, the right answer is -
+    expression: {fileID: 0}
+    Scenesprite: {fileID: 0}
+  - speaker: Mustang
+    text: My hat!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
   - speaker: Lightning
-    text: Hm. Yes.
+    text: Oh, darn. Oh well.
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Your mirrors must get plenty of work.
+  - speaker: Mustang
+    text: That's alright, slick! You'll get it on the next one!
     expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  isConversation: 1
-  C1Reward: 25
-  C2Reward: 25
+  isConversation: 0
+  C1Reward: 0
+  C2Reward: 0
   abilityactivation: 0
   carpartsgained: 0
   path: 

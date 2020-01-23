@@ -44,10 +44,10 @@ MonoBehaviour:
   giftrecievedchats: {fileID: 11400000, guid: 80c489bb93e72b347857d33246c9ae69, type: 2}
   introchat: {fileID: 11400000, guid: 2cc6ecd151a580c4288c6bb10e7b227a, type: 2}
   idlechats: {fileID: 11400000, guid: 86a9ee47d9296484f9a6f158c7825cf9, type: 2}
-  nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
+  nomorechats: {fileID: 11400000, guid: 33cca3cf724951f4e8ae8e3c0aac603b, type: 2}
   date1:
-  - {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642, type: 2}
-  - {fileID: 11400000, guid: 61c4144c1dd1a5348a8c4bccc819149b, type: 2}
+  - {fileID: 11400000, guid: 75ff21d8a1e3f82489d018234b90ec87, type: 2}
+  - {fileID: 11400000, guid: 2e564077549eb6c48bb3c14d9a1629de, type: 2}
   giftingchat: {fileID: 11400000, guid: a11d19447daef6d4182a0d9cea1d90cf, type: 2}
 --- !u!1 &7352069738749540217
 GameObject:

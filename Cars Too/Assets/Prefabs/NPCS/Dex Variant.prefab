@@ -307,7 +307,7 @@ MonoBehaviour:
   giftrecievedchats: {fileID: 11400000, guid: 19e5fea1f0179e74aa26c24d0b4569b0, type: 2}
   introchat: {fileID: 11400000, guid: 6691cfd79202a5d47b7f931d417eec0c, type: 2}
   idlechats: {fileID: 11400000, guid: fc4cc8855cb40434b8b05b57ab63cdc8, type: 2}
-  nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
+  nomorechats: {fileID: 11400000, guid: 6d34122e0e9db3944916ee47260ccdae, type: 2}
   date1:
   - {fileID: 11400000, guid: 8bed22d6009b42a41bd4ee33812427ce, type: 2}
   - {fileID: 11400000, guid: fc367946a0ce62a409cd676c0c4e8ed1, type: 2}
