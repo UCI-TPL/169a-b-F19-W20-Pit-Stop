@@ -495,7 +495,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4735282467803159115}
-  m_Material: {fileID: 13400000, guid: c98980f38d96ab3419929cbd21172360, type: 2}
+  m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -531,7 +531,7 @@ MonoBehaviour:
   turnValue: 0
   airThrustLoss: 100
   airTurnLoss: 100
-  airStabilize: 1
+  airStabilize: 0
   currentBoostSpeed: 0
   maxBoostSpeed: 1500
   boostFactor: 100
