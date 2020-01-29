@@ -179,7 +179,7 @@ MonoBehaviour:
     mouth: {fileID: 0}
     eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Springtra
+  - speaker: Springtrap
     text: 'How would you even know!? You''re so self-absorbed, I''d bet anything that
       you can''t see past your own windshield. '
     mouth: {fileID: 0}
