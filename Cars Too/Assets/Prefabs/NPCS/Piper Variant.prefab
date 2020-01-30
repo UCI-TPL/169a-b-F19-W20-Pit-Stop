@@ -317,7 +317,8 @@ MonoBehaviour:
   close: 0
   player: {fileID: 0}
   dm: {fileID: 0}
-  consprite: {fileID: 21300000, guid: 414e9b467d73feb439a1c3cc8b1ac441, type: 3}
+  consprite: {fileID: 21300000, guid: 1ddbcb22398405941b6886a371e45809, type: 3}
+  defaultexp: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
   blinkstate: {fileID: 21300000, guid: a56ddcd233bd3a84989ba43f2dcb773d, type: 3}
   npcbg: {fileID: 21300000, guid: 50bbf03746a07fe42bbbe59bae785325, type: 3}
   dialoguebox: {fileID: 0}

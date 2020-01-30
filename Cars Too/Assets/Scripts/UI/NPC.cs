@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private GameObject player; 
     [SerializeField] private DialogueManager dm= null;
     [SerializeField] public Sprite consprite=null; //portrait
+    [SerializeField] public Expression defaultexp;
     [SerializeField] public Sprite blinkstate = null; //img while blinking
     [SerializeField] public Sprite npcbg = null; //bg to be displayed in confidant menu
     [SerializeField] private GameObject dialoguebox; //dialm object

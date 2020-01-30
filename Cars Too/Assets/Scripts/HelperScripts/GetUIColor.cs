@@ -12,7 +12,7 @@ public class GetUIColor : MonoBehaviour
     void Start()
     {
         TextMeshProUGUI txt= GetComponent<TextMeshProUGUI>();
-        if (txt != null)
+        if (txt != null) 
         {
             txt.font = DataManager.instance.uifont;
             txt.color = DataManager.instance.uicoltext;

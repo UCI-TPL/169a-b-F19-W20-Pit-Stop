@@ -15,136 +15,136 @@ MonoBehaviour:
   convo:
   - speaker: Piper
     text: Hooray! You found your first part!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: You're actually excited about that?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: 'We had a deal didn''t we? '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
   - speaker: Piper
     text: I just want to hold up my end of the bargain!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: Even if you're end of the bargain helps me get off-planet?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: '*sighs* Yes, even if that''s still your plan.'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: Lightning, I know you only came because you knew we had the parts you could
       use to help build your rocket or whatever, but..
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: I hope as you spend more time with the Spirit, you'll see how motorific
       it is!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: Piper, I'm not gonna change my mind. Don't you see what this wasteland's
       turned into?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: There's nothing but junk. I'm better off somewhere far away from here.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: But don't you see what this wasteland was? There were people and there was
       life!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: We could build something new! Something just for us! The world is ours now,
       don't you see that?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: No, I don't. All I see is a big fat pile of-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: ???
     text: Yo!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: Somethin' goin' on here I should know about?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: Springtrap, Dex! You're back from scouting?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Dex
     text: Yes, we have returned! Did you miss me and my radiance?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: Ugh.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: What did you find?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Dex
     text: Oh have we got a haul for you!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Dex
     text: There's a valley just west of here that looks to be filled with parts! Though
       there's an eensy weensy teeny tiny problem-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: The bridge is completely blown out.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Dex
     text: A minor inconvenience! Luckily I'm the fastest car awake, so jumping it
       won't be a-!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: DEX! You're not going to be jumping ANYTHING. We are FIXING the bridge like
       normal people so that we can move supplies back and forth.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: We'll be over by the border. I'll see ya, Piper.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: Take care!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: Lightning, remember to introduce yourself when you have the time.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: But-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: Please!? Remember the deal?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: 'Ugh, fine. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

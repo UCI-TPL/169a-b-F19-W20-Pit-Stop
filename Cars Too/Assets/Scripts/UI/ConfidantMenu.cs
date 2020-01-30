@@ -8,6 +8,8 @@ public class ConfidantMenu : MonoBehaviour
 {
     public GameObject confidantmenu;
     public Image confidant;
+    public Image confidanteyes;
+    public Image confidantmouth;
     public Image Mustangconfidant;
     public TextMeshProUGUI nametext;
     public NPC currentNPC;
@@ -24,6 +26,7 @@ public class ConfidantMenu : MonoBehaviour
     public HangoutLocker hl = null;
     [SerializeField] private Image bg;
     [SerializeField] public GameObject npcchaticon;//chat popup to be displayed when close to an npc
+    [SerializeField] private Blinking b;
 
 
     private void Start()
@@ -44,7 +47,7 @@ public class ConfidantMenu : MonoBehaviour
 
         confidantmenu.SetActive(true);
         confidantbasemenu.SetActive(true);
-        SetConfidantPortrait(n, s);
+        SetConfidantPortrait(n, s, npc.defaultexp);
         giftingmenu.SetActive(false);
         nametext.text = n;
         confidant.sprite = s;
@@ -78,7 +81,7 @@ public class ConfidantMenu : MonoBehaviour
     }
 
     //DONT Use this one on the button
-    public void CloseMenu(bool imageclosed=true)
+    public void CloseMenu(bool imageclosed = true)
     {
         confidantmenu.SetActive(false);
         affinityup.gameObject.SetActive(false);
@@ -92,10 +95,10 @@ public class ConfidantMenu : MonoBehaviour
 
     public void OpenGiftingMenu()
     {
-            confidantbasemenu.SetActive(false);
-            hidedate.SetActive(false);
-            giftingmenu.SetActive(true);
-            dm.DisplayLine(currentNPC.giftingchat.convo[Random.Range(0, currentNPC.giftingchat.convo.Count)]);
+        confidantbasemenu.SetActive(false);
+        hidedate.SetActive(false);
+        giftingmenu.SetActive(true);
+        dm.DisplayLine(currentNPC.giftingchat.convo[Random.Range(0, currentNPC.giftingchat.convo.Count)]);
 
     }
 
@@ -149,20 +152,28 @@ public class ConfidantMenu : MonoBehaviour
     {
         //Image i =confidantbar.GetComponent<Image>();
         //i.fillAmount = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)/maxconfidantlevel;
-        confidantleveltext.text = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)+1 + "/" + maxconfidantlevel;
+        confidantleveltext.text = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) + 1 + "/" + maxconfidantlevel;
     }
 
-    private void SetConfidantPortrait(string n, Sprite s)
+    private void SetConfidantPortrait(string n, Sprite s, Expression e)
     {
         if (n.Equals("Mustang"))
         {
             Mustangconfidant.gameObject.SetActive(true);
             Mustangconfidant.sprite = s;
+            confidanteyes.gameObject.SetActive(false);
+            confidantmouth.gameObject.SetActive(false);
         }
         else
         {
             confidant.gameObject.SetActive(true);
+            confidanteyes.gameObject.SetActive(true);
+            confidantmouth.gameObject.SetActive(true);
             confidant.sprite = s;
+            confidanteyes.sprite = e.eyes;
+            confidantmouth.sprite = e.mouth;
+            b.blinkstate = e.blink;
+
         }
     }
 
@@ -170,5 +181,14 @@ public class ConfidantMenu : MonoBehaviour
     {
         confidant.gameObject.SetActive(false);
         Mustangconfidant.gameObject.SetActive(false);
+        confidanteyes.gameObject.SetActive(false);
+        confidantmouth.gameObject.SetActive(false);
+    }
+
+    public void UpdateConfidant(Expression e)
+    {
+        confidanteyes.sprite = e.eyes;
+        confidantmouth.sprite = e.mouth;
+        b.blinkstate = e.blink;
     }
 }

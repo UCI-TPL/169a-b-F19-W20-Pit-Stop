@@ -30,6 +30,7 @@ MonoBehaviour:
   player: {fileID: 0}
   dm: {fileID: 0}
   consprite: {fileID: 21300000, guid: 739ea6ae4af2a144592129e6f1cae9bc, type: 3}
+  defaultexp: {fileID: 11400000, guid: 2111caa7bf81e95418c5d2f5f9d642b2, type: 2}
   blinkstate: {fileID: 21300000, guid: 739ea6ae4af2a144592129e6f1cae9bc, type: 3}
   npcbg: {fileID: 21300000, guid: eeb53cc4890a055419503e1ac2502e20, type: 3}
   dialoguebox: {fileID: 0}

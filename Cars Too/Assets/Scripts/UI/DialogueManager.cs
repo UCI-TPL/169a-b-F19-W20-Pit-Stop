@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public NPC currentnpc;
     [SerializeField] private AudioClip ac;
     [SerializeField] private ScenePortraits sp = null;
+    [SerializeField] private ConfidantMenu cm = null;
     [SerializeField] private bool skip = false;
     [SerializeField] private GameObject skipbutton = null;
     [SerializeField] private float timer = 3.5f; //wait time when autoplaying dialogue
@@ -34,6 +35,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private List<Color> namecolors;
     [SerializeField] private Image dboxoutline;
     [SerializeField] private Image sboxoutline;
+
+
 
 
     //All fields are currently serialized for testing purposes
@@ -194,7 +197,21 @@ public class DialogueManager : MonoBehaviour
         
         if (sp != null)
         {
-            sp.UpdatePortraits(d.speaker);
+            if (d.expression != null)
+            {
+                sp.UpdatePortraits(d.speaker, d.expression.eyes, d.expression.mouth,d.expression.blink);
+            }
+            else
+            {
+                sp.UpdatePortraits(d.speaker);
+            }
+        }
+        else if (cm!= null)
+        {
+            if(d.expression != null)
+            {
+                cm.UpdateConfidant(d.expression);
+            }
         }
         while (index < dialoguetext.Length)
         {
