@@ -11,6 +11,7 @@ public class Chief : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private DialogueManager dm = null;
     [SerializeField] private Sprite consprite = null;
+    [SerializeField] private Sprite background = null;
     [SerializeField] private GameObject dialoguebox;
     [SerializeField] private Chat introchat = null; //Custom intro chat for first meeting
     [SerializeField] private Conversation idlechats = null; //small lines said in the confidant menu
@@ -291,6 +292,9 @@ public class Chief : MonoBehaviour
     {
         cm.confidant.sprite = consprite;
         cm.confidant.gameObject.SetActive(true);
+
+        cm.bg.sprite = background;
+        cm.bg.gameObject.SetActive(true);
     }
 
     private void TurnOffSprite()

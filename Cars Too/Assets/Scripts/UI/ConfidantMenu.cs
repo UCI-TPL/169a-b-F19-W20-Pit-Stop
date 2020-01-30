@@ -24,7 +24,7 @@ public class ConfidantMenu : MonoBehaviour
     private int maxconfidantlevel = 5;
     private DialogueManager dm;
     public HangoutLocker hl = null;
-    [SerializeField] private Image bg;
+    [SerializeField] public Image bg;
     [SerializeField] public GameObject npcchaticon;//chat popup to be displayed when close to an npc
     [SerializeField] private Blinking b;
 
