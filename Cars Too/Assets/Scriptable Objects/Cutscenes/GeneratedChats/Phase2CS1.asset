@@ -15,76 +15,76 @@ MonoBehaviour:
   convo:
   - speaker: Chief
     text: Found what you could?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Lightning
     text: Yes sir.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Chief
     text: Good. Those parts will be essential for Mustang's purifier. Once we get
       those toxins in the air out of our way, we can start fixing things around here.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: Yo, chief.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: I got that bridge fixed. We have full access to that new area for parts
       now.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Chief
     text: "Then we're moving. I'll tell the others and let them know they can enter\u2026.hmmm\u2026."
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: What is it?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Chief
     text: Do we have a name for the place yet?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: "OO OO! Did I just hear \u201Cnaming\u201D!???"
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: Here we go.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Chief
     text: Affirmative. Springtrap just fixed the bridge to a new, unnamed area.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: Do we really have to name it? It's just another abandoned place chock full
       of radiation.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Piper
     text: Hey, that's it! Radiation, and Springtrap cleared the way to it-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
   - speaker: Piper
     text: So how about Springs of Radiation!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Springtrap
     text: '*rubs the back of her head* Uhm, I mean, all I did was fix the bridge-'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Chief
     text: It's a wonderful name, Piper.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   - speaker: Chief
     text: Okay everyone. If you still got stuff to do here feel free to stay. Otherwise,
       let's move out!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

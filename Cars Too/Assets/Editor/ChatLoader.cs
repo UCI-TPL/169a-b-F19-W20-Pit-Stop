@@ -7,6 +7,7 @@ using System.IO;
 [CustomEditor(typeof(Chatlist))]
 public class ChatLoader : Editor
 {
+    private ExpressionList expl;
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
@@ -21,6 +22,7 @@ public class ChatLoader : Editor
 
     public void LoadChats(Chatlist cl)
     {
+        expl = cl.expl;
         cl.chats = new List<Chat>();
         string readpath = Application.dataPath + cl.fileloc;
 
@@ -42,7 +44,7 @@ public class ChatLoader : Editor
             }
 
             AssetDatabase.CreateAsset(temp, cl.createpath + cl.title + (cl.chats.Count + 1) + ".asset");
-
+            EditorUtility.SetDirty(temp);
             cl.chats.Add(temp);
         }
 
@@ -84,9 +86,15 @@ public class ChatLoader : Editor
                 {
 
                     dl.Add(new Dialogue(currentspeaker, currentdialogue));
+                    if (!sr.EndOfStream)
+                    {
+                        getExpression(sr, dl[dl.Count-1]);
+                    }
                     currentspeaker = "";
                     currentdialogue = "";
                 }
+
+
 
             }
             //If we haven't defined our speaker yet, it should be the next nonemptyline
@@ -103,6 +111,7 @@ public class ChatLoader : Editor
 
             }
         }
+
 
         if (dl.Count == 0)
         {
@@ -125,12 +134,52 @@ public class ChatLoader : Editor
             current = sr.ReadLine();
             if (!current.Equals("") && !current.Equals("Choices"))
             {
-                Debug.Log("here");
+                
                 choices.Add(current);
             }
 
         }
 
         return choices;
+    }
+
+    private void getExpression(StreamReader sr, Dialogue d)
+    {
+        
+        if (sr.Peek() == '$')
+        {
+            Debug.Log("$ detected");
+            string e =sr.ReadLine();
+            int eindex = int.Parse(e[2].ToString());
+            if (e[1] == 'P' || e[1] == 'p')
+            {
+                
+               
+                d.expression = expl.PiperExp[eindex];
+            }
+            else if (e[1] == 'M' || e[1] == 'm')
+            {
+               
+                d.expression = expl.MustangExp[eindex];
+
+            }
+            else if (e[1] == 'C' || e[1] == 'c')
+            {
+                
+                d.expression = expl.ChiefExp[eindex];
+            }
+            else if (e[1] == 'D' || e[1] == 'd')
+            {
+                
+                d.expression = expl.DexExp[eindex];
+            }
+            else if (e[1] == 'S' || e[1] == 's')
+            {
+                
+                d.expression = expl.SpringtrapExp[eindex];
+            }
+
+        }
+        //return null;
     }
 }

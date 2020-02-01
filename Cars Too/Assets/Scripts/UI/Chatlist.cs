@@ -7,6 +7,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Chatlist.asset", menuName = "Capstone/Chatlist")]
 public class Chatlist : ScriptableObject
 {
+    public ExpressionList expl;
     public List<Chat> chats;
     //path from assets to txt file
     public string fileloc;

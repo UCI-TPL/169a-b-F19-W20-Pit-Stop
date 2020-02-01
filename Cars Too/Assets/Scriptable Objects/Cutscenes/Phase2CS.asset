@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: Phase2CS
   m_EditorClassIdentifier: 
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
   chats:
   - {fileID: 11400000, guid: 3fb09223ef1170548a5e9573fec5f60e, type: 2}
   fileloc: /Writing/Trans1.txt
