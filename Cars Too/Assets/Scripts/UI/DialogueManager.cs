@@ -199,11 +199,11 @@ public class DialogueManager : MonoBehaviour
         {
             if (d.expression != null)
             {
-                sp.UpdatePortraits(d.speaker, d.expression.eyes, d.expression.mouth,d.expression.blink);
+                sp.UpdatePortraits(d.speaker, d.expression.eyes, d.expression.mouth,d.expression.blink,d.leavename);
             }
             else
             {
-                sp.UpdatePortraits(d.speaker);
+                sp.UpdatePortraits(d.speaker, null,null,null,d.leavename);
             }
         }
         else if (cm!= null)

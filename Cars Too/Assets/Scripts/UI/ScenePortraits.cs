@@ -30,8 +30,23 @@ public class ScenePortraits : MonoBehaviour
         MustangPortrait2.gameObject.SetActive(false);
     }
 
-    public void UpdatePortraits(string newportraitname, Sprite neweyes = null, Sprite newmouth = null, Sprite newblink = null)
+    public void UpdatePortraits(string newportraitname, Sprite neweyes = null, Sprite newmouth = null, Sprite newblink = null, string leavename =null)
     {
+        if (leavename.Equals(portrait1name))
+        {
+            MustangPortrait1.gameObject.SetActive(false);
+            portrait1.gameObject.SetActive(false);
+            portrait1mouth.gameObject.SetActive(false);
+            portrait1eyes.gameObject.SetActive(false);
+        }
+        else if (leavename.Equals(portrait2name))
+        {
+            MustangPortrait2.gameObject.SetActive(false);
+            portrait2.gameObject.SetActive(false);
+            portrait2mouth.gameObject.SetActive(false);
+            portrait2eyes.gameObject.SetActive(false);
+        }
+
         if(newportraitname.Equals(portrait1name))
         {
             recent = 1;
@@ -51,6 +66,7 @@ public class ScenePortraits : MonoBehaviour
             }
             if (recent == 0||recent==2)
             {
+                
                 if (newportraitname.Equals("Mustang"))
                 {
                     MustangPortrait1.gameObject.SetActive(true);

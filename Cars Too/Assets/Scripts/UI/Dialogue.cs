@@ -10,6 +10,7 @@ public class Dialogue
     public string text = "Dialogue";
     public Sprite Scenesprite = null;
     public Expression expression = null;
+    public string leavename = null;
 
     public Dialogue(string spk, string txt)
     {
