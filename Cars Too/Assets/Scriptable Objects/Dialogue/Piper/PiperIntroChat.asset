@@ -17,81 +17,99 @@ MonoBehaviour:
     text: Heya! What's revvin'? Need some help?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    leavename: 
   - speaker: Lightning
     text: Yeah, can you tell me again why you dragged me out here?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: "\rCuz you need some fresh air!"
     Scenesprite: {fileID: 0}
-    expression: {fileID: 11400000, guid: 68d6658f08a9624469a241fcbac0bbb5, type: 2}
+    expression: {fileID: 0}
+    leavename: 
   - speaker: Lightning
     text: You're really gonna call rummaging around a junkyard for parts "getting
       fresh air"?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: Well it's definitely better than aimlessly wandering a desert all by yourself.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
+    leavename: 
   - speaker: Lightning
     text: '...'
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Lightning
     text: Clearly, you and I are on different pages when it comes to having a good
       time.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: Oh don't be such a rusty wheel! Would it really kill you to interact with
       other people once in a while?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Lightning
     text: '....'
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: "\rLightning?"
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Lightning
     text: Huh? Oh, sorry, I stopped listening after that horrendous "rusty wheel"
       pun. What'd you say?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: sigh Forget it! Just go find your dumb cogs since you're so eager to end
       this conversation. I think I saw a few over there.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
+    leavename: 
   - speaker: Lightning
     text: THANK you, Piper.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: Yeah yeah, just be careful. And don't you dare just leave without telling
       me!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    leavename: 
   - speaker: Piper
     text: Remember, you promised we'd check this place out together!
     Scenesprite: {fileID: 0}
-    expression: {fileID: 11400000, guid: 4449c196c47049a4382ceaae3bed4c94, type: 2}
+    expression: {fileID: 0}
+    leavename: 
   - speaker: Lightning
     text: "Uuuuuughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-\r"
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Lightning
     text: Fine. But we're not gonna find anything just sitting here, so I'm gonna
       head out.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    leavename: 
   - speaker: Piper
     text: Take care!
     Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
+    expression: {fileID: 11400000, guid: 046b1584b0b1b8f48aa291e9206b6cd7, type: 2}
+    leavename: 
   Choice1: 
   Choice2: 
   Route1: []
