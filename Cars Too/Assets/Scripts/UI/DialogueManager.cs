@@ -35,6 +35,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private List<Color> namecolors;
     [SerializeField] private Image dboxoutline;
     [SerializeField] private Image sboxoutline;
+    [SerializeField] private Image sboxoutline2;
 
 
 
@@ -70,6 +71,8 @@ public class DialogueManager : MonoBehaviour
         dialgouebox.text = d.text;
         speakerbox.text = d.speaker;
         skipbutton.SetActive(false);
+        DetermineNameColor(d.speaker);
+        cm.Updatenames(d.speaker);
     }
 
     public void CloseLine()
@@ -189,12 +192,12 @@ public class DialogueManager : MonoBehaviour
     {
         //Reset defaults and set speaker
         running = true;
-        DetermineNameColor(d.speaker);
         speakerbox.text = d.speaker.Replace("Lightning",DataManager.instance.GetName());
         dialgouebox.text = "";
         index = 0;
         string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
-        
+        DetermineNameColor(d.speaker);
+
         if (sp != null)
         {
             if (d.expression != null)
@@ -211,7 +214,9 @@ public class DialogueManager : MonoBehaviour
             if(d.expression != null)
             {
                 cm.UpdateConfidant(d.expression);
+                
             }
+            cm.Updatenames(d.speaker.Replace("Lightning", DataManager.instance.GetName()));
         }
         while (index < dialoguetext.Length)
         {
@@ -392,42 +397,49 @@ public class DialogueManager : MonoBehaviour
         if (n.Equals("Chief"))
         {
             sboxoutline.color = namecolors[0];
+            sboxoutline2.color = namecolors[0];
             dboxoutline.color = namecolors[0];
             //speakerbox.color = namecolors[0];
         }
         else if (n.Equals("Dex"))
         {
             sboxoutline.color = namecolors[1];
+            sboxoutline2.color = namecolors[1];
             dboxoutline.color = namecolors[1];
             //speakerbox.color = namecolors[1];
         }
         else if (n.Equals("Lightning"))
         {
             sboxoutline.color = namecolors[2];
+            sboxoutline2.color = namecolors[2];
             dboxoutline.color = namecolors[2];
             //speakerbox.color = namecolors[2];
         }
         else if (n.Equals("Mustang"))
         {
             sboxoutline.color = namecolors[3];
+            sboxoutline2.color = namecolors[3];
             dboxoutline.color = namecolors[3];
             //speakerbox.color = namecolors[3];
         }
         else if (n.Equals("Piper"))
         {
             sboxoutline.color = namecolors[4];
+            sboxoutline2.color = namecolors[4];
             dboxoutline.color = namecolors[4];
             //speakerbox.color = namecolors[4];
         }
         else if (n.Equals("Springtrap"))
         {
             sboxoutline.color = namecolors[5];
+            sboxoutline2.color = namecolors[5];
             dboxoutline.color = namecolors[5];
             //speakerbox.color = namecolors[5];
         }
         else
         {
             sboxoutline.color = namecolors[2];
+            sboxoutline2.color = namecolors[2];
             dboxoutline.color = namecolors[2];
             Debug.Log("NAME COLOR NOT FOUND");
         }

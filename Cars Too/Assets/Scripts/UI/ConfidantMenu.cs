@@ -27,6 +27,10 @@ public class ConfidantMenu : MonoBehaviour
     [SerializeField] public Image bg;
     [SerializeField] public GameObject npcchaticon;//chat popup to be displayed when close to an npc
     [SerializeField] private Blinking b;
+    [SerializeField] private TextMeshProUGUI confidantbox;
+    [SerializeField] private TextMeshProUGUI playerbox;
+    [SerializeField] private GameObject confnameobj;
+    [SerializeField] private GameObject playernameobj;
 
 
     private void Start()
@@ -190,5 +194,21 @@ public class ConfidantMenu : MonoBehaviour
         confidanteyes.sprite = e.eyes;
         confidantmouth.sprite = e.mouth;
         b.blinkstate = e.blink;
+    }
+
+    public void Updatenames(string s)
+    {
+        if (s.Equals(DataManager.instance.GetName()) || s.Equals("Narrator"))
+        {
+            playernameobj.SetActive(true);
+            confnameobj.SetActive(false);
+            playerbox.text = s;
+        }
+        else
+        {
+            playernameobj.SetActive(false);
+            confnameobj.SetActive(true);
+            confidantbox.text = s;
+        }
     }
 }

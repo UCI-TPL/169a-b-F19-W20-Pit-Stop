@@ -35,10 +35,16 @@ public class ScenePortraits : MonoBehaviour
         portrait2.gameObject.SetActive(false);
         MustangPortrait1.gameObject.SetActive(false);
         MustangPortrait2.gameObject.SetActive(false);
+        portrait1name = "";
+        portrait2name = "";
     }
 
-    public void UpdatePortraits(string newportraitname, Sprite neweyes = null, Sprite newmouth = null, Sprite newblink = null, string leavename =null)
+    public void UpdatePortraits(string newportraitname, Sprite neweyes = null, Sprite newmouth = null, Sprite newblink = null, string leavename ="")
     {
+        if (leavename == null)
+        {
+            leavename = "";
+        }
         if (leavename.Equals(portrait1name))
         {
             MustangPortrait1.gameObject.SetActive(false);
@@ -113,6 +119,16 @@ public class ScenePortraits : MonoBehaviour
                     portrait1mouth.gameObject.SetActive(false);
                     portrait1eyes.gameObject.SetActive(false);
                     MustangPortrait1.sprite = newportrait;
+
+
+                    portrait1.gameObject.SetActive(true);
+                    portrait1eyes.sprite = defaultimg;
+                    portrait1mouth.sprite = defaultimg;
+                    portrait1.sprite = defaultimg;
+
+                    n1holder.SetActive(true);
+                    n2holder.SetActive(false);
+                    name1.text = DataManager.instance.GetName();
                 }
                 else
                 {
@@ -168,7 +184,16 @@ public class ScenePortraits : MonoBehaviour
                     portrait2mouth.gameObject.SetActive(false);
                     portrait2eyes.gameObject.SetActive(false);
                     MustangPortrait2.sprite = newportrait;
-                }
+
+                    portrait2.gameObject.SetActive(true);
+                    portrait2eyes.sprite = defaultimg;
+                    portrait2mouth.sprite = defaultimg;
+                    portrait2.sprite = defaultimg;
+                
+                     n2holder.SetActive(true);
+                    n1holder.SetActive(false);
+                    name2.text = DataManager.instance.GetName();
+            }
                 else
                 {
                     MustangPortrait2.gameObject.SetActive(false);

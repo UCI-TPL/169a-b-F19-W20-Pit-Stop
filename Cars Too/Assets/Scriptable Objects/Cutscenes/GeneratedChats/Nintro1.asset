@@ -94,7 +94,7 @@ MonoBehaviour:
       waiting for you to arrive.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
-    leavename: 
+    leavename: Chief
   - speaker: Lightning
     text: Can't imagine a good reason why.
     Scenesprite: {fileID: 0}
