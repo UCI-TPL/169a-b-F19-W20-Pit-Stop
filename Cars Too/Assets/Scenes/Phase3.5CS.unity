@@ -766,5 +766,27 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278190080
       objectReference: {fileID: 0}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.data[7].speaker
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.data[7].Scenesprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 36e34d62eb35a184d9bc6f9bc9645fb1,
+        type: 3}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.data[7].expression
+      value: 
+      objectReference: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d,
+        type: 2}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.data[6].speaker
+      value: N/A
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}

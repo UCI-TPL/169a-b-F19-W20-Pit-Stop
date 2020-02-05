@@ -7054,6 +7054,11 @@ MonoBehaviour:
     Scenesprite: {fileID: 21300000, guid: 2a96a87ffdbcd6e46abf28f68a826370, type: 3}
     expression: {fileID: 0}
     leavename: 
+  - speaker: Gak
+    text: 
+    Scenesprite: {fileID: 21300000, guid: 36e34d62eb35a184d9bc6f9bc9645fb1, type: 3}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
   b1: {fileID: 1108360470692880418}
   b2: {fileID: 6896391122111165766}
   name1: {fileID: 1818397673305205024}
@@ -7073,7 +7078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.7774799
+  m_AspectRatio: 1.7772021
 --- !u!1 &3782917001710653564
 GameObject:
   m_ObjectHideFlags: 0
