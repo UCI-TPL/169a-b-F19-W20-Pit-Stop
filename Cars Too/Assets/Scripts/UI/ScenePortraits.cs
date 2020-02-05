@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ScenePortraits : MonoBehaviour
 {
+    [SerializeField] private Sprite defaultimg;
     [SerializeField] private Image portrait1;
     [SerializeField] private Image portrait1mouth;
     [SerializeField] private Image portrait1eyes;
@@ -19,6 +21,11 @@ public class ScenePortraits : MonoBehaviour
     [SerializeField] private List<Dialogue> speakersandsprites;
     [SerializeField] private Blinking b1;
     [SerializeField] private Blinking b2;
+    [SerializeField] private TextMeshProUGUI name1;
+    [SerializeField] private TextMeshProUGUI name2;
+    [SerializeField] private GameObject n1holder;
+    [SerializeField] private GameObject n2holder;
+
 
     // Start is called before the first frame update
 
@@ -53,10 +60,28 @@ public class ScenePortraits : MonoBehaviour
         {
             recent = 1;
             UpdateExpression(1, newmouth, neweyes,newblink);
+            n1holder.SetActive(true);
+            n2holder.SetActive(false);
+            name1.text = portrait1name;
         }
         else if( newportraitname.Equals(portrait2name)){
             recent = 2;
             UpdateExpression(2, newmouth, neweyes, newblink);
+            n2holder.SetActive(true);
+            n1holder.SetActive(false);
+            name2.text = portrait2name;
+        }
+        else if (newportraitname.Equals("Lightning"))
+        {
+            if (!portrait2.gameObject.activeSelf) {
+                portrait2.gameObject.SetActive(true);
+                portrait2eyes.sprite = defaultimg;
+                portrait2mouth.sprite = defaultimg;
+                portrait2.sprite = defaultimg;
+            }
+            n2holder.SetActive(true);
+            n1holder.SetActive(false);
+            name2.text = DataManager.instance.GetName();
         }
         else
         {
@@ -64,6 +89,18 @@ public class ScenePortraits : MonoBehaviour
             if (newportrait == null)
             {
                 Debug.Log("No portrait found for char " + newportraitname);
+
+                if (!portrait2.gameObject.activeSelf)
+                {
+                    portrait2.gameObject.SetActive(true);
+                    portrait2eyes.sprite = defaultimg;
+                    portrait2mouth.sprite = defaultimg;
+                    portrait2.sprite = defaultimg;
+                }
+                n2holder.SetActive(true);
+                n1holder.SetActive(false);
+                name2.text = newportraitname;
+                
                 return;
             }
             if (recent == 0||recent==2)
@@ -118,6 +155,9 @@ public class ScenePortraits : MonoBehaviour
 
                 portrait1name = newportraitname;
                 recent = 1;
+                n1holder.SetActive(true);
+                n2holder.SetActive(false);
+                name1.text = portrait1name;
             }
             else if (recent == 1)
             {
@@ -166,6 +206,9 @@ public class ScenePortraits : MonoBehaviour
 
                 portrait2name = newportraitname;
                 recent = 2;
+                n2holder.SetActive(true);
+                n1holder.SetActive(false);
+                name2.text = portrait2name;
             }
         }
     }
