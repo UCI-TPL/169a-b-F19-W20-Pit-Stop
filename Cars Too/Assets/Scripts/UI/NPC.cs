@@ -85,7 +85,7 @@ public class NPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (close && Input.GetKeyDown(KeyCode.E))
+        if (close && Input.GetKeyDown(KeyCode.E)&&!dialoguebox.activeSelf&&!menuopen)
         {
             openMenu();
         }
