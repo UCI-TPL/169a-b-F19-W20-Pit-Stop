@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     //The Text locations for the dialouge, and speaker name
     [SerializeField] private TextMeshProUGUI dialgouebox;
     [SerializeField] private TextMeshProUGUI speakerbox;
-    [SerializeField] private GameObject canvasobjects; //visible canvas objects associated with dialogue to be turned on or off
+    [SerializeField] public GameObject canvasobjects; //visible canvas objects associated with dialogue to be turned on or off
     [SerializeField] private float index = 0; //holds current place in dialogue
     [SerializeField] private int speed = 1; //controls speed at which text appears
     [SerializeField] private bool instant = false; //detects whether the text should be displayed instantly
