@@ -218,6 +218,10 @@ public class DialogueManager : MonoBehaviour
             }
             cm.Updatenames(d.speaker.Replace("Lightning", DataManager.instance.GetName()));
         }
+
+
+         DataManager.instance.am.PlayVL(d.voiceline);
+        
         while (index < dialoguetext.Length)
         {
             //if the player has clicked display all text
