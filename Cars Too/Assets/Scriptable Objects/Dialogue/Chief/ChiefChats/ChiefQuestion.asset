@@ -15,20 +15,23 @@ MonoBehaviour:
   convo:
   - speaker: Chief
     text: Would you like to move on?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
   Choice1: Yes
   Choice2: No
   Route1:
   - speaker: Chief
-    text: Alright let's head to the factory
-    expression: {fileID: 0}
+    text: Spirit Crew, roll out!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
   Route2:
   - speaker: Chief
     text: Come back to me when you've collected enough parts.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
   isConversation: 0
   C1Reward: 0
   C2Reward: 0
