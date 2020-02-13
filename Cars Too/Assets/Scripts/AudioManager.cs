@@ -6,8 +6,10 @@ public class AudioManager : MonoBehaviour
 {
    [SerializeField] private AudioSource a;
    [SerializeField] private AudioSource bgmsource;
+   [SerializeField] private AudioSource voices;
     public float bgmvol = 0.0f;
     public float sfxvol = 0.0f;
+    public float voicevol = 0.0f;
     //List of all the bgms in the game
    [SerializeField] private List<AudioClip> bgms;
     //the index of the current level's theme
@@ -17,6 +19,7 @@ public class AudioManager : MonoBehaviour
     {
         bgmvol = bgmsource.volume;
         sfxvol = a.volume;
+        voicevol = voices.volume;
         foreach (AudioClip ac in bgms)
         {
             bgmtimes[ac] = 0.0f;
@@ -36,6 +39,17 @@ public class AudioManager : MonoBehaviour
         bgmsource.clip = ac;
         bgmsource.time = time;
         bgmsource.Play();
+    }
+
+    public void PlayVL(AudioClip ac)
+    {
+        if (ac == null)
+        {
+            voices.Pause();
+            return;
+        }
+        voices.clip = ac;
+        voices.Play();
     }
 
     public void PlayandTrackBGM(int index, bool fade = true, float fadetime =1.25f)

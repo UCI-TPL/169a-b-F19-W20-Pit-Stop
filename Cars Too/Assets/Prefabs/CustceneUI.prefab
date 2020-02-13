@@ -6928,6 +6928,7 @@ MonoBehaviour:
   dboxoutline: {fileID: 8647550377169405843}
   sboxoutline: {fileID: 8569291646899402988}
   sboxoutline2: {fileID: 1039197763670141914}
+  bg: {fileID: 2045170831}
 --- !u!114 &3782917001673969937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7029,36 +7030,50 @@ MonoBehaviour:
     Scenesprite: {fileID: 21300000, guid: 1ddbcb22398405941b6886a371e45809, type: 3}
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: 
     Scenesprite: {fileID: 21300000, guid: 739ea6ae4af2a144592129e6f1cae9bc, type: 3}
     expression: {fileID: 11400000, guid: 2111caa7bf81e95418c5d2f5f9d642b2, type: 2}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 
     Scenesprite: {fileID: 21300000, guid: 06fb713a9959f354d9f83903ef638d87, type: 3}
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 
     Scenesprite: {fileID: 21300000, guid: 67851460a996b854ab38bd6ab052c3d1, type: 3}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: 
     Scenesprite: {fileID: 21300000, guid: 48fc5d4a05a690c48ad1435c16d9f2b6, type: 3}
     expression: {fileID: 11400000, guid: 34d1d83982b683e4ea8ea51e210b16e0, type: 2}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Loco
     text: 
     Scenesprite: {fileID: 21300000, guid: 2a96a87ffdbcd6e46abf28f68a826370, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Gak
     text: 
     Scenesprite: {fileID: 21300000, guid: 36e34d62eb35a184d9bc6f9bc9645fb1, type: 3}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   b1: {fileID: 1108360470692880418}
   b2: {fileID: 6896391122111165766}
   name1: {fileID: 1818397673305205024}
@@ -7078,7 +7093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.7772021
+  m_AspectRatio: 1.776923
 --- !u!1 &3782917001710653564
 GameObject:
   m_ObjectHideFlags: 0

@@ -9022,6 +9022,7 @@ MonoBehaviour:
   dboxoutline: {fileID: 2295446269675632700}
   sboxoutline: {fileID: 3196184329105266329}
   sboxoutline2: {fileID: 999545161770726570}
+  bg: {fileID: 4436490669067809920}
 --- !u!114 &4436490670072998274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16012,31 +16013,43 @@ MonoBehaviour:
     Scenesprite: {fileID: 21300000, guid: fffbec54b016a7747908bf53c25fe3e8, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: 
     Scenesprite: {fileID: 21300000, guid: 26876aba7e7ae5349b0efe9125defecc, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 
     Scenesprite: {fileID: 21300000, guid: f85f7cf36955e5e4281d230368d7ae57, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: 
     Scenesprite: {fileID: 21300000, guid: 635d92de4a4b8a047857ad530f0e2e22, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 
     Scenesprite: {fileID: 21300000, guid: 5ca34aa86a0d92647ba65b33e3b20887, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Gak
     text: 
     Scenesprite: {fileID: 21300000, guid: 1080aa27f825c364e8bf4d940b41aece, type: 3}
     expression: {fileID: 0}
     leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
 --- !u!1 &7011113509164600581
 GameObject:
   m_ObjectHideFlags: 0
