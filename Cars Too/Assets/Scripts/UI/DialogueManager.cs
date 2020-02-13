@@ -36,6 +36,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image dboxoutline;
     [SerializeField] private Image sboxoutline;
     [SerializeField] private Image sboxoutline2;
+    [SerializeField] private Image bg;
 
 
 
@@ -221,6 +222,11 @@ public class DialogueManager : MonoBehaviour
 
 
          DataManager.instance.am.PlayVL(d.voiceline);
+
+        if (d.newbg != null)
+        {
+            bg.sprite = d.newbg;
+        }
         
         while (index < dialoguetext.Length)
         {
@@ -361,7 +367,7 @@ public class DialogueManager : MonoBehaviour
         index = 0;
         string dialoguetext = d.text.Replace("Lightning", DataManager.instance.GetName());
 
-      
+        DataManager.instance.am.PlayVL(d.voiceline);
 
         while (index < dialoguetext.Length)
         {

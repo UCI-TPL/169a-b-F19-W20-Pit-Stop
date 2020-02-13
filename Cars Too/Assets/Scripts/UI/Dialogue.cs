@@ -12,6 +12,7 @@ public class Dialogue
     public Expression expression = null;
     public string leavename = null;
     public AudioClip voiceline = null;
+    public Sprite newbg = null;
 
     public Dialogue(string spk, string txt)
     {

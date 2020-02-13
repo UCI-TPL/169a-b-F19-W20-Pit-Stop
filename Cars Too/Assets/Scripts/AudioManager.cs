@@ -43,8 +43,11 @@ public class AudioManager : MonoBehaviour
 
     public void PlayVL(AudioClip ac)
     {
-        if(ac==null)
+        if (ac == null)
+        {
             voices.Pause();
+            return;
+        }
         voices.clip = ac;
         voices.Play();
     }
