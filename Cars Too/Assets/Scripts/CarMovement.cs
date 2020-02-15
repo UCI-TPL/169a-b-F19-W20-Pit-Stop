@@ -20,7 +20,6 @@ public class CarMovement : MonoBehaviour
     public float forwardAcceleration = 8000f;
     public float reverseAcceleration = 4000f;
     [SerializeField] float thrust = 0f;
-    [SerializeField] SphereCollider[] tireColliders;
 
     public float turnStrength = 1000f;
     [SerializeField] float turnValue = 0f;
@@ -47,8 +46,6 @@ public class CarMovement : MonoBehaviour
 
     void Awake()
     {
-        tireColliders = new SphereCollider[4];
-        tireColliders = this.GetComponents<SphereCollider>();
 
         isGrounded = false;
 
@@ -112,13 +109,6 @@ public class CarMovement : MonoBehaviour
         if(!isPaused) {
             //Add a force on all four hover corners of the car that allows the car to hover/simulates normal force and gravity
             RaycastHit hit;
-
-
-            //detect ground here
-            for(int i = 0; i < tireColliders.Length; i++)
-            {
-                if(tireColliders[])
-            }
             
             for (int i = 0; i < hoverPoints.Length; i++)
             {
