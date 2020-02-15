@@ -37,6 +37,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image sboxoutline;
     [SerializeField] private Image sboxoutline2;
     [SerializeField] private Image bg;
+    [SerializeField] private DialogueLog dialoguelog;
 
 
 
@@ -48,6 +49,7 @@ public class DialogueManager : MonoBehaviour
         skip = false;
         canvasobjects.SetActive(false);
         Choicecanvas.SetActive(false);
+        dialoguelog = GameObject.FindObjectOfType<DialogueLog>();
         //StartCoroutine(playChoice(test.convo,test.Choice1,test.Choice2));
     }
 
@@ -68,6 +70,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayLine(Dialogue d)
     {
+        autodialogueobjects.SetActive(false);
         canvasobjects.SetActive(true);
         dialgouebox.text = d.text;
         speakerbox.text = d.speaker;
@@ -134,6 +137,7 @@ public class DialogueManager : MonoBehaviour
     public IEnumerator playConversation(List<Dialogue> d, bool canskip = true)
     {
         //Turn on the Dialogue canvas objects
+        autodialogueobjects.SetActive(false);
         canvasobjects.SetActive(true);
         DetermineNameColor(d[0].speaker);
         skipbutton.SetActive(canskip);
@@ -226,6 +230,11 @@ public class DialogueManager : MonoBehaviour
         if (d.newbg != null)
         {
             bg.sprite = d.newbg;
+        }
+
+        if (dialoguelog != null)
+        {
+            dialoguelog.UpdateLog(d.speaker.Replace("Lightning", DataManager.instance.GetName()), dialoguetext);
         }
         
         while (index < dialoguetext.Length)
