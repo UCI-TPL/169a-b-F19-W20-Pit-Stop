@@ -76,11 +76,11 @@ MonoBehaviour:
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
-  Choice1: 'Choices '
-  Choice2: Indeed
+  Choice1: Indeed
+  Choice2: Indeed not
   Route1:
-  - speaker: Indeed no
-    text: 'Dex:Of course you are! '
+  - speaker: Dex
+    text: 'Of course you are! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
     leavename: 

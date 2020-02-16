@@ -35,7 +35,7 @@ Race AND trick car. Impressed?
 
 EndC
 
-Choices 
+Choices
 Indeed
 Indeed not
 
@@ -107,7 +107,8 @@ $D0
 Dex:
 I'm the only one around here with the blinding light story, so it must mean it was only for special cars. 
 
-Dex: So don't feel too bad if you didn't get to see it! It just wasn't meant for you!
+Dex: 
+So don't feel too bad if you didn't get to see it! It just wasn't meant for you!
 
 $D5
 
