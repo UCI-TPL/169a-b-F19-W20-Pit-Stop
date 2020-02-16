@@ -15,50 +15,83 @@ MonoBehaviour:
   convo:
   - speaker: Lightning
     text: So, what, did you wake up on a race track or something?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: Oh! I'm glad you asked!
-    expression: {fileID: 0}
+    text: Oh! I'm SO glad you asked!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh no.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 'I was actually one of the first to wake up! '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: 'There was a blinding light for a split second. And then, boom! I knew who
-      I was! '
-    expression: {fileID: 0}
+    text: 'There was a blinding light for a split second. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: And then, boom! I knew who I was!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: A champion!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 'I''m the only one around here with the blinding light story, so it must
       mean it was only for special cars. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: 'Dex:'
-    text: So don't feel too bad if you didn't get to see it! It just wasn't meant
-      for you!
     expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: 'Dex: So don''t feel too bad if you didn''t get to see it! It just wasn''t
+      meant for you'
+    text: $D5
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Oh phew. I was really bummed about that for a second, but that really made
-      me feel better.
-    expression: {fileID: 0}
+    text: Oh phew. Yeah that's REALLY been bothering me, but you sure made me feel
+      better.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 25
+  C1Reward: 0
   C2Reward: 0
   abilityactivation: 0
   carpartsgained: 0

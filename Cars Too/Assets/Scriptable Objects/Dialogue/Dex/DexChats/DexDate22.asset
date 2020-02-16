@@ -14,220 +14,376 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Dex
-    text: "That\u2019s amazing!"
-    expression: {fileID: 0}
+    text: That's amazing!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Really?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Of course! To be able to do all that on your own is a feat in itself!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Well, Piper always complains when I do things on my own.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: As she should!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Huh?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "Being independent is one thing, but what good are stars like us if we don\u2019t
-      share the gifts we have!"
-    expression: {fileID: 0}
+    text: Being independent is one thing, but what good are stars like us if we don't
+      share the gifts we have!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I...never thought of it that way.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: You should start then, Lightning. Maybe one day you could become a celebrity
-      like me~!
-    expression: {fileID: 0}
+    text: 'You should start then, Lightning. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: Maybe one day you could become a celebrity like me~!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Uh, I don\u2019t know about that..."
-    expression: {fileID: 0}
+    text: Uh, I don't know about that...
     Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: "You never know! It\u2019d be quite the challenge!"
-    expression: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: But I guess I know who to ask if I need a cheerleader.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Hey, I have a question for you, Dex.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Fire away!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  Choice1: "What\u2019s your favorite place you\u2019ve been to?"
-  Choice2: "What\u2019s the farthest you\u2019ve gone?"
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Choice1: What's your favorite place you've been to?
+  Choice2: What's the farthest you've gone?
   Route1:
   - speaker: Dex
-    text: "Oh, now that\u2019s tricky."
-    expression: {fileID: 0}
+    text: Oh, now that's tricky.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "I\u2019ve sped all over this county, I\u2019ve been to so many places."
-    expression: {fileID: 0}
+    text: I've sped all over this county! I've been to more places than my speedometer
+      can count up to.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "It almost seems impossible to choose but there\u2019s one place that\u2019s
-      always been one I go back to."
-    expression: {fileID: 0}
+    text: It almost seems impossible to choose...but there IS one place that I've
+      always gone back to, time and time again.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: The Colosseum.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "The Colosseum? Where\u2019s that?"
-    expression: {fileID: 0}
+    text: The Colosseum? Where's that?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "Oh it\u2019s this magnificent place some tens of miles north of here."
-    expression: {fileID: 0}
+    text: Oh it's this magnificent place some tens of miles west of here.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "And it\u2019s the most beautiful place I\u2019ve ever seen."
-    expression: {fileID: 0}
+    text: And it's the most beautiful place I've ever seen.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Lemme guess. It\u2019s a race track?"
-    expression: {fileID: 0}
+    text: Lemme guess. It's a race track?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "You bet your exhaust pipes it\u2019s a race track!"
-    expression: {fileID: 0}
+    text: You bet your engine it's a race track!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "And not just any race track! It\u2019s a NOT-collapsed race track!"
-    expression: {fileID: 0}
+    text: And not just any race track! It's a not-COLLAPSED race track!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "The road, the stands, the walls, everything\u2019s intact still!"
-    expression: {fileID: 0}
+    text: The road, the stands, the walls, everything's still intact!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "I like to think it\u2019s the spirit of all those fans, holding the place
-      together in hopes of seeing just one more race car zoom past!"
-    expression: {fileID: 0}
+    text: I like to think it's the spirit of all those fans, holding the place together
+      in hopes of seeing just one more race car zoom past!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: To feel just one more rush of excitement as rubber burns over the finish
       line.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "When Chief lets me, I\u2019ll take a trip up there to brush up on my tricks."
-    expression: {fileID: 0}
+    text: When Chief allows it, I'll take a trip up there to brush up on my tricks.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: It almost feels like home.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Almost?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Yeah. In the end...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: The Spirit will always be my real home.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Dex
     text: Oh, have I got a story for you!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: When I was out speeding without a care in the world -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Because you forgot gas tanks exist and have limits...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Right, right, ANYWAY -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "When I was out there, in the vast world, I saw places you wouldn\u2019t
-      believe!"
-    expression: {fileID: 0}
+    text: When I was out there, in the vast world, I saw places you wouldn't believe!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 'HUGE towers! Some barely standing, some crumbled in a heap. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: And long, wide rivers, crashing in anger at times, and bubbling along peacefully
       other times.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: But the farthest I went was way way up north.
-    expression: {fileID: 0}
+    text: But the farthest I went was way WAY up north.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Where I saw snow.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: You saw snow? REAL snow?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Yep! Of course, not much. Piper still believes I was imagining it because
       at that time, my gas was running pretty low, but I swear it was there!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: The tiniest patch, just sitting there in the dry grass.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: And then a snowflake. A SNOWFLAKE, can you believe that!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "Fell right on my hood. I\u2019ve never seen anything like it. Not by then
-      or since."
-    expression: {fileID: 0}
+    text: Fell right on my hood. I've never seen anything like it. Not by then and
+      not since.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 'It melted just an hour later. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "You know, that\u2019s part of the reason I\u2019m still with the Spirit."
-    expression: {fileID: 0}
+    text: You know, that's part of the reason I'm still with the Spirit.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "After that, you\u2019d think all I\u2019d want to do is chase snow in the
-      wilderness, but-"
-    expression: {fileID: 0}
+    text: After that, you'd think all I'd want to do is chase snow in the wilderness,
+      but-
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "If there\u2019s even the smallest chance that Mustang can bring any of
-      that back, any of those colors we\u2019ve lost..."
-    expression: {fileID: 0}
+    text: If there's even the smallest chance that Mustang can bring any of that back,
+      any of those colors we've lost...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "Then I\u2019ll be there!"
-    expression: {fileID: 0}
+    text: Then I'll be there!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

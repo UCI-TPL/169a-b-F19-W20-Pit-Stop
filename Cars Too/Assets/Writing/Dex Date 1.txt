@@ -4,32 +4,53 @@ Hey Dex. You mentioned some racing tricks earlier, so I-
 Dex:
 Ohohohoho!
 
+$D2
+
 Dex:
 Say no more, citizen! It would be my absolute PLEASURE to dazzle you with them! 
 
+$D0
+
 Lightning:
-That’s actually not what-
+That's actually not what-
 
 Dex:
 ONWARD!
 
+$D2
+
+Narrator:
+(After some STUNNING racing tricks by Dex...)
+
 Dex:
 And THAT is how you perform a backspin into a triple axel...
+
+$D0
 
 Dex:
 ...as a car.
 
+$D5
+
 Lightning:
-Oh is that what that was? It kinda just looked like you just hopped on your axles a few times.
+Oh is that what that was? It kinda looked like you just hopped on your axles a few times.
+
+$D0
 
 Dex:
 Exactly!
 
+$D2
+
 Dex:
 A triple-
 
+$D5
+
 Dex:
 AXLE!
+
+$D0
 
 Lightning:
 Good grief.
@@ -38,15 +59,24 @@ Dex:
 Might you have any personal requests for a trick?
 
 Dex:
-OH! Or a race? Granted, you won’t win, but seeing me in action is sure to be a trophy in itself!
+OH! Or a race? Granted, you won't win, but seeing me in action is sure to be a trophy in itself!
+
+$D2
+
 Lightning:
-Nope, I think I’m good for now. 
+Nope, I think I'm good for now. 
+
+$D0
 
 Dex:
-Ah well. Another time then! As I’ve mentioned before, anything racing or trick related -
+Ah well. Another time then! As I've mentioned before, anything racing or trick related -
+
+$D3
 
 Dex:
-I’m your car.
+I'm your car.
+
+$D5
 
 EndC
 
@@ -55,16 +85,24 @@ How did you get into racing?
 How did you get into tricks?
 
 Dex:
-Oh well that’s easy!
+Oh well that's easy!
+
+$D2
 
 Dex:
 As you can tell, my model is a sports car, and not just ANY sports car-
 
+$D0
+
 Dex:
 The BEST sports car. 
 
+$D5
+
 Dex:
 It was the most recent model developed before the Crash. 
+
+$D0
 
 Dex:
 So when I awoke, well -
@@ -76,36 +114,56 @@ Dex:
 To bolt across incredible distances faster than the starter can yell “GO!” -
 
 Dex:
-To veer corners at speeds that would take a human’s breath away in an instant -
+To veer corners at speeds that would take a human's breath away in an instant -
+
+$D3
 
 Dex:
-Why, it’s simply breathtaking just to think about! It’s no wonder I picked up the skill so fast.
+Why, it's simply breathtaking just to think about! It's no wonder I picked up the skill so fast.
+
+$D0
 
 Dex:
 *laughs* When I started out, I wanted to race everything I came across!
 
+$D2
+
 Dex:
 A tumbleweed, the clouds, anything that moved!
 
-Dex:
-Which was silly of me, I know, but since then I’ve learned.
+$D0
 
 Dex:
-Now it’s obvious that WIND is the real challenge. One day I’m sure to beat the coward.
+Which was silly of me, I know, but since then I've learned.
+
+$D3
+
+Dex:
+Now it's obvious that WIND is the real challenge. One day I'm sure to beat the coward.
+
+$D7
 
 End
 
 Dex:
-Oh well that’s easy!
+Oh well that's easy!
+
+$D2
 
 Dex:
 As you can tell, my model is a sports car, and not just ANY sports car-
 
+$D0
+
 Dex:
 The BEST sports car. 
 
+$D5
+
 Dex:
 It was the most recent model developed before the Crash. 
+
+$D0
 
 Dex:
 So when I awoke, I realized my increased dexterity compared to other cars.
@@ -116,23 +174,38 @@ It gave me a boost in my cylinders when I first realized how smoothly my tires c
 Dex:
 - just feeling the road slip beneath you, almost like ice.
 
-Dex:
-It’s exhilarating just to think about it! On one tire, when you spin out, it’s so fast that when it’s over, you can barely come to terms with what just happened. 
+$D3
 
 Dex:
-But on the other tire, in the moment, you wonder if it’ll ever end.
+It's exhilarating just to think about it! 
+
+$D2
 
 Dex:
-That feeling is what I’ll always be chasing, but in the meantime, I’ll have to make do with coming up with new, better tricks!
+On one hand - or, tire, if you will - when you spin out, it's so fast that when it's over, you can barely come to terms with what just happened. 
+
+$D3
 
 Dex:
-Ones that humans would’ve never even dreamed of! 
+But on the other tire, in the moment, you wonder if it'll ever end.
+
+$D0
 
 Dex:
-Triple axel? Why stop there? How about Quadruple? Sextuple? Sky’s the limit!
+That feeling is what I'll always be chasing, but in the meantime, I'll have to make do with coming up with new, better tricks!
 
 Dex:
-One day, I’ll be able to do a Septuple into a full-on-
+Ones that humans would've never even dreamed of! 
+
+Dex:
+Triple axel? Why stop there? How about Quadruple? Sextuple? Sky's the limit!
+
+$D2
+
+Dex:
+One day, I'll be able to do a Septuple into a full-on-
+
+$D0
 
 Dex:
 Backflip! 
@@ -146,23 +219,33 @@ Of course!
 End
 
 Lightning:
-Okay, see, I know that’s impossible, but your bravado almost makes me believe you.
+Okay, see, I know that's impossible, but your bravado ALMOST makes me believe you.
+
+$D0
 
 Dex:
-*laughs* Excellent! Confidence is the key to every success, and I’m very glad I’ve never lost sight of that.
+*laughs* Excellent! Confidence is the key to every success, and I'm very glad I've never lost sight of that.
+
+$D2
 
 Dex:
-When you know in your engine what you’re built for, it feels like magic to do it.
+When you know in your engine what you're built for, it feels like magic to do it.
+
+$D0
 
 EndC
-Isn’t gas a problem for you?
-Don’t you need tune-ups?
+Isn't gas a problem for you?
+Don't you need tune-ups?
 
 Dex:
 Ah, well, yes and no.
 
+$D3
+
 Dex:
-You see, when I first awoke and immediately bolt across the countryside, I hadn’t quite realized one simple fact -
+You see, when I first awoke and immediately bolted across the countryside, I hadn't quite realized one simple fact -
+
+$D0
 
 Lightning:
 That cars need fuel?
@@ -173,17 +256,25 @@ Dex:
 Dex:
 ...Yes, that.
 
+$D5
+
 Dex:
 I woefully ended up stranded in the middle of nowhere with nothing but desert weeds to keep me company.
+
+$D0
 
 Dex:
 A very MINOR setback, of course.
 
+$D5
+
 Lightning:
-I don’t think that’s quite how any other car would phrase that.
+I don't think that's quite how any other car would phrase that.
 
 Dex:
-Anyhow, I would still be out there if it weren’t for Chief!
+Anyhow, I would still be out there if it weren't for Chief!
+
+$D0
 
 Dex:
 Why, they found me and hauled me to the gas tanks themselves!
@@ -196,14 +287,20 @@ End
 Dex:
 Tune-ups?
 
+$D6
+
 Dex:
 *laughs* Of course I do!
+
+$D2
 
 Dex:
 My model is HIGHLY sensitive!
 
 Dex:
-And Piper has also informed me that I was also highly expensive! 
+And Piper has also informed me that I was also highly expensive!
+
+$D0 
 
 Lightning:
 Ah to be objectified and worth a literal pile of money.
@@ -211,14 +308,18 @@ Ah to be objectified and worth a literal pile of money.
 Dex:
 Ah yes! To have a price on your soul!
 
+$D2
+
 Dex:
 Now THAT would be the life!
 
 Dex:
 And all those expenses come from the fact that I am indeed difficult to take care of.
 
+$D0
+
 Lightning:
-In more than one way, I’m presuming.
+In more than one way, I'm presuming.
 
 Dex:
 So getting regular tune-ups is incredibly important.
@@ -230,48 +331,76 @@ Lightning:
 Whoa, really? I thought she hated you.
 
 Dex:
-Oh absolutely! Which is why it’s so amusing when she’s the one who has to do what I say!
+Oh absolutely! Which is why it's so amusing when she's the one who has to do what I say!
+
+$D5
 
 Lightning:
 Wow. Sounds cathartic. 
 
 Dex:
-Sometimes! But to be honest, I’m very grateful that the tune-ups get done at all.
+Sometimes! But to be honest, I'm very grateful that the tune-ups get done at all.
+
+$D3
 
 End
 
 Dex:
 Nowadays, supplies is handled and distributed as Chief sees fit!
 
+$D0
+
 Dex:
 Which is great because it means I get pampered the most!
+
+$D2
 
 Lightning:
 Ah, yes, as you should.
 
+$D0
+
 Dex:
 Exactly!
+
+$D5
 
 Dex:
 Being a sports car, I require an awful lot of maintenance.
 
+$D0
+
 Dex:
-But of course, you can’t argue with results.
+But of course, you can't argue with results.
 
 Dex:
 As the fastest one here, I do all the scouting and exploration with both efficiency AND -
 
+Narrator:
+(Dex strikes a stunning pose!)
+
+$D5
+
 Dex:
-*strikes a pose* Finesse!
+Finesse!
 
 Lightning:
 *laughs* 
 
 Dex:
-Oh! So the quiet one DOES laugh?
+Oh! 
+
+$D6
+
+Dex:
+So the quiet one DOES laugh?
+
+$D1
 
 Lightning:
 ...
+
+$D2
 
 Lightning:
 AHEM. Occasionally. 
@@ -279,16 +408,24 @@ AHEM. Occasionally.
 Dex:
 ...
 
+$D5
+
 Lightning:
-What? I’m not a robot.
+What? I'm not a robot.
 
 Dex:
-I didn’t say anything! But I appreciate hearing your amusement!
+I didn't say anything! But I appreciate hearing your amusement!
+
+$D2
 
 Dex:
 We should do this more often, Lightning! 
 
+$D0
+
 Dex:
 This was fun!
+
+$D2
 
 End

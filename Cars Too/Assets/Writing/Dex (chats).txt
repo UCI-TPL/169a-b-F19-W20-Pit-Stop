@@ -7,17 +7,25 @@ More what?
 Dex:
 More of the MASTER.
 
+$D5
+
 Lightning:
 Uh huh.
 
 Lightning:
 I think I'm gonna go...-
 
+$D1
+
 Dex:
 Hey, hey, hey! Don't be like that!
 
+$D6
+
 Dex:
 Don't you wanna see the sweet new tricks I've got? Fresh off the press!
+
+$D0
 
 Lightning:
 Tricks? Aren't you a race car?
@@ -27,15 +35,19 @@ Race AND trick car. Impressed?
 
 EndC
 
-Choices
+Choices 
 Indeed
 Indeed not
 
 Dex:
 Of course you are! 
 
+$D5
+
 Dex:
 If there's gotta be one last racing champion, it's only natural that it be the BEST of the best!
+
+$D0
 
 Lightning:
 Hm. Yes.
@@ -62,8 +74,12 @@ End
 Lightning:
 So, what, did you wake up on a race track or something?
 
+$D0
+
 Dex:
-Oh! I'm glad you asked!
+Oh! I'm SO glad you asked!
+
+$D5
 
 Lightning:
 Oh no.
@@ -71,19 +87,31 @@ Oh no.
 Dex:
 I was actually one of the first to wake up! 
 
+$D0
+
 Dex:
-There was a blinding light for a split second. And then, boom! I knew who I was! 
+There was a blinding light for a split second. 
+
+$D3
+
+Dex:
+And then, boom! I knew who I was!
+
+$D2 
 
 Dex:
 A champion!
 
+$D0
+
 Dex:
 I'm the only one around here with the blinding light story, so it must mean it was only for special cars. 
 
-Dex: 
-So don't feel too bad if you didn't get to see it! It just wasn't meant for you!
+Dex: So don't feel too bad if you didn't get to see it! It just wasn't meant for you!
+
+$D5
 
 Lightning:
-Oh phew. I was really bummed about that for a second, but that really made me feel better.
+Oh phew. Yeah that's REALLY been bothering me, but you sure made me feel better.
 
 End

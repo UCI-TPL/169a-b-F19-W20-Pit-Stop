@@ -2,10 +2,17 @@ Lightning:
 Hey Dex, think you could show me more of those tricks?
 
 Dex:
-Think? Oh, I KNOW I can! C’mon!
+Think? Oh, I KNOW I can! C'mon!
+
+$D2
+
+Narrator:
+(Dex takes you out to the same place he took you before. He has even more dazzling tricks!)
 
 Dex:
-And THAT is how one performs a perfect aerial cartwheel.
+And THAT is how one performs a perfect aerial cartwheel.'
+
+$D0
 
 Lightning:
 Which is...hopping in the air and turning your wheel.
@@ -19,41 +26,63 @@ Lightning:
 Dex:
 And what about you?
 
+$D5
+
 Lightning:
 Me?
 
 Dex:
-Sure! You must have learned some bold techniques out on the dust trail, all on your own.
+Sure! You must have learned some bold techniques out on that lonesome dusty trail, braving the world on your own!
+
+$D0
 
 Lightning:
-Really? You want to learn tricks from li’l ol’, amateur me?
+Really? You want to learn tricks from li'l ol', amateur me?
 
 Dex:
 Oh, Lightning. NO ONE gets this good without learning a bit from others!
 
+$D2
+
 Lightning:
 And there it is.
 
-Lightning:
-Well, I hate to brake it to you, but I didn’t learn anything flashy out there on my own.
+$D0
 
 Lightning:
-There isn’t really an audience out in the desert.
+Well, I hate to brake it to you, but I didn't learn much flashy stuff out there on my own.
+
+Lightning:
+There isn't really an audience to impress out in the desert.
 
 Dex:
-That’s not true! There’s always an audience!
+Au contraire! There's always an audience!
 
 Dex:
 You!
 
+$D5
+
+Lightning:
+Me?
+
+Dex:
+Absolutely!
+
+$D0
+
 Dex:
 Why, I impress myself all the time!
 
+$D2
+
 Lightning:
-I’m not surprised.
+I'm not surprised.
 
 Dex:
 There must be SOMETHING that impresses you!
+
+$D0
 
 Lightning:
 Well...
@@ -61,69 +90,93 @@ Well...
 EndC
 
 Choices
-I’m good at navigating.
-I’m good at being on my own.
+I'm good at navigating.
+I'm good at being on my own.
 
 Lightning:
-Well, I guess you could say I’m good at navigating.
+Well, I guess you could say I'm good at navigating.
 
 Lightning:
-There aren’t very many great landmarks in the desert, but I always knew where I was.
+There aren't very many great landmarks in the desert, but I always knew where I was.
 
 Dex:
 Really? How did you manage that?
 
-Lightning:
-The stars. It’s actually pretty easy when you get the hang of it. 
+$D1
 
 Lightning:
-There’s one bright star in the sky that always stays in the northern direction.
+The stars. It's actually pretty easy when you get the hang of it. 
+
+$D5
 
 Lightning:
-So as long as you know the cardinal directions, you’ll know which way you’re going. 
+There's one bright star in the sky that always stays in the northern direction.
+
+Lightning:
+So as long as you know the cardinal directions, you'll know which way you're going. 
 
 Dex:
-What about certain places? Even if you know all the directions, surely the stars can’t serve as landmarks for everything.
+What about certain places? Even if you know all the directions, surely the stars can't serve as landmarks for everything.
+
+$D0
 
 Lightning:
-That’s true. Stars move fairly frequently, so it’s impossible for them to really mark any specific place on their own. 
+That's true. Stars move fairly frequently, so it's impossible for them to really mark any specific place on their own. 
 
 Lightning:
-But if you know the speed at which they rotate, it becomes simple!
+But if you know the speed at which they rotate, it gets easy!
 
 Lightning:
-As long as there’s a night sky, I’ll never get lost.
+As long as there's a night sky, I'll never get lost.
+
+$D5
 
 End
 
 Lightning:
-I mean...if I had to choose, I suppose I’m good at being on my own.
+I mean...if I had to choose, I suppose I'm good at being on my own.
 
 Dex:
 On your own? Like when you were in the desert?
 
+$D6
+
 Lightning:
-Yeah. I didn’t really care about other people. No offense.
+Yeah. I didn't really care about other people. No offense.
+
+$D5
 
 Dex:
-None taken! I think I’d go crazy with no one else.
+None taken! 
+
+$D2
+
+Dex:
+Although, I think I'd go crazy with no one else.
+
+$D0
 
 Dex:
 I mean look at me! I was always meant for display, not storage!
 
 Lightning:
-Yeah, I can’t imagine someone like you being kept on the shelf.
+Yeah, I can't imagine someone like you being kept on the shelf.
 
 Dex:
 Precisely! So how did you do it?
+
+$D5
+
 Lightning:
 I roamed, I scavenged. I found full gas stations I could drive between and I found parts to maintain myself. 
 
 Lightning:
-But it’s not like I did do more than survive, to be honest. 
+But it's not like I did anything more than SURVIVE, to be honest. 
 
 Lightning:
-I wasn’t living...not really.
+I wasn't LIVING...not really.
+
+$D3
 
 Dex:
 But still...
@@ -131,7 +184,7 @@ But still...
 End
 
 Dex:
-That’s amazing!
+That's amazing!
 
 Lightning:
 Really?
@@ -139,29 +192,44 @@ Really?
 Dex:
 Of course! To be able to do all that on your own is a feat in itself!
 
+$D2
+
 Lightning:
 Well, Piper always complains when I do things on my own.
 
 Dex:
 As she should!
 
+$D7
+
 Lightning:
 Huh?
 
 Dex:
-Being independent is one thing, but what good are stars like us if we don’t share the gifts we have!
+Being independent is one thing, but what good are stars like us if we don't share the gifts we have!
+
+$D0
 
 Lightning:
 I...never thought of it that way.
 
 Dex:
-You should start then, Lightning. Maybe one day you could become a celebrity like me~!
+You should start then, Lightning. 
 
-Lightning:
-Uh, I don’t know about that...
+$D5
 
 Dex:
-You never know! It’d be quite the challenge!
+Maybe one day you could become a celebrity like me~!
+
+$D2
+
+Lightning:
+Uh, I don't know about that...
+
+$D0
+
+Lightning:
+But I guess I know who to ask if I need a cheerleader.
 
 Lightning:
 Hey, I have a question for you, Dex.
@@ -172,53 +240,73 @@ Fire away!
 EndC
 
 Choices
-What’s your favorite place you’ve been to?
-What’s the farthest you’ve gone?
+What's your favorite place you've been to?
+What's the farthest you've gone?
 
 Dex:
-Oh, now that’s tricky.
+Oh, now that's tricky.
+
+$D3
 
 Dex:
-I’ve sped all over this county, I’ve been to so many places.
+I've sped all over this county! I've been to more places than my speedometer can count up to.
+
+$D0
 
 Dex:
-It almost seems impossible to choose but there’s one place that’s always been one I go back to.
+It almost seems impossible to choose...but there IS one place that I've always gone back to, time and time again.
 
 Dex:
 The Colosseum.
 
-Lightning:
-The Colosseum? Where’s that?
-
-Dex:
-Oh it’s this magnificent place some tens of miles north of here.
-
-Dex:
-And it’s the most beautiful place I’ve ever seen.
+$D3
 
 Lightning:
-Lemme guess. It’s a race track?
+The Colosseum? Where's that?
 
 Dex:
-You bet your exhaust pipes it’s a race track!
+Oh it's this magnificent place some tens of miles west of here.
+
+$D0
 
 Dex:
-And not just any race track! It’s a NOT-collapsed race track!
+And it's the most beautiful place I've ever seen.
+
+Lightning:
+Lemme guess. It's a race track?
+
+$D5
 
 Dex:
-The road, the stands, the walls, everything’s intact still!
+You bet your engine it's a race track!
+
+$D2
 
 Dex:
-I like to think it’s the spirit of all those fans, holding the place together in hopes of seeing just one more race car zoom past!
+And not just any race track! It's a not-COLLAPSED race track!
+
+Dex:
+The road, the stands, the walls, everything's still intact!
+
+$D0
+
+Dex:
+I like to think it's the spirit of all those fans, holding the place together in hopes of seeing just one more race car zoom past!
 
 Dex:
 To feel just one more rush of excitement as rubber burns over the finish line.
 
+$D3
+
 Dex:
-When Chief lets me, I’ll take a trip up there to brush up on my tricks.
+When Chief allows it, I'll take a trip up there to brush up on my tricks.
+
+$D0
 
 Dex:
 It almost feels like home.
+
+$D3
 
 Lightning:
 Almost?
@@ -234,8 +322,12 @@ End
 Dex:
 Oh, have I got a story for you!
 
+$D2
+
 Dex:
 When I was out speeding without a care in the world -
+
+$D0
 
 Lightning:
 Because you forgot gas tanks exist and have limits...
@@ -243,8 +335,12 @@ Because you forgot gas tanks exist and have limits...
 Dex:
 Right, right, ANYWAY -
 
+$D2
+
 Dex:
-When I was out there, in the vast world, I saw places you wouldn’t believe!
+When I was out there, in the vast world, I saw places you wouldn't believe!
+
+$D0
 
 Dex:
 HUGE towers! Some barely standing, some crumbled in a heap. 
@@ -253,10 +349,12 @@ Dex:
 And long, wide rivers, crashing in anger at times, and bubbling along peacefully other times.
 
 Dex:
-But the farthest I went was way way up north.
+But the farthest I went was way WAY up north.
 
 Dex:
 Where I saw snow.
+
+$D3
 
 Lightning:
 You saw snow? REAL snow?
@@ -264,67 +362,87 @@ You saw snow? REAL snow?
 Dex:
 Yep! Of course, not much. Piper still believes I was imagining it because at that time, my gas was running pretty low, but I swear it was there!
 
+$D2
+
 Dex:
 The tiniest patch, just sitting there in the dry grass.
+
+$D0
 
 Dex:
 And then a snowflake. A SNOWFLAKE, can you believe that!
 
+$D2
+
 Dex:
-Fell right on my hood. I’ve never seen anything like it. Not by then or since.
+Fell right on my hood. I've never seen anything like it. Not by then and not since.
+
+$D0
 
 Dex:
 It melted just an hour later. 
 
 Dex:
-You know, that’s part of the reason I’m still with the Spirit.
+You know, that's part of the reason I'm still with the Spirit.
+
+$D3
 
 Dex:
-After that, you’d think all I’d want to do is chase snow in the wilderness, but-
+After that, you'd think all I'd want to do is chase snow in the wilderness, but-
 
 Dex:
-If there’s even the smallest chance that Mustang can bring any of that back, any of those colors we’ve lost...
+If there's even the smallest chance that Mustang can bring any of that back, any of those colors we've lost...
 
 Dex:
-Then I’ll be there!
+Then I'll be there!
+
+$D0
 
 End
 
 Dex:
-Even when the crew can drive me crazy sometimes, I don’t know where I’d be without them by my side, especially Chief.
+The crew can drive me crazy sometimes, but I don't know where I'd be without them by my side. Especially Chief.
+
+$D3
 
 Lightning:
 Are you close to Chief?
 
 Dex:
-Well, they’re the leader after all!
+Well, they're the leader after all!
+
+$D2
 
 Dex:
-I don’t see a reason not to be!
+I don't see a reason not to be!
+
+$D0
 
 Dex:
 One day, that might be me, dishing out orders.
 
 Dex:
-I’ve got to be prepared if that ever happens!
+I've got to be prepared if that ever happens!
 
 Dex:
-*laughs* I don’t know if I could ever be as great as Chief is though!
+*laughs* I don't know if I could ever be as great as Chief is though!
+
+$D2
 
 Lightning:
-Well, you never know. 
+Well, you never know. But you should probably learn a bit about "humility" first.
+
+$D5
 
 Dex:
-True!
+Hmmmmm I don't know that one!
 
-Lightning:
-I suppose you should probably learn humility first.
-
-Dex:
-Hmmmmm I don’t know that one!
+$D0
 
 Dex:
 Is it a trick?
+
+$D2
 
 Lightning:
 Er...How about we talk about it next time?

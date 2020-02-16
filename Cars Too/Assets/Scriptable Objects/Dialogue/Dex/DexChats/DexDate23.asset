@@ -14,68 +14,97 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Dex
-    text: "Even when the crew can drive me crazy sometimes, I don\u2019t know where
-      I\u2019d be without them by my side, especially Chief."
-    expression: {fileID: 0}
+    text: The crew can drive me crazy sometimes, but I don't know where I'd be without
+      them by my side. Especially Chief.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Are you close to Chief?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "Well, they\u2019re the leader after all!"
-    expression: {fileID: 0}
+    text: Well, they're the leader after all!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "I don\u2019t see a reason not to be!"
-    expression: {fileID: 0}
+    text: I don't see a reason not to be!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: One day, that might be me, dishing out orders.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "I\u2019ve got to be prepared if that ever happens!"
-    expression: {fileID: 0}
+    text: I've got to be prepared if that ever happens!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: "*laughs* I don\u2019t know if I could ever be as great as Chief is though!"
-    expression: {fileID: 0}
+    text: '*laughs* I don''t know if I could ever be as great as Chief is though!'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: 'Well, you never know. '
-    expression: {fileID: 0}
+    text: Well, you never know. But you should probably learn a bit about "humility"
+      first.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: True!
-    expression: {fileID: 0}
+    text: Hmmmmm I don't know that one!
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: I suppose you should probably learn humility first.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: "Hmmmmm I don\u2019t know that one!"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Is it a trick?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Er...How about we talk about it next time?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Sounds good!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 100
+  C1Reward: 0
   C2Reward: 0
   abilityactivation: 0
   carpartsgained: 0

@@ -13,6 +13,8 @@ Oh, my bad!
 Dex:
 I should've let you put your sunroof on before DAZZLING you with my presence!
 
+$D2
+
 Lightning:
 Oh. I see.
 
@@ -22,14 +24,23 @@ Are you Dex?
 Dex:
 THE one and only! Five time world-class champion of the Nova Circuit, the Krystal Circuit, the Rodney Circuit, AND -
 
+$D0
+
 Dex:
-The Ultimate Rocket Raceway.
+The ULTIMATE - ROCKET - RACEWAY.
+
+$D5
+
+Lightning:
+Uh-huh...
 
 Lightning:
 Isn't that a go-kart track?
 
 Dex:
-If it's got a checkered flag at the end of it, I've won it.
+Oh, if it's got a checkered flag at the end of it, I've won it.
+
+$D0
 
 Lightning:
 How noble.
@@ -46,8 +57,12 @@ She described you as "overwhelming at times"
 Dex:
 Hah! 
 
+$D2
+
 Dex:
-Well, it's not MY fault it's hard to keep my pure awesomeness from the exhaust!
+Well, it's not MY fault it's difficult to keep my pure awesomeness from the exhaust!
+
+$D0
 
 Dex:
 You know, I could teach you a thing or two. It's important to give back to the little guys, right?
@@ -68,4 +83,3 @@ Lightning:
 I'll keep that in mind.
 
 End
- 
