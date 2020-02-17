@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class tireGroundDetection : MonoBehaviour
 {
+    
+    public bool isGrounded;
+    [SerializeField] private Collider tireCollider;
+    
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        isGrounded = false;
+        tireCollider = GetComponent<SphereCollider>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnTriggerStay(Collider other) {
+        isGrounded = true;
     }
+
+    private void OnTriggerExit(Collider other) {
+        isGrounded = false;
+    }
+
 }
