@@ -39,8 +39,13 @@ public class ScenePortraits : MonoBehaviour
         portrait2name = "";
     }
 
-    public void UpdatePortraits(string newportraitname, Sprite neweyes = null, Sprite newmouth = null, Sprite newblink = null, string leavename ="")
+    public void UpdatePortraits(string newportraitname, Sprite neweyes = null, Sprite newmouth = null, Sprite newblink = null, string leavename ="", Expression exp2 = null)
     {
+        if (exp2 != null)
+        {
+            UpdateExpression2(newportraitname, exp2);
+        }
+
         if (leavename == null)
         {
             leavename = "";
@@ -321,6 +326,38 @@ public class ScenePortraits : MonoBehaviour
             {
                 b2.blinkstate = blink;
             }
+        }
+    }
+
+    public void UpdateExpression2(string newportraitname, Expression exp2)
+    {
+        if (newportraitname.Equals(portrait1name))
+        {
+            portrait2eyes.sprite = exp2.eyes;
+            portrait2mouth.sprite = exp2.mouth;
+            b2.blinkstate = exp2.blink;
+        }
+        else if (newportraitname.Equals(portrait2name))
+        {
+            portrait1eyes.sprite = exp2.eyes;
+            portrait1mouth.sprite = exp2.mouth;
+            b1.blinkstate = exp2.blink;
+        }
+        else if (FindPortrait(newportraitname) == null)
+        {
+            return;
+        }
+        else if (recent==1)
+        {
+            portrait1eyes.sprite = exp2.eyes;
+            portrait1mouth.sprite = exp2.mouth;
+            b1.blinkstate = exp2.blink;
+        }
+        else
+        {
+            portrait2eyes.sprite = exp2.eyes;
+            portrait2mouth.sprite = exp2.mouth;
+            b2.blinkstate = exp2.blink;
         }
     }
 }

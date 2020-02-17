@@ -137,7 +137,10 @@ public class DialogueManager : MonoBehaviour
     public IEnumerator playConversation(List<Dialogue> d, bool canskip = true)
     {
         //Turn on the Dialogue canvas objects
-        autodialogueobjects.SetActive(false);
+        if (autodialogueobjects != null)
+        {
+            autodialogueobjects.SetActive(false);
+        }
         canvasobjects.SetActive(true);
         DetermineNameColor(d[0].speaker);
         skipbutton.SetActive(canskip);
@@ -207,11 +210,11 @@ public class DialogueManager : MonoBehaviour
         {
             if (d.expression != null)
             {
-                sp.UpdatePortraits(d.speaker, d.expression.eyes, d.expression.mouth,d.expression.blink,d.leavename);
+                sp.UpdatePortraits(d.speaker, d.expression.eyes, d.expression.mouth,d.expression.blink,d.leavename,d.expression2);
             }
             else
             {
-                sp.UpdatePortraits(d.speaker, null,null,null,d.leavename);
+                sp.UpdatePortraits(d.speaker, null,null,null,d.leavename,d.expression2);
             }
         }
         else if (cm!= null)

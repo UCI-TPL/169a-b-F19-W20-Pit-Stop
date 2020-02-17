@@ -1,10 +1,10 @@
-Piper:
+Piper: 
 Lightning!
 
-Lightning:
+Lightning: 
 Oh, hey, Piper! Something wrong?
 
-Piper:
+Piper: 
 Nope, just wanted to check on you. How're you doing?
 
 Lightning:
@@ -47,7 +47,7 @@ $P5
 Mustang:
 Howdy slick! 
 
-$P02
+$2P0
 
 Lightning:
 Mustang? What're you-?
@@ -100,7 +100,7 @@ $P0
 Mustang:
 'Course, we wouldn't NEED to do anything if the humans hadn't mucked it up in the first place...
 
-$P32
+$2P3
 
 Piper:
 Oh, Mustang I wished you'd quit putting so much blame on them.
@@ -137,7 +137,7 @@ Ya think they're so much better than what they really are, Piper.
 Mustang:
 But, ya GOTTA face it. You're panning for gold in SEWAGE.
 
-$P32
+$2P3
 
 Piper:
 ...
@@ -223,7 +223,7 @@ $P4
 Mustang:
 FIRST of all -
 
-$P32
+$2P3
 
 Mustang:
  - that was surprisingly an ace-high impression, missy -
@@ -245,12 +245,12 @@ $P6
 Mustang:
 Oh I've given them a second look!
 
-$P32
+$2P3
 
-Mustang:
+Mustang: 
 And a third, and a fourth, and every single time, it ends with a custom climate DISASTER and a sign o'er their heads spellin' out "GUILTY" in neon letters!
 
-$P42
+$2P4
 
 Mustang:
 You're right, Piper! They're all gone, and they can't do nothin' 'bout the past.
@@ -267,7 +267,7 @@ Piper:
 Piper:
 What do you think, Lightning?
 
-$P32
+$2P3
 
 Lightning:
 What?
@@ -403,12 +403,12 @@ No.
 Mustang:
 No, I don't mind.
 
-$P02
+$2P0
 
 Mustang:
 The truth is, Piper-
 
-$P32
+$2P3
 
 Mustang:
 It's not that I hate every single one of ‘em.
@@ -430,7 +430,7 @@ I-I don't understand. What do you mean?
 Mustang:
 You spend every single day siftin' through their garb-
 
-$P32
+$2P3
 
 Mustang:
 Er...their PAST...
@@ -605,7 +605,7 @@ $P2
 Mustang:
 Yeah, well...here goes -
 
-$P02
+$2P0
 
 Mustang:
 I'm glad you let me have the simon-pure. 
@@ -621,7 +621,7 @@ $P7
 Mustang:
 Er...those PEOPLE. 
 
-$P52
+$2P5
 
 Mustang:
 But I can't change in a day!
@@ -633,6 +633,8 @@ $P0
 
 Mustang:
 And so will I.
+
+[MUSTANG LEAVES]
 
 Piper:
 And, Lightning.
@@ -658,7 +660,7 @@ $P6
 Mustang:
 Aha! See, lamb chop! Rookie's still got SOME brains under that hood-
 
-$P42
+$2P4
 
 Lightning:
 BUT, I think you're being shallow here, Mustang.
@@ -666,7 +668,7 @@ BUT, I think you're being shallow here, Mustang.
 Mustang:
 ‘Scuse me??
 
-$P52
+$2P5
 
 Lightning:
 Look, you're right. Humans OBVIOUSLY messed up this planet, not us. 
@@ -680,7 +682,7 @@ You're not even letting her explain why she does what she does.
 Mustang:
 ...
 
-$P32
+$2P3
 
 Lightning:
 She has more to say than just "Humans are motorific!" and you're not giving her enough credit there.
@@ -694,7 +696,7 @@ I know you might not care about humans...but I know you care about us.
 Mustang:
 ...
 
-$P52
+$2P5
 
 Narrator:
 (Piper looks to Mustang, with a genuinely curious glint in her eye.)
@@ -711,7 +713,7 @@ And I'm not about to let my hatred for those meat bags get in the way of what re
 Mustang:
 Piper, I owe you an apology.
 
-$P02
+$2P0
 
 Mustang:
 I was so caught up in gettin' you to see how horrible those good-for-nothin's were, that I didn't even see I was hurting you.
@@ -752,7 +754,7 @@ Piper, I swear on my workshop.
 Mustang:
 You're good to go.
 
-$P02 
+$2P0 
 
 Piper:
 Okay, well, first of all, I want you to understand that...
@@ -770,7 +772,7 @@ We probably wouldn't be in this mess.
 Piper:
 I just...wanted to find the good in them.
 
-Piper:
+Piper: 
 You might think it's stupid to “pan for gold in sewage” but the truth is, I KNOW there's gold in there.
 
 Piper:
@@ -901,7 +903,7 @@ $P2
 Mustang:
 Yeah, well...here goes -
 
-$P02
+$2P0
 
 Mustang:
 I'm glad you let me have the simon-pure. 
@@ -917,7 +919,7 @@ $P7
 Mustang:
 Er...those PEOPLE. 
 
-$P52
+$2P5
 
 Mustang:
 But I can't change in a day!
@@ -929,6 +931,8 @@ $P0
 
 Mustang:
 And so will I.
+
+[PIPER LEAVES]
 
 Mustang:
 And, Lightning.

@@ -88,7 +88,11 @@ public class ChatLoader : Editor
                     dl.Add(new Dialogue(currentspeaker, currentdialogue));
                     if (!sr.EndOfStream)
                     {
-                        getExpression(sr, dl[dl.Count-1]);
+                        getExpression(sr, dl[dl.Count-1], false);
+                        if (!sr.EndOfStream)
+                        {
+                            getExpression(sr, dl[dl.Count - 1], true);
+                        }
                     }
                     currentspeaker = "";
                     currentdialogue = "";
@@ -143,41 +147,53 @@ public class ChatLoader : Editor
         return choices;
     }
 
-    private void getExpression(StreamReader sr, Dialogue d)
+    private void getExpression(StreamReader sr, Dialogue d, bool second)
     {
         
         if (sr.Peek() == '$')
         {
             Debug.Log("$ detected");
             string e =sr.ReadLine();
+            Expression expr = null;
             int eindex = int.Parse(e[2].ToString());
             if (e[1] == 'P' || e[1] == 'p')
             {
                 
                
-                d.expression = expl.PiperExp[eindex];
+                expr = expl.PiperExp[eindex];
             }
             else if (e[1] == 'M' || e[1] == 'm')
             {
-               
-                d.expression = expl.MustangExp[eindex];
+
+                expr = expl.MustangExp[eindex];
 
             }
             else if (e[1] == 'C' || e[1] == 'c')
             {
-                
-                d.expression = expl.ChiefExp[eindex];
+
+                expr = expl.ChiefExp[eindex];
             }
             else if (e[1] == 'D' || e[1] == 'd')
             {
-                
-                d.expression = expl.DexExp[eindex];
+
+                expr = expl.DexExp[eindex];
             }
             else if (e[1] == 'S' || e[1] == 's')
             {
-                
-                d.expression = expl.SpringtrapExp[eindex];
+
+                expr = expl.SpringtrapExp[eindex];
             }
+
+            if (second || e.Length >= 4 && e[3] == '2')
+            {
+                d.expression2 = expr;
+            }
+            else
+            {
+                d.expression = expr;
+            }
+
+            sr.ReadLine();
 
         }
         //return null;
