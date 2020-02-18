@@ -33,12 +33,17 @@ public class ConveyerBelt : MonoBehaviour
         //     other.transform.position = Vector3.MoveTowards(other.transform.position, endpoint.position, speed * Time.deltaTime);
         // }
 
-        if(playerTransform == null) {
-            if(other.transform.root.CompareTag("Player")) {
-                playerTransform = other.transform.root;
-            }
-        } else {
-            playerTransform.position = Vector3.MoveTowards(playerTransform.position, endpoint.position, speed * Time.deltaTime);
+        //if(playerTransform == null) {
+        //    if(other.transform.root.CompareTag("Player")) {
+        //        playerTransform = other.transform.root;
+        //    }
+        //} else {
+        //    playerTransform.position = Vector3.MoveTowards(playerTransform.position, endpoint.position, speed * Time.deltaTime);
+        //}
+
+        if(other.CompareTag("Player"))
+        {
+            other.transform.position = Vector3.MoveTowards(other.transform.position, endpoint.position, speed * Time.deltaTime * 0.25f);
         }
 
         if(other.name == "Box(Clone)") {
@@ -46,9 +51,9 @@ public class ConveyerBelt : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other) {
-        playerTransform = null;
-    }
+    //private void OnTriggerExit(Collider other) {
+    //    playerTransform = null;
+    //}
 
     private void Update()
     {
