@@ -7201,7 +7201,7 @@ MonoBehaviour:
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 
-    Scenesprite: {fileID: 21300000, guid: 06fb713a9959f354d9f83903ef638d87, type: 3}
+    Scenesprite: {fileID: 21300000, guid: d5fa1ea0305f54e4a9b1aed584501e30, type: 3}
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
