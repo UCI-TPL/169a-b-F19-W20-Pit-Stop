@@ -14,6 +14,7 @@ public class ScenePlayer : MonoBehaviour
     [SerializeField] private Fadein fi;
     //Scene to go to after finishing
     [SerializeField] private string destscene="LVL1";
+    [SerializeField] private Image loadingscreen;
 
     // Start is called before the first frame update
     void Start()
@@ -81,7 +82,7 @@ public class ScenePlayer : MonoBehaviour
             yield return null;
         }
 
-       
+
         finished = true;
     }
 
@@ -105,14 +106,16 @@ public class ScenePlayer : MonoBehaviour
             }
             else if(fi==null||fi.donefadeing)
             {
-                
+                Debug.Log("HERE2");
+                loadingscreen.gameObject.SetActive(true);
                 SceneManager.LoadScene(destscene);
             }
             finished = false;
         }
         else if (fi != null && fi.donefadeing)
         {
-            
+            Debug.Log("HERE");
+            loadingscreen.gameObject.SetActive(true);
             SceneManager.LoadScene(destscene);
         }
     }
