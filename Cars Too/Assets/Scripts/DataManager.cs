@@ -12,6 +12,8 @@ public class DataManager : MonoBehaviour
     //Indicates the current phase
     public int phase = 0;
 
+    public string nextscene = "";
+
      public Dictionary<string, ConfidantData> confidantExp = new Dictionary<string, ConfidantData>();
 
     //tracks gifts

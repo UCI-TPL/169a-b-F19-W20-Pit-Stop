@@ -20,7 +20,7 @@ public class AutoConvPlayer : MonoBehaviour
         dialogueobjs = dm.canvasobjects;
 
         timer = 0.0f;
-        timelimit = Random.Range(20.0f, 40.0f);
+        timelimit = Random.Range(40.0f, 80.0f);
     }
 
     // Update is called once per frame
@@ -53,7 +53,7 @@ public class AutoConvPlayer : MonoBehaviour
         }
 
         timer = 0.0f;
-        timelimit = Random.Range(20.0f, 40.0f);
+        timelimit = Random.Range(40.0f, 80.0f);
         objectiveobj.SetActive(true);
 
 
