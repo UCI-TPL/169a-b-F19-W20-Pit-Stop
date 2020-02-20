@@ -256,6 +256,7 @@ public class DataManager : MonoBehaviour
     //resets all game-related datamanager values
     public void HardReset()
     {
+        ids = new Dictionary<string, List<int>>();
         confidantExp["Piper"] = new ConfidantData("Piper");
         confidantExp["Dex"] = new ConfidantData("Dex");
         confidantExp["Loco"] = new ConfidantData("Loco");

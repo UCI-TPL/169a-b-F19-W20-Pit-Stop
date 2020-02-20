@@ -194,6 +194,8 @@ public class DialogueManager : MonoBehaviour
 
         //Turn canvas off once all dialogue has been played
         canvasobjects.SetActive(false);
+        sboxoutline.transform.parent.gameObject.SetActive(false);
+        sboxoutline2.transform.parent.gameObject.SetActive(false);
     }
 
     public IEnumerator playDialogue(Dialogue d)

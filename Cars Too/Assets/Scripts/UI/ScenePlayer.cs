@@ -15,6 +15,8 @@ public class ScenePlayer : MonoBehaviour
     //Scene to go to after finishing
     [SerializeField] private string destscene="LVL1";
     [SerializeField] private Image loadingscreen;
+    [SerializeField] private int ticker = 0;
+    [SerializeField] private LoadingScreen ls;
 
     // Start is called before the first frame update
     void Start()
@@ -44,10 +46,12 @@ public class ScenePlayer : MonoBehaviour
         //Wait for dialogue to finish
         while (dialoguebox.activeSelf)
         {
-            yield return null;
+            
+            ticker += 1;
+            yield return new WaitForEndOfFrame();
         }
 
-        
+       
         finished = true;
     }
 
@@ -106,17 +110,16 @@ public class ScenePlayer : MonoBehaviour
             }
             else if(fi==null||fi.donefadeing)
             {
-                Debug.Log("HERE2");
+                
                 loadingscreen.gameObject.SetActive(true);
-                SceneManager.LoadScene(destscene);
+                ls.StartLoad(destscene);
             }
             finished = false;
         }
         else if (fi != null && fi.donefadeing)
         {
-            Debug.Log("HERE");
             loadingscreen.gameObject.SetActive(true);
-            SceneManager.LoadScene(destscene);
+            ls.StartLoad(destscene);
         }
     }
 }

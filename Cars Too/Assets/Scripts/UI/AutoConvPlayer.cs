@@ -33,7 +33,7 @@ public class AutoConvPlayer : MonoBehaviour
         }
         else
         {
-            Debug.Log(timer);
+            
             timer += Time.deltaTime;
         }
     }
@@ -53,7 +53,7 @@ public class AutoConvPlayer : MonoBehaviour
         }
 
         timer = 0.0f;
-        timelimit = Random.Range(40.0f, 80.0f);
+        timelimit = Random.Range(80.0f, 120.0f);
         objectiveobj.SetActive(true);
 
 
