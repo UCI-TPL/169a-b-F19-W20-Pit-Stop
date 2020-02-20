@@ -37,16 +37,8 @@ MonoBehaviour:
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
-  - speaker: 
-    text: 
-    Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
-    expression2: {fileID: 0}
-    leavename: 
-    voiceline: {fileID: 0}
-    newbg: {fileID: 0}
   - speaker: Mustang
-    text: Not doing too bad m'selft
+    text: Not doing too bad m'self
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
