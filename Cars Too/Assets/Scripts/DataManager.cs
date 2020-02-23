@@ -53,6 +53,8 @@ public class DataManager : MonoBehaviour
     //Used to listen and call functions whenever gifts or car parts increase
     public UnityEvent giftAcquired;
     public UnityEvent carPartAcquired;
+    public UnityEvent menuclosed;
+    public bool recentlyclosed = false; //a bool used to prevent double inputs from happening right after a menu is closed
 
     //keeps track of the current scenename
     public string scenename = "";
@@ -62,7 +64,7 @@ public class DataManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        
+        menuclosed.AddListener(Menuclosed);
         //Dont destory this gameobject between scenes
         DontDestroyOnLoad(this.gameObject);
 
@@ -251,6 +253,18 @@ public class DataManager : MonoBehaviour
         }
 
 
+    }
+
+    private void Menuclosed()
+    {
+        StartCoroutine(SignalClosing());
+    }
+
+    private IEnumerator SignalClosing()
+    {
+        recentlyclosed = true;
+        yield return new WaitForSeconds(.05f);
+        recentlyclosed = false;
     }
 
     //resets all game-related datamanager values

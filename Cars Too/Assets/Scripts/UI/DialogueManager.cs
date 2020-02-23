@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public GameObject canvasobjects; //visible canvas objects associated with dialogue to be turned on or off
     [SerializeField] private float index = 0; //holds current place in dialogue
     [SerializeField] private int speed = 1; //controls speed at which text appears
-    [SerializeField] private bool instant = false; //detects whether the text should be displayed instantly
+    [SerializeField] public bool instant = false; //detects whether the text should be displayed instantly
     [SerializeField] private bool running = false; //Detects whether the dialogue coroutine is running
     [SerializeField] private bool finished = false; //Detects if the player is ready to proceed to the next line
     [SerializeField] private int choice = 0; //Used to return the result of a choice
@@ -38,6 +38,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image sboxoutline2;
     [SerializeField] private Image bg;
     [SerializeField] private DialogueLog dialoguelog;
+
+    [SerializeField] private GameObject dlog;
+    [SerializeField] private GameObject pmenu;
+
+    [SerializeField] private GameObject cmask; //mask used to detect general clicks on the ui
 
 
 
@@ -109,7 +114,7 @@ public class DialogueManager : MonoBehaviour
 
     public bool GetInput()
     {
-        return Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
+        return (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))&&(dlog==null||!dlog.activeSelf) && (pmenu == null || !pmenu.activeSelf) &&!DataManager.instance.recentlyclosed;
     }
 
     //overrides other dialogues
@@ -141,6 +146,7 @@ public class DialogueManager : MonoBehaviour
         {
             autodialogueobjects.SetActive(false);
         }
+        cmask.SetActive(true);
         canvasobjects.SetActive(true);
         DetermineNameColor(d[0].speaker);
         skipbutton.SetActive(canskip);
@@ -178,15 +184,28 @@ public class DialogueManager : MonoBehaviour
             {
                 yield return null;
 
-                if (GetInput())
+                if (GetInput()||instant)
                 {
+                    instant = false;
                     blinker.SetActive(false);
                     finished = true;
                     DataManager.instance.am.PlaySound(ac);
                 }
+                else if (skip)
+                {
+
+                    speakerbox.text = d[d.Count - 1].speaker;
+                    dialgouebox.text = d[d.Count - 1].text;
+                    
+                    break;
+                }
 
             }
-
+            if (skip)
+            {
+                skip = false;
+                break;
+            }
             
             //reset variable
             finished = false;
@@ -196,6 +215,7 @@ public class DialogueManager : MonoBehaviour
         canvasobjects.SetActive(false);
         sboxoutline.transform.parent.gameObject.SetActive(false);
         sboxoutline2.transform.parent.gameObject.SetActive(false);
+        cmask.SetActive(false);
     }
 
     public IEnumerator playDialogue(Dialogue d)
@@ -239,7 +259,7 @@ public class DialogueManager : MonoBehaviour
 
         if (dialoguelog != null)
         {
-            dialoguelog.UpdateLog(d.speaker.Replace("Lightning", DataManager.instance.GetName()), dialoguetext);
+            dialoguelog.UpdateLog(d);
         }
         
         while (index < dialoguetext.Length)
