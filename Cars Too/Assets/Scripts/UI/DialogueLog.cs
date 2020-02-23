@@ -78,7 +78,7 @@ public class DialogueLog : MonoBehaviour
 
     public void PlayVLine(int dnumber)
     {
-        if (dialogues[index - dnumber].voiceline != null)
+        if (index-dnumber>=0 && dialogues[index - dnumber].voiceline != null)
         {
             DataManager.instance.am.PlayVL(dialogues[index - dnumber].voiceline);
         }
