@@ -11,7 +11,7 @@ public class CollectibleMovement : MonoBehaviour
     public float amplitude = 0.5f;
     public float verticalOffset = 1f;
 
-    private Vector3 originalPosition;
+    protected Vector3 originalPosition;
 
     
     // Start is called before the first frame update

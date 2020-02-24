@@ -19,7 +19,7 @@ public class tireGroundDetection : MonoBehaviour
         if(!other.name.ToLower().Contains("trigger")) {
             isGrounded = true;
         }
-        Debug.Log(other.name);
+        
     }
 
     private void OnTriggerExit(Collider other) {
