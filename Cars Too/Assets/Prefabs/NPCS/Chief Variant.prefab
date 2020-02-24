@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 9215509608322930261}
   - component: {fileID: 1288073941357447080}
   - component: {fileID: 1240993863435935320}
+  - component: {fileID: 1914920683269203906}
   m_Layer: 0
   m_Name: policecarbody
   m_TagString: Untagged
@@ -248,6 +249,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.013422852, y: 0.009902737, z: 0.013188741}
   m_Center: {x: -0.0000093781855, y: -0.000330582, z: 0.001437866}
+--- !u!114 &1914920683269203906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3812126355031279745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1665817e3b710e445b2fda4078bb3327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 60
+  amplitude: 0.02
+  verticalOffset: 1
+  bobspeed: 2
 --- !u!1 &4035805967751825867
 GameObject:
   m_ObjectHideFlags: 0
