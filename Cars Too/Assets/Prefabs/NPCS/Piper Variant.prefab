@@ -206,19 +206,6 @@ MonoBehaviour:
   m_UpdateType: 0
   m_RotationRange: {x: 0, y: 0}
   m_FollowSpeed: 1
---- !u!65 &3362576833268371916
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253447026562323844}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.887334, y: 1.2532219, z: 3.6419725}
-  m_Center: {x: 8.291292e-16, y: 0.11668956, z: -0.14254136}
 --- !u!1 &3603995873594449220
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +338,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642, type: 2}
   - {fileID: 11400000, guid: 61c4144c1dd1a5348a8c4bccc819149b, type: 2}
   giftingchat: {fileID: 11400000, guid: 8fcd25be59308ff4882552810664ba6b, type: 2}
+--- !u!65 &3362576833268371916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253447026562323844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.887334, y: 1.2532219, z: 3.6419725}
+  m_Center: {x: 8.291292e-16, y: 0.11668956, z: -0.14254136}
 --- !u!1001 &2731813494729411725
 PrefabInstance:
   m_ObjectHideFlags: 0
