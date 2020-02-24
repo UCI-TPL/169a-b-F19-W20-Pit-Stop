@@ -16,7 +16,10 @@ public class tireGroundDetection : MonoBehaviour
     }
 
     private void OnTriggerStay(Collider other) {
-        isGrounded = true;
+        if(!other.name.ToLower().Contains("trigger")) {
+            isGrounded = true;
+        }
+        Debug.Log(other.name);
     }
 
     private void OnTriggerExit(Collider other) {
