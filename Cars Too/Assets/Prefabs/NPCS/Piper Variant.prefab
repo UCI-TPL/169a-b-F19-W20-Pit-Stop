@@ -338,6 +338,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7e50cc3303d00de4caf28d549d911642, type: 2}
   - {fileID: 11400000, guid: 61c4144c1dd1a5348a8c4bccc819149b, type: 2}
   giftingchat: {fileID: 11400000, guid: 8fcd25be59308ff4882552810664ba6b, type: 2}
+--- !u!114 &5849325655847153792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578356137762255339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1665817e3b710e445b2fda4078bb3327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 60
+  amplitude: 0.08
+  verticalOffset: 1
+  bobspeed: 3.5
 --- !u!65 &3362576833268371916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -444,6 +460,12 @@ GameObject:
 --- !u!4 &6959166608768935831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 67c3f1340cb8a9d41899c0b7c38e5caa,
+    type: 3}
+  m_PrefabInstance: {fileID: 2731813494729411725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5578356137762255339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7530885800721349990, guid: 67c3f1340cb8a9d41899c0b7c38e5caa,
     type: 3}
   m_PrefabInstance: {fileID: 2731813494729411725}
   m_PrefabAsset: {fileID: 0}
