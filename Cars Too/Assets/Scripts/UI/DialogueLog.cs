@@ -7,6 +7,7 @@ public class DialogueLog : MonoBehaviour
 {
     [SerializeField] List<TextMeshProUGUI> dialogueboxes;
     [SerializeField] List<TextMeshProUGUI> speakernames;
+    [SerializeField] GameObject dlog;
     private List<Dialogue> dialogues;
     private int index = 0;
 
@@ -19,12 +20,13 @@ public class DialogueLog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(dialogueboxes[0].gameObject.activeSelf&&Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
+        if(dlog.activeSelf&&(Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow)))
         {
             MoveUp();
         }
-        else if (dialogueboxes[0].gameObject.activeSelf && Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        else if (dlog.activeSelf&&(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)))
         {
+            Debug.Log(dialogueboxes[0].gameObject.activeSelf);
             MoveDown();
         }
 

@@ -7834,7 +7834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.776923
+  m_AspectRatio: 1.7779924
 --- !u!114 &7010730409476832489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7873,6 +7873,7 @@ MonoBehaviour:
   - {fileID: 4021584132829723631}
   - {fileID: 1382411968013056656}
   - {fileID: 2028373103323485097}
+  dlog: {fileID: 2099581727526568549}
 --- !u!1 &3782917001710653564
 GameObject:
   m_ObjectHideFlags: 0
