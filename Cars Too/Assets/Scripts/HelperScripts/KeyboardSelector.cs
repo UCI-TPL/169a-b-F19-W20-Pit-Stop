@@ -81,7 +81,7 @@ public class KeyboardSelector : MonoBehaviour
 
     private void CheckEnter()
     {
-        if (Input.GetKeyDown(KeyCode.Return)&&buttons[index].interactable==true)
+        if (Input.GetKeyDown(KeyCode.Return)&&buttons[index].interactable==true&&!DataManager.instance.recentlyclosed)
         {
             buttons[index].onClick.Invoke();
         }
