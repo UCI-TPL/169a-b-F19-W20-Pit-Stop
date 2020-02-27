@@ -351,11 +351,7 @@ public class ScenePortraits : MonoBehaviour
             portrait1mouth.sprite = exp2.mouth;
             b1.blinkstate = exp2.blink;
         }
-        else if (FindPortrait(newportraitname) == null)
-        {
-            return;
-        }
-        else if (recent==1)
+        else if (recent==2)
         {
             portrait1eyes.sprite = exp2.eyes;
             portrait1mouth.sprite = exp2.mouth;
