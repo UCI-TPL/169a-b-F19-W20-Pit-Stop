@@ -570,6 +570,7 @@ MonoBehaviour:
   talkui: {fileID: 0}
   npcthemeindex: 0
   carPartsToNextPhase: 4
+  lscreenobj: {fileID: 0}
   destlevel: Phase2CS
 --- !u!1 &6235594376748165307
 GameObject:
@@ -2198,7 +2199,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 0
+    enabled: 1
     gradient:
       serializedVersion: 2
       minMaxState: 1
