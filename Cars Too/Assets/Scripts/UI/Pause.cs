@@ -7,6 +7,7 @@ public class Pause : MonoBehaviour
 {
     private CarMovement carmov = null;
     [SerializeField] private GameObject pm;
+    [SerializeField] private GameObject basepm;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,8 +39,11 @@ public class Pause : MonoBehaviour
 
     public void ClosePauseMenu()
     {
-        carmov.Unpause();
-        pm.SetActive(false);
+        if (basepm.activeSelf)
+        {
+            carmov.Unpause();
+            pm.SetActive(false);
+        }
     }
 
     public void MainMenu()
