@@ -18,6 +18,8 @@ public class Chief : MonoBehaviour
     [SerializeField] private GameObject talkui = null;
     [SerializeField] private int npcthemeindex = 0;
     [SerializeField] private int carPartsToNextPhase;
+    [SerializeField] private GameObject lscreenobj;
+    private LoadingScreen ls;
     bool running = false;
     bool moveToNextLevel = false;
     [SerializeField] private string destlevel = "Phase2CS";
@@ -40,6 +42,7 @@ public class Chief : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         cm = GameObject.FindObjectOfType<ConfidantMenu>();
         dm = GameObject.FindObjectOfType<DialogueManager>();
+        ls = GameObject.FindObjectOfType<LoadingScreen>();
         talkui = cm.npcchaticon;
 
         //ResetcarPartsThreshold();
@@ -214,8 +217,11 @@ public class Chief : MonoBehaviour
         else
         {
             Debug.Log("Yes");
-            if(c!=introchat)
-                moveToNextLevel = true;
+            if (c != introchat)
+            {
+                MoveToLevel2();
+               
+            }
             //showResult(c.C1Reward >= c.C2Reward, c.C1Reward);
         }
 
@@ -285,13 +291,16 @@ public class Chief : MonoBehaviour
     private void MoveToLevel2()
     {
         DataManager.instance.IncreasePhase();
-        SceneManager.LoadScene(destlevel);
+        ls.StartLoad(destlevel);
+        //SceneManager.LoadScene(destlevel);
     }
 
     private void TurnOnSprite()
     {
         cm.confidant.sprite = consprite;
         cm.confidant.gameObject.SetActive(true);
+        cm.confidanteyes.gameObject.SetActive(false);
+        cm.confidantmouth.gameObject.SetActive(false);
 
         cm.bg.sprite = background;
         cm.bg.gameObject.SetActive(true);

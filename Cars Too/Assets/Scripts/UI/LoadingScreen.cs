@@ -21,6 +21,7 @@ public class LoadingScreen : MonoBehaviour
 
     public void StartLoad(string destscene)
     {
+        tire.transform.parent.gameObject.SetActive(true);
         StartCoroutine(LoadAsyncScene(destscene));
     }
 
