@@ -85,10 +85,14 @@ public class ScenePortraits : MonoBehaviour
         else if (newportraitname.Equals("Lightning"))
         {
             if (!portrait2.gameObject.activeSelf) {
-                portrait2.gameObject.SetActive(true);
+                portrait2.gameObject.SetActive(true); //The nameholder is layered under the general portrait gameobjects
                 portrait2eyes.sprite = defaultimg;
                 portrait2mouth.sprite = defaultimg;
                 portrait2.sprite = defaultimg;
+            }
+            if (neweyes != null)
+            {
+                UpdateExpression(recent, newmouth, neweyes, newblink);
             }
             n2holder.SetActive(true);
             n1holder.SetActive(false);
@@ -107,6 +111,10 @@ public class ScenePortraits : MonoBehaviour
                     portrait2eyes.sprite = defaultimg;
                     portrait2mouth.sprite = defaultimg;
                     portrait2.sprite = defaultimg;
+                }
+                if (neweyes != null)
+                {
+                    UpdateExpression(recent, newmouth, neweyes, newblink);
                 }
                 n2holder.SetActive(true);
                 n1holder.SetActive(false);
