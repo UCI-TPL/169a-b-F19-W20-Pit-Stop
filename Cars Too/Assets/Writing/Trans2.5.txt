@@ -1,15 +1,17 @@
 ﻿Lightning:
-....
+...
 
 Lightning:
-It wouldn't hurt to the radio try one more time.
+It wouldn't hurt to try one more time.
 
+Narrator:
+(You turn on your radio with a *click*)
 
 Lightning:
 Piper, can you hear me?
 
 Narrator:
-*static*
+(Nothing but static.)
 
 Lightning:
 Springtrap?
@@ -18,16 +20,19 @@ Lightning:
 Dex? Mustang?
 
 Narrator:
-*static*
+(Nothing but static.)
 
 Lightning:
-....
+...
 
 Lightning:
 Chief?
 
 Narrator:
-*static*
+(Nothing but static.)
+
+Narrator:
+(You hear your radio switch on.)
 
 Lightning:
 !!
@@ -45,7 +50,7 @@ Lightning:
 Wait.
 
 Lightning:
-You're not....
+You're not...
 
 Lightning:
 Who is this?
@@ -69,7 +74,7 @@ Gak:
 Well that's just the thing, I need help. Bad.
 
 Gak:
-I'm trapped in the space station. One of these decrepit machines broke down and the door out of the room I'm in got stuck. 
+I'm trapped in this factory. One of these decrepit machines broke down and the door out of the room I'm in got stuck. 
 
 Gak:
 Those stupid humans had to make these things out of titanium, there's no way I can open it.
@@ -96,25 +101,34 @@ Gak:
 ...What?
 
 Lightning:
-You know, “through the roof”?
+You know, "through the roof"?
 
 Gak:
 ??
 
 Lightning:
-‘Cause cars have a....have a roof-?
+'Cause cars have a...have a roof-?
 
 Gak:
 Look, I just wanna get out of here. Maybe help me before you start making jokes.
 
 Lightning:
-Right, yeah, sorry. What do you need?
+Uh, yeah, sorry. What do you need?
 
 Gak:
-I'm gonna need at least [number of parts] of [name of parts] to get this door working again.
+I NEED a way out. Are you in the factory?
+
+Lightning:
+Yes, I'm on the first floor.
 
 Gak:
-But - obviously - you can't get them to me. So you're gonna have to fix the door yourself.
+Good. I'm in the third level control room. 
+
+Gak:
+There's an elevator door there on the first level that leads directly to me. 
+
+Gak:
+It might be jammed right now, but you should be able to get it working again.
 
 Gak:
 Please tell me you can do that?
@@ -123,22 +137,22 @@ Lightning:
 Yeah, I bet I can figure out. I'm pretty good with tools. Actually I-
 
 Gak:
-I don't need your life story. Just get the tools and get me out of here.
+I don't need your life story. Just get me out of here.
 
 Gak:
-I can make it worth your time too. This space station's got all kinds of shinies. Maybe we could make some kind of trade?
+I can make it worth your time too. This place has got all kinds of shinies. Maybe we could make some kind of trade?
 
 Lightning:
 Oh, I'm not really looking to trade-
 
 Gak:
-Then don't waste time. I'm in the third level control room. Hurry up.
+Then don't waste time.
 
 Lightning:
 Okay, see you-
 
 Narrator:
-*click*
+(The mysterious "Gak" suddenly hangs up.)
 
 Lightning:
 ...then.

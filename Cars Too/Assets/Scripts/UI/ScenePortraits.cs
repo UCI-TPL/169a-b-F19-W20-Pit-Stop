@@ -57,6 +57,7 @@ public class ScenePortraits : MonoBehaviour
             portrait1mouth.gameObject.SetActive(false);
             portrait1eyes.gameObject.SetActive(false);
             portrait1name = "";
+            recent = 2;
         }
         else if (leavename.Equals(portrait2name))
         {
@@ -65,6 +66,7 @@ public class ScenePortraits : MonoBehaviour
             portrait2mouth.gameObject.SetActive(false);
             portrait2eyes.gameObject.SetActive(false);
             portrait2name = "";
+            recent = 1;
         }
 
         if(newportraitname.Equals(portrait1name))
