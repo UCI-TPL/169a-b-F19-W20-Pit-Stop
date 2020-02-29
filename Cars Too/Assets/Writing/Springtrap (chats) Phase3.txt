@@ -1,0 +1,132 @@
+Lightning:
+Hey, Springtrap.
+
+Springtrap:
+......
+
+$S0
+
+Lightning:
+...Listen, I-
+
+Springtrap:
+Look, I'm glad you made it out.
+
+Springtrap:
+But...
+
+$S5
+
+Springtrap:
+I'm still working through some things right now, alright?
+
+Springtrap:
+So, leave me alone.
+
+Springtrap:
+Please.
+
+End
+
+Springtrap:
+Back again?
+
+$S7
+
+Lightning:
+Look, I really wanted to apologize, ESPECIALLY to you.
+
+Lightning:
+I made a mistake.
+
+Lightning:
+And I'm sorry, I hurt you, Springtrap.
+
+Springtrap:
+Hurt me? Psh, are you KIDDING?
+
+Springtrap:
+You just ANNOYED me, that's all. 
+
+$S3
+
+Springtrap:
+It's not like.....
+
+$S5
+
+Springtrap:
+.....
+
+$S4
+
+Springtrap:
+Oh, WHATEVER. 
+
+$S6
+
+Springtrap:
+You know what? Yes. Yes, you did hurt me. 
+
+Springtrap:
+After the talk we had...and all that....
+
+$S5
+
+Springtrap:
+I thought that maybe, you got me. Maybe, someone other than Piper, actually GOT me.
+
+Springtrap:
+Did you lie about that, too?
+
+$S4
+
+Lightning:
+....I....I don't think so.
+
+Springtrap:
+You don't THINK so?
+
+$S3
+
+Lightning:
+I mean, the truth is....I really didn't know what I was doing.
+
+Lightning:
+I wanted the parts, but...the more I got to know everyone....I just...
+
+Lightning:
+I got lost, I think. And I'm sorry.
+
+Springtrap:
+...
+
+Springtrap:
+....Well, you know what the best apology for me would be?
+
+$S0
+
+Springtrap:
+Getting in there and kicking that Gak's fender!
+
+$S2
+
+Lightning:
+Ah, back to violence, are we?
+
+Springtrap:
+Hey, it's cathartic sometimes.
+
+$S0
+
+Springtrap:
+But if you wanna talk things out afterwards...
+
+$S5
+
+Springtrap:
+I'll be here for ya when you get out.
+
+$S0
+
+End

@@ -1,0 +1,347 @@
+Lightning:
+How was fixing the bridge?
+
+Springtrap:
+Oh that old thing? No problemo.
+
+$S3
+
+Springtrap:
+Human mechanical engineering ain't no Sunday drive-
+
+$S0
+
+Springtrap:
+But once you really take a look under the hood, it's no biggie.
+
+EndC
+
+Choices
+You must be good with tools.
+Boasting, much?
+
+Springtrap:
+You betcha.
+
+Springtrap:
+All the more reason, you should be keeping your headlights on your OWN road.
+
+$S7
+
+Springtrap:
+Don't wanna be caught at the business end of one of THESE do ya?
+
+$S0
+
+Lightning:
+True.
+
+Lightning:
+Although, if that's the case, why aren't you helping Mustang? They kinda seem on their own in getting the device up and running.
+
+Springtrap:
+Yeah, ANALOG engineering is more my speed. Mustang's got the market cornered on programming smarts.
+
+$S5
+
+Springtrap:
+When they're not going on about their hat, they're going on about some "new fangled gizmo" or other. 
+
+$S0
+
+Lightning:
+Do you...want to know programming?
+
+Springtrap:
+Eh, maybe sometime.
+
+$S5
+
+Springtrap:
+Anyway, I gotta get back to work. Stop getting me sidetracked!
+
+$S0
+
+End
+
+Springtrap:
+Ohoh...you think THAT'S boasting?
+
+$S2
+
+Springtrap:
+In terms of self-indulgence, I ain't got NOTHIN' on Dex.
+
+$S0
+
+Springtrap:
+'Sides, I got every right to be boastin' 'bout this. Got everyone across, didn't I?
+
+Lightning:
+True.
+
+Lightning:
+Although, if that's the case, why aren't you helping Mustang? They kinda seem on their own in getting the device up and running.
+
+Springtrap:
+Yeah, ANALOG engineering is more my speed. Mustang's got the market cornered on programming smarts.
+
+$S5
+
+Springtrap:
+When they're not going on about their hat, they're going on about some "new fangled gizmo" or other. 
+
+$S0
+
+Lightning:
+Do you...want to know programming?
+
+Springtrap:
+Eh, maybe sometime.
+
+$S5
+
+Springtrap:
+Anyway, I gotta get back to work. Stop getting me sidetracked!
+
+$S0
+
+End
+
+Springtrap:
+Got somethin' to say?
+
+$S0
+
+Lightning:
+Just a "thank-you" for fixing the bridge. 
+
+Lightning:
+This place looks like it's got a lot of parts for the Crew. 
+
+Lightning:
+And we wouldn't even have got here if you hadn't have fixed the bridge.
+
+Springtrap:
+O-Oh. Er, yeah. Sure.
+
+$S3
+
+Lightning:
+Heh, don't get compliments often?
+
+Springtrap:
+*scoffs* More like, I don't get thank-you's often.
+
+$S5 
+
+Lightning:
+Hey, what'd you expect? I thought you were the "rebel motor"? 
+
+Lightning:
+I don't think a ton of gratitude comes with the field.
+
+Springtrap:
+Yeah, I've got a bit of an attitude, but...
+
+Springtrap:
+I guess I sorta expected my actions to speak louder than my big mouth.
+
+EndC
+
+Choices
+That's kinda stupid
+That's kinda sad
+
+Springtrap:
+!?
+
+$S1
+
+Springtrap:
+You wanna rePEAT THAT-
+
+$S6
+
+Lightning:
+OKAY WAIT WAIT-
+
+Lightning:
+Poorly worded, lemme backpedal.
+
+Lightning:
+What I meant was, if you want more gratitude-
+
+Springtrap:
+I should be more happy-go-lucky? 
+
+$S5
+
+Springtrap:
+Yeah, no, that's more Piper's shtick-
+
+$S0
+
+Lightning:
+OH yeah no, Piper's pretty much got a monopoly on the "cheery" market.
+
+Lightning:
+But if you want more gratitude-
+
+Lightning:
+Isn't it just...a LITTLE bit dumb to expect it when you put out vibes saying you don't want it?
+
+Lightning:
+If you think you deserve it, just ask for it.
+
+Lightning:
+I think you of all people shouldn't have a problem doing that much, right?
+
+Springtrap:
+Uh, well...it just felt...kinda icky to ASK to be thanked.
+
+$S5
+
+Lightning:
+Springtrap, I don't think your street cred will be in ANY jeopardy if that's what you're worried about.
+
+Lightning:
+So, what do you think?
+
+Springtrap:
+...
+
+Springtrap:
+Well, YOU'RE WELCOME, I guess, for the security work I do...
+
+Springtrap:
+So...
+
+Lightning:
+Thank you, Springtrap. I think it's pretty cool that you do a lot to keep the Crew safe.
+
+Springtrap:
+...
+
+$S0
+
+Lightning:
+So...?
+
+Springtrap:
+That wasn't...TERRIBLE.
+
+$S5
+
+Springtrap:
+But I think I need to work a bit on it, still.
+
+$S3
+
+Springtrap:
+Either way...thanks Lightning.
+
+$S0
+
+Springtrap:
+You're alright.
+
+End
+
+Springtrap:
+!?
+
+$S1
+
+Springtrap:
+You wanna rePEAT THAT-
+
+$S6
+
+Lightning:
+OKAY WAIT WAIT-
+
+Lightning:
+Poorly worded, lemme backpedal.
+
+Lightning:
+What I meant was, if you want more gratitude-
+
+Springtrap:
+I should be more happy-go-lucky? 
+
+$S5
+
+Springtrap:
+Yeah, no, that's more Piper's shtick-
+
+$S0
+
+Lightning:
+OH yeah no, Piper's pretty much got a monopoly on the "cheery" market.
+
+Lightning:
+But, if you want more gratitude-
+
+Lightning:
+I feel like it just...kinda sucks that you think people aren't grateful.
+
+Lightning:
+The Spirit Crew probably thanks you more often than you realize. And..
+
+Lightning:
+If you think you deserve it, just ask for it.
+
+Lightning:
+I think you of all people shouldn't have a problem doing that much, right?
+
+Springtrap:
+Uh, well...it just felt...kinda icky to ASK to be thanked.
+
+$S5
+
+Lightning:
+Springtrap, I don't think your street cred will be in ANY jeopardy if that's what you're worried about.
+
+Lightning:
+So, what do you think?
+
+Springtrap:
+...
+
+Springtrap:
+Well, YOU'RE WELCOME, I guess, for the security work I do...
+
+Springtrap:
+So...
+
+Lightning:
+Thank you, Springtrap. I think it's pretty cool that you do a lot to keep the Crew safe.
+
+Springtrap:
+...
+
+$S0
+
+Lightning:
+So...?
+
+Springtrap:
+That wasn't...TERRIBLE.
+
+$S5
+
+Springtrap:
+But I think I need to work a bit on it, still.
+
+$S3
+
+Springtrap:
+Either way...thanks Lightning.
+
+$S0
+
+Springtrap:
+You're alright.
+
+End

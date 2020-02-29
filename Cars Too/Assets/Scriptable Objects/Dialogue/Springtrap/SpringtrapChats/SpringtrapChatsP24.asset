@@ -10,30 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
-  m_Name: SpringtrapChats1
+  m_Name: SpringtrapChatsP24
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Springtrap
-    text: You still around? I'm surprised.
-    Scenesprite: {fileID: 0}
-    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
-    expression2: {fileID: 0}
-    leavename: 
-    voiceline: {fileID: 0}
-    newbg: {fileID: 0}
-  Choice1: Me too.
-  Choice2: Why's that?
-  Route1:
-  - speaker: Springtrap
-    text: Heh.
-    Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
-    expression2: {fileID: 0}
-    leavename: 
-    voiceline: {fileID: 0}
-    newbg: {fileID: 0}
-  - speaker: Springtrap
-    text: You just don't seem the type to stick around. What made you stay?
+  - speaker: Lightning
+    text: If you think you deserve it, just ask for it.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -41,7 +22,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: What made you?
+    text: I think you of all people shouldn't have a problem doing that much, right?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -49,25 +30,65 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: '*chuckles* You''re gonna have to try a li''l harder than that to get somethin''
-      out of me. '
+    text: Uh, well...it just felt...kinda icky to ASK to be thanked.
     Scenesprite: {fileID: 0}
-    expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Springtrap, I don't think your street cred will be in ANY jeopardy if that's
+      what you're worried about.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: So, what do you think?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Later.
+    text: '...'
     Scenesprite: {fileID: 0}
-    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
-  Route2:
   - speaker: Springtrap
-    text: You just don't seem the type to stick around. What made you stay?
+    text: Well, YOU'RE WELCOME, I guess, for the security work I do...
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: So...
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Thank you, Springtrap. I think it's pretty cool that you do a lot to keep
+      the Crew safe.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
@@ -75,7 +96,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: What made you?
+    text: So...?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -83,23 +104,42 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: '*chuckles* You''re gonna have to try a li''l harder than that to get somethin''
-      out of me. '
+    text: That wasn't...TERRIBLE.
     Scenesprite: {fileID: 0}
-    expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Later.
+    text: But I think I need to work a bit on it, still.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Either way...thanks Lightning.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
-  isConversation: 0
+  - speaker: Springtrap
+    text: You're alright.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
   C1Reward: 0
   C2Reward: 0
   abilityactivation: 0

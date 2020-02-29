@@ -1,6 +1,8 @@
 Springtrap:
 You still around? I'm surprised.
 
+$S0
+
 EndC
 
 Choices
@@ -19,13 +21,19 @@ What made you?
 Springtrap:
 *chuckles* You're gonna have to try a li'l harder than that to get somethin' out of me. 
 
+$S2
+
 Springtrap:
 Later.
+
+$S0
 
 End
 
 Springtrap:
 You just don't seem the type to stick around. What made you stay?
+
+$S0
 
 Lightning:
 What made you?
@@ -33,13 +41,19 @@ What made you?
 Springtrap:
 *chuckles* You're gonna have to try a li'l harder than that to get somethin' out of me. 
 
+$S2
+
 Springtrap:
 Later.
+
+$S0
 
 End
 
 Springtrap:
 Stayin' out of trouble, tin toy?
+
+$S0
 
 Lightning:
 Is there a particular reason you're suspicious of me?
@@ -50,8 +64,10 @@ Is there a "particular" reason I shouldn't be?
 Springtrap:
 Strangers aren't exactly easy to come by in these parts with the roads bein' the way they are.
 
-Springtrap:
+Springtrap: 
 We wake up, not a human in sight, and what? We're just supposed to trust anyone we come across?
+
+$S5
 
 Springtrap:
 I dunno much about how things worked before, but I do know trust is something ya earn.

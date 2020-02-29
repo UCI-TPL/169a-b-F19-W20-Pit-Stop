@@ -10,11 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
-  m_Name: SpringtrapChats2
+  m_Name: SpringtrapChatsP31
   m_EditorClassIdentifier: 
   convo:
+  - speaker: Lightning
+    text: Hey, Springtrap.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Stayin' out of trouble, tin toy?
+    text: '......'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
@@ -22,7 +30,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: Is there a particular reason you're suspicious of me?
+    text: '...Listen, I-'
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -30,7 +38,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Is there a "particular" reason I shouldn't be?
+    text: Look, I'm glad you made it out.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -38,17 +46,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Strangers aren't exactly easy to come by in these parts with the roads bein'
-      the way they are.
-    Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
-    expression2: {fileID: 0}
-    leavename: 
-    voiceline: {fileID: 0}
-    newbg: {fileID: 0}
-  - speaker: 'Springtrap:'
-    text: We wake up, not a human in sight, and what? We're just supposed to trust
-      anyone we come across?
+    text: But...
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
@@ -56,8 +54,23 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Springtrap
-    text: I dunno much about how things worked before, but I do know trust is something
-      ya earn.
+    text: I'm still working through some things right now, alright?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: So, leave me alone.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Please.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
