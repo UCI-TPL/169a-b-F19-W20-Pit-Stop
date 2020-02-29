@@ -7802,8 +7802,8 @@ MonoBehaviour:
     newbg: {fileID: 0}
   - speaker: Gak
     text: 
-    Scenesprite: {fileID: 21300000, guid: 36e34d62eb35a184d9bc6f9bc9645fb1, type: 3}
-    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    Scenesprite: {fileID: 21300000, guid: caab609e721dfa542831f6876991f84f, type: 3}
+    expression: {fileID: 11400000, guid: f1d3819f72c3db14883c78b1c73afdb5, type: 2}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
@@ -7827,7 +7827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.776923
+  m_AspectRatio: 1.6
 --- !u!114 &7010730409476832489
 MonoBehaviour:
   m_ObjectHideFlags: 0
