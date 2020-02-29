@@ -5371,8 +5371,8 @@ MonoBehaviour:
   npcthemeindex: 11
   randomchats:
   - {fileID: 11400000, guid: d9a025c83ab420d488d5568f39669670, type: 2}
-  - {fileID: 11400000, guid: d9a025c83ab420d488d5568f39669670, type: 2}
-  - {fileID: 11400000, guid: d9a025c83ab420d488d5568f39669670, type: 2}
+  - {fileID: 11400000, guid: 8cf1123b08a3eaa42b514650fa2592d9, type: 2}
+  - {fileID: 11400000, guid: 96619917a4bc49e41b5ed9901943b89b, type: 2}
   LevelupChats: {fileID: 11400000, guid: 44a81ed1e0231c5449de85fa9fc48c62, type: 2}
   giftrecievedchats: {fileID: 11400000, guid: 80c489bb93e72b347857d33246c9ae69, type: 2}
   introchat: {fileID: 11400000, guid: 2cc6ecd151a580c4288c6bb10e7b227a, type: 2}
@@ -5659,15 +5659,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bd6d2758fd53c34fabb3918f149bc16, type: 3}
---- !u!4 &8144402176464510967 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3247818134065830652, guid: 5bd6d2758fd53c34fabb3918f149bc16,
-    type: 3}
-  m_PrefabInstance: {fileID: 6634976264522630411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8144402176464510956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3247818134065830631, guid: 5bd6d2758fd53c34fabb3918f149bc16,
+    type: 3}
+  m_PrefabInstance: {fileID: 6634976264522630411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8144402176464510967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3247818134065830652, guid: 5bd6d2758fd53c34fabb3918f149bc16,
     type: 3}
   m_PrefabInstance: {fileID: 6634976264522630411}
   m_PrefabAsset: {fileID: 0}

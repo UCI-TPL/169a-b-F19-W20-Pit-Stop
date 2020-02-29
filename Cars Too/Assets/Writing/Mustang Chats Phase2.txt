@@ -1,0 +1,48 @@
+Lightning:
+This factory seems like it's been abandoned for a long time. What do you think this factory made?
+
+Mustang:
+From the scattered parts here, I'd say parts were made here.
+
+Lightning:
+Parts? Parts for what?
+
+Mustang:
+Beats me. These parts look like they can be used for a toy or a spaceship.
+
+Mustang:
+I wanna say these parts are universal and can be used in different places.
+
+Lightning:
+These parts are very useful then. I'll go gather some more.
+
+Mustang:
+Catch you on the drift!
+
+End
+
+Mustang:
+Lightning, you would not believe the things this place has!
+
+Lightning:
+What did you find Mustang?
+
+Mustang:
+I found this fantastic long distance radio. It's very old but functional. The humans might have made it.
+
+Lightning:
+That sure can be helpful for long distance communication.
+
+Mustang:
+My thoughts exactly!
+
+Mustang:
+We can use this to split up far and wide to scavange for parts while remaining in contact.
+
+Lightning:
+It sounds like you should probably let Chief know about this new discovery of yours.
+
+Mustang:
+I sure will. I gotta get to work on setting up the frequencies and fixin' it. Chat with ya later!
+
+End
