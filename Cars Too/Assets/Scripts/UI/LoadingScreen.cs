@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadingScreen : MonoBehaviour
 {
-    [SerializeField] private GameObject tire;
+    [SerializeField] private GameObject tire1;
+    [SerializeField] private GameObject tire2;
     [SerializeField] private float tirespeed = 90.0f;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class LoadingScreen : MonoBehaviour
 
     public void StartLoad(string destscene)
     {
-        tire.transform.parent.gameObject.SetActive(true);
+        tire1.transform.parent.gameObject.SetActive(true);
         StartCoroutine(LoadAsyncScene(destscene));
     }
 
@@ -33,7 +34,8 @@ public class LoadingScreen : MonoBehaviour
         while (loadlvl.progress < 1)
         {
 
-            tire.transform.Rotate(0, 0, tirespeed * (loadlvl.progress+.25f));
+            tire1.transform.Rotate(0, 0, tirespeed * (loadlvl.progress+.25f));
+            tire2.transform.Rotate(0, 0, tirespeed * (loadlvl.progress + .25f));
             yield return new WaitForEndOfFrame();
         }
     }
