@@ -1,5 +1,5 @@
-Lightning:
-Hey, I was wondering…
+﻿Lightning:
+Hey, I was wondering'
 
 Piper:
 Yes?
@@ -8,44 +8,47 @@ Lightning:
 If you wanted to...uh...I guess talk about that history some more?
 
 Lightning:
-I’m coming across more and more remnants of the past in this wasteland....
+I'm coming across more and more remnants of the past in this wasteland....
 
 Lightning:
-I can’t help but wonder if there’s more to them than what I’m seeing.
+I can't help but wonder if there's more to them than what I'm seeing.
 
 Piper:
 Oh!!! Are you-!
 
-Lightning:
-DON’T get your hopes up, it’s not like any dead human is gonna keep me from leaving. I’m just curious is all.
+$P2
 
 Lightning:
-And, well…You’re the one to go to for that kinda stuff.
+DON'T get your hopes up, it's not like any dead human is gonna keep me from leaving. I'm just curious is all.
+
+Lightning:
+And, well'You're the one to go to for that kinda stuff.
 
 Lightning:
 So do you wanna hang out or-?
 
-Piper: 
-YES! Yes, I’d love to hang out! 
+Piper:
+YES! Yes, I'd love to hang out! 
 
 Piper:
 What do you wanna talk about first?
+
+$P0
+
 EndC
 
 Choices
-What’s your newest discovery?
 Why do you care about this junk?
-
-Piper:
-One second.
-
-End
+What's your newest discovery?
 
 Piper:
 Junk!?
 
+$P4
+
 Piper:
 I thought you said you wanted to learn more about what I do!
+
 Lightning:
 I do! 
 
@@ -53,10 +56,16 @@ Lightning:
 Still not past calling it junk. 
 
 Piper:
-Oh, Lightning. It’s not just junk, it’s really cool junk! Stuff that I have the privilege of studying!
+Oh, Lightning. It's not just junk, it's really cool junk! Stuff that I have the privilege of studying!
+
+$P5
+
+End
 
 Piper:
 OO OO OO!
+
+$P2
 
 Lightning:
 No like that sound.
@@ -64,18 +73,18 @@ No like that sound.
 Piper:
 You really wanna see!?
 
+$P0
+
 Lightning:
-To be honest, I’m kinda hesitant now. 
+To be honest, I'm kinda hesitant now. 
 
-
-End
-
-Piper:
-*Piper unveils a very shiny piece of what looks like aluminum foil*
-
+Narrator:
+(Piper unveils a very shiny piece of what looks like aluminum foil)
 
 Piper:
 THIS is my latest discovery!
+
+$P2
 
 Lightning:
 ...
@@ -84,7 +93,9 @@ Lightning:
 ...what is it?
 
 Piper:
-Oh hoh hoh, I’m glad you asked!
+Oh hoh hoh, I'm glad you asked!
+
+$P5
 
 Lightning:
 I feel like you just waited for me to-
@@ -92,111 +103,154 @@ I feel like you just waited for me to-
 Piper:
 THIS is - based on my analysis - a KEE-LON-DEE-KAY bar.
 
-Lightning:
-What’s it do?
-
-Piper:
-I’m not sure, but it must have, once upon time, done something VERY important. My past research leads me to believe that people from all over the globe would do anything imaginable to get one.
+$P0
 
 Lightning:
-But it doesn’t do anything?
+What's it do?
 
 Piper:
-Nnnnot that I can tell? But I’m sure it served some incredible purpose way back when! 
+I'm not sure, but it must have, once upon a time, done something VERY important. My past research leads me to believe that people from all over the globe would do anything imaginable to get one.
+
+Lightning:
+But it doesn't do anything?
 
 Piper:
-It’s cool stuff like this that I get to trail blaze!
+Nnnnot that I can tell? But I'm sure it served some incredible purpose way back when! 
+
+Piper:
+It's cool stuff like this that I get to trail blaze!
+
+$P2
+
+End
 
 Piper:
 See, when the Awakening happened, all us cars woke up, right?
+
+$P0
 
 Piper:
 NO IDEA what happened, who we were or where we were headed!
 
 Piper:
-All we know is that humans *used* to be here, and now they aren’t! Why do you think that is?
+All we know is that humans *used* to be here, and now they aren't! Why do you think that is?
 
 Lightning:
-I dunno, you’re the historian.
+I dunno, you're the historian.
 
 Piper:
-EXACTLY! I’m the historian! I get to find that out!
+EXACTLY! I'm the historian! I get to find that out!
+
+$P2
 
 Piper:
-I get to learn about a past we were never a part of, a time so different from now that it’s practically alien.
+I get to learn about a past we were never a part of, a time so different from now that it's practically alien.
+
+$P5
 
 Piper:
-EVERYTHING is new! And there’s so much to learn! 
+EVERYTHING is new! And there's so much to learn!
+
+$P0 
 
 Piper:
 How could you NOT care about junk when it could tell you stories of times past and people gone, tales of heartache and drama and joy and thrill and - and - !
 
-Piper:
-It’s just all so amazing! It’s like stepping into a brand new world.
+$P2
 
 Piper:
-A world that’s...
+It's just all so amazing! It's like stepping into a brand new world.
 
 Piper:
-...that’s not as lonely as this one.
+A world that's...
+
+$P0
+
+Piper:
+...that's not as lonely as this one.
+
+$P3
+
 EndC
 
 Choices
 You feel lonely?
-It doesn’t have to be that way.
+It doesn't have to be that way.
 
 Piper:
 Hm?
 
+$P1
+
 Piper:
-Oh! N-No! I mean-....Well….
+Oh! N-No! I mean-....Well'.
+
+$P6
 
 Piper:
 *sighs*
 
+$P3
+
 Piper:
-I guess I do feel kinda lonely sometimes. Springtrap’s an awesome friend and Chief is really great too, but, sometimes it’s hard to get along with Dex and Mustang.
+I guess I do feel kinda lonely sometimes. Springtrap's an awesome friend and Chief is really great too, but, sometimes it's hard to get along with Dex and Mustang.
 
 Lightning:
-That’s hard to believe. You’re sort of annoyingly easy to get along with. I’m surprised you haven’t made friendship bracelets for everyone yet.
+That's hard to believe. You're sort of annoyingly easy to get along with. I'm surprised you haven't made friendship bracelets for everyone yet.
 
 Piper:
-*laughs* I’ll take that as a compliment. 
+*laughs* They're in progress, it's hard to find the right materials! 
+
+$P5
 
 Lightning:
 So what makes those two so hard to get along with?
 
 Piper:
-Well, Dex is always getting himself into trouble and making me a worrywart, and Mustang is a fantastic machinist, but they…
+Well, Dex is always getting himself into trouble and making me a worrywart, and Mustang is a fantastic machinist, but they...
+
+$P3
 
 Piper:
-They talk about humans in this rude way that I just can’t get behind.
+They talk about humans in this rude way that I just can't get behind.
+
+$P4
 
 Piper:
-Sometimes, I wish they’d both see things my way, you know?
+Sometimes, I wish they'd both see things my way, you know?
+
+$P3
 
 Piper:
-And that kind of stuff makes me feel lonely! But that’s not the only reason.
+And that kind of stuff makes me feel lonely! But that's not the only reason.
+
+$P0
 
 End
 
 Piper:
 What do you mean?
 
+$P1
+
 Lightning:
 Oh, well, uh, I mean...
 
 Lightning:
-I mean, you have the whole Spirit crew behind you. There’s no reason for you to feel lonely.
+I mean, you have the whole Spirit crew behind you. There's no reason for you to feel lonely.
 
 Lightning:
-If anyone is supposed to feel lonely, it should be me. And that’s only because I’ve literally been alone in the desert for 6 years. 
+If anyone is supposed to feel lonely, it should be me. And that's only because I've literally been alone in the desert for 6 years. 
 
 Piper:
 *laughs* True, true. 
 
+$P2
+
 Piper:
-But I really wish you hadn’t been!
+But I really wish you hadn't been!
+
+$P0
 
 Lightning:
 I know, I know-
@@ -204,70 +258,106 @@ I know, I know-
 Piper:
 Seriously, how many times did I have to call before you got your trunk up here?
 
+$P5
+
 Lightning:
 48.
 
 Piper:
 And you were always-!
 
+$P6
+
 Piper:
 Wait. 
+
+$P3
 
 Piper:
 You actually counted?
 
+$P1
+
 Lightning:
-Piper, there are *very* few things you can do in a virtually empty desert. If you can think of an inane activity, I’ve probably done it. 
+Piper, there are *very* few things you can do in a virtually empty desert. If you can think of an inane activity, I've probably done it. 
 
 Piper:
 Oh, I wish you had come join the crew sooner! We need each other!
 
+$P0
+
 End
 
 Piper:
-Lightning, we’re all that’s left. The crew’s been together for years, and in all that time, we’ve never found another car.
+Lightning, we're all that's left. The crew's been together for years, and in all that time, we've never found another car.
+
+$P3
 
 Piper:
 Everyday I try the radio frequencies to see if I pick anything up, but no one ever comes through.
 
 Piper:
-So, of course I’m lonely! We don’t get a great big kingdom or empire or-or society or whatever!
+So, of course I'm lonely! We don't get a great big kingdom or empire or-or society or whatever!
+
+$P6
 
 Piper:
-Sometimes I’m really jealous of those humans. They had so many people to go to and interact with and have fun with. 
+Sometimes I'm really jealous of those humans. They had so many people to go to and interact with and have fun with. 
+
+$P4
 
 Piper:
 I just wish we could find that, some day.
 
+$P5
+
 Lightning:
-Don’t you already have that?
+Don't you already have that?
 
 Piper:
 What?
 
-Lightning:
-It’s the Spirit, isn’t it? What you’re talking about?
+$P3
 
 Lightning:
-People having fun with each other, working together, all that? That’s what you guys do already, right?
+It's the Spirit, isn't it? What you're talking about?
+
+Lightning:
+People having fun with each other, working together, all that? That's what you guys do already, right?
 
 Piper:
 ...
 
 Piper:
-*laughs* I guess you’re right! 
+*laughs* I guess you're right! 
+
+$P2
 
 Piper:
-All we have is each other. Thank you for reminding me of that.
+All we have is each other...
+
+$P5
 
 Piper:
-You know, I really am grateful you decided to come join.
+I didn't realize I needed to be reminded of that.
+
+Piper:
+You know, Lightning...
+
+Piper:
+I really am grateful you decided to come join.
+
+$P0
 
 Piper:
 Even if it IS just because you wanna scram.
 
+$P2
+
 Piper:
 Well! I guess we should get back to work.
+
+$P0
 
 Piper:
 Thanks for hanging out with me today! It was a blast!

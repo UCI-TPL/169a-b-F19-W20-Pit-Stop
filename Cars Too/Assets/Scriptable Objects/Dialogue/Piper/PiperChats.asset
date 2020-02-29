@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: PiperChats
   m_EditorClassIdentifier: 
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
   chats:
   - {fileID: 11400000, guid: 6420aca43c1d0c944bee6496e6df9227, type: 2}
   - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
+  - {fileID: 11400000, guid: 74ee1f4b7c8dec84fbcabd93cf0b8dfa, type: 2}
   fileloc: /Writing/piper chats.txt
   createpath: Assets/Scriptable Objects/Dialogue/Piper/Piper Chats/
   title: PiperChat

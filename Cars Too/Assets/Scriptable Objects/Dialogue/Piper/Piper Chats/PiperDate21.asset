@@ -15,160 +15,316 @@ MonoBehaviour:
   convo:
   - speaker: Lightning
     text: Hey, you wanna hang out again?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Abso-toot-ly!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "...On second thought\u2026.."
-    expression: {fileID: 0}
+    text: '...On second thought.....'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Oh, quit it! I know your game.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What game?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Doing this whole \u201Ctough guy\u201D routine."
-    expression: {fileID: 0}
+    text: Doing this whole "tough motor" routine.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "It\u2019s not a \u201Croutine\u201D!"
-    expression: {fileID: 0}
+    text: It's not a "routine"!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Uh-huh. And you\u2019re not back for more?"
-    expression: {fileID: 0}
+    text: Mhm. Being defensive DEFINITELY helps your case.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I\u2019m NOT-!"
-    expression: {fileID: 0}
+    text: I'm NOT-!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Ugh, whatever.
-    expression: {fileID: 0}
+    text: '*sigh*'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: How do you know how to push all my buttons?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "It\u2019s what I\u2019m built for, silly!"
-    expression: {fileID: 0}
+    text: It's what I'm built for, silly!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "So what\u2019d you wanna talk about?"
-    expression: {fileID: 0}
+    text: So what'd you wanna talk about?
     Scenesprite: {fileID: 0}
-  Choice1: "What\u2019s the worst thing you\u2019ve found?"
-  Choice2: "What\u2019s the best thing you\u2019ve found?"
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Well, you're always digging things up, so I'm curious -
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Choice1: What's the worst thing you've found?
+  Choice2: What's the best thing you've found?
   Route1:
   - speaker: Piper
     text: Ooooooooo, uh, well -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "That\u2019s a toughie. "
-    expression: {fileID: 0}
+    text: 'That''s a toughie. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Human society broke down so long ago and\u2026."
-    expression: {fileID: 0}
+    text: Human society broke down so long ago and...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Well, to be honest, sometimes it\u2019s hard to look at all this \u201Cjunk\u201D
-      as you\u2019d like to call it."
-    expression: {fileID: 0}
+    text: To be honest, sometimes it's hard to look at all this "junk" as you'd like
+      to call it.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "So I guess, on one hand, everything I\u2019ve come across is the worst
-      thing I\u2019ve found. "
-    expression: {fileID: 0}
+    text: 'So I guess, on one hand, everything I''ve come across is the worst thing
+      I''ve found. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Toys, art, inventions, skyscrapers, homes -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: It all points to this exciting and bustling place!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "And that\u2019s what I love about it! I really do!"
-    expression: {fileID: 0}
+    text: And that's what I love about it! I really do!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: But at the same time-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: It makes seeing it all empty so much worse.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: There USED to be people here.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: People used to walk these roads. Play in these fields. Invent in those buildings.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Seeing everything abandoned is sad sometimes.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "But I can\u2019t let it get to me!"
-    expression: {fileID: 0}
+    text: But I can't let it get to me!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Piper
     text: Oooooo, uh, well-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "That\u2019s a toughie."
-    expression: {fileID: 0}
+    text: That's a toughie.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: I mean, I love everything I come across!
-    expression: {fileID: 0}
+    text: After all, I love everything I come across!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: '*Piper holds up a metal bowl with lots of holes in it*'
-    expression: {fileID: 0}
+    text: (Piper holds up a metal bowl with lots of tiny holes in it)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: I mean look at this thing? What the heck was this used for?
-    expression: {fileID: 0}
+    text: I mean look at this thing! What the heck was this used for?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "My theory is that it\u2019s a helmet of some sorts, to protect workers
-      from certain substances."
-    expression: {fileID: 0}
+    text: My theory is that it's a helmet of some sorts, to protect workers from certain
+      substances.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Or-Or from maybe falling debris when they were building these massive things!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Right now, this is the best thing I\u2019ve found!"
-    expression: {fileID: 0}
+    text: Right now, this is the best thing I've found!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "But tomorrow, it\u2019ll probably be something else, and something else
-      after that!"
-    expression: {fileID: 0}
+    text: But tomorrow, it'll probably be something else, and something else after
+      that!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Even though it\u2019s all so old, it\u2019ll always be new to me."
-    expression: {fileID: 0}
+    text: Even though it's all so old, it'll always be new to me.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

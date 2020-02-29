@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
-  m_Name: PiperChats
+  m_Name: Piperintroreader
   m_EditorClassIdentifier: 
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
   chats:
-  - {fileID: 11400000, guid: 6420aca43c1d0c944bee6496e6df9227, type: 2}
-  - {fileID: 11400000, guid: 2f176c86a52187841b25769bd5cbe1be, type: 2}
-  fileloc: /Writing/piper chats.txt
+  - {fileID: 11400000, guid: d98f5aee08c91a54080ede430e429f44, type: 2}
+  fileloc: /Writing/Piper (intro).txt
   createpath: Assets/Scriptable Objects/Dialogue/Piper/Piper Chats/
-  title: PiperChat
+  title: Piperintro

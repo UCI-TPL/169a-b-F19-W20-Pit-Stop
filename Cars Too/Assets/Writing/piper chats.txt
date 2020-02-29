@@ -1,44 +1,132 @@
 Piper:
 What's revvin'?
 
+$P2
+
 Lightning:
 What's with the lame catchphrase?
 
+
 Piper:
-Oh Lightning. One of these days, you're going to have to lean into the whole "being a car" thing. It's so much more fun!
+Oh, Lightning. One of these days, you're going to have to lean into the whole "being a car" thing. It's so much more fun!
+
+$P5
 
 Lightning:
 I really don't see how making dumb puns is going to brighten my day.
 
+
 Piper:
 Sure it will! Try it!
 
+$P0
+
 EndC
+
 
 Choices
 Call me a car brand, cuz I'd rather Dodge the idea.
 I think I'd rather leave. Call me a car brand, cuz I'm Audi.
 
-Piper:
-*laughs*
-*laughs*
-
-End
 
 Piper:
 *laughs*
-*laughs*
 
-End
+$P2
 
 Piper:
-What's revvin'?
+See, you'll get the hang of it! 
+
+$P0
+
+Piper:
+And what about your avatar?
 
 Lightning:
-Is there a reason you called yourself Piper?
+Oh, that's...not really my style.
+
+Piper:
+Oh, come on! You've GOTTA have one, we all do!
+
+$P2
+
+Lightning:
+What's wrong with just Ågbeing a carÅh? It looks like that other yellow car doesn't care either-
+
+
+Piper:
+But I wanna see it! Being a car is cool and all, but isn't it neat that we have these extra forms we can take!
+
+$P0
+
+Piper:
+I feel like I can express myself so much more naturally like this!
+
+$P2
+
+Lightning:
+Yeah...like I said: Not my style.
+
+Piper:
+Whatever you say!
+
+$P0
+
+End
+
+
+Piper:
+*laughs*
+
+$P2
+
+Piper:
+See, you'll get the hang of it! 
+
+$P0
+
+Piper:
+And what about your avatar?
+
+Lightning:
+Oh, that's...not really my style.
+
+Piper:
+Oh, come on! You've GOTTA have one, we all do!
+
+$P2
+
+Lightning:
+What's wrong with just Ågbeing a carÅh? It looks like that other yellow car doesn't care either-
+
+
+Piper:
+But I wanna see it! Being a car is cool and all, but isn't it neat that we have these extra forms we can take!
+
+$P0
+
+Piper:
+I feel like I can express myself so much more naturally like this!
+
+$P2
+
+Lightning:
+Yeah...like I said: Not my style.
+
+Piper:
+Whatever you say!
+
+$P0
+
+End
+
+Lightning:
+Is there a reason you decided to call yourself Piper?
 
 Piper:
 Well, firstly, I've got this NIFTY HAT! So, like, how could I not?
+
+$P0
 
 Piper:
 Secondly, they are just SO NEAT! 
@@ -49,17 +137,25 @@ What are?
 Piper:
 PIPES! Are you kidding me! They're just so cool! There's so much they can do and so many things they're important for - they're amazing!
 
+$P2
+
 Lightning:
 Pipe fanclub member much?
 
 Piper:
 Hah, as if there were a fanclub -
 
+$P5
+
 Piper:
 *GASP*
 
+$P6
+
 Piper:
 OMG, A PIPES FANCLUB!? Wouldn't that be motorific!
+
+$P2
 
 Lightning:
 Oh boy.

@@ -13,71 +13,121 @@ MonoBehaviour:
   m_Name: PiperChat2
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Piper
-    text: What's revvin'?
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
   - speaker: Lightning
-    text: Is there a reason you called yourself Piper?
-    expression: {fileID: 0}
+    text: Is there a reason you decided to call yourself Piper?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Well, firstly, I've got this NIFTY HAT! So, like, how could I not?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: 'Secondly, they are just SO NEAT! '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'What are? '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: PIPES! Are you kidding me! They're just so cool! There's so much they can
       do and so many things they're important for - they're amazing!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Pipe fanclub member much?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Hah, as if there were a fanclub -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: '*GASP*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: OMG, A PIPES FANCLUB!? Wouldn't that be motorific!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh boy.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: There could be weekly meetings where we could talk about a different pipe
       each week, and maybe - OH - maybe like, a-a CONTEST where we each bring in our
       favorite pipe and...!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: '*continues talking on and on in increasingly greater detail about a pipes
       fanclub*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I'd better leave before I end up her vice president and treasurer.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 25
+  C1Reward: 0
   C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
   path: 

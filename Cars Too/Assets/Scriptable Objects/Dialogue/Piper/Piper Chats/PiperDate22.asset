@@ -16,239 +16,477 @@ MonoBehaviour:
   - speaker: Piper
     text: Human society left so much behind, it would be irresponsible of me to not
       look at it all!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: What about you?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Me?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Yeah, what do you think of human society?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Well, you know what I think.
-    expression: {fileID: 0}
+    text: You already know what I think.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: Nope.
-    expression: {fileID: 0}
+    text: Nope!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: I know what you THOUGHT!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "But now you\u2019ve seen more than you ever got to see in that desert."
-    expression: {fileID: 0}
+    text: But now you've seen more than you ever got to see in that desert.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "So what\u2019s the verdict now?"
-    expression: {fileID: 0}
+    text: So what's the verdict now?
     Scenesprite: {fileID: 0}
-  Choice1: "I still think it\u2019s not worth looking into."
-  Choice2: "I think it\u2019s interesting."
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Uh, well...
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Choice1: I still think it's not worth looking into.
+  Choice2: I think it's interesting.
   Route1:
   - speaker: Lightning
-    text: "I still think it\u2019s not worth looking into."
-    expression: {fileID: 0}
+    text: I still think it's not worth looking into.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: They all died a long time ago.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "And I don\u2019t wanna go sticking my hood into why that happened."
-    expression: {fileID: 0}
+    text: And I don't wanna go sticking my hood into why that happened.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: '*GASP!!!*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: '?'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: You just unironically used a car pun!!!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "What? No I didn\u2019t!"
-    expression: {fileID: 0}
+    text: What? No I didn't!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: '*laughs*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Yeah you did~!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Alright, fine, I did, whatever!Piper:This is so going into my journal-
-    expression: {fileID: 0}
+    text: Alright, fine, I did, whatever!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: This is so going into my journal-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: ANYWAY -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: My point is, why in the world would you want to go looking into how they
       all died?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What if that ends up happening to us too?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "All because we were meddling with something we shouldn\u2019t have."
-    expression: {fileID: 0}
+    text: All because we were meddling with something we shouldn't have.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Oh, Lightning.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "That\u2019s not what history\u2019s about! "
-    expression: {fileID: 0}
+    text: 'That''s not what history''s about! '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Yes, the humans all died but it was probably because of some stupid mistake!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: And mistakes happen. They happen to all of us!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: All we can do is try our best to prevent them.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "We can\u2019t do that without acknowledging them."
-    expression: {fileID: 0}
+    text: And we can't do that without acknowledging them first.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Lightning
-    text: "Actually, I\u2026."
-    expression: {fileID: 0}
+    text: Actually, I...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Yeah. I think it\u2019s interesting."
-    expression: {fileID: 0}
+    text: Yeah. I think it's interesting.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Oh, Lightning, you can\u2019t always think that way! Remember you have
-      to-"
-    expression: {fileID: 0}
+    text: Oh, Lightning, you can't always think that way! Remember you have to-
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "\u2026"
-    expression: {fileID: 0}
+    text: '...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Wait.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Did you say you\u2026"
-    expression: {fileID: 0}
+    text: Did you say you...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "You DO think it\u2019s interesting???"
-    expression: {fileID: 0}
+    text: You DO think it's interesting???
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Well, yeah. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "\u2026"
-    expression: {fileID: 0}
+    text: '...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Hello. Testing.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Cool, I didn\u2019t just go deaf."
-    expression: {fileID: 0}
+    text: Cool, I didn't just go deaf.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: THIS IS SO MOTORIFIC!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "You actually like this kinda stuff now?? You don\u2019t think it\u2019s
-      junk?"
-    expression: {fileID: 0}
+    text: You actually like this kinda stuff now?? You don't think it's junk?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah, I guess?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I mean, you\u2019re right. "
-    expression: {fileID: 0}
+    text: 'I mean, you''re right. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I\u2019ve seen more in this rundown town than I ever would have seen in
-      that desert."
-    expression: {fileID: 0}
+    text: I've seen more with the Spirit Crew than I ever would have seen in that
+      desert.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "And humans are\u2026."
-    expression: {fileID: 0}
+    text: And humans are....
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Now, disclaimer, I still think you give humans way more credit than they
       deserve-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "But after seeing all the stuff you\u2019ve dug up\u2026."
-    expression: {fileID: 0}
+    text: But after seeing all the stuff you've dug up....
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I see now that they really did care about things. Other than killing the
       planet, anyways.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Ignoring it would just make us\u2026"
-    expression: {fileID: 0}
+    text: Ignoring it would just make us...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Ignorant?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I was trying to find a word a little less on the nose, but yeah.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "I think you\u2019re right!"
-    expression: {fileID: 0}
+    text: I think you're right!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "We can\u2019t ignore their world history, because their world history is
-      our world history!"
-    expression: {fileID: 0}
+    text: We can't ignore their world history, because their world history is our
+      world history!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

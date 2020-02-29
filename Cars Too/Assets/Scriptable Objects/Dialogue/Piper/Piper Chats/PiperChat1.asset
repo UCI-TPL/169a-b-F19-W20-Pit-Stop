@@ -15,38 +15,216 @@ MonoBehaviour:
   convo:
   - speaker: Piper
     text: What's revvin'?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What's with the lame catchphrase?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: Oh Lightning. One of these days, you're going to have to lean into the whole
-      "being a car" thing. It's so much more fun!
-    expression: {fileID: 0}
+    text: Oh, Lightning. One of these days, you're going to have to lean into the
+      whole "being a car" thing. It's so much more fun!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I really don't see how making dumb puns is going to brighten my day.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Sure it will! Try it!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: Call me a car brand, cuz I'd rather Dodge the idea.
   Choice2: I think I'd rather leave. Call me a car brand, cuz I'm Audi.
   Route1:
   - speaker: Piper
-    text: '*laughs**laughs*'
-    expression: {fileID: 0}
+    text: '*laughs*'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: 'See, you''ll get the hang of it! '
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: And what about your avatar?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, that's...not really my style.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: Oh, come on! You've GOTTA have one, we all do!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: "What's wrong with just \uFFFDgbeing a car\uFFFDh? It looks like that other
+      yellow car doesn't care either-"
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: But I wanna see it! Being a car is cool and all, but isn't it neat that
+      we have these extra forms we can take!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: I feel like I can express myself so much more naturally like this!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: 'Yeah...like I said: Not my style.'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: Whatever you say!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Piper
-    text: '*laughs**laughs*'
-    expression: {fileID: 0}
+    text: '*laughs*'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: 'See, you''ll get the hang of it! '
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: And what about your avatar?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Oh, that's...not really my style.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: Oh, come on! You've GOTTA have one, we all do!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: "What's wrong with just \uFFFDgbeing a car\uFFFDh? It looks like that other
+      yellow car doesn't care either-"
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: But I wanna see it! Being a car is cool and all, but isn't it neat that
+      we have these extra forms we can take!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: I feel like I can express myself so much more naturally like this!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: 'Yeah...like I said: Not my style.'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: Whatever you say!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
-  C1Reward: 25
-  C2Reward: 25
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
   path: 

@@ -14,89 +14,270 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Lightning
-    text: "Hey, I was wondering\u2026"
-    expression: {fileID: 0}
+    text: Hey, I was wondering'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Yes?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: If you wanted to...uh...I guess talk about that history some more?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I\u2019m coming across more and more remnants of the past in this wasteland...."
-    expression: {fileID: 0}
+    text: I'm coming across more and more remnants of the past in this wasteland....
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I can\u2019t help but wonder if there\u2019s more to them than what I\u2019m
-      seeing."
-    expression: {fileID: 0}
+    text: I can't help but wonder if there's more to them than what I'm seeing.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Oh!!! Are you-!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "DON\u2019T get your hopes up, it\u2019s not like any dead human is gonna
-      keep me from leaving. I\u2019m just curious is all."
-    expression: {fileID: 0}
+    text: DON'T get your hopes up, it's not like any dead human is gonna keep me from
+      leaving. I'm just curious is all.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "And, well\u2026You\u2019re the one to go to for that kinda stuff."
-    expression: {fileID: 0}
+    text: And, well'You're the one to go to for that kinda stuff.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: So do you wanna hang out or-?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: 'Piper:'
-    text: "YES! Yes, I\u2019d love to hang out! "
     expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: 'YES! Yes, I''d love to hang out! '
     Scenesprite: {fileID: 0}
-  Choice1: "What\u2019s your newest discovery?"
-  Choice2: Why do you care about this junk?
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: What do you wanna talk about first?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Choice1: Why do you care about this junk?
+  Choice2: What's your newest discovery?
   Route1:
   - speaker: Piper
-    text: One second.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  Route2:
-  - speaker: Piper
     text: Junk!?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: 'I thought you said you wanted to learn more about what I do!Lightning:I
-      do! '
-    expression: {fileID: 0}
+    text: I thought you said you wanted to learn more about what I do!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: 'I do! '
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Still not past calling it junk. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: "Oh, Lightning. It\u2019s not just junk, it\u2019s really cool junk! Stuff
-      that I have the privilege of studying!"
-    expression: {fileID: 0}
+    text: Oh, Lightning. It's not just junk, it's really cool junk! Stuff that I have
+      the privilege of studying!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Route2:
   - speaker: Piper
     text: OO OO OO!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: No like that sound.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: You really wanna see!?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "To be honest, I\u2019m kinda hesitant now. "
-    expression: {fileID: 0}
+    text: 'To be honest, I''m kinda hesitant now. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Narrator
+    text: (Piper unveils a very shiny piece of what looks like aluminum foil)
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: THIS is my latest discovery!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: '...'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: '...what is it?'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: Oh hoh hoh, I'm glad you asked!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: I feel like you just waited for me to-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: THIS is - based on my analysis - a KEE-LON-DEE-KAY bar.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: What's it do?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: I'm not sure, but it must have, once upon a time, done something VERY important.
+      My past research leads me to believe that people from all over the globe would
+      do anything imaginable to get one.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: But it doesn't do anything?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: 'Nnnnot that I can tell? But I''m sure it served some incredible purpose
+      way back when! '
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: It's cool stuff like this that I get to trail blaze!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

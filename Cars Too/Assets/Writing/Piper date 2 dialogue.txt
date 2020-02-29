@@ -4,76 +4,105 @@ Hey, you wanna hang out again?
 Piper:
 Abso-toot-ly!
 
+$P2
+
 Lightning:
-...On second thought…..
+...On second thought.....
 
 Piper:
 Oh, quit it! I know your game.
+
+$P4
 
 Lightning:
 What game?
 
 Piper:
-Doing this whole “tough guy” routine.
+Doing this whole "tough motor" routine.
+
+$P0
 
 Lightning:
-It’s not a “routine”!
+It's not a "routine"!
 
 Piper:
-Uh-huh. And you’re not back for more?
+Mhm. Being defensive DEFINITELY helps your case.
+
+$P5
 
 Lightning:
-I’m NOT-!
+I'm NOT-!
 
 Lightning:
-Ugh, whatever.
+*sigh*
 
 Lightning:
 How do you know how to push all my buttons?
 
 Piper:
-It’s what I’m built for, silly!
+It's what I'm built for, silly!
+
+$P2
 
 Piper:
-So what’d you wanna talk about?
+So what'd you wanna talk about?
+
+$P0
 
 Lightning:
-You’re always digging things up, so I’m curious -
+Well, you're always digging things up, so I'm curious -
+
 EndC
 
 Choices
-What’s the worst thing you’ve found?
-What’s the best thing you’ve found?
+What's the worst thing you've found?
+What's the best thing you've found?
 
 Piper:
 Ooooooooo, uh, well -
 
-Piper:
-That’s a toughie. 
+$P1
 
 Piper:
-Human society broke down so long ago and….
+That's a toughie. 
+
+$P5
 
 Piper:
-Well, to be honest, sometimes it’s hard to look at all this “junk” as you’d like to call it.
+Human society broke down so long ago and...
+
+$P3
 
 Piper:
-So I guess, on one hand, everything I’ve come across is the worst thing I’ve found. 
+To be honest, sometimes it's hard to look at all this "junk" as you'd like to call it.
+
+Piper:
+So I guess, on one hand, everything I've come across is the worst thing I've found. 
 
 Piper:
 Toys, art, inventions, skyscrapers, homes -
 
+$P5
+
 Piper:
 It all points to this exciting and bustling place!
 
+$P0
+
 Piper:
-And that’s what I love about it! I really do!
+And that's what I love about it! I really do!
+
+$P2
 
 Piper:
 But at the same time-
 
+$P5
+
 Piper:
 It makes seeing it all empty so much worse.
+
+$P3
 
 Piper:
 There USED to be people here.
@@ -85,44 +114,66 @@ Piper:
 Seeing everything abandoned is sad sometimes.
 
 Piper:
-But I can’t let it get to me!
+But I can't let it get to me!
+
+$P4
 
 End
 
 Piper:
 Oooooo, uh, well-
 
-Piper:
-That’s a toughie.
+$P1
 
 Piper:
-I mean, I love everything I come across!
+That's a toughie.
+
+$P5
+
+Piper:
+After all, I love everything I come across!
+
+$P2
 
 Narrator:
-*Piper holds up a metal bowl with lots of holes in it*
+(Piper holds up a metal bowl with lots of tiny holes in it)
 
 Piper:
-I mean look at this thing? What the heck was this used for?
+I mean look at this thing! What the heck was this used for?
+
+$P6
 
 Piper:
-My theory is that it’s a helmet of some sorts, to protect workers from certain substances.
+My theory is that it's a helmet of some sorts, to protect workers from certain substances.
+
+$P5
 
 Piper:
 Or-Or from maybe falling debris when they were building these massive things!
 
-Piper:
-Right now, this is the best thing I’ve found!
+$P0
 
 Piper:
-But tomorrow, it’ll probably be something else, and something else after that!
+Right now, this is the best thing I've found!
+
+$P2
 
 Piper:
-Even though it’s all so old, it’ll always be new to me.
+But tomorrow, it'll probably be something else, and something else after that!
+
+$P0
+
+Piper:
+Even though it's all so old, it'll always be new to me.
+
+$P5
 
 End
 
 Piper:
 Human society left so much behind, it would be irresponsible of me to not look at it all!
+
+$P0
 
 Piper:
 What about you?
@@ -134,39 +185,48 @@ Piper:
 Yeah, what do you think of human society?
 
 Lightning:
-Well, you know what I think.
+You already know what I think.
 
 Piper:
-Nope.
+Nope!
+
+$P2
 
 Piper:
 I know what you THOUGHT!
 
-Piper:
-But now you’ve seen more than you ever got to see in that desert.
+$P5
 
 Piper:
-So what’s the verdict now?
+But now you've seen more than you ever got to see in that desert.
+
+$P0
+
+Piper:
+So what's the verdict now?
 
 Lightning:
-Uh, well….
+Uh, well...
+
 EndC
 
 Choices
-I still think it’s not worth looking into.
-I think it’s interesting.
+I still think it's not worth looking into.
+I think it's interesting.
 
 Lightning:
-I still think it’s not worth looking into.
+I still think it's not worth looking into.
 
 Lightning:
 They all died a long time ago.
 
 Lightning:
-And I don’t wanna go sticking my hood into why that happened.
+And I don't wanna go sticking my hood into why that happened.
 
 Piper:
 *GASP!!!*
+
+$P6
 
 Lightning:
 ?
@@ -178,18 +238,23 @@ Piper:
 You just unironically used a car pun!!!
 
 Lightning:
-What? No I didn’t!
+What? No I didn't!
 
 Piper:
 *laughs*
+
+$P2
 
 Piper:
 Yeah you did~!
 
 Lightning:
 Alright, fine, I did, whatever!
+
 Piper:
 This is so going into my journal-
+
+$P0
 
 Lightning:
 ANYWAY -
@@ -201,16 +266,20 @@ Lightning:
 What if that ends up happening to us too?
 
 Lightning:
-All because we were meddling with something we shouldn’t have.
+All because we were meddling with something we shouldn't have.
 
 Piper:
 Oh, Lightning.
 
+$P5
+
 Piper:
-That’s not what history’s about! 
+That's not what history's about! 
 
 Piper:
 Yes, the humans all died but it was probably because of some stupid mistake!
+
+$P0
 
 Piper:
 And mistakes happen. They happen to all of us!
@@ -218,31 +287,39 @@ And mistakes happen. They happen to all of us!
 Piper:
 All we can do is try our best to prevent them.
 
+$P5
+
 Piper:
-We can’t do that without acknowledging them.
+And we can't do that without acknowledging them first.
 
 End
 
 Lightning:
-Actually, I….
+Actually, I...
 
 Lightning:
-Yeah. I think it’s interesting.
+Yeah. I think it's interesting.
 
 Piper:
-Oh, Lightning, you can’t always think that way! Remember you have to-
+Oh, Lightning, you can't always think that way! Remember you have to-
+
+$P3
 
 Piper:
-…
+...
+
+$P1
 
 Piper:
 Wait.
 
 Piper:
-Did you say you…
+Did you say you...
 
 Piper:
-You DO think it’s interesting???
+You DO think it's interesting???
+
+$P6
 
 Lightning:
 Well, yeah. 
@@ -250,67 +327,79 @@ Well, yeah.
 Piper:
 AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!
 
+$P2
+
 Lightning:
-…
+...
 
 Lightning:
 Hello. Testing.
 
 Lightning:
-Cool, I didn’t just go deaf.
+Cool, I didn't just go deaf.
 
 Piper:
 THIS IS SO MOTORIFIC!
 
 Piper:
-You actually like this kinda stuff now?? You don’t think it’s junk?
+You actually like this kinda stuff now?? You don't think it's junk?
+
+$P0
 
 Lightning:
 Yeah, I guess?
 
 Lightning:
-I mean, you’re right. 
+I mean, you're right. 
 
 Lightning:
-I’ve seen more in this rundown town than I ever would have seen in that desert.
+I've seen more with the Spirit Crew than I ever would have seen in that desert.
 
 Lightning:
-And humans are….
+And humans are....
 
 Lightning:
 Now, disclaimer, I still think you give humans way more credit than they deserve-
 
 Lightning:
-But after seeing all the stuff you’ve dug up….
+But after seeing all the stuff you've dug up....
 
 Lightning:
 I see now that they really did care about things. Other than killing the planet, anyways.
 
 Lightning:
-Ignoring it would just make us…
+Ignoring it would just make us...
 
 Piper:
 Ignorant?
+
+$P5
 
 Lightning:
 I was trying to find a word a little less on the nose, but yeah.
 
 Piper:
-I think you’re right!
+I think you're right!
+
+$P2
 
 Piper:
-We can’t ignore their world history, because their world history is our world history!
+We can't ignore their world history, because their world history is our world history!
+
+$P0
 
 End
 
 Piper:
-There’s an old human quote that goes-
+There's an old human quote that goes-
+
+$P0
 
 Piper:
-“Those who do not learn from history are doomed to eat it”
+"Those who do not learn from history are doomed to eat it."
 
 Lightning:
-…
+...
 
 Lightning:
 What the heck does that mean?
@@ -318,14 +407,23 @@ What the heck does that mean?
 Piper:
 I dunno, the words were pretty smeared -
 
+$P1
+
 Piper:
 But-! I think it means we have to learn from the past to save our future!
 
-Piper:
-So that’s what I’m doing here. 
+$P2
 
 Piper:
-Do you think that’s dumb?
+So that's what I'm doing here. 
+
+$P0
+
+Piper:
+Do you think that's dumb of me?
+
+$P3
+
 EndC
 
 Choices
@@ -335,31 +433,46 @@ Not at all.
 Piper:
 Seriously?
 
-Lightning: 
+$P6
+
+Lightning:
 Yeah. But you know what-
 
 Lightning:
-You’re doing what you love. And you have a fun time with it.
+You're doing what you love. And you have a fun time with it.
 
 End
 
 Piper:
 Really?
 
+$P2
+
 Lightning:
-Yeah. It’s important for you guys to know what happened.
+Yeah. It's important for you guys to know what happened.
 
 Lightning:
 Like you said, you have to learn from the past.
 
+End
+
 Lightning:
-In the end, I think that’s all that matters.
+In the end, I think that's all that matters.
 
 Piper:
-Yeah. Thanks, Lightning. That makes me feel better!
+Yeah... 
+
+$P5
 
 Piper:
-Well, I think we’d better hit the road again.
+Thanks, Lightning. That makes me feel better!
+
+$P2
+
+Piper:
+Well, I think we'd better hit the road again.
+
+$P0
 
 Piper:
 It was a pleasure, as always!
