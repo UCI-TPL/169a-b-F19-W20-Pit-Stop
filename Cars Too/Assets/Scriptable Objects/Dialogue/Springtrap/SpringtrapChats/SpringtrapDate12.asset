@@ -14,187 +14,371 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Springtrap
-    text: Aside from all that, rookie, being here, is WAY better than being anywhere
-      out there.
-    expression: {fileID: 0}
+    text: 'Aside from all that, rookie - '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Being here is WAY better than being anywhere out there.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: I mean, sure, I can handle my own. No problems there.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'But out there again? Oh no. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "You\u2019d have to pay me a heckuva lot and THEN some if you think I\u2019d
-      so much as stick my tail light in that wilderness one more time."
-    expression: {fileID: 0}
+    text: You'd have to pay me a heckuva lot and THEN some if you think I'd so much
+      as stick my tail light in that wilderness one more time.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Why? What do you think is out there?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "It\u2019s not about what\u2019s OUT there rookie, it\u2019s about what\u2019s
-      NOT out there."
-    expression: {fileID: 0}
+    text: It's not about what's OUT there, rookie, it's about what's NOT out there.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Namely, a life.
-    expression: {fileID: 0}
+    text: Namely - an actual life.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "You really think I\u2019d enjoy aimlessly wandering junkyards for the rest
-      of the time I have in this body?"
-    expression: {fileID: 0}
+    text: You really think I'd enjoy aimlessly wandering junkyards for the rest of
+      the time I have in this body?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "No way. I\u2019d take Dex every day of my life if it meant not spending
-      one day alone in the wilderness."
-    expression: {fileID: 0}
+    text: No way. I'd take Dex every day of my life if it meant not spending one day
+      alone in the wilderness.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I\u2019m going to assume you had a bad time there-?"
-    expression: {fileID: 0}
+    text: I'm going to assume you had a bad time there-?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Lightning, I\u2019ll talk about literally anything else."
-    expression: {fileID: 0}
+    text: Lightning, I'll talk to you about literally anything else.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Right. So...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: How did you join the Spirit?
   Choice2: How did you become good friends with Piper?
   Route1:
   - speaker: Springtrap
     text: Chief and Mustang came along.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "To tell ya the truth, they didn\u2019t even hafta try convincing me of
-      their \u201Cgreat cause\u201D or whatever."
-    expression: {fileID: 0}
+    text: To tell ya the truth, they didn't even hafta try convincing me of their
+      "great cause" or whatever.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: I woulda gone with them either way. It was something new, something different.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: But I will say that I stayed because of their purpose.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "I don\u2019t always agree with Chief and I\u2019ll do things on my own,
-      with or without our dear leader\u2019s permission, but\u2026."
-    expression: {fileID: 0}
+    text: I don't always agree with Chief and I'll do things on my own - with or without
+      our dear leader's permission - but...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "I won\u2019t lie and say I\u2019m just here for a safe place. I\u2019m
-      here because there\u2019s a goal in mind."
-    expression: {fileID: 0}
+    text: 'I won''t lie and say I''m just here for a safe place. I''m here because
+      there''s a goal in mind. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: 'Springtrap: Even if I don''t think we''ll get there anytime soon'
+    text: $S5
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I see. That makes sense.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Why are *you* here?
-    expression: {fileID: 0}
+    text: Why are YOU here?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Me? '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: See anyone else, genius?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Well, it\u2019s just like Piper probably already told you. I\u2019m here
-      to help."
-    expression: {fileID: 0}
+    text: Well, it's just like Piper probably already told you. I'm here to help.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Yeah, but why?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Cuz...Piper told me to?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Look, I don\u2019t really need a reason, do I?"
-    expression: {fileID: 0}
+    text: Look, I don't really need a reason, do I?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: You do if you intend on sticking around.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Springtrap
     text: Oh yeah, that gal.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Piper and I didn\u2019t really get off to a great start."
-    expression: {fileID: 0}
+    text: Piper and I didn't really get off to a great start.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "For starters, she\u2019s a total nerd. Really cramps my style, ya know?"
-    expression: {fileID: 0}
+    text: For starters, she's a total nerd. Really cramps my style, ya know?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "But she\u2019s the only one here who has everyone else\u2019s best interests
-      in mind."
-    expression: {fileID: 0}
+    text: But she's the only one here who has everyone else's best interests in mind.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: I assumed everyone was just in it for themselves until she showed up.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "If you talk to her, you\u2019ll know what I mean. "
-    expression: {fileID: 0}
+    text: 'If you talk to her, you''ll know what I mean. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: When I first got here, I tried to avoid her. But her personality can be...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Overwhelming?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Yeah, that\u2019s the word. I just wanted to keep to myself, but she just
-      wouldn\u2019t leave me alone."
-    expression: {fileID: 0}
+    text: Yeah, that's the word. I just wanted to keep to myself, but she just wouldn't
+      leave me alone.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I know the feeling.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "And, ya know...I\u2019m very grateful for that. Everyone\u2019s got flaws
-      and hers was not understanding boundaries. Like, at all."
-    expression: {fileID: 0}
+    text: 'And, ya know...I''m very grateful for that. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "But because of that, she genuinely taught me so much. About what this world
-      was before. About what it could be again, if we\u2019re successful here..."
-    expression: {fileID: 0}
+    text: Everyone's got flaws and hers was not understanding boundaries. Like, at
+      all.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "So even though I\u2019ll call her annoying sometimes - which she definitely
-      is -"
-    expression: {fileID: 0}
+    text: But because of that, she genuinely taught me a lot. About what this world
+      was before. About what it could be again, if we're successful here...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "I wouldn\u2019t change that wagon for the world."
-    expression: {fileID: 0}
+    text: So even though I'll call her annoying sometimes - which she definitely is
+      -
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: I wouldn't change that wagon for the world.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

@@ -15,150 +15,273 @@ MonoBehaviour:
   convo:
   - speaker: Lightning
     text: 'Springtrap. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Yes?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Do you, uh, do you wanna hang out?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...why?'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Well because...because uh, it\u2019d give you a chance to keep your eye
-      on me?"
-    expression: {fileID: 0}
+    text: Well because...because uh, it'd give you a chance to keep your eye on me?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "\u201CEyes on the rearview\u201D and all that, right?"
-    expression: {fileID: 0}
+    text: '"Eyes on the rearview" and all that, right?'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Okay, sounds good to me.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Cool.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Did Piper put you up to this?
-    expression: {fileID: 0}
+    text: Piper put you up to this, didn't she?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh...uh, yeah. Yeah, you got me.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Yeah, I figured. That girl would put a stranger up to talking with us,
-      wouldn\u2019t she?"
-    expression: {fileID: 0}
+    text: Hm, I figured.
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: "Haha, yeah\u2026.."
     expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: So, humor me then?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "If it\u2019s for her, then sure. Got questions?"
-    expression: {fileID: 0}
+    text: If it's for her, then sure. Got questions?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Actually, yeah.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'Go ahead. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: Do you like your job around here?
   Choice2: Do you like being part of the Spirit?
   Route1:
   - speaker: Springtrap
     text: My job?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Well, it\u2019s A job."
-    expression: {fileID: 0}
+    text: Well, it's A job.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "I just keep an eye on everyone, make sure no one\u2019s doing anything
-      to stir up trouble."
-    expression: {fileID: 0}
+    text: I just keep an eye on everyone, make sure no one's doing anything to stir
+      up trouble.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Which means I usually end up having to tow in a certain show-off from doing
       something stupid.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I\u2019m gonna assume you\u2019re talking about Dex?"
-    expression: {fileID: 0}
+    text: I'm gonna assume you're talking about Dex?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "OH yeah, I\u2019m talking about Dex, that bigheaded, egotistical, loud-mouth,
-      self-absORBED, CONCEITED-"
-    expression: {fileID: 0}
+    text: OH yeah, I'm talking about Dex, that bigheaded, egotistical, loud-mouth,
+      self-absORBED, CONCEITED-
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: WHOA, okay I get the idea. Not gonna bring up Dex again, check.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Anyways, ASIDE from that good-for-nothing, I\u2019ll be honest and say
-      the job is boring. "
-    expression: {fileID: 0}
+    text: 'Anyways, ASIDE from that good-for-nothing, I''ll be honest and say the
+      job is boring. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Nothin\u2019 happens most days so ya get to laze around, but ya also don\u2019t
-      get to do much."
-    expression: {fileID: 0}
+    text: Nothin' happens most days so ya get to laze around, but ya also don't get
+      to do much.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Springtrap
     text: Oh sure.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "I mean, this ain\u2019t no five-star hotel, you can tell that from one
-      glance, but this IS a team."
-    expression: {fileID: 0}
+    text: I mean, this ain't no five-star hotel, you can tell that from one glance
+      -
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: We have a surefire way to maintain ourselves and we have multiple people
-      for conversations.
-    expression: {fileID: 0}
+    text: '- but this IS a team.'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Not having to worry about going insane? That\u2019s a high score for me."
-    expression: {fileID: 0}
+    text: The Spirit Crew has a surefire way to maintain ourselves and we have multiple
+      people for conversations.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Of course, I don\u2019t really think Mustang will be able to pull some
-      hail-mary out of his trunk with all these parts we\u2019re finding\u2026."
-    expression: {fileID: 0}
+    text: Not having to worry about breaking down or going insane? That's a high score
+      for me.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "But it keeps us busy. And that\u2019s what matters."
-    expression: {fileID: 0}
+    text: Of course, I don't really think Mustang will be able to pull some hail-mary
+      out of his trunk with all these parts we're finding....
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: But it keeps us busy. And that's what matters.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

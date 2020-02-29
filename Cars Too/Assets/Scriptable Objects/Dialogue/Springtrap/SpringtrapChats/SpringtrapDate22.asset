@@ -14,136 +14,272 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Springtrap
-    text: '.....Really?'
-    expression: {fileID: 0}
+    text: '....Really?'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Yes? Why, something weird about-?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Oh no. It's just. You've changed, ya know?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What do you mean?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Before you really gave off a \u201CI don't care bout no one, just doin'
-      a dumb job.\u201D"
-    expression: {fileID: 0}
+    text: Before you really gave off a "I don't care bout no one, just doin' a dumb
+      job."
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: You REALLY didn't have to do a voice.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: But now you're.....I don't know. Not giving the same answers.
-    expression: {fileID: 0}
+    text: But now you're....I don't know. Not giving the same answers.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: '.....I''ll be honest, I have no idea what to say to that.'
-    expression: {fileID: 0}
+    text: '....'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: I'll be honest, I have no idea what to say to that.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "We'll I'm not really the car to go to for \u201Csmooth conversations\u201D.
-      Saunter over to Dex for that."
-    expression: {fileID: 0}
+    text: We'll SOR-RY, I'm not really the car to go to for "smooth conversations".
+      Saunter over to Dex for that.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Hey, I've got a question for YOU.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Oh boy.Springtrap:Heh, don't look so scared, it's nothing.
-    expression: {fileID: 0}
+    text: Oh boy.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: What I wanna know is....
-    expression: {fileID: 0}
+    text: Heh, don't look so scared, it's nothing.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: What I wanna know is...
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: If someone you cared about - REALLY cared about - wanted to leave, would
       you want them to stay or go?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Why are they leaving?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Just cause they want to. They have something to do. They wanna move on,
       for whyever they like.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: So? What would it be?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: I would want them to stay.
   Choice2: I would want them to go.
   Route1:
   - speaker: Lightning
-    text: I would.....I would want them to stay.
-    expression: {fileID: 0}
+    text: I would....I would want them to stay.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Whatever reason they came up with on their own isn't good enough.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: And anyways, even if they did have a good reason, why would they want to
       leave on their own?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'It would be kinda selfish to just leave like that. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I mean, if-if it's someone I REALLY care about...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What do you think?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'To be honest, I''d want them to go. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Lightning
     text: I would want them to go.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: It's their decision to leave, I don't think it'd be my place to keep them
       here.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: If they want to leave...doesn't that mean they're not happy in the first
       place?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Why would I want them to stay?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: That would just be...selfish of me.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What do you think?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Yeah, that's what I'd go with too.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

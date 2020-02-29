@@ -15,28 +15,52 @@ MonoBehaviour:
   convo:
   - speaker: Springtrap
     text: 'But I appreciate your answer. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: The fact is, no matter how hard you try...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: People come. People go. And at the end of the day, the choice is up to them.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: But it's nice to think we'll matter when decision time rolls around.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: It was.....nice to hang out with you again, Lightning.
-    expression: {fileID: 0}
+    text: It was....nice to hang out with you again, Lightning.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Let's do this again sometime.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

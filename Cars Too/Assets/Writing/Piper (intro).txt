@@ -1,0 +1,128 @@
+Piper:
+Heya! What's revvin'! Need some help?
+
+$P0
+
+Lightning:
+Yeah, can you tell me again why you dragged me out here?
+
+Piper:
+Cuz you need some fresh air!
+
+$P2
+
+Lightning:
+You're really gonna call rummaging around a junkyard for parts "getting fresh air"?
+
+Piper:
+Well, it's definitely better than aimlessly wandering a desert all by yourself.
+
+$P5
+
+Lightning:
+...
+
+Lightning:
+Clearly, you and I are on different pages when it comes to having a good time.
+
+Piper:
+Oh, don't be such a rusty wheel! Would it really kill you to interact with other people once in a while?
+
+$P3
+
+Lightning:
+...
+
+Piper:
+Well?
+
+$P1
+
+Lightning:
+Huh? Oh, sorry, I stopped listening after that horrendous "rusty wheel" pun. What'd you say?
+
+Piper:
+DUSTY!!! This is what I'm talking about! You make every interaction with another person seem like the worst thing in the world.
+
+$P4
+
+Lightning:
+I mean, it IS up there. And you've gotta stop calling me that.
+
+Piper:
+What? Dusty?
+
+$P5
+
+Lightning:
+I have a full name you know. 
+
+Piper:
+But it's so cute! And it suits you!
+
+$P2
+
+Lightning:
+*sigh* Just because I got a LITTLE bit dirty in the desert doesn't mean-
+
+Piper:
+Nope, it's Dusty. I've decided.
+
+$P0
+
+Piper:
+First lesson in Social Interaction 101 - 
+
+Piper:
+A nickname stays forever.
+
+$P5
+
+Piper:
+Now get on out there an learn some more lessons!
+
+$P2
+
+Lightning:
+Do I HAVE to?
+
+Piper:
+Yes, grumpy. If you still want parts for your little scheme, that is.
+
+$P5
+
+Lightning:
+It's not a scheme! It's just a...
+
+Lightning:
+...secret...plan...thing.
+
+Piper:
+Mhm. Whatever you say.
+
+Lightning:
+Whatever. I'm not gonna find anything just sitting here, so I'm gonna head out.
+
+Piper:
+Take care!
+
+$P0
+
+Piper:
+Oh, and don't you dare just leave without telling me! I've got your radio frequency on hotline!
+
+$P4
+
+Lightning:
+I won't.
+
+Lightning:
+...probably.
+
+Piper:
+What was that?
+
+$P1
+
+Lightning:
+Nothing!

@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: SpringtrapDate1
   m_EditorClassIdentifier: 
-  chats: []
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
+  chats:
+  - {fileID: 11400000, guid: de2a98b7700f56c4799758a9c3a9e540, type: 2}
+  - {fileID: 11400000, guid: a21459c92dca0814883110729799965c, type: 2}
+  - {fileID: 11400000, guid: 14484e1a0153f1f4ebe407eb77db74f1, type: 2}
   fileloc: /Writing/Springtrap Date 1.txt
   createpath: Assets/Scriptable Objects/Dialogue/Springtrap/SpringtrapChats/
   title: SpringtrapDate1

@@ -8,20 +8,25 @@ Springtrap:
 Have some more questions for the security guard?
 
 Lightning:
-“Does it get boring?” is the first thing that comes to mind.
+"Does it get boring?" is the first one that comes to mind.
 
 Springtrap:
-Oh, yeah it gets boring up here. 
+Oh, yeah it gets boring up here.
+
+$S2 
 
 Springtrap:
 Last week I timed the tumbleweeds in a race.
 
+$S5
+
 Lightning:
 Seriously?
 
-
 Springtrap:
 Li'l Junie won that one, I knew he had it in ‘im. 
+
+$S0
 
 Lightning:
 Why do you do this check anyway? What's there to look out for?
@@ -38,23 +43,33 @@ And anyway, I'm not usually looking out for anything living.
 Springtrap:
 I'm looking out in case THAT eggbeater tries anything.
 
+$S5
+
 Lightning:
-.....The sky?
+....The sky?
 
 Springtrap:
 Yep.
+
+$S0
 
 Springtrap:
 It's not like we have forecasts to check, so I have to keep my eye out for storms.
 
 Springtrap:
-They can pop out of nowhere. Even before the Crash Piper says they were a problem.
+They can pop out of nowhere. Even before the Crash, Piper says they were a problem.
+
+$S3
 
 Springtrap:
 But it's worse than ever with the climate being like this. 
 
+$S5
+
 Springtrap:
-Luckily, my model came with temperature gauges and a couple more measurement gadgets that helps me make sure we aren't heading towards a tornado.
+Luckily, my model came with temperature gauges and a couple more measurement gadgets that help me make sure we aren't headin' towards a tornado.
+
+$S0
 
 Lightning:
 I think we'd be able to see a tornado way beforehand-
@@ -67,6 +82,7 @@ I've gotta keep one eye open until the day we finally clean up some of this mess
 
 Lightning:
 ...Hey, I got a question.
+
 EndC
 
 Choices
@@ -79,14 +95,22 @@ If you didn't have to be looking out for storms 24/7, what would you be doing?
 Springtrip:
 *scoffs* That's a loaded question.
 
+$S5
+
 Springtrap:
 But if you don't ask the good questions...then what's the point, right?
 
+$S3
+
 Springtrap:
-So...hm. What would I do if I didn't have to make sure Dex didn't blow himself up every other day.....
+So...hm. What would I do if I didn't have to make sure Dex didn't blow himself up every other day....
+
+$S5
 
 Springtrap:
 I guess I'd spend more time with the others.
+
+$S0
 
 Lightning:
 Really? You?
@@ -94,8 +118,10 @@ Really? You?
 Springtrap:
 Yeah, ME. Got a problem with that?
 
+$S7
+
 Lightning:
-No, it's just- I dunno. I thought you were more.....you know.....
+No, it's just- I dunno. I thought you were more....you know....
 
 Springtrap:
 A lone wolf?
@@ -104,7 +130,7 @@ Lightning:
 A hermit. But, sure, lone wolf if you wanna sound cool.
 
 Springtrap:
-Oh I don't need a title to “sound cool”, wise guy.
+Oh I don't need a title to "sound cool", wise guy.
 
 Lightning:
 Now you're starting to sound like Dex.
@@ -112,14 +138,20 @@ Now you're starting to sound like Dex.
 Springtrap:
 Ugh, don't even SAY that.
 
+$S7
+
 Springtrap:
 Anyways, yeah, I would wanna spend more time with the Spirit Crew.
+
+$S0
 
 Lightning:
 Even Dex?
 
 Springtrap:
-EVEN Dex. Sometimes I'd like to ram that smug face of his into the track dirt for all those stupid stunts he pulls but.....
+EVEN Dex. Sometimes I'd like to ram that smug face of his into the track dirt for all those stupid stunts he pulls but....
+
+$S7
 
 Springtrap:
 Now, do NOT tell him I said this-
@@ -127,20 +159,33 @@ Now, do NOT tell him I said this-
 Springtrap:
 But he's a lot of fun to hang out with.
 
+$S0
+
 Springtrap:
-SOMETIMES. Most of the time he's like a fly you can't bat away.
+SOMETIMES. 
+
+$S6
+
+Springtrap:
+Most of the time he's like a fly you can't bat away.
+
+$S7
 
 Springtrap:
 And the others...They all have something to say.
 
+$S5
+
 Springtrap:
 Things you don't think of, you CAN'T think of on your own, just because they're all different PEOPLE.
 
+$S3
+
 Springtrap:
-If we're all that's left.....there's gotta be something in knowing more about each other.
+If we're all that's left....there's gotta be something in knowing more about each other.
 
 Lightning:
-.....Yeah. I guess there is.....
+....Yeah. I guess there is....
 
 End
 
@@ -150,47 +195,77 @@ The world is...pretty messed up right now.
 Springtrap:
 *scoffs* Tell me somethin' I don't know.
 
+$S2
+
 Lightning:
 Well, let me finish. I wanted to know if you would've liked to have seen what it was before.
 
 Springtrap:
 Before the Crash?
 
+$S1
+
 Springtrap:
 That's an easy one.
 
+$S3
+
 Springtrap:
 Nope.
+
+$S0
 
 Lightning:
 Really? No?
 
 Springtrap:
-No way in hell. That world was filled with the people that destroyed this world in the first place.
+No way in fiery hell. That world would be filled with the people that destroyed it in the first place.
+
+$S7
 
 Lightning:
-Well.....that's true, but you're not even curious?
+Well....that's true, but you're not even curious?
 
 Springtrap:
-Nah. Besides, then where's the fun in Piper's crazy speculations?
+Nah. 
+
+$S5
+
+Springtrap:
+Besides, then where's the fun in Piper's crazy speculations?
+
+$S2
 
 Springtrap:
 I wouldn't wanna let her down.
+
+$S5
 
 Lightning:
 Well, what if it was just you?
 
 Springtrap:
-*laughs* Just me? Now I REALLY wouldn't care. Although.....
+*laughs* Just me? Now I REALLY wouldn't care.
+
+$S2
+
+Springtrap:
+Although....
+
+$S3
 
 Springtrap:
 I guess it WOULD be pretty nice to know way more than everyone else. 
+
+$S2
 
 Springtrap:
 Then maybe I would know what it's like to be Chief.
 
 Springtrap:
 Point is, how those humans squandered away the Earth's resources doesn't particularly interest me.
+
+$S0
 
 Springtrap:
 It's up to us to not do the same mistakes.
@@ -202,7 +277,7 @@ Springtrap:
 Whatever they were, they were HUMAN mistakes. Not car mistakes. We're bound to do something different. To MAKE something different.
 
 Lightning:
-I don't know.....I think.....I think Piper's right.
+I don't know....I think....I think Piper's right.
 
 Lightning:
 We should know what they did. They made us, after all.
@@ -213,8 +288,9 @@ I think we should know the consequences.
 End
 
 Springtrap:
-.....Really?
+....Really?
 
+$S1
 
 Lightning:
 Yes? Why, something weird about-?
@@ -222,34 +298,52 @@ Yes? Why, something weird about-?
 Springtrap:
 Oh no. It's just. You've changed, ya know?
 
+$S5
+
 Lightning:
 What do you mean?
 
 Springtrap:
-Before you really gave off a “I don't care bout no one, just doin' a dumb job.”
+Before you really gave off a "I don't care bout no one, just doin' a dumb job."
+
+$S0
 
 Lightning:
 You REALLY didn't have to do a voice.
 
 Springtrap:
-But now you're.....I don't know. Not giving the same answers.
+But now you're....I don't know. Not giving the same answers.
+
+$S5
 
 Lightning:
-.....I'll be honest, I have no idea what to say to that.
+....
+
+Lightning:
+I'll be honest, I have no idea what to say to that.
 
 Springtrap:
-We'll I'm not really the car to go to for “smooth conversations”. Saunter over to Dex for that.
+We'll SOR-RY, I'm not really the car to go to for "smooth conversations". Saunter over to Dex for that.
+
+$S6
 
 Springtrap:
 Hey, I've got a question for YOU.
 
+$S0
+
 Lightning:
 Oh boy.
+
 Springtrap:
 Heh, don't look so scared, it's nothing.
 
+$S2
+
 Springtrap:
-What I wanna know is....
+What I wanna know is...
+
+$S0
 
 Springtrap:
 If someone you cared about - REALLY cared about - wanted to leave, would you want them to stay or go?
@@ -260,15 +354,19 @@ Why are they leaving?
 Springtrap:
 Just cause they want to. They have something to do. They wanna move on, for whyever they like.
 
+$S5
+
 Springtrap:
 So? What would it be?
+
+$S0
 
 EndC
 I would want them to stay.
 I would want them to go.
 
 Lightning:
-I would.....I would want them to stay.
+I would....I would want them to stay.
 
 Lightning:
 Whatever reason they came up with on their own isn't good enough.
@@ -287,6 +385,8 @@ What do you think?
 
 Springtrap:
 To be honest, I'd want them to go. 
+
+$S3
 
 End
 
@@ -311,26 +411,38 @@ What do you think?
 Springtrap:
 Yeah, that's what I'd go with too.
 
+$S0
+
 End
 
 Springtrap:
 But I appreciate your answer. 
 
+$S0
+
 Springtrap:
 The fact is, no matter how hard you try...
+
+$S5
 
 Springtrap:
 People come. People go. And at the end of the day, the choice is up to them.
 
+$S0
+
 Springtrap:
 But it's nice to think we'll matter when decision time rolls around.
 
+$S5
+
 Springtrap:
-It was.....nice to hang out with you again, Lightning.
+It was....nice to hang out with you again, Lightning.
+
+$S3
 
 Springtrap:
 Let's do this again sometime.
 
+$S0
+
 End
-
-

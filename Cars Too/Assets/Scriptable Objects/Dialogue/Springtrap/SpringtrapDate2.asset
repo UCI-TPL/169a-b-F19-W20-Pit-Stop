@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: SpringtrapDate2
   m_EditorClassIdentifier: 
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
   chats:
   - {fileID: 11400000, guid: 34844dd5c68414d4a9938d9b6bf87e04, type: 2}
   - {fileID: 11400000, guid: 150698dcf37926843b602ed130d427ef, type: 2}

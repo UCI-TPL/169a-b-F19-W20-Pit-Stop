@@ -1,6 +1,8 @@
 Springtrap:
 Yo. You the new motor?
 
+$S0
+
 Springtrap:
 Piper told me about you.
 
@@ -10,11 +12,15 @@ She did?
 Springtrap:
 She said you were "wheel-tastic".
 
+$S5
+
 Lightning:
 Ah. Yeah that sounds like her. 
 
 Springtrap:
 I'm not so convinced.
+
+$S0
 
 Lightning:
 And you are..?
@@ -23,7 +29,12 @@ Springtrap:
 Name's Springtrap. And all you need to know about me is that these mirrors -
 
 Springtrap:
-- are on YOU. You try anything funny, I'll personally break your hubcaps. Got it?
+- are on YOU.
+
+$S7
+
+Springtrap:
+You try anything funny, I'll personally break your hubcaps. Got it?
 
 Lightning:
 Yeah, quick question, do ALL of you make car puns? Or is it just-
@@ -31,11 +42,15 @@ Yeah, quick question, do ALL of you make car puns? Or is it just-
 Springtrap:
 I said GOT IT?! 
 
+$S6
+
 Lightning:
 Loud and clear. Emphasis on "loud". 
 
 Springtrap:
-Good. I'm the only troublemaker 'round here, and don't you forget it.
+Good. I'm the only rebel engine 'round here, and don't you forget it.
+
+$S0
 
 Lightning:
 Yes, ma'am.

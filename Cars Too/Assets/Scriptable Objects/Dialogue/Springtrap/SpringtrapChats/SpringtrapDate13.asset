@@ -15,88 +15,174 @@ MonoBehaviour:
   convo:
   - speaker: Springtrap
     text: Let me tell you something.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "The people you see around here? They ain\u2019t perfect."
-    expression: {fileID: 0}
+    text: The people you see around here? They ain't perfect.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "I won\u2019t hide the fact that some of them get on my nerves."
-    expression: {fileID: 0}
+    text: I won't hide the fact that some of them get on my nerves.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "But I also won\u2019t hide the fact that they\u2019re my family now, and
-      I\u2019ll protect them no matter the cost.Springtrap:Do you get the picture
-      now, new motor?"
-    expression: {fileID: 0}
+    text: But I also won't hide the fact that they're my family now, and I'll protect
+      them no matter the cost.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Do you get the picture now, new motor?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: To be honest? Not really.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Whaddya mean?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I don\u2019t know how else to say it but that \u201Cfamily\u201D is sort
-      of a foreign term for me."
-    expression: {fileID: 0}
+    text: I don't know how else to say it but that "family" is sort of a foreign term
+      for me.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "I don\u2019t\u2026.really get it. But the way you describe it. It sounds
-      nice."
-    expression: {fileID: 0}
+    text: I don't....really get it. But the way you describe it. It sounds nice.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '*laughs*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Whoa, was that a smile?
-    expression: {fileID: 0}
+    text: Whoa, was that a real smile?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "NO. That was a pity laugh, because THAT was probably the most pathetic
-      thing I\u2019ve ever heard."
-    expression: {fileID: 0}
+    text: 'NO. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: That was a pity laugh, because THAT was probably the most pathetic thing
+      I've ever heard.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: "Oh sure, thanks, I\u2019m glad my existence is a joke to you."
-    expression: {fileID: 0}
+    text: Oh sure, thanks, I'm glad my existence is a joke to you.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Ahhh, not like that, I don\u2019t mean to make fun of ya. What I mean is\u2026"
-    expression: {fileID: 0}
+    text: Ahhh, not like that, I don't mean to make fun of ya. What I mean is...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "You sound like the type of person who could really use a family. At least
-      a couple of friends wouldn\u2019t hurt."
-    expression: {fileID: 0}
+    text: You sound like the type of person who could really use a family. At least
+      a couple of friends wouldn't hurt.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "And hey, if you want to stick around a little while longer\u2026."
-    expression: {fileID: 0}
+    text: And hey, if you want to stick around a little while longer....
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: "Well...why don\u2019t you hit me up again?"
-    expression: {fileID: 0}
+    text: Well...why don't you hit me up again?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: This chat was surprisingly not the worst thing in the world.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
   Route2: []
   isConversation: 1
-  C1Reward: 75
+  C1Reward: 0
   C2Reward: 0
   abilityactivation: 0
   carpartsgained: 0
