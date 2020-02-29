@@ -1,0 +1,50 @@
+Lightning:
+Hey Dex. How are you doing?
+
+Dex:
+I'm motortastic Lightning, what about you?
+
+$D3
+
+Lightning:
+Listen I just wanted to say I'm sorry about what happened...
+
+Dex:
+It's fine Lightning. I knew you couldn't resist my charm. Let's go get those parts shall we?
+
+$D5
+
+Lightning:
+Alright I guess we'll talk later...
+
+End
+
+Lightning:
+Are you sure you're alright Dex?
+
+Dex:
+No Lightning. You left us after everything! How am I supposed to be ok with it?
+
+$D7
+
+Dex:
+We were getting so close. You betrayed us. Me.
+
+$D4
+
+Lightning:
+And I was wrong for that. I was only thinking about myself.
+
+Lightning:
+I am really sorry for what I did. I realize that what I did was selfish, and that we are stronger together.
+
+Lightning:
+I understand if you don't want to speak to me again.
+
+Dex:
+*sigh* It's ok. I'll get over it. I'm just glad you're back. Now let's go stop Gak.
+
+Lightning:
+Let's do it!.
+
+End

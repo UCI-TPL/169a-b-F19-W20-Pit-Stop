@@ -9999,8 +9999,8 @@ MonoBehaviour:
   npcthemeindex: 8
   randomchats:
   - {fileID: 11400000, guid: 4850e3d26bc0eaf4a8d26837c59cb458, type: 2}
-  - {fileID: 11400000, guid: 4850e3d26bc0eaf4a8d26837c59cb458, type: 2}
-  - {fileID: 11400000, guid: 4850e3d26bc0eaf4a8d26837c59cb458, type: 2}
+  - {fileID: 11400000, guid: 61c009b271886604f97c52eba8f9014a, type: 2}
+  - {fileID: 11400000, guid: 9efeece5696439f45aadabc3da91f317, type: 2}
   LevelupChats: {fileID: 11400000, guid: 6c61181606e019344b571d77755f0edf, type: 2}
   giftrecievedchats: {fileID: 11400000, guid: 19e5fea1f0179e74aa26c24d0b4569b0, type: 2}
   introchat: {fileID: 11400000, guid: 6691cfd79202a5d47b7f931d417eec0c, type: 2}

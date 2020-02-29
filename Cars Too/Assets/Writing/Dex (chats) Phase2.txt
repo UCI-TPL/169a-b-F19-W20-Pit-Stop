@@ -1,0 +1,59 @@
+Lightning:
+This factory is amazing right?
+
+Dex:
+I am already planning on starting a new circuit here.
+
+Lightning:
+You really are quite the racer aren't you?
+
+Dex:
+Before I met the Spirit, racing was my full time thing. I really miss those days.
+
+Lightning:
+One of these days, you and I will have to race.
+
+Dex:
+As you if you have a chance.
+
+$D2
+
+Dex:
+Challenge accepted!
+
+$D0
+
+End
+
+Lightning:
+Have you been exploring the factory?
+
+Dex:
+You mean fly over it? I just made a new personal record jump! Don't tell Springtrap though.
+
+Dex:
+I definitely went over the 50 feet limit.
+
+$D2
+
+Lightning:
+Dex!
+
+Dex:
+I know I know. But I got really curious.
+
+$D0
+
+Lightning:
+Please don't endanger yourself. You're an important member of this crew.
+
+Dex:
+Awwww don't get soft on me now Lightning.
+
+Lighting:
+Oh shut up. Anyway, I gotta wheel outta here. Need to find parts.
+
+Dex:
+See ya later.
+
+End

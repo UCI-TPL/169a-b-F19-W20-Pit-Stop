@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
+  m_Name: DexChatsP3
+  m_EditorClassIdentifier: 
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
+  chats:
+  - {fileID: 11400000, guid: 684a3723a24be9f479695b5d14869b8a, type: 2}
+  - {fileID: 11400000, guid: 42158248ee2f1d84e964c5f13088ab2a, type: 2}
+  fileloc: /Writing/Dex (chats) Phase3.txt
+  createpath: Assets/Scriptable Objects/Dialogue/Dex/DexChats/
+  title: DexChatP3
