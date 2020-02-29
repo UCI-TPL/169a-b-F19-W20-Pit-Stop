@@ -1,71 +1,73 @@
-﻿Chief:
-Found what you could?
-
-
-
-Lightning:
-Yes sir.
-
-
 Chief:
-Good. Those parts will be essential for Mustang's purifier. Once we get those toxins in the air out of our way, we can start fixing things around here.
-
+Good job on finding those parts, Lightning. They'll be essential for Mustang's purifier. Once we get those toxins in the air out of our way, we can start fixing things around here.
 
 Springtrap:
-Yo, chief.
+Yo, Chief.
 
+$S0
 
 Springtrap:
 I got that bridge fixed. We have full access to that new area for parts now.
 
+$S0
 
 Chief:
-Then we're moving. I'll tell the others and let them know they can enter….hmmm….
+Then we're moving. I'll tell the others and let them know they can enter...
 
+Chief:
+Hmmm...
 
 Springtrap:
 What is it?
 
+$S5
 
 Chief:
 Do we have a name for the place yet?
 
+Narrator:
+(Piper excitedly revs up to the party!)
 
 Piper:
-OO OO! Did I just hear “naming”!???
+OO OO! Did I just hear "naming"!???
 
+$P2
 
 Springtrap:
 Here we go.
 
+$S0
 
 Chief:
 Affirmative. Springtrap just fixed the bridge to a new, unnamed area.
 
-
 Springtrap:
 Do we really have to name it? It's just another abandoned place chock full of radiation.
 
+$S0
 
 Piper:
 Hey, that's it! Radiation, and Springtrap cleared the way to it-
 
-$P1
-
+$P0
 
 Piper:
 So how about Springs of Radiation!
 
+$P2
 
 Springtrap:
-*rubs the back of her head* Uhm, I mean, all I did was fix the bridge-
+*mumbling* Uhm, I mean, all I did was fix the bridge-
 
+$S5
 
 Chief:
 It's a wonderful name, Piper.
 
+Chief:
+Okay everyone. If you still got stuff to do here feel free to stay. Otherwise -
 
 Chief:
-Okay everyone. If you still got stuff to do here feel free to stay. Otherwise, let's move out!
+Spirit Crew, let's roll out!
 
 End
