@@ -5084,7 +5084,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b5eea7e272953e145a975f41b4da6008, type: 2}
   LevelupChats: {fileID: 11400000, guid: f0eaf491bef23614296a56224583bf2c, type: 2}
   giftrecievedchats: {fileID: 11400000, guid: 40cf7e50d33a48f4dbb941033e76f6f2, type: 2}
-  introchat: {fileID: 11400000, guid: be17a08259adb8645b973daf29c2b381, type: 2}
+  introchat: {fileID: 11400000, guid: d98f5aee08c91a54080ede430e429f44, type: 2}
   idlechats: {fileID: 11400000, guid: 82099a4dcdd73b24391976fd51a45360, type: 2}
   nomorechats: {fileID: 11400000, guid: 485606eea4547a44a8ffb091bcf09f21, type: 2}
   date1:

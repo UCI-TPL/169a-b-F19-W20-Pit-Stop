@@ -1,8 +1,14 @@
 Piper:
-THERE you are! I was started to worry you wouldn't show! 
+THERE you are! I was starting to worry you wouldn't show! 
 
 Lightning:
-Yeah, well....I figured it would be worth getting the parts I need. Worth even putting up with you.
+Eh, don't get too cocky there, Piper.
+
+Lightning:
+I just figured coming here would be worth getting the parts I need.
+
+Lightning:
+Worth even putting up with you.
 
 Piper:
 Awwww, that's sweet!
@@ -35,10 +41,10 @@ Piper:
 And don't forget to introduce yourself to the rest of the crew!
 
 Piper:
-They'll be around.
+They'll be around!
 
 Narrator:
-*Piper leaves*
+(Piper leaves)
 
 Lightning:
 So, Chief, right?
