@@ -1,8 +1,31 @@
 Piper:
-Now that you can check the new place out, we can start finding more-
+What's revvin'! 
+
+Lightning:
+Back for another check-in?
+
+Piper:
+You know it! Wow, looks like you got a good haul of parts too!
+
+$P2
+
+Piper:
+Once Springtrap and Dex fix the-
+
+$P0
+
+Piper:
+!?
+
+$P1
+
+Narrator:
+(Piper is cut off by a commotion nearby.)
 
 Piper:
 ...Uh oh.
+
+$P5
 
 Lightning:
 What's-
@@ -10,23 +33,34 @@ What's-
 Springtrap:
 I DON'T CARE! I'm TELLING you that it IS - NOT - SAFE!
 
+$S6
+
 Lightning:
 Oh.
 
 Piper:
 Springtrap and Dex are at it again.
 
+$P3
+
 Dex:
 And I'm telling YOU you have no sense of adventure! We won't get anywhere if we don't try!
+
+$D7
 
 Piper:
 Don't worry, they'll probably burn themselves out soon enough. 
 
+$P0
+
 Piper:
-I'll go help Mustang with his stuff.
+I've gotta head back to Chief, I'll catch up with you later. 
 
 Springtrap:
 Dex, we've been over this. I'm security, right?
+
+$S7
+$D0
 
 Dex:
 Yes, but-
@@ -34,95 +68,162 @@ Yes, but-
 Springtrap:
 RIGHT?
 
+$S7
+
 Dex:
 ...right.
+
+$D3
 
 Springtrap:
 SO, if you want your WHEELS to stay on your BODY, you'll listen to me when I say -
 
+$S3
+
 Springtrap:
 DO NOT TRY THAT JUMP.
+
+$S7
 
 Dex:
 You know, Springtrap, you can quit that lying.
 
 Springtrap:
-ExCUSE ME?
+ex-CUSE ME?
+
+$S7
 
 Dex:
 *laughs* You don't care about my "safety"!
 
+$D2
+
 Dex:
 You just don't like the fact that I'm better than you.
+
+$D0
 
 Springtrap:
 WHAT!?
 
-Dex:
-It's obvious you would like nothing better than for me to "know my place" because you're afraid I'll take yours.
-
-Springtrap:
-Ooooo- that DOES IT!
-
-Springtrap:
-Let me make this PERFECTLY - CRYSTAL for you.
-
-Springtrap:
-I couldn't care LESS about some stupid hierarchy you built up in that bratty little head of yours.
-
-Springtrap:
-NONE of us are better than each other, esPECIALLY not YOU.
+$S6
 
 Dex:
-That's not true. Chief is looking out for all of us, they-
+It's obvious you would like nothing better than for me to "know my place" because you're afraid...
+
+Dex:
+...I'll take yours.
+
+$D5
 
 Springtrap:
-Oh don't you dare bring up Chief now, Dex. They aren't better than us either!
+Ooooo - that DOES IT!
+
+$S7
+
+Springtrap:
+Lemme make this PERFECTLY - CRYSTAL for you.
+
+$D12
+
+Springtrap:
+I couldn't care LESS about some stupid hierarchy you built up yourself in that  bratty little head of yours.
+
+$D32
+
+Springtrap:
+NONE of us are better than each other.
+
+Springtrap:
+Not Chief, not Mustang, not Piper and ESPECIALLY not YOU.
+
+Dex:
+Hey now, don't bring Chief into this, he's our leader, Springtrap!
+
+$D7
+
+Springtrap:
+Oh don't you start with that! Chief helps out, but we ALL help out! That doesn't automatically put them above us!
+
+$S6
 
 Dex:
 How can you say that after everything they've done for us? We wouldn't be here if it weren't for them-
 
+$D6
+
 Springtrap:
-Why do you keep acting like you're indebted to them!? Like something will go wrong if you don't do what Chief says?
+Why do you keep acting like you're indebted to them!? Like something'll go wrong if you don't do what Chief says?
 
 Dex:
-They KNOW what to do, Springtrap. Why can't YOU have any sense of authority?
+Because they KNOW what to do, Springtrap. Why can't YOU have any sense of authority?
+
+$D7
 
 Springtrap:
-Because I, for one, care if someone's walking all over me.
+Because I - for one - take notice when someone's walking all over me.
+
+$S7
 
 Dex:
-I do NOT let people walk-
+I do NOT let people walk all-!?
+
+$D6
 
 Springtrap:
-How would you even know!? You're so self-absorbed, I'd bet anything that you can't see past your own windshield. 
+How would you even know!? 
+
+$S6
+
+Springtrap:
+You're so self-absorbed, I'd bet anything that you can't even see past your own windshield. 
+
+$S7
 
 Dex:
 At least I HAVE confidence! You're too scared to drive over GRAVEL, let alone actually get somewhere meaningful.
 
+$D0
+
 Dex:
-If YOU were leading this crew, we would've already been broken down in a ditch somewhere because you were too afraid to crawl out of it.
+If YOU were leading this crew, we would've already broken down in a ditch somewhere because you were too afraid to crawl out of it.
+
+$D5
 
 Springtrap:
 Are you KIDDING me!? If YOU were leading this crew, we would've EXPLODED somewhere because you can't tell the difference between propane and gasoline!
 
+$S6
+
 Springtrap:
 You're SO bent on being this GREAT leader to fill in for Chief, but you just AREN'T.
 
-Springtrap:
-And you'll NEVER be!
+$S7
 
 Springtrap:
-I don't know why you even try-!
+And you'll NEVER be.
+
+$D62
+
+Springtrap:
+...
+
+$S3
+$D4
 
 Narrator:
-Springtrap pauses in horror as she realizes her mistake. She's gone too far.
+(Springtrap pauses in horror as she realizes her mistake. A line's been crossed.)
 
 Narrator:
-Dex looks devastated. Both of them are at a loss for words.
+(Dex looks devastated. Both of them are at a loss for words.)
 
-Narrator:
-Dex spins on his wheels and takes off. Springtrap remains, still angry but silent.
+Narrator: 
+(Dex spins on his wheels and takes off. Springtrap remains, brows creased in annoyance, but remaining silent.)
+
+Springtrap:
+...
+
+$S0
 
 EndC
 
@@ -134,16 +235,23 @@ Lightning:
 Dex!
 
 Narrator:
-Considering his speed, it takes a little longer than expected to catch up with Dex. 
+(Considering his speed, it takes a little longer than expected to catch up with Dex.)
 
 Narrator:
-In the end, you find him secluded and alone.
+(In the end, you find him secluded and alone.)
+
+Lightning:
+Dex?
 
 Dex:
 Ah, Lightning! I'm sorry you had to be there for-
 
+$D5
+
 Dex:
 *sniff*
+
+$D4
 
 Lightning:
 ?? A-Are you-!?
@@ -151,41 +259,63 @@ Lightning:
 Dex:
 NO!
 
+$D6
+
 Dex:
 I've just got a bit of oil leakage that's all. It'll fix itself in just a moment.
+
+$D4
 
 Dex:
 Did you need something?
 
 Lightning:
-Well, yeah. I wanted to see how you were doing. 
+No, I...I wanted to see how you were doing. 
 
 Lightning:
-And I'm guessing your biggest trouble right now isn't really maintenance.
+And I'm guessing your biggest trouble right now isn't actually just maintenance.
 
 Dex:
 No, hah, I suppose it's pretty obvious.
 
+$D3
+
 Lightning:
-Listen...I haven't known you all for very long but...I know Springtrap didn't really mean what she said to you.
+Listen...I haven't known you all for very long but...
+
+Lightning:
+I don't think Springtrap really meant it. What she said to you.
 
 Dex:
-Oh really? Because it seems perfectly natural to me. 
+*scoffs* Oh really? Because it seemed like a perfect match to me.
+
+$D0
 
 Dex:
 She always does this. Always makes me seem like I'm a simple child.
+
+$D3
 
 Lightning:
 Well...uh...maybe you are.
 
 Dex:
-What!?
+Pardon!?
+
+$D6
 
 Lightning:
 I-I mean, don't take that the wrong way-
 
 Dex:
-*laughs* How else am I supposed to take it?
+*laughs* 
+
+$D2
+
+Dex:
+How else am I supposed to take it?
+
+$D0
 
 Lightning:
 I-...*sigh* Let me explain.
@@ -194,7 +324,9 @@ Lightning:
 The way it looks to me - at least after that big blow-up - is that Springtrap really cares about you.
 
 Dex:
-Pardon? Uh, were you even there for that?
+Sorry, are your headlights broken? Were you even there for what just happened?
+
+$D2
 
 Lightning:
 Yeah, I was. And I also saw that jump you were attempting.
@@ -202,68 +334,96 @@ Yeah, I was. And I also saw that jump you were attempting.
 Dex:
 Oh you did? It was nothing, right?
 
+$D5
+
 Lightning:
 Oh, sure, a 100-foot gap is definitely an eyes-closed, piece-of-cake problem.
 
 Dex:
-Exactly!
+Exactly! I don't see what all the fuss is about!
+
+$D2
 
 Lightning:
 ...
+
+$D5
 
 Lightning:
 If I wanted my words to make it any farther over your head, I'd need a freakin' rocket. 
 
 Lightning:
-Okay, cutting all unnecessary wordplay from here on out. 
+*inhales* Okay, I am cutting all unnecessary wordplay from here on out. 
+
+$D1
 
 Lightning:
 Let me get straight to the point. Springtrap was right.
 
 Dex:
-Ah....right. Then I have nothing to say to you.
+Ah...I see. Then I have nothing to say to you.
+
+$D0
 
 Lightning:
 Good. Then you'll listen.
+
+$D1
 
 Lightning:
 What I mean is - she was worried about you. So worried that she was screaming in your face, in fact.
 
 Lightning:
-If she really didn't care about you, like you think she does, she would've stood by and watched you throw yourself off that cliff.
+If she REALLY didn't care about you, like you think she does, she would've stepped aside and gladly watched you throw yourself off that cliff.
+
+$D3
 
 Dex:
-But it's just her JOB, Lightning. She HAS to do things like that, it being me doesn't make a difference-
+But it's just her JOB, Lightning. She HAS to do things like that. 
+
+Dex:
+The fact that it was me doesn't make a difference-
 
 Lightning:
-Yes it does. Even if she was just doing her duty, she could've stopped at telling you "no".
+Yes it does. Even if she was just doing her duty, she could've stopped after telling you "no".
 
 Lightning:
 But she didn't. She really wanted you to hear her. She wanted you to be okay.
 
 Dex:
-....
+...
 
 Dex:
-Well, if she really cared...she wouldn't have gone as far as she did.
+Well, if she REALLY cared, as you say...
+
+Dex:
+She wouldn't have gone as far as she did.
+
+$D4
 
 Lightning:
-People make mistakes. I don't think she meant that. Just like you didn't mean everything you said to her.
+People make mistakes. She didn't mean everything she said. Just like YOU didn't mean everything YOU said.
 
 Dex:
-But I-!
+...
 
 Dex:
-....
+*sighs* You're right. It's just that...
+
+$D3
 
 Dex:
-*sighs* You're right. It's just that....
+I am EXHAUSTED.
+
+$D4
 
 Dex:
-I am so tired of being constantly bullied around by her. I'm so sick of how she treats me.
+I am tired of her constant bullying. I'm so sick of how she treats me.
 
 Dex:
 She goes on and on about how we're all equal when it's so obvious she looks down on me!
+
+$D7
 
 Dex:
 If you ask me, it's not me who has a "hierarchy" issue, it's her!
@@ -271,14 +431,25 @@ If you ask me, it's not me who has a "hierarchy" issue, it's her!
 Lightning:
 Then you should tell her that.
 
+Narrator:
+(Dex laughs wryly and shakes his head.)
+
+$D2
+
 Dex:
-*laughs* Now I KNOW you're joking. She would never even apologize for what she said, let alone listen to me.
+Now I KNOW you're joking. She would never even apologize for what she said, let alone listen to me.
+
+$D5
 
 Lightning:
 You'll never know if you don't try. 
 
+$D0
+
 Lightning:
 What do you think is gonna happen if you never do anything about it?
+
+$D3
 
 Lightning:
 I don't think Springtrap will just ASSUME everything you're thinking. 
@@ -289,67 +460,103 @@ Unless she's telepathic. In which case, wow, rude for not telling.
 Dex:
 *laughs* No, she's not telepathic. And...you're right.
 
+$D2
+
 Dex:
 Nothing will change if I don't tell her that. 
+
+$D3
 
 Dex:
 But how do you know she won't just get mad at me for saying it?
 
+$D4
+
 Lightning:
 Dex, Springtrap wasn't mad at you for your thoughts. She was mad because you were insulting her on every other word.
+
+$D3
 
 Lightning:
 If you just speak calmly...maybe she'll get what you're saying.
 
 Lightning:
-You know, without feeling the need for immediate revenge.
+You know - WITHOUT feeling the need for immediate revenge.
 
 Dex:
-....
+...
 
 Dex:
-Alright. I'll try.
+Oh, alright. I'll try.
+
+$D5
 
 Narrator:
-You and Dex return to Springtrap.
+(You and Dex return to Springtrap.)
 
 End
 
 Lightning:
-Whoa, uh, are you-?
+Whoa...er...that was a little-
 
 Springtrap:
-Save your gas. I'm in the mood for talking right now-
+Save your gas. I'm not in the gear for talking right now-
+
+$S0
 
 Lightning:
 CLEARLY. You're more in the mood for yelling, huh?
 
 Springtrap:
-YOU-! *sighs* Why are you still here? Don't you have better things to do?
+YOU-! 
+
+$S6
+
+Springtrap:
+*sighs* Why are you still here? Don't you have better things to do?
+
+$S5
 
 Lightning:
-Nah, not really. 'Sides, it seems like you...need to get some things off your chest. 
+Nah, not really. ÅeSides, it seems like you...need to get some things off your chest. 
 
 Springtrap:
 I already told you, I'm not in the mood for talking.
 
+$S7
+
 Lightning:
-I know. But venting and talking aren't really the same. So...?
+I know. But venting and talking aren't really the same. 
+
+Lightning:
+So...?
 
 Springtrap:
 Ugh.
+
+$S5
 
 Springtrap:
 You're really not gonna leave until I say something, huh?
 
 Lightning:
-I seem to recall saying I have nothing better to do.
+I DO recall saying I have nothing better to do.
 
 Springtrap:
-....Fine.
+...Fine.
+
+$S0
 
 Springtrap:
-Dex is a dramatic, selfish little BRAT, who needs to get some SEMBLANCE of a grip on reality before he gets himself - or others - KILLED.
+*inhales*
+
+Springtrap:
+Dex is a dramatic, attention-seeking, self-important dust devil who DESPERATELY needs some SEMBLANCE of a grip on reality before he gets himself - or others - KILLED.
+
+$S7
+
+Springtrap:
+His absolute IGNORANCE puts all of us at risk, and me being his damn NANNY is the only thing that stands between him and his expiration date. 
 
 Lightning:
 ...
@@ -363,17 +570,23 @@ Wow. How long were you mentally rehearsing that?
 Springtrap:
 Long enough, apparently.
 
+$S3
+
 Lightning:
 Feel any better?
 
 Springtrap:
 Eh...a little.
 
+$S5
+
 Lightning:
-You know...if it's any consolation, I think you're right.
+You know - if it's any consolation - I think you're right.
 
 Springtrap:
 *scoffs* Of COURSE I'm right! That idiot's going to get us all scrapped if he keeps-
+
+$S0
 
 Lightning:
 AND-
@@ -382,40 +595,52 @@ Lightning:
 I think you're wrong.
 
 Springtrap:
-'Scuse me?
+Uh!? Wanna say that again?
+
+$S7
 
 Lightning:
 Look, Springtrap, you're right. Trying to make a 100-foot leap off of pure willpower is REALLY stupid, and Dex should know better. 
 
 Lightning:
-But I can't imagine you really believe everything else you said. 
+But I can't imagine you really meant everything else you said. 
 
 Springtrap:
-You think I care if I hurt his PRECIOUS feelings? 
+AW, you think I care if I hurt his PRECIOUS feelings?
+
+$S2 
 
 Lightning:
 Uh, yeah. Yeah I do. 
 
+$S3
+
 Lightning:
 Because the way it sounded, you really do care about Dex.
 
-Lightning:
-You see how hard he works to be the best he can be.
+$S5
 
 Lightning:
-And you know much MUCH more than me when it comes to how much being a good leader means to him.
+You see how hard he works to be where he is.
+
+Lightning:
+And you know way - WAY - more than me when it comes to how much being a good leader means to him.
 
 Lightning:
 You don't really want him to throw out those parts of himself, do you?
 
 Springtrap:
-No I don't-!
+No, I don't-!
+
+$S3
 
 Lightning:
-So what gives? You just give him a hard time 'cause it makes you feel good? Is that it?
+So what gives? You just give him a hard time Åecause it makes you feel good? Is that it?
 
 Springtrap:
 NO-!
+
+$S1
 
 Lightning:
 Then is it because-?
@@ -423,11 +648,15 @@ Then is it because-?
 Springtrap:
 IT'S BECAUSE-
 
+$S6
+
 Springtrap:
 ...
 
 Springtrap:
 *sigh*
+
+$S5
 
 Springtrap:
 It's because, I know he can be better.
@@ -435,17 +664,28 @@ It's because, I know he can be better.
 Springtrap:
 The truth is, I have no doubt in my mind he can make a 100-foot gap jump. 
 
+$S0
+
 Lightning:
 Wait, seriously?
 
 Springtrap:
-Well, metaphorically. The way Dex is...if he can set his mind to it, there's really no telling what he can do.
+Well, metaphorically. 
 
 Springtrap:
-But he's completely unfocused! I feel like he's throwing all this potential out the window because his EGO takes up at least 98% of his conscience at any given time.
+The way Dex is...if he can set his mind to it, there's no telling what he can do.
+
+$S3
+
+Springtrap:
+But he's completely unfocused! I feel like he's throwing all this potential out the window because his EGO takes up at least 98% of his mental real estate at any given time.
+
+$S7
 
 Springtrap:
 If he'd JUST spend the LEAST bit of time on self-reflection, then MAYBE he'd learn something.
+
+$S0
 
 Lightning:
 Then why don't you tell him that? 
@@ -453,32 +693,47 @@ Then why don't you tell him that?
 Springtrap:
 Oh, please. You saw what just happened. That's what ALWAYS happens. 
 
+$S5
+
 Springtrap:
 If I told him any of that, he'd just blow up at me again.
 
 Springtrap:
-What do you think is gonna happen? He'll suddenly some great epiphany and learn the error of his ways?
+You think that'll change? That he'll suddenly have some great epiphany and learn the error of his ways?
+
+$S0
 
 Lightning:
-Well, One: You never know unless you try, and Two: No I do not think that will happen.
+Well, 1: You never know unless you try, and 2: No I do not think that will happen.
 
 Lightning:
-But don't you think the reason you keep failing in the first place has something to do with the way you say it?
+But don't you think the reason you keep failing in the first place has something to do with the WAY you speak to him?
+
+$S3
 
 Lightning:
 If you insult him in every other sentence, do you really think he'll listen?
 
 Springtrap:
-Yeah, well HE always-!
+Yeah, well HE'S the one who always-!
+
+$S6
 
 Lightning:
-HE also shouldn't be. But someone's gotta break the cycle somewhere, right? Otherwise, you're both stuck.
+HE also shouldn't be insulting you. 
+
+Lightning:
+But someone's gotta break the cycle somewhere, right? Otherwise, you're both stuck.
+
+$S0
 
 Springtrap:
 ...
 
 Springtrap:
 I know.
+
+$S5
 
 Springtrap:
 I know that. 
@@ -487,13 +742,22 @@ Springtrap:
 But I've just been...I don't know.
 
 Springtrap:
-I didn't want it to change, I guess.
+I didn't want to try changing anything.
 
 Springtrap:
-*laughs* Guess he wasn't wrong. I really am afraid of things changing.
+If I did...I might mess up big time. I might just make things worse.
+
+$S3
 
 Springtrap:
-But...if it means that maybe something will finally get through his thick SKULL-
+*scoffs* Guess he wasn't wrong about me. I really am afraid of...change.
+
+$S5
+
+Springtrap:
+But if it means that maybe something will finally get through his thick SKULL-
+
+$S7
 
 Lightning:
 Springtrap-
@@ -501,28 +765,40 @@ Springtrap-
 Springtrap:
 Sorry - force of habit.
 
+$S3
+
 Springtrap:
-If it means he'll finally understand what I really mean.
+If it means he'll finally understand what I really mean-
+
+$S5
 
 Springtrap:
 Then you're right.
+
+$S0
 
 Springtrap:
 It's worth a shot.
 
 Narrator:
-You and Springtrap go to Dex.
+(You and Springtrap go to Dex)
 
 End
 
 Dex:
-Hey, Springtrap. 
+Hello, Springtrap. 
+
+$D5
 
 Springtrap:
-...Hey.
+...Yo.
+
+$S0
 
 Dex:
 ...
+
+$D0
 
 Springtrap:
 ...
@@ -530,8 +806,12 @@ Springtrap:
 Dex:
 ...I apologize.
 
+$D3
+
 Springtrap:
 !?
+
+$S6
 
 Springtrap:
 What? No, Dex, I'm the one who-
@@ -540,50 +820,92 @@ Dex:
 Listen, I-
 
 Springtrap:
-No, YOU listen, I didn't-!
+No, YOU listen, I didn't mean-!
+
+$S7
+$D6
 
 Springtrap:
 ...
+
+$S3
+$D3
 
 Springtrap:
 *chuckles* I'm doing it again, huh?
 
+$S5
+
 Dex:
 Mhm. It would seem so.
 
+$D5
+
 Springtrap:
-Ergh, I-...I'm not good at this. 
+Ergh, I'm not good at this. 
+
+Dex:
+That's okay. I'm not...I'm not either.
+
+$D3
+
+Springtrap:
+!!
+
+$S3
+
+Narrator:
+(Springtrap is shocked by his genuine modesty. Her demeanor softens, just slightly.)
 
 Springtrap:
 You go ahead. I'll listen.
 
+$S0
+
 Dex:
 Really?
+
+$D6
 
 Springtrap:
 Yes really. Now hurry it up, I don't have all-!
 
+$S6
+
 Springtrap:
 ...
+
+$D52
 
 Springtrap:
 Wow, I am REALLY not good at this.
 
+$S5
+
 Dex:
 *laughs*
 
+$D2
 
 Springtrap:
 Oh, just get on with it.
 
+$S7
+
 Dex:
 Right. Well...
+
+$D0
 
 Dex:
 Springtrap, I...I know you're doing your job. 
 
+$D3
+
 Dex:
 And being security is...important. We all have our jobs on this crew and you're right.
+
+$S02
 
 Dex:
 ALL of them are crucial to our survival.
@@ -591,20 +913,28 @@ ALL of them are crucial to our survival.
 Dex:
 But...you treat me like a child every time you see me. 
 
-Dex:
-I flinch when you turn my way because I know you'll only insult whatever I'm doing.
+$D7
 
 Dex:
-You're constantly suspicious and probing and I feel like...
+I tend to flinch when you turn my way because I know you're about to insult whatever I'm doing.
+
+$D3
 
 Dex:
-You don't see any value in me as a crew member...
+You're constantly suspicious and probing and it makes me feel like...
 
 Dex:
-...or even as a person.
+You don't see any value in me as a crew member.
+
+Dex:
+Or even as a person.
+
+$D4
 
 Dex:
 So it makes me wonder if there's ever going to be a time when you actually see me as an equal, as an individual. 
+
+$S32
 
 Dex:
 And not just some toddler.
@@ -612,41 +942,61 @@ And not just some toddler.
 Springtrap:
 ...
 
+$S5
+
 Springtrap:
 ...Dex-
 
 Dex:
-*sighs* And here it comes. Here comes the jab at me.
+*sighs* And here it comes.
+
+$D0
 
 Dex:
 Well, go ahead. I'm used to it by now.
 
+$S32
+
 Springtrap:
 ...Dex, you're really brave.
+
+$S0
 
 Dex:
 !?
 
-Dex:
-Uh, okay, so...NOT what I was expecting-
+$D6
 
 Dex:
-Who are you and what have you done with our vicious guard dog?
+Alright, so...NOT what I was expecting-
+
+$D1
+
+Dex:
+Um, who are you and what have you done with the Spirit's vicious guard dog?
+
+$S62
 
 Springtrap:
-EXCUSE ME!?
+WHAT WAS THAT!?
 
 Dex:
 Ah, there she is.
 
+$D2
+
 Springtrap:
 GUARD DOG!? YOU-
+
+$D02
 
 Springtrap:
 ...
 
 Springtrap:
-Keep it together.
+*muttering* Keep it together.
+
+$S7
 
 Springtrap:
 What I MEANT by that is-
@@ -654,50 +1004,83 @@ What I MEANT by that is-
 Springtrap:
 I DO value you, Dex.
 
+$S3
+
 Springtrap:
 You're the most ambitious person I could ever imagine.
+
+$D32
 
 Springtrap:
 You're so optimistic and determined that...I'm envious.
 
+$S5
+
 Dex:
 So envious that you're -
+
+$D0
 
 Springtrap:
 Don't say it-
 
+$S7
+
 Dex:
  - GREEEEEN with it?
+
+$D5
 
 Springtrap:
 ALRIGHT THAT'S IT-!
 
+$S6
+
 Dex:
 *laughs* Wait, wait, wait, I'm sorry, okay?
+
+$D2
 
 Dex:
 I admire you too.
 
+$D5
+
 Springtrap:
 Wh-? Really?
+
+$S1
 
 Dex:
 Yes. 
 
+$D0
+
 Dex:
-When you...when you mentioned that part back there...about Chief...
+When you...when you mentioned that thing back there...about Chief...
+
+$D3
 
 Dex:
 I couldn't help but think of you.
 
+$D5
+$S3
+
 Dex:
 You're responsible. You're careful. You keep an eye on everyone.
+
+$S52
 
 Dex:
 You always seem to know what you're doing and the truth is -
 
+$D3
+
 Dex:
 You'd be a good leader. Not me.
+
+$D4
 
 Dex:
 I'm sorry for those awful things I said about you, I didn't mean to-
@@ -705,11 +1088,17 @@ I'm sorry for those awful things I said about you, I didn't mean to-
 Springtrap:
 No.
 
+$S0
+
 Springtrap:
 You don't have to apologize for that. 
 
+$D32
+
 Springtrap:
 I'm the one who needs to apologize.
+
+$S5
 
 Springtrap:
 You're right. I've been treating you like a child.
@@ -717,19 +1106,56 @@ You're right. I've been treating you like a child.
 Springtrap:
 And it's because...I know how far you can go if you just FOCUS.
 
+$S0
+
 Springtrap:
-But I never realized how harsh that made me sound. I thought I was "whipping you into shape" I guess, but I was really only driving you further away.
+But I never realized how harsh that made me sound. I thought I was "whipping you into shape".
+
+$S5 
+
+Springtrap:
+But I can see I was only driving you further away.
+
+$S4
+
+Dex:
+Aw, Springtrap are you-!?
+
+$D6
+
+Springtrap: 
+I-IT'S JUST OIL LEAKAGE, THAT'S ALL!
+
+$S6
+
+Dex:
+*laughs*
+
+$D2
+
+Springtrap:
+Listen -
+
+$S3
 
 Springtrap:
 I'm sorry Dex. I'll try to stop getting on your case so often.
 
+$S5
+
 Dex:
 ...Thank you, Springtrap.
 
+$D5
+
 Dex:
-I'll try to be more responsible from now on. 50-foot gaps only!
+And I'll try to be more responsible from now on. 50-foot gaps only!
+
+$D2
 
 Springtrap:
 *sighs* Right. Baby steps. 
+
+$S0
 
 End

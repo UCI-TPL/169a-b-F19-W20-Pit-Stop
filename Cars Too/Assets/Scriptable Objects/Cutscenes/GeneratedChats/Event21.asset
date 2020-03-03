@@ -14,897 +14,1581 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Piper
-    text: Now that you can check the new place out, we can start finding more-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'What''s revvin''! '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Back for another check-in?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: You know it! Wow, looks like you got a good haul of parts too!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: Once Springtrap and Dex fix the-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Piper
+    text: '!?'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Narrator
+    text: (Piper is cut off by a commotion nearby.)
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: '...Uh oh.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What's-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: I DON'T CARE! I'm TELLING you that it IS - NOT - SAFE!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: Springtrap and Dex are at it again.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: And I'm telling YOU you have no sense of adventure! We won't get anywhere
       if we don't try!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
     text: 'Don''t worry, they''ll probably burn themselves out soon enough. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: I'll go help Mustang with his stuff.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'I''ve gotta head back to Chief, I''ll catch up with you later. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Dex, we've been over this. I'm security, right?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Yes, but-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: RIGHT?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: '...right.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: SO, if you want your WHEELS to stay on your BODY, you'll listen to me when
       I say -
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: DO NOT TRY THAT JUMP.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: You know, Springtrap, you can quit that lying.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: ExCUSE ME?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: ex-CUSE ME?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: '*laughs* You don''t care about my "safety"!'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: You just don't like the fact that I'm better than you.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: WHAT!?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: It's obvious you would like nothing better than for me to "know my place"
-      because you're afraid I'll take yours.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+      because you're afraid...
     Scenesprite: {fileID: 0}
-  - speaker: Springtrap
-    text: Ooooo- that DOES IT!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Springtrap
-    text: Let me make this PERFECTLY - CRYSTAL for you.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Springtrap
-    text: I couldn't care LESS about some stupid hierarchy you built up in that bratty
-      little head of yours.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Springtrap
-    text: NONE of us are better than each other, esPECIALLY not YOU.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: That's not true. Chief is looking out for all of us, they-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '...I''ll take yours.'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Oh don't you dare bring up Chief now, Dex. They aren't better than us either!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Ooooo - that DOES IT!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Lemme make this PERFECTLY - CRYSTAL for you.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 11400000, guid: a04146cd4eb0ac049803f8b90a44f2da, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: I couldn't care LESS about some stupid hierarchy you built up yourself in
+      that  bratty little head of yours.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: NONE of us are better than each other.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Not Chief, not Mustang, not Piper and ESPECIALLY not YOU.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: Hey now, don't bring Chief into this, he's our leader, Springtrap!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Oh don't you start with that! Chief helps out, but we ALL help out! That
+      doesn't automatically put them above us!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: How can you say that after everything they've done for us? We wouldn't be
       here if it weren't for them-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Why do you keep acting like you're indebted to them!? Like something will
+    text: Why do you keep acting like you're indebted to them!? Like something'll
       go wrong if you don't do what Chief says?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: They KNOW what to do, Springtrap. Why can't YOU have any sense of authority?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Because they KNOW what to do, Springtrap. Why can't YOU have any sense of
+      authority?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Because I, for one, care if someone's walking all over me.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Because I - for one - take notice when someone's walking all over me.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: I do NOT let people walk-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: I do NOT let people walk all-!?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: 'How would you even know!? You''re so self-absorbed, I''d bet anything that
-      you can''t see past your own windshield. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'How would you even know!? '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: 'You''re so self-absorbed, I''d bet anything that you can''t even see past
+      your own windshield. '
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: At least I HAVE confidence! You're too scared to drive over GRAVEL, let
       alone actually get somewhere meaningful.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: If YOU were leading this crew, we would've already been broken down in a
-      ditch somewhere because you were too afraid to crawl out of it.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: If YOU were leading this crew, we would've already broken down in a ditch
+      somewhere because you were too afraid to crawl out of it.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Are you KIDDING me!? If YOU were leading this crew, we would've EXPLODED
       somewhere because you can't tell the difference between propane and gasoline!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: You're SO bent on being this GREAT leader to fill in for Chief, but you
       just AREN'T.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: And you'll NEVER be!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: And you'll NEVER be.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: I don't know why you even try-!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: Springtrap pauses in horror as she realizes her mistake. She's gone too
-      far.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (Springtrap pauses in horror as she realizes her mistake. A line's been
+      crossed.)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: Dex looks devastated. Both of them are at a loss for words.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (Dex looks devastated. Both of them are at a loss for words.)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: Dex spins on his wheels and takes off. Springtrap remains, still angry but
-      silent.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (Dex spins on his wheels and takes off. Springtrap remains, brows creased
+      in annoyance, but remaining silent.)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: Dex
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: '...'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: Comfort Dex
   Choice2: Stay with Springtrap
   Route1:
   - speaker: Lightning
     text: Dex!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: Springtrap
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: 'Considering his speed, it takes a little longer than expected to catch
-      up with Dex. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (Considering his speed, it takes a little longer than expected to catch
+      up with Dex.)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: In the end, you find him secluded and alone.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (In the end, you find him secluded and alone.)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Dex?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Ah, Lightning! I'm sorry you had to be there for-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: '*sniff*'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: ?? A-Are you-!?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: NO!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: I've just got a bit of oil leakage that's all. It'll fix itself in just
       a moment.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Did you need something?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: 'Well, yeah. I wanted to see how you were doing. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'No, I...I wanted to see how you were doing. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: And I'm guessing your biggest trouble right now isn't really maintenance.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: And I'm guessing your biggest trouble right now isn't actually just maintenance.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: No, hah, I suppose it's pretty obvious.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Listen...I haven't known you all for very long but...I know Springtrap didn't
-      really mean what she said to you.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Listen...I haven't known you all for very long but...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: I don't think Springtrap really meant it. What she said to you.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: 'Oh really? Because it seems perfectly natural to me. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '*scoffs* Oh really? Because it seemed like a perfect match to me.'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: She always does this. Always makes me seem like I'm a simple child.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Well...uh...maybe you are.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: What!?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Pardon!?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I-I mean, don't take that the wrong way-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: '*laughs* How else am I supposed to take it?'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '*laughs* '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: How else am I supposed to take it?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I-...*sigh* Let me explain.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: The way it looks to me - at least after that big blow-up - is that Springtrap
       really cares about you.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: Pardon? Uh, were you even there for that?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Sorry, are your headlights broken? Were you even there for what just happened?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah, I was. And I also saw that jump you were attempting.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: Oh you did? It was nothing, right?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh, sure, a 100-foot gap is definitely an eyes-closed, piece-of-cake problem.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: Exactly!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Exactly! I don't see what all the fuss is about!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'If I wanted my words to make it any farther over your head, I''d need a
       freakin'' rocket. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: 'Okay, cutting all unnecessary wordplay from here on out. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '*inhales* Okay, I am cutting all unnecessary wordplay from here on out. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a04146cd4eb0ac049803f8b90a44f2da, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Let me get straight to the point. Springtrap was right.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: Ah....right. Then I have nothing to say to you.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Ah...I see. Then I have nothing to say to you.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Good. Then you'll listen.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: a04146cd4eb0ac049803f8b90a44f2da, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What I mean is - she was worried about you. So worried that she was screaming
       in your face, in fact.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: If she really didn't care about you, like you think she does, she would've
-      stood by and watched you throw yourself off that cliff.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: If she REALLY didn't care about you, like you think she does, she would've
+      stepped aside and gladly watched you throw yourself off that cliff.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: But it's just her JOB, Lightning. She HAS to do things like that, it being
-      me doesn't make a difference-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'But it''s just her JOB, Lightning. She HAS to do things like that. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: The fact that it was me doesn't make a difference-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Yes it does. Even if she was just doing her duty, she could've stopped at
+    text: Yes it does. Even if she was just doing her duty, she could've stopped after
       telling you "no".
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: But she didn't. She really wanted you to hear her. She wanted you to be
       okay.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: '....'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: Well, if she really cared...she wouldn't have gone as far as she did.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Well, if she REALLY cared, as you say...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: She wouldn't have gone as far as she did.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: People make mistakes. I don't think she meant that. Just like you didn't
-      mean everything you said to her.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: People make mistakes. She didn't mean everything she said. Just like YOU
+      didn't mean everything YOU said.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: But I-!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: '....'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '*sighs* You''re right. It''s just that...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: '*sighs* You''re right. It''s just that....'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: I am EXHAUSTED.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: I am so tired of being constantly bullied around by her. I'm so sick of
-      how she treats me.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: I am tired of her constant bullying. I'm so sick of how she treats me.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: She goes on and on about how we're all equal when it's so obvious she looks
       down on me!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: If you ask me, it's not me who has a "hierarchy" issue, it's her!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Then you should tell her that.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Narrator
+    text: (Dex laughs wryly and shakes his head.)
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: '*laughs* Now I KNOW you''re joking. She would never even apologize for
-      what she said, let alone listen to me.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Now I KNOW you're joking. She would never even apologize for what she said,
+      let alone listen to me.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'You''ll never know if you don''t try. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: What do you think is gonna happen if you never do anything about it?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'I don''t think Springtrap will just ASSUME everything you''re thinking. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Unless she's telepathic. In which case, wow, rude for not telling.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: '*laughs* No, she''s not telepathic. And...you''re right.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: 'Nothing will change if I don''t tell her that. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: But how do you know she won't just get mad at me for saying it?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Dex, Springtrap wasn't mad at you for your thoughts. She was mad because
       you were insulting her on every other word.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: If you just speak calmly...maybe she'll get what you're saying.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: You know, without feeling the need for immediate revenge.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: You know - WITHOUT feeling the need for immediate revenge.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: '....'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '...'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: Alright. I'll try.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Oh, alright. I'll try.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: You and Dex return to Springtrap.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (You and Dex return to Springtrap.)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Lightning
-    text: Whoa, uh, are you-?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Whoa...er...that was a little-
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Save your gas. I'm in the mood for talking right now-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Save your gas. I'm not in the gear for talking right now-
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: CLEARLY. You're more in the mood for yelling, huh?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: YOU-! *sighs* Why are you still here? Don't you have better things to do?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'YOU-! '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: '*sighs* Why are you still here? Don''t you have better things to do?'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: 'Nah, not really. ''Sides, it seems like you...need to get some things off
-      your chest. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: "Nah, not really. \uFFFDeSides, it seems like you...need to get some things
+      off your chest. "
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: I already told you, I'm not in the mood for talking.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: I know. But venting and talking aren't really the same. So...?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'I know. But venting and talking aren''t really the same. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: So...?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Ugh.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: You're really not gonna leave until I say something, huh?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: I seem to recall saying I have nothing better to do.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: I DO recall saying I have nothing better to do.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: '....Fine.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '...Fine.'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Dex is a dramatic, selfish little BRAT, who needs to get some SEMBLANCE
-      of a grip on reality before he gets himself - or others - KILLED.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: '*inhales*'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Dex is a dramatic, attention-seeking, self-important dust devil who DESPERATELY
+      needs some SEMBLANCE of a grip on reality before he gets himself - or others
+      - KILLED.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: 'His absolute IGNORANCE puts all of us at risk, and me being his damn NANNY
+      is the only thing that stands between him and his expiration date. '
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Wow. How long were you mentally rehearsing that?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Long enough, apparently.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Feel any better?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Eh...a little.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: You know...if it's any consolation, I think you're right.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: You know - if it's any consolation - I think you're right.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '*scoffs* Of COURSE I''m right! That idiot''s going to get us all scrapped
       if he keeps-'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: AND-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I think you're wrong.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: '''Scuse me?'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Uh!? Wanna say that again?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Look, Springtrap, you''re right. Trying to make a 100-foot leap off of
       pure willpower is REALLY stupid, and Dex should know better. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: 'But I can''t imagine you really believe everything else you said. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'But I can''t imagine you really meant everything else you said. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: 'You think I care if I hurt his PRECIOUS feelings? '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: AW, you think I care if I hurt his PRECIOUS feelings?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Uh, yeah. Yeah I do. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Because the way it sounded, you really do care about Dex.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: You see how hard he works to be the best he can be.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: You see how hard he works to be where he is.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: And you know much MUCH more than me when it comes to how much being a good
-      leader means to him.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: And you know way - WAY - more than me when it comes to how much being a
+      good leader means to him.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: You don't really want him to throw out those parts of himself, do you?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: No I don't-!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: No, I don't-!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: So what gives? You just give him a hard time 'cause it makes you feel good?
-      Is that it?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: "So what gives? You just give him a hard time \uFFFDecause it makes you
+      feel good? Is that it?"
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: NO-!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Then is it because-?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: IT'S BECAUSE-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '*sigh*'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: It's because, I know he can be better.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'The truth is, I have no doubt in my mind he can make a 100-foot gap jump. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Wait, seriously?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Well, metaphorically. The way Dex is...if he can set his mind to it, there's
-      really no telling what he can do.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'Well, metaphorically. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: The way Dex is...if he can set his mind to it, there's no telling what he
+      can do.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: But he's completely unfocused! I feel like he's throwing all this potential
-      out the window because his EGO takes up at least 98% of his conscience at any
-      given time.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+      out the window because his EGO takes up at least 98% of his mental real estate
+      at any given time.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: If he'd JUST spend the LEAST bit of time on self-reflection, then MAYBE
       he'd learn something.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Then why don''t you tell him that? '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'Oh, please. You saw what just happened. That''s what ALWAYS happens. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: If I told him any of that, he'd just blow up at me again.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: What do you think is gonna happen? He'll suddenly some great epiphany and
+    text: You think that'll change? That he'll suddenly have some great epiphany and
       learn the error of his ways?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: 'Well, One: You never know unless you try, and Two: No I do not think that
-      will happen.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'Well, 1: You never know unless you try, and 2: No I do not think that will
+      happen.'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: But don't you think the reason you keep failing in the first place has something
-      to do with the way you say it?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+      to do with the WAY you speak to him?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: If you insult him in every other sentence, do you really think he'll listen?
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Yeah, well HE always-!
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: Yeah, well HE'S the one who always-!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: HE also shouldn't be. But someone's gotta break the cycle somewhere, right?
-      Otherwise, you're both stuck.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: 'HE also shouldn''t be insulting you. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: But someone's gotta break the cycle somewhere, right? Otherwise, you're
+      both stuck.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: '...'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: I know.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'I know that. '
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: But I've just been...I don't know.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: I didn't want it to change, I guess.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: I didn't want to try changing anything.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: '*laughs* Guess he wasn''t wrong. I really am afraid of things changing.'
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: If I did...I might mess up big time. I might just make things worse.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: But...if it means that maybe something will finally get through his thick
+    text: '*scoffs* Guess he wasn''t wrong about me. I really am afraid of...change.'
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: But if it means that maybe something will finally get through his thick
       SKULL-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Springtrap-
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Sorry - force of habit.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: If it means he'll finally understand what I really mean.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: If it means he'll finally understand what I really mean-
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: Then you're right.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
     text: It's worth a shot.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Narrator
-    text: You and Springtrap go to Dex.
-    mouth: {fileID: 0}
-    eyes: {fileID: 0}
+    text: (You and Springtrap go to Dex)
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

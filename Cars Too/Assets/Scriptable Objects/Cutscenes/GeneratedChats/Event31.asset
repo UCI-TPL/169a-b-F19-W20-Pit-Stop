@@ -900,7 +900,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang
-    text: "It's not that I hate every single one of \u2018em."
+    text: It's not that I hate every single one of 'em.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -1376,7 +1376,7 @@ MonoBehaviour:
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
-    leavename: Mustang
+    leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Piper
@@ -1429,7 +1429,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang
-    text: "\u2018Scuse me??"
+    text: '''Scuse me??'
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
@@ -1991,7 +1991,7 @@ MonoBehaviour:
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
-    leavename: Piper
+    leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang
