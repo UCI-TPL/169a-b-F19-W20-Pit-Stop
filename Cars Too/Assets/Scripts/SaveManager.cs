@@ -39,6 +39,7 @@ public class SaveManager : MonoBehaviour
             textspeed = DataManager.instance.textspeed,
             bgmvolume = DataManager.instance.am.bgmvol,
             sfxvolume = DataManager.instance.am.sfxvol,
+            voicevolume = DataManager.instance.am.voicevol,
             playername = DataManager.instance.GetName(),
 
             currentscene = DataManager.instance.scenename,
@@ -84,6 +85,7 @@ public class SaveManager : MonoBehaviour
         DataManager.instance.SetName(sd.playername);
         DataManager.instance.am.bgmvol = sd.bgmvolume;
         DataManager.instance.am.sfxvol = sd.sfxvolume;
+        DataManager.instance.am.voicevol = sd.voicevolume;
 
         //DataManager.instance.lastscene = sd.currentscene;
         SceneManager.LoadScene(sd.currentscene);
@@ -146,6 +148,7 @@ public class SaveManager : MonoBehaviour
         public string playername;
         public float bgmvolume;
         public float sfxvolume;
+        public float voicevolume;
 
         //level
         public string currentscene;
