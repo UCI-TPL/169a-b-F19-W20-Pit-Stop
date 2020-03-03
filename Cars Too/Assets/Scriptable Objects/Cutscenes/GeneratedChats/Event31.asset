@@ -244,7 +244,7 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Piper
-    text: Oh, Mustang I wished you'd quit putting so much blame on them.
+    text: Oh, Mustang I wish you'd quit putting so much blame on them.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -607,8 +607,8 @@ MonoBehaviour:
   - speaker: Piper
     text: What do you think, Lightning?
     Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
-    expression2: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
+    expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -1991,7 +1991,7 @@ MonoBehaviour:
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
-    leavename: 
+    leavename: Piper
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang
@@ -1999,7 +1999,7 @@ MonoBehaviour:
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
-    leavename: Piper
+    leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang

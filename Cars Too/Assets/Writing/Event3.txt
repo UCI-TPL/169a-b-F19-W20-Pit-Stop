@@ -103,7 +103,7 @@ Mustang:
 $P32
 
 Piper:
-Oh, Mustang I wished you'd quit putting so much blame on them.
+Oh, Mustang I wish you'd quit putting so much blame on them.
 
 Mustang:
 Oh? Ya think? So tell me where that blame falls then, hm?
@@ -267,7 +267,7 @@ Piper:
 Piper:
 What do you think, Lightning?
 
-$P32
+$P3
 
 Lightning:
 What?
