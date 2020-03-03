@@ -1,5 +1,7 @@
 Piper:
-Hooray! You found your first part!
+Hooray! You found another part!
+
+$P2
 
 Lightning:
 You're actually excited about that?
@@ -7,20 +9,28 @@ You're actually excited about that?
 Piper:
 We had a deal didn't we? 
 
+$P0
+
 Piper:
-I just want to hold up my end of the bargain!
+I'm holding up my end of the bargain!
 
 Lightning:
-Even if you're end of the bargain helps me get off-planet?
+Even if your end of the bargain helps me get off-planet?
 
 Piper:
 *sighs* Yes, even if that's still your plan.
 
-Piper:
-Lightning, I know you only came because you knew we had the parts you could use to help build your rocket or whatever, but..
+$P5
 
 Piper:
-I hope as you spend more time with the Spirit, you'll see how motorific it is!
+Lightning, I know you only came because you knew we had the parts you could use to help build your rocket or whatever, but...
+
+$P3
+
+Piper:
+I hope as you spend more time with the Spirit Crew, you'll see how motorific it is!
+
+$P0
 
 Lightning:
 Piper, I'm not gonna change my mind. Don't you see what this wasteland's turned into?
@@ -29,10 +39,14 @@ Lightning:
 There's nothing but junk. I'm better off somewhere far away from here.
 
 Piper:
-But don't you see what this wasteland was? There were people and there was life!
+But this was more than a wasteland! There were people and there was life!
+
+$P2
 
 Piper:
 We could build something new! Something just for us! The world is ours now, don't you see that?
+
+$P0
 
 Lightning:
 No, I don't. All I see is a big fat pile of-
@@ -46,38 +60,67 @@ Somethin' goin' on here I should know about?
 Piper:
 Springtrap, Dex! You're back from scouting?
 
+$P0
+
 Dex:
 Yes, we have returned! Did you miss me and my radiance?
+
+$D0
 
 Springtrap:
 Ugh.
 
+$S0
+
 Piper:
 What did you find?
+
+$P0
 
 Dex:
 Oh have we got a haul for you!
 
+$D2
+
 Dex:
-There's a valley just west of here that looks to be filled with parts! Though there's an eensy weensy teeny tiny problem-
+There's a factory just west of here that looks to be filled with parts! 
+
+$D0
+
+Dex:
+Though there's an eensy weensy teeny tiny problem-
+
+$D5
 
 Springtrap:
 The bridge is completely blown out.
 
+$S0
+
 Dex:
 A minor inconvenience! Luckily I'm the fastest car awake, so jumping it won't be a-!
+
+$D2
 
 Springtrap:
 DEX! You're not going to be jumping ANYTHING. We are FIXING the bridge like normal people so that we can move supplies back and forth.
 
+$S6
+
 Springtrap:
 We'll be over by the border. I'll see ya, Piper.
+
+$S0
 
 Piper:
 Take care!
 
+$P2
+
 Piper:
 Lightning, remember to introduce yourself when you have the time.
+
+$P0
 
 Lightning:
 But-
@@ -85,12 +128,14 @@ But-
 Piper:
 Please!? Remember the deal?
 
+$P3
+
 Lightning:
 ...
 
 Lightning:
 Ugh, fine. 
 
+$P0
+
 End
-
-
