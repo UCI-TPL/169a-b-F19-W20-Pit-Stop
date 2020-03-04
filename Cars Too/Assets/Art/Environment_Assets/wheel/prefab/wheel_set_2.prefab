@@ -427,7 +427,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2335958}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &135416
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +576,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2389624}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &144948
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +632,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2364562}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &151470
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2384832}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &180198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1151,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2338302}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &199406
 GameObject:
   m_ObjectHideFlags: 0
