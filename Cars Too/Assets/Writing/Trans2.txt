@@ -2,7 +2,7 @@
 Got all the parts you could find?
 
 Lightning:
-Yes sir.
+Yea.
 
 Chief:
 You're gettin' good at this. At this rate, we'll have enough parts for the purifier in a flash. 
@@ -28,8 +28,14 @@ Alright. But we're gonna be moving on from this place soon, so keep your radio o
 Lightning:
 R-Right-
 
+
+Lightning:
+...
+
 Piper:
 Hey!
+
+$P0
 
 Lightning:
 Oh! Uh, hey, Piper.
@@ -38,10 +44,12 @@ Piper:
 How's it going? Ready for the move?
 
 Lightning:
-Yeah. Uh. About that ...
+Yeah. Uh. About that...
 
 Piper:
 What's the matter? 
+
+$P1
 
 Lightning:
 It's about the parts-
@@ -49,32 +57,42 @@ It's about the parts-
 Piper:
 Oh yeah! You turned them in to Chief, right?
 
+$P2
+
 Lightning:
 ...
 
 Piper:
 ...Right?
 
+$P0
+
 Lightning:
-Piper, I....
+Piper, I...
 
 Piper:
 You still have them!?
 
+$P6
+
 Piper:
-Lightning, you're not actually....?
+Lightning, you're not actually...?
 
 Piper:
 I mean, you can't still be planning on using them for yourself?
 
 Lightning:
-.....I-
+...I-
 
 Piper:
 Oh my gears. 
 
+$P3
+
 Piper:
 You were!? Really?
+
+$P6
 
 Piper:
 Even after meeting with everyone? Even after hanging out and talking and-and-
@@ -82,11 +100,18 @@ Even after meeting with everyone? Even after hanging out and talking and-and-
 Piper:
 And being our friend?
 
+$P3
+
+Lightning:
+...
+
 Piper:
 That was all just a lie then, I guess. 
 
 Piper:
 Even after every hangout or-or chat, you still went looking for your stupid parts, didn't you?
+
+$P4
 
 Lightning:
 Piper-
@@ -94,88 +119,155 @@ Piper-
 Piper:
 DON'T!
 
+$P7
+
 Piper:
 Don't say anything. I-I need to process this. I mean-
+
+$P3
 
 Piper:
 NOTHING mattered!? Really!? Nothing was enough for you?
 
+$P6
+
 Piper:
 We weren't enough?
 
+$P3
+
 Piper:
-I mean, I guess not, because you just kept working on your dumb rocket...
+I mean, I guess not, because you just kept working on your-your dumb plan! 
+
+$P7
+
 Piper:
-Sure, I knew that from the beginning, I knew what you're plan was, I agreed to it and everything, but, I never thought you'd...you'd really just stay that way. 
+Sure, I knew that from the beginning, I knew what your plan was, I agreed to it and everything.
+
+$P3
+
+Piper:
+But, I never thought you'd...you'd really just stay that way. 
 
 Piper:
 You even kept up friendly conversations with all of us! But you weren't being friendly at all, were you? 
 
+$P4
+
 Springtrap:
-Piper! I wanted to ask if-
+Yo, Piper! I wanted to ask if-
+
+$S0
 
 Piper:
 You just wanted faster ways to get your parts! That's all! You just USED us, didn't you?
 
+$P7
+
 Springtrap:
 !?
 
+$S1
+
 Narrator:
-*Piper sees Springtrap*
+(Piper sees Springtrap)
 
 Piper:
-Springtrap....!
+Springtrap...!
+
+$P6
 
 Springtrap:
-....
+...
+
+$S1
 
 Springtrap:
-Lightning. You....
+Lightning. You...
+
+$S0
 
 Springtrap:
 WHAT!?
 
+$S6
+
 Piper:
 Uh oh.
+
+$P3
 
 Springtrap:
 YOU WERE JUST *USING* US? Is THAT what I just heard!?
 
+$S6
+
 Piper:
 W-Wait, Springtrap, I can explain-
 
+$P6
+
 Springtrap:
-NO, Piper. This metal scrap isn't worth your defense. 
+NO, Piper. This piece of scrap metal isn't worth your defense. 
+
+$S7
+$P4
+
+Springtrap:
+I knew something was up the MOMENT I saw you.
+
+$S7
 
 Springtrap:
 Well, Lightning? We were just parts to you, huh?
 
 Springtrap:
-Once I'M through with you, that's all you'll be too.
+Fitting!
+
+$S2
+
+Springtrap:
+Cuz once I'M through with you, that's all you'll be too.
+
+$S6
 
 Piper:
 Stop, Springtrap!
+
+$P6
 
 Mustang:
 What in tarnation is goin' on here!?
 
 Springtrap:
-Don't try to stop me! This piece of junk is going straight to the scrapyard.
+Don't try to stop me! This JUNKER is going straight to the scrapyard.
+
+$S7
 
 Dex:
 Hey hey hey! Chillax, Springtrap, what did Lightning ever do to you?
 
+$D6
+
 Springtrap:
 Ohoh, the list is getting longer every SECOND.
+
+$S6
 
 Dex:
 What are you talking about?
 
+$D1
+
 Springtrap:
 Lightning's a TRAITOR. That's what I'm talking about. 
 
+$S6
+
 Springtrap:
-You're here to get parts for yourself and that's all.
+You're here to get parts for YOURSELF, you low-riding lowlife.
+
+$S7
 
 Springtrap:
 You were probably planning on skipping town too, weren't you?
@@ -192,11 +284,17 @@ Someone wanna tell me why Springtrap wants to rip out Lightning's engine?
 Piper:
 It's my fault, Chief!
 
+$P6
+
 Springtrap:
 Piper-!
 
+$S3
+
 Piper:
 Please don't blame Lightning, this is my fault, I'm the one who should be punished!
+
+$P6
 
 Chief:
 Hang on now, no one is punishing anyone. We're just confused is all.
@@ -207,50 +305,67 @@ Just tell us what's going on.
 Piper:
 *sighs* Okay.
 
+$P3
+
 Piper:
 I told Lightning they could have the parts we find. 
 
 Piper:
-On the condition....that they at least talk to everyone in Spirit.
+On the condition….that they at least talk to everyone in Spirit.
 
 Piper:
-I just wanted them to make friends! And they did! Or at least....
+I just wanted them to make friends! And they did! Or at least...
+
+$P4
 
 Piper:
-Or at least I thought they did....
+Or at least I thought they did...
 
 Piper:
 Did you, Lightning?
 
+$P3
+
 Lightning:
-.....
+...
 
 Mustang:
 Well, slick? What'd ya got to say?
 
 Lightning:
-I....
+I...
 
 Dex:
 Lightning?
+
+$D4
 
 Chief:
 Lightning.
 
 Narrator:
-*Chief moves back to the Spirit's trailer*
+(Chief saunters back over to the Spirit's trailer, the main storage unit.)
 
 Piper:
 Chief, where are you going?
 
+$P1
+
 Narrator:
-*Chief returns with a box*
+(Chief returns with a box.)
 
 Springtrap:
-Our parts! Chief, you're not-!?
+Our parts! 
+
+$S3
+
+Springtrap:
+Chief, you're not-!?
+
+$S1
 
 Narrator:
-*Chief holds the box out to you*
+(Chief holds the box out to you.)
 
 Chief:
 If all you wanted was the parts, then take them.
