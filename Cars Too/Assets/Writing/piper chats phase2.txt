@@ -1,0 +1,181 @@
+Piper:
+Oh, hey Lightning!
+
+Piper:
+Wanna hear a secret?
+
+EndC
+
+Choices
+Pass
+Uh, sure?
+
+Piper:
+Aw! You sure?
+
+$P6
+
+Piper:
+It's mooootorific!
+
+$P2
+
+Lightning:
+Piper, I thought you were all about "being good" and whatever.
+
+Lightning:
+Now you wanna gossip?
+
+Piper:
+Okay, okay, I lied. It's not REALLY a secret.
+
+$P5
+
+Piper:
+I just thought you outta know a little somethin' about Springtrap!
+
+$P0
+
+Piper:
+I know she's a bit difficult to get to know, but if you find any spiked wheels lying around-
+
+Piper:
+Well, she just loves those things!
+
+$P2
+
+Piper:
+Try giving one to her, and you'll see.
+
+$P0
+
+End
+
+Piper:
+Hey, that's the spirit!
+
+$P2
+
+Piper:
+I knew you were still a bit of a rebel engine.
+
+$P5
+
+Lightning:
+Alright, alright.
+
+Lightning:
+What's this secret you have?
+
+Piper:
+Oh, uh, actually I lied.
+
+Piper:
+It's not REALLY a secret.
+
+$P0
+
+Piper:
+I just thought you outta know a little somethin' about Springtrap!
+
+$P0
+
+Piper:
+I know she's a bit difficult to get to know, but if you find any spiked wheels lying around-
+
+Piper:
+Well, she just loves those things!
+
+$P2
+
+Piper:
+Try giving one to her, and you'll see.
+
+$P0
+
+End
+
+Lightning:
+How did you get to know the Spirit Crew, Piper?
+
+Piper:
+Oh! Long story!
+
+$P2
+
+Piper:
+After we woke up together and you decided to head into the desert...
+
+$P0
+
+Piper:
+I decided to head into the city!
+
+Piper:
+Which...didn't end up being as wheeltastic as I thought, heh.
+
+$P5
+
+Piper:
+I ended up getting myself stuck in a pothole.
+
+$P4
+
+Piper:
+But that was where Springtrap found me and brought me to the crew!
+
+$P2
+
+Piper:
+Oh, hm, I guess it's not actually that long of a story.
+
+$P5
+
+Lightning:
+Oh, Springtrap found you, huh?
+
+Piper:
+Yep! And we've been besties ever since!
+
+$P2
+
+Piper:
+Well, maybe it was a little one-sided at first.
+
+$P5
+
+Piper:
+But she rolled around!
+
+$P0
+
+Piper:
+Just like you!
+
+$P2
+
+Lightning:
+Me?
+
+Piper:
+Yeah! You were so shut-in at first but now...
+
+$P0
+
+Piper:
+Look at you!
+
+Piper:
+Chatting with everyone, having a great time!
+
+$P2
+
+Piper:
+It's so motorific, don't you think?
+
+$P0
+
+Lightning:
+Y-Yeah...I guess...
+
+End

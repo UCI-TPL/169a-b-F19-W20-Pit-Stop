@@ -1,0 +1,197 @@
+Lightning:
+Hey, just wanted to say sorry, again, about-
+
+Piper:
+Hey don't worry about it!
+
+$P0
+
+Piper:
+Or, actually, maybe do, a little bit?
+
+$P5
+
+Piper:
+I mean, not that I WANT you to like, suffer, I mean, OBVIOUSLY-!
+
+$P6
+
+Lightning:
+Piper, it's okay.
+
+EndC
+
+Choices
+You can be honest with me.
+You don't have to be nice.
+
+Piper:
+Oh...well....
+
+$P4
+
+Piper:
+The truth is, you really hurt me back there.
+
+$P3
+
+Piper:
+But...I don't want to hold that over your head forever.
+
+Piper:
+I mean...I probably will tease you about it though!
+
+$P5
+
+Lightning:
+Hey, that's better than I could've asked for.
+
+Lightning:
+I really...don't deserve you guys. 
+
+Lightning:
+But I can try to be a person that does.
+
+Lightning:
+Starting with dealing with Gak.
+
+End
+
+Piper:
+Oh, Lightning-
+
+$P5
+
+Piper:
+It's not that I want to be mean!
+
+$P4
+
+Piper:
+I just...want you to understand how you hurt us back there.
+
+$P3
+
+Piper:
+But it isn't like I want you to feel guilty about it for the rest of your life.
+
+$P5
+
+Lightning:
+Hey, that's better than I could've asked for.
+
+Lightning:
+I really...don't deserve you guys. 
+
+Lightning:
+But I can try to be a person that does.
+
+Lightning:
+Starting with dealing with Gak.
+
+End
+
+Lightning:
+Hey you ever seen Gak before?
+
+Piper:
+No, I hadn't!
+
+$P6
+
+Piper:
+It seems like they just popped out of nowhere!
+
+Piper:
+You hadn't seen them before, have you?
+
+$P3
+
+EndC
+
+Choices
+No, I haven't...
+Maybe...
+
+Lightning:
+No, I haven't. At least, not until a few hours ago.
+
+Piper:
+What got you roped in anyway?
+
+Lightning:
+They had a way out. And everyone was gonev so I guess I just...took it.
+
+Lightning:
+I'm sorry, Piper.
+
+Piper:
+We all make mistakes.
+
+$P5
+
+Piper:
+But we're all family now!
+
+$P0
+
+Piper:
+It's our job to help each other out.
+
+Piper:
+Starting with this Gak wackjob!
+
+End
+
+Lightning:
+Actually...I think I might've seen them before...
+
+Piper:
+Really!?
+
+$P6
+
+Lightning:
+I mean...in a way.
+
+Lightning:
+They just wanted a way out, Piper. Like me.
+
+Piper:
+I...I guess? But they're not really like you.
+
+$P3
+
+Lightning:
+How so? They wanted off, just like I did.
+
+Piper:
+But they didn't have me!
+
+$P6
+
+Piper:
+Or Dex or Springtrap or Mustang or Chief!
+
+Piper:
+You're here, Lightning.
+
+$P0
+
+Piper:
+That's the difference!
+
+Piper:
+Now let's make a difference on that maniac's paint job!
+
+$P7
+
+Lightning:
+Whoa, Springtrap rubbing off on you, huh?
+
+Piper:
+A little bit, I guess!
+
+$P5
+
+End
