@@ -15,25 +15,52 @@ MonoBehaviour:
   convo:
   - speaker: Feminine Voice
     text: Uhhh, Lightning did that door just close behind you.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Gak
-    text: Sorry about this friend, but I'm not letting you stop me from leaving.
     expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: ???
+    text: Sorry about this friend, but you're getting a little too close for comfort.
     Scenesprite: {fileID: 0}
-  - speaker: Gak
-    text: All of you hold onto this dead world like the humans before us. The true
-      future lies beyond.
     expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: ???
+    text: You hold onto this dead world like the humans before us.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: ???
+    text: "When the true future lies beyond.\r\n"
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Feminine Voice
-    text: Lightning, are you alright? We're working on getting you out of there.
-    expression: {fileID: 0}
+    text: Lightning, hang tight, we're about to break through!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: How did I get myself into this mess.
-    expression: {fileID: 0}
+    text: How'd it come to this?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

@@ -14,21 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Feminine Voice
-    text: Lightning, the rocket's up ahead.
-    expression: {fileID: 0}
+    text: Lightning, there's the rocket, up ahead!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Deep Voice
     text: That part in the side of it looks important.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Southern Voice
     text: If ya take yer hat there and used it finangle the kerbober you ca' get it.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Feminine Voice
-    text: What he means is to grab it with your hat.
-    expression: {fileID: 0}
+    text: I think what he means is you should be able to get to it with your hat.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

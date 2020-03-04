@@ -15,12 +15,20 @@ MonoBehaviour:
   convo:
   - speaker: Piper
     text: Lightning, are you alright?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Chief
-    text: We'll try and get this door open, you look for another way around.
-    expression: {fileID: 0}
+    text: We're stuck nearby. You keep going and we'll catch up.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
