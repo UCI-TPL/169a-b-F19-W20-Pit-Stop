@@ -15,17 +15,29 @@ MonoBehaviour:
   convo:
   - speaker: Piper
     text: Looks like the factory is already starting to collapse, there's debris everywhere
-      up here.
-    expression: {fileID: 0}
+      up here!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Should be nothing Lightning can't plow through.
-    expression: {fileID: 0}
+    text: Ah, should be nothing Lightning can't plow through.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Lightning learned from the best after all.
-    expression: {fileID: 0}
+    text: Lightning learned from the BEST after all.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

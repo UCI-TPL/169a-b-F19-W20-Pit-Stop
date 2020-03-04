@@ -13,18 +13,39 @@ MonoBehaviour:
   m_Name: IntroP3
   m_EditorClassIdentifier: 
   convo:
-  - speaker: Dex
-    text: And that's what charging in recklessly all the time gets you.
-    expression: {fileID: 0}
+  - speaker: Piper
+    text: Are you okay? That was a big drop!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Dex
+    text: Oh Lightning's fiiiine. I've dropped even further! This one time, I-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: What did you say?
-    expression: {fileID: 0}
+    text: As much as I'd like to hear about all the times you put yourself in reckless
+      endangerment -
     Scenesprite: {fileID: 0}
-  - speaker: Dex
-    text: Nothing...
     expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Springtrap
+    text: Now isn't the time!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
