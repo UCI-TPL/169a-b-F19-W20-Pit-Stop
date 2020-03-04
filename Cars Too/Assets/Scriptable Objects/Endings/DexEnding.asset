@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: DexEnding
   m_EditorClassIdentifier: 
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
   chats:
   - {fileID: 11400000, guid: 751272758e989644c9ff209295d655c4, type: 2}
   fileloc: /Writing/DexEnding.txt

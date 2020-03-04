@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
   m_Name: SpringtrapEnding
   m_EditorClassIdentifier: 
-  chats: []
+  expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
+  chats:
+  - {fileID: 11400000, guid: 4e4fddb96bb0f724a999e57177631f98, type: 2}
   fileloc: /Writing/SpringtrapEnding.txt
   createpath: Assets/Scriptable Objects/Endings/endinggenchats/
   title: SpringtrapEnd

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7d740706597bef4e8b77fde31d9810c, type: 3}
-  m_Name: PiperChatsP2
+  m_Name: PiperChatsP3
   m_EditorClassIdentifier: 
   expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
   chats:
-  - {fileID: 11400000, guid: 5c42f789848461a498a42f4d6e0a6f79, type: 2}
-  - {fileID: 11400000, guid: 668b9aa1095dbb74b9fc4fac10d8824e, type: 2}
-  fileloc: /Writing/piper chats phase2.txt
+  - {fileID: 11400000, guid: 139816d68153ff647b8eefca106ac727, type: 2}
+  - {fileID: 11400000, guid: 50492f327b9237c4f85aec9abff8168c, type: 2}
+  fileloc: /Writing/piper chats phase3.txt
   createpath: Assets/Scriptable Objects/Dialogue/Piper/Piper Chats/
-  title: PiperChatp2
+  title: PiperChatp3

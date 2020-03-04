@@ -1,36 +1,26 @@
 ﻿Lightning:
-This is it.
-
-
-Lightning:
-Let's get in there and get those parts back.
-
-Lightning:
 Gak!
 
-
 Gak:
-.....
-
+...
 
 Gak:
 Well. If it isn't the delicate little motor come to save the day.
 
-
 Lightning:
 Put. Down. The parts.
 
-
 Gak:
-OR what?? You'll sic one of your little pals on me?
+OR what? You'll sic one of your little pals on me?
 
 Lightning:
-No. I didn't come to hurt you. I came to negotiate.
+No. I didn't come to hurt you. 
 
+Lightning:
+I came to negotiate.
 
 Gak:
-Oh? A trade? Finally decided to speak “my language” huh?
-
+Oh? A trade? Finally decided to speak "my language" huh?
 
 Lightning:
 Can you cut the scrap for two seconds, Gak?
@@ -38,136 +28,107 @@ Can you cut the scrap for two seconds, Gak?
 Lightning:
 Look around you! This place is way too unstable for a rocket!
 
-
 Lightning:
-As soon as you try to take off, it's all gonna collapse.
-
+As soon as you try your big take-off, it's all gonna collapse!
 
 Gak:
-Yeah, on YOU. Me? I'll take my chances in a giant metal tube.
+Yeah, on YOU. 
 
+Gak:
+Me? I'll take my chances in a giant metal tube.
 
 Lightning:
 If you're not going to stop for your own safety, then just listen to me, okay?
 
-
 Lightning:
-You're making a HUGE mistake doing this.G
-
+You're making a HUGE mistake doing this. 
 
 Lightning:
 And I know because I was going to do the same exact thing. 
 
-
 Lightning:
 I thought this was the only way out too but that's not true anymore.
 
+Gak:
+Oh stop being so IGNORANT! You've seen this planet!
 
 Gak:
-Oh stop being ignorant! You've seen this planet!
-
-Gak:
-EVERYTHING IS DEAD.
-
+EVERYTHING - IS - DEAD.
 
 Lightning:
 How can you say that when we're all right here?
 
-
 Lightning:
-US, Gak! We're still here, we're still alive!
-
-
-Gak:
-You can't possibly call this living.
-
+US, Gak! WE'RE still here, we're still alive!
 
 Gak:
-Scrounging for scraps? Barely making it by on the shitty tools those humans left us with?
+...You can't possibly call this living.
 
+Gak:
+Scrounging for scraps? Barely making it by on the lousy tools those humans left us with?
 
 Gak:
 How long do you think we'll last here, huh? Everything's limited, and supply is running out fast. 
 
-
 Lightning:
-We can make our own. We can build OUR way.
-
+But we can make our own. We can build OUR way.
 
 Lightning:
 Why do you keep limiting yourself by what humans did for us?
 
 Lightning:
-They aren't here anymore Gak! We aren't fixing things for them, we're fixing things for ourselves!
-
+They aren't here anymore Gak! We aren't fixing things for THEM, we're fixing things for ourselves!
 
 Lightning:
 But you're too stubborn to see that, aren't you?
 
-
 Gak:
-....
-
+...
 
 Gak:
 You don't know anything about me.
 
-
 Lightning:
 Yes I do.
-
 
 Lightning:
 I know you want to think all humans were evil, all humans did this to the planet.
 
-
 Lightning:
 I know you just want someone to blame.
 
+Lightning:
+You want this whole world to be irredeemable so leaving it can be justified.
 
 Lightning:
-You want this whole world to be irredeemable so leaving can be justified.
-
-
-Lightning:
-You want everyone else to look stupid, look naive, for staying.
-
+You want everyone else to look stupid - look naive - for staying.
 
 Lightning:
-“They're just weak.” That's what you're telling yourself, right?
-
+"They're just weak." That's what you're telling yourself, right?
 
 Lightning:
-“They're weak but I'm strong.”
-
+"They're weak but I'm strong."
 
 Lightning:
 You think you're smarter than them. You think you're clever for thinking up this whole scheme.
 
-
 Lightning:
 Well, I hate to brake it to you, but you're no better than the rest of us.
-
 
 Gak:
 YES I AM!
 
-
 Gak:
 I AM better than you! Better than all of you!
-
 
 Gak:
 You'll WASTE these parts! We don't have that many left!
 
-
 Lightning:
 Gak, calm down.
 
-
 Gak:
 YOU DON'T KNOW WHAT I'VE BEEN THROUGH TO GET HERE!
-
 
 Gak:
 I can't go back! I've come so far!
@@ -175,106 +136,80 @@ I can't go back! I've come so far!
 Dex:
 You're absolutely right.
 
-
 Dex:
 We have no idea what you've been through.
-
 
 Dex:
 But take it from me, I know how it feels to be stuck.
 
-
 Dex:
 To feel trapped here.
-
 
 Dex:
 With your skills, your rocket- Why-!?
 
-
 Dex:
 No wonder you feel like you aren't reaching your true potential!
-
 
 Lightning:
 Dex, we need to stop him from taking off, not give him a pep talk-!
 
-
 Dex:
 I am! Just trust me, Lightning, dear.
-
 
 Dex:
 Gak! There is great respect in aspiring to reach perfection in your skillset.
 
-
 Dex:
 But when you use your skills to only hurt others, then it isn't worth anything at all.
-
 
 Dex:
 You can change so much with the power you have, but only if you use it the right way!
 
-
 Dex:
 I would tell you to chase your dreams, but only if they weren't our nightmares! 
-
 
 Dex:
 So, Gak, I ask you. Is this a nightmare?
 
-
 Gak:
-....
-
+...
 
 Gak:
 I-....
 
-
 Gak:
 I've lost too much.
-
 
 Gak:
 They're all gone.
 
-
 Lightning:
 I'm sorry. I don't know what it's like to lose someone forever...but...
-
 
 Lightning:
 I know you'll only regret it if you let it define you.
 
-
 Lightning:
 You are more than your losses. And we can make this world bigger than its losses too.
-
 
 Gak:
 ....
 
-
 Gak:
 *sigh* I'm not getting out of this am I?
-
 
 Lightning:
 You've got two choices. And one of them isn't pretty.
 
-
 Gak:
 Then there's only one thing to do.
 
-
 Narrator:
-*Gak picks up their tools and parts*
-
+(Gak picks up their tools and parts.)
 
 Gak:
 Let's get the hell out of here.
-
 
 Lightning:
 Let's move!
