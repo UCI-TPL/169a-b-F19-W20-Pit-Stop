@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18279b1ad42592546abddcfaa7dc8005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 7
+  index: 4
 --- !u!1001 &1368505210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -733,38 +733,31 @@ PrefabInstance:
     - target: {fileID: 1291090140385335622, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_AspectRatio
-      value: 1.3809524
-      objectReference: {fileID: 0}
-    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: destscene
-      value: PlayerAlmostDies
+      value: 0.5102041
       objectReference: {fileID: 0}
     - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: cl
       value: 
-      objectReference: {fileID: 11400000, guid: 9a4040da745d81a44acba3d38fef4c57,
+      objectReference: {fileID: 11400000, guid: 5d44d1b34ca7d914e9765cdc8c16616b,
         type: 2}
+    - target: {fileID: 278171657, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: destscene
+      value: LVL2P3
+      objectReference: {fileID: 0}
     - target: {fileID: 3782917000350309019, guid: f854a958657ac6547841f4f9bc4d13ff,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.r
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8490566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
-      propertyPath: m_Color.b
-      value: 0.8490566
-      objectReference: {fileID: 0}
+    - target: {fileID: 278171658, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: speakersandsprites.Array.data[0].Scenesprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1ddbcb22398405941b6886a371e45809,
+        type: 3}
     - target: {fileID: 2045170831, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: eeb53cc4890a055419503e1ac2502e20,
+      objectReference: {fileID: 21300000, guid: 9328b2c25fd05114e856e907bfd4c812,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
