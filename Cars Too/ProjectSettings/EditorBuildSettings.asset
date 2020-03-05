@@ -48,12 +48,12 @@ EditorBuildSettings:
     path: Assets/Scenes/PlayerAlmostDies.unity
     guid: 4ae3e409a9e938f4499ed092e7829dab
   - enabled: 1
-    path: Assets/Scenes/LVL2Gak.unity
-    guid: a494d84dac1a28e45bd154ab9c390f73
-  - enabled: 1
-    path: Assets/Scenes/EndLevel.unity
-    guid: ac536848982a5954d9da74f6f8078486
+    path: Assets/Scenes/LVL2P3.unity
+    guid: 124be70686106984480125250e81498c
   - enabled: 1
     path: Assets/Scenes/EndCS.unity
     guid: 6d54bb998c37f474b84015bd82987e8f
+  - enabled: 1
+    path: Assets/Scenes/LVL2Gak.unity
+    guid: a494d84dac1a28e45bd154ab9c390f73
   m_configObjects: {}
