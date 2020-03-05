@@ -14,53 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Piper
-    text: What's revvin'? Found all the cogs yet?
-    expression: {fileID: 0}
+    text: Oh wow, is that a standard, dirt-ridden PIPE!? For me!?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Nope. But I found this.
-    expression: {fileID: 0}
+    text: "Uh\u2026..well, NOW it is."
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: OH! You found a pipe! And it's one of my favorite kinds!
-    expression: {fileID: 0}
+    text: Thank you thank you thank you!!! I love it!
     Scenesprite: {fileID: 0}
-  - speaker: Lightining
-    text: Really?
     expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: No, but it's still motorific! Is it for me!?
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: No, I was just showing it off.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "\rO-Oh. Right, well, I mean, it IS yours to keep I guess-"
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: That was sarcasm, Piper. You can have it.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: Oh really!!? Thank you thank you thank you!
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Alright already, it's not like I really had any use for it anyway.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: "\rWell, either way, it means a lot to me. Thank you."
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: '...You''re welcome.'
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
