@@ -14,25 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Piper
-    text: What is this?
-    expression: {fileID: 0}
+    text: 'Oh my gosh! Thank you so much! '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: I just found it lying around.
-    expression: {fileID: 0}
+    text: Just what you wanted?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: Thanks, I love it, whatever it is.
-    expression: {fileID: 0}
+    text: Not at all! But, I love it anyway. Thank you, Lightning!
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: I'm glad you like it
     expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
-  - speaker: Piper
-    text: I don't really like it, I just tolerate it, see you again then.
-    expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

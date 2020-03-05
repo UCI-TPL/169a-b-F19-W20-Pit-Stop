@@ -24,7 +24,7 @@ MonoBehaviour:
   - speaker: Gak
     text: Oh good! Can't wait to get out of this cursed room.
     Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
+    expression: {fileID: 11400000, guid: 54deafec0449d844795c977ce26b9668, type: 2}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
@@ -243,11 +243,11 @@ MonoBehaviour:
   - speaker: Narrator
     text: (The door opens)
     Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
+    expression: {fileID: 11400000, guid: f1d3819f72c3db14883c78b1c73afdb5, type: 2}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
-    newbg: {fileID: 0}
+    newbg: {fileID: 21300000, guid: 9328b2c25fd05114e856e907bfd4c812, type: 3}
   - speaker: Gak
     text: 'Hah! It worked! '
     Scenesprite: {fileID: 0}

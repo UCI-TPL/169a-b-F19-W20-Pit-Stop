@@ -1,0 +1,418 @@
+Lightning:
+GAAAAK!!!
+
+Narrator:
+(You try your wheels again, but your gas is running out.)
+
+Lightning:
+(You try your radio.)
+
+Lightning:
+GAK! DAMMIT, I KNOW YOU'RE OUT THERE!
+
+Narrator:
+(Nothing but static.)
+
+Lightning:
+...
+
+Lightning:
+Well that's just...
+
+Lightning:
+Motorific.
+
+Lightning:
+*inhales* Okay...
+
+Lightning:
+One last time.
+
+Narrator:
+(You turn your radio back on.)
+
+Lightning:
+Hey, you guys.
+
+Lightning:
+I know you're listening.
+
+Lightning:
+Chief, at least, I'm sure.
+
+Lightning:
+This is probably gonna be my last radio message 'cause-
+
+Lightning:
+I don't think I'm getting out of this.
+
+Lightning:
+So here's what I wanna say...
+
+EndC
+
+Choices
+I'm sorry for what I did
+I'm sorry for how I left
+
+Lightning:
+I'm so sorry for everything I did. 
+
+Lightning:
+I hurt all of you. And for that I really am sorry. 
+
+Lightning:
+I lied. That's all there is to it. I lied and this is the karma I get, I guess.
+
+Lightning:
+*laughs* Maybe there IS some weird car god up there.
+
+Lightning:
+If there is, they probably made the right call.
+
+End
+
+Lightning:
+I'm sorry for the way I left.
+
+Lightning:
+You have to understand, I didn't know what else to say.
+
+Lightning:
+*laughs* Who am I kidding.
+
+Lightning:
+There was nothing I could say. All of you were right about me.
+
+End
+
+Lightning:
+But...
+
+EndC
+
+Choices
+I didn't mean any of it
+I made a mistake
+
+Lightning:
+Please, I didn't mean ANY of it. Really. 
+
+Lightning:
+I didn't mean to push you all away by doing the things I was doing.
+
+Lightning:
+I didn't mean to treat any of you that way...
+
+Lightning:
+Or...or maybe I did, at one point. 
+
+Lightning:
+I-I don't know anymore! 
+
+Lightning:
+All I know is I didn't mean for it to end like this. 
+
+End
+
+Lightning:
+I know now that this was all just one giant mistake.
+
+Lightning:
+Alright?
+
+Lightning:
+You got me. I'm just a big flippin' idiot. 
+
+Lightning:
+My mind was made up and I was too stupid and too stubborn to change it.
+
+Lightning:
+I made a dumb mistake because the only person I was thinking of was...
+
+Lightning:
+...myself. 
+
+End
+
+Lightning:
+And for that...
+
+EndC
+
+Choices
+I don't expect forgiveness
+I hope you can forgive me
+
+Lightning:
+I don't expect any of you to forgive me.
+
+Lightning:
+I know that sounds, like, SUPER cheesy - 
+
+Lightning:
+But it's true.
+
+Lightning:
+There's no reason you should forgive a headstrong moron like me, so I don't want you to.
+
+Lightning:
+I just want you to hear my voice now, and know the truth.
+
+Lightning:
+Know that I listened to you. All of you.
+
+Lightning:
+And know that...it meant something to me.
+
+End
+
+Lightning:
+I hope you guys can forgive me.
+
+Lightning:
+I just couldn't get past my own head.
+
+Lightning:
+I thought I had something to prove, somewhere to go.
+
+Lightning:
+But now I know that was just me being a headstrong moron.
+
+Lightning:
+I know you all deserve better than me, but what I want more than anything right now...
+
+Lightning:
+...is to be back with you all.
+
+End
+
+Lightning:
+So this is me. Signing off.
+
+Lightning:
+You guys...
+
+Lightning:
+You guys were alright.
+
+Lightning:
+Well, at least the shakes are over, so maybe I can-
+
+
+Lightning:
+...
+
+Lightning:
+I hate myself.
+
+Narrator:
+(Suddenly, the door busts open.)
+
+Lightning:
+Mustang!?
+
+Mustang:
+Hang on, Lightning, I gotchu!
+
+Narrator:
+(Mustang's own grapples shoot out and hook onto your fender. They start to reel you in.)
+
+Mustang:
+MOVE!
+
+Lightning:
+Don't have to tell me twice!
+
+Narrator:
+(You burn up the last of your gas tank and put pedal to the metal!)
+
+Narrator:
+(Quick as lightning, Mustang pulls you out into the safety of the outside hallway. The room collapses in behind you.)
+
+Mustang:
+Hoooo WEE! That was closer than a rattlesnake in a mongoose burrow!
+
+Lightning:
+...
+
+Mustang:
+You alright there, rookie?
+
+Lightning:
+...I missed you so goddamn much you funky western motherfucker.
+
+Piper:
+LIGHTNING!!!!
+
+$P6
+
+Piper:
+Oh thank GOODNESS you're all right! We were getting REAL scared by that last transmission.
+
+Lightning:
+So you guys were listening?
+
+Dex:
+Yes, indeed -
+
+$D0
+$P0
+
+Dex:
+"Headstrong moron".
+
+$D5
+$P5
+
+Lightning:
+Great. Can we, uh, forget all about it?
+
+Chief:
+Sorry, Lightning. That'd be against the rules. 
+
+Springtrap:
+Besides, it'll be a lot more fun to tease you this way, now that you gave us a firsthand look at your diary~.
+
+$S2
+
+Lightning:
+Getting crushed to death is starting to sound like an appealing alternative now.
+
+Piper:
+Oh you put a brake on that!
+
+$P4
+
+Piper:
+Do you have ANY IDEA how WORRIED I was?
+
+$P3
+
+Piper:
+We really thought you were gonna die!
+
+$P4
+
+Piper:
+You-You airbag!
+
+Lightning:
+Ah, bringing out the real zingers now, huh?
+
+Piper:
+Lightning-!
+
+$P6
+
+Lightning:
+I know, I'm sorry.
+
+Lightning:
+It's how I cope. And...you guys...
+
+Lightning:
+Everything I said on that transmission was true. 
+
+Lightning:
+The Spirit is a part of me now, and-
+
+Lightning:
+!!
+
+Lightning:
+THE PARTS!
+
+Chief:
+They've probably been lost in the debris, we can't-
+
+Lightning:
+NO! Gak took them!
+
+Dex:
+Gak!? Who is-?
+
+$D1
+
+Lightning:
+I'll explain later, right now, we have to find them before they take off! There's a rocket that's gonna leave at any second!
+
+Chief:
+Lightning, this building is too unstable. If that rocket goes off, this whole place will collapse.
+
+Lightning:
+Which is why we have to move fast.
+
+Springtrap:
+No, we can't take that kind of risk.
+
+$S0
+
+Piper:
+We can find more parts, we can't find more you!
+
+$P6
+
+Lightning:
+...I know. You guys don't have to stay. This is my fault anyway.
+
+Lightning:
+Get out while you can, and I can deal with Gak.
+
+Chief:
+Lightning-
+
+$P32
+
+Lightning:
+No matter what you say, I'm doing this. So don't try talking me out of it.
+
+Piper:
+...
+
+$P3
+
+Piper:
+Then we're staying!
+
+$P6
+
+Lightning:
+No, you really don't have to-
+
+Mustang:
+After ALL THAT just to come get your trunk? There's no way in icy HELL we're leavin' ya now.
+
+Dex:
+'Sides, you said all we have to do is be fast right? You are speaking my language!
+
+$D5
+
+Lightning: 
+But-
+
+Springtrap:
+Oi.
+
+$S0
+
+Springtrap:
+YOU wanted to play the stubborn game. And you are picking the WRONG people to play with.
+
+$S2
+
+Chief:
+Then let's hustle. Where's Gak?
+
+$S02
+
+Lightning:
+They're probably in the center room where the rocket is, but they probably short-circuited the door to lock themselves in. Mustang?
+
+Mustang:
+I got just the thing in mind. All we're missin' are the gizmos to do it.
+
+Lightning:
+Tell me what you need and let's get those parts back.
+
+End
