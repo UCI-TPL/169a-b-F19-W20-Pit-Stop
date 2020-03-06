@@ -127,7 +127,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 18d6778496744f24c9f8deb15580d345, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Somethin' goin' on here I should know about?
@@ -135,7 +135,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 23d0c5bd174a64141b62829835db82bf, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Springtrap, Dex! You're back from scouting?

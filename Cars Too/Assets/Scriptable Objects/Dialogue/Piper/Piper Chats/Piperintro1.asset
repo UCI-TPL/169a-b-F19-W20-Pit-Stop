@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2d9b6d3ebca93354589c9815acb23f66, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah, can you tell me again why you dragged me out here?
@@ -35,7 +35,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e74aaa7ad92e3a5479e5a4d186026aab, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: You're really gonna call rummaging around a junkyard for parts "getting
@@ -52,7 +52,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 107eb9c6da2a09f4facb5b0545f39d22, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
@@ -78,7 +78,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8404c77d6a2262646851a83ac12edfb2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
@@ -94,7 +94,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4a032a82aa4c0524cbc46e72bd76a6f3, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Huh? Oh, sorry, I stopped listening after that horrendous "rusty wheel"
@@ -112,7 +112,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0abef2243c2f3bb41a0d6bbeb1eab71f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I mean, it IS up there. And you've gotta stop calling me that.
@@ -128,7 +128,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a7b76cbbcac4dae4daee5b279d36223b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'I have a full name you know. '
@@ -144,7 +144,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6806066c4eef0674cb30af66985a3227, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '*sigh* Just because I got a LITTLE bit dirty in the desert doesn''t mean-'
@@ -160,7 +160,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cf8693c0f8230264ba0eea34bc076537, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'First lesson in Social Interaction 101 - '
@@ -168,7 +168,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 27cc0abd647ddd9488311efa9f6f2c79, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: A nickname stays forever.
@@ -176,7 +176,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ec5eedd3e6e020341b44c38c72214c5b, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Now get on out there an learn some more lessons!
@@ -184,7 +184,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8592a5e4ea837a542a20442b474efba5, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Do I HAVE to?
@@ -200,7 +200,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f0f534b3365fdaf43b8ebff83914a32d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: It's not a scheme! It's just a...
@@ -224,7 +224,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5fd04481d3c639d49864ce7e61c2ff75, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Whatever. I'm not gonna find anything just sitting here, so I'm gonna head
@@ -241,7 +241,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2f35c1dfa48cde1418b63b47ba762561, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Oh, and don't you dare just leave without telling me! I've got your radio
@@ -250,7 +250,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c0fcd4ac6ace1dc49a2c3e78031f948f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I won't.
@@ -274,7 +274,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0f7d9e6c6e1b0c347a59d30867065032, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Nothing!
