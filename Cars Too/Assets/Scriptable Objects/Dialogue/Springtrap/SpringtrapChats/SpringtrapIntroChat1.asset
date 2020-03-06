@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ae6d251ef107bf845b487411392e13c6, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Piper told me about you.
@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 61f1032c6bbcaad4cab92235a65e3ac8, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: She did?
@@ -43,7 +43,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a3dbc3e1f9efaa64b8d14788433cca15, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Ah. Yeah that sounds like her. '
@@ -59,7 +59,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2c0bc305dcd99fc44aa15d52e5628cf2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: And you are..?
@@ -76,7 +76,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a188f5a0a63c2d149a8f0c772d8d091b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: '- are on YOU.'
@@ -84,7 +84,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 55c87b792cbfb8e449d77e7055339c48, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You try anything funny, I'll personally break your hubcaps. Got it?
@@ -92,7 +92,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0391e834d7f16744e854e283a14b41a2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah, quick question, do ALL of you make car puns? Or is it just-
@@ -108,7 +108,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6d4edc2c52d52614a80b38d2a147f267, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Loud and clear. Emphasis on "loud". '
@@ -124,7 +124,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0b8c2f2d1b6020b4a979f15595a46b58, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yes, ma'am.
@@ -148,7 +148,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 14f91f3d9d829504b82c758dd3e4b955, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 
