@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 721584b947bbd74458e6171faaaa6bc0, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Eh, don't get too cocky there, Piper.
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d705a4bd4b3d0de4587af40222c7e08b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: That wasn't a compliment.
@@ -67,7 +67,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 150377332ae79f44aa1b9d66f6281588, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: And who's this we have here?
@@ -75,7 +75,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: dcce23a65168ccd409f9fc5f149be5ce, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Oh, perfect timing! I was about to suggest introductions!
@@ -83,7 +83,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5c93b82c9b8e07d4688fe78aa87e7f5e, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'Lightning, this is Chief. They - '
@@ -91,7 +91,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6b392f8592b0e5e408dc215e0ef21c28, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Would like to introduce themself, thank you, Piper.
@@ -99,7 +99,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 15f1f8dde598116409fca38ea1560835, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Okie dokie! I'll let you take it from here.
@@ -107,7 +107,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6f186b85832c01146b7436316b274b1f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Lightning, I'll be nearby if you wanna come chat!
@@ -115,7 +115,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6d216efef752be64fa5821c453f68a8b, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: And don't forget to introduce yourself to the rest of the crew!
@@ -123,7 +123,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ee03b94adb5ffb0418ed247e5b3738fc, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: They'll be around!
@@ -131,7 +131,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6dd50d5ae4c258c4f835b8f1b5387837, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (Piper leaves)
@@ -156,7 +156,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6041ca1eb48035148b13cf5eebf5d0d8, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Can't imagine a good reason why.
@@ -173,7 +173,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 96101730a7c46c0428f5821da4875c8e, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: What do you mean?
@@ -190,7 +190,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2d7c67f7e5a754644b62c7b6455c5887, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Y-Yeah. I did.
@@ -206,7 +206,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 220f1999d18f43c49ae74ad379e4f36a, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 
