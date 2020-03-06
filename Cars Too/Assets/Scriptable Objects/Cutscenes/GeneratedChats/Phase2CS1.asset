@@ -21,7 +21,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b56b298b6332bbb4cbeb0a1ce70c25cc, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Yo, Chief.
@@ -29,7 +29,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a33871ab3815bc849a48a7f4773a845b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I got that bridge fixed. We have full access to that new area for parts
@@ -38,7 +38,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 20728c09d912e2a40bc66b2719f3124e, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Then we're moving. I'll tell the others and let them know they can enter...
@@ -46,7 +46,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 115de7c7cc1eca4439c52e6805a1af8d, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Hmmm...
@@ -54,7 +54,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a3a2b77ea6a62ff4eb76e7dc58ed5921, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: What is it?
@@ -62,7 +62,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1c6720674a811414ab025eff35e65177, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Do we have a name for the place yet?
@@ -70,7 +70,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 821b15e9ce63f574ea14cefa2331a8b9, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (Piper excitedly revs up to the party!)
@@ -86,7 +86,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2089d3d3f9736b6419a458fa130ff64a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Here we go.
@@ -94,7 +94,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 175701a000832f64cb606b5d43e07ddf, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Affirmative. Springtrap just fixed the bridge to a new, unnamed area.
@@ -102,7 +102,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 3d61296049260cd498dbefb493b87dc2, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Do we really have to name it? It's just another abandoned place chock full
@@ -111,7 +111,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: af5b94e399bf9bc4b99bb402d5496410, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Hey, that's it! Radiation, and Springtrap cleared the way to it-
@@ -119,7 +119,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 21ae9462b9da6404c8821f8699d01bad, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: So how about Springs of Radiation!
@@ -127,7 +127,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f479b48c1692e1c40a773ae1d352f74b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: '*mumbling* Uhm, I mean, all I did was fix the bridge-'
@@ -135,7 +135,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4fbbb9747b28fac4895b151be033c695, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: It's a wonderful name, Piper.
@@ -143,7 +143,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: acd619bdb7a28734a854a43d7240eb2f, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Okay everyone. If you still got stuff to do here feel free to stay. Otherwise
@@ -152,7 +152,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 04bf10d348d330d45aabb09f14cd2b0f, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Spirit Crew, let's roll out!
@@ -160,7 +160,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b3f8906cd443171499067990d784ee6a, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 
