@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   phase: 1
+  nextscene: 
   canDestroy: 0
   canBoost: 0
   affinityBoost: 0
@@ -58,7 +59,7 @@ MonoBehaviour:
   uicol: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
   uicoloutline: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
   uicoltext: {r: 1, g: 1, b: 1, a: 1}
-  uifont: {fileID: 11400000, guid: 733814edbb3ba18448452e90c7e958a8, type: 2}
+  uifont: {fileID: 11400000, guid: a0048a9f0cafea340a6b4ae9f88cf7df, type: 2}
   partsneeded: 4
   am: {fileID: 2007899351147493872}
   carParts: 0
@@ -74,6 +75,12 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  menuclosed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  recentlyclosed: 0
   scenename: 
   lastscene: 
 --- !u!114 &2007899351147493872
