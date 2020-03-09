@@ -789,7 +789,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 6f1993af02056be4499a31960ad079d5, type: 3}
+    voiceline: {fileID: 8300000, guid: ba71ea4be28a31e45ae9576d4640778a, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: She wouldn't have gone as far as she did.
@@ -797,7 +797,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: dc1a782f4ff0d6d4a9366af1a0b52710, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: People make mistakes. She didn't mean everything she said. Just like YOU
