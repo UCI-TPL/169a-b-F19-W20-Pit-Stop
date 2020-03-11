@@ -13,16 +13,23 @@ public class KeyboardSelector : MonoBehaviour
     [SerializeField] private int highlightheight = 10;
     [SerializeField] private int numrows = 0;
     [SerializeField] private int numcolumns = 0;
+    private StickShift ss =null;
     private RectTransform rt;
     // Start is called before the first frame update
     void Start()
     {
+        ss = GameObject.FindObjectOfType<StickShift>();
         if (numrows == 0)
         {
             numrows = buttons.Count;
             numcolumns = 1;
         }
         rt = indicator.GetComponent<RectTransform>();
+        if (ss != null)
+        {
+            ss.displaygear(index);
+        }
+
     }
 
     // Update is called once per frame
@@ -31,6 +38,7 @@ public class KeyboardSelector : MonoBehaviour
         CheckMovement();
         CheckEnter();
         UpdateIndicator();
+
         
     }
 
@@ -49,6 +57,10 @@ public class KeyboardSelector : MonoBehaviour
             {
                 index = buttons.Count-1;
             }
+            if (ss != null)
+            {
+                ss.displaygear(index);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
         {
@@ -57,6 +69,10 @@ public class KeyboardSelector : MonoBehaviour
             if (index >= buttons.Count)
             {
                 index = 0;
+            }
+            if (ss != null)
+            {
+                ss.displaygear(index);
             }
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
@@ -67,6 +83,10 @@ public class KeyboardSelector : MonoBehaviour
             {
                 index -=numrows;
             }
+            if (ss != null)
+            {
+                ss.displaygear(index);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
@@ -75,6 +95,10 @@ public class KeyboardSelector : MonoBehaviour
             if (index <= 0)
             {
                 index += numrows;
+            }
+            if (ss != null)
+            {
+                ss.displaygear(index);
             }
         }
     }
@@ -94,4 +118,6 @@ public class KeyboardSelector : MonoBehaviour
         RectTransform brt = buttons[index].GetComponent<RectTransform>();
         rt.sizeDelta = new Vector2(brt.rect.width+highlightwidth, brt.rect.height+highlightheight);
     }
+
+
 }
