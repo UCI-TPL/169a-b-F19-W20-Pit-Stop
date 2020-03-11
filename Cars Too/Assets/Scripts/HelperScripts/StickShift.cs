@@ -5,7 +5,7 @@ using UnityEngine;
 public class StickShift : MonoBehaviour
 {
     [SerializeField] private List<GameObject> gearpos;
-    private GameObject currentgear;
+    [SerializeField] private GameObject currentgear;
     // Start is called before the first frame update
     void Start()
     {

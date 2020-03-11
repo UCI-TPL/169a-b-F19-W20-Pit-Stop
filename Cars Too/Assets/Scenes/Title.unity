@@ -6270,6 +6270,7 @@ MonoBehaviour:
   - {fileID: 293369109}
   - {fileID: 431871096}
   - {fileID: 740710147}
+  currentgear: {fileID: 278827064}
 --- !u!1 &1738148739
 GameObject:
   m_ObjectHideFlags: 0
