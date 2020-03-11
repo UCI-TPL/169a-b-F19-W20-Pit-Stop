@@ -167,9 +167,10 @@ public class DialogueManager : MonoBehaviour
 
             if (skip)
             {
-                
+                ReadSkipDialogue(d, i);
                 speakerbox.text = d[d.Count-1].speaker;
                 dialgouebox.text = d[d.Count-1].text;
+                
                 skip = false;
                 break;
             }
@@ -203,6 +204,7 @@ public class DialogueManager : MonoBehaviour
             }
             if (skip)
             {
+                ReadSkipDialogue(d, i);
                 skip = false;
                 break;
             }
@@ -277,6 +279,7 @@ public class DialogueManager : MonoBehaviour
             }
             else if (skip)
             {
+                
                 break;
             }
             else
@@ -319,6 +322,27 @@ public class DialogueManager : MonoBehaviour
             int temp = choice;
             choice = 0;
             return temp;
+        }
+    }
+
+    private void ReadSkipDialogue(List<Dialogue> dlist, int index)
+    {
+        
+        for(int i=index; i < dlist.Count; i++)
+        {
+            Dialogue d = dlist[i];
+            if (sp != null)
+            {
+                if (d.expression != null)
+                {
+                    sp.UpdatePortraits(d.speaker, d.expression.eyes, d.expression.mouth, d.expression.blink, d.leavename, d.expression2);
+                }
+                else
+                {
+                    sp.UpdatePortraits(d.speaker, null, null, null, d.leavename, d.expression2);
+                }
+            }
+            dialoguelog.UpdateLog(d);
         }
     }
 
