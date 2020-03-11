@@ -119,5 +119,11 @@ public class KeyboardSelector : MonoBehaviour
         rt.sizeDelta = new Vector2(brt.rect.width+highlightwidth, brt.rect.height+highlightheight);
     }
 
+    public void OnMouseEnter(int i)
+    {
+        index = i;
+        UpdateIndicator();
+    }
+
 
 }
