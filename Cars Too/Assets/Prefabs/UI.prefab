@@ -22214,7 +22214,7 @@ MonoBehaviour:
     newbg: {fileID: 0}
   - speaker: Mustang
     text: 
-    Scenesprite: {fileID: 21300000, guid: 26876aba7e7ae5349b0efe9125defecc, type: 3}
+    Scenesprite: {fileID: 21300000, guid: af3eff32eb272d44d9c45e0f5bad2d96, type: 3}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
