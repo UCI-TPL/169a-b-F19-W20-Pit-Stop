@@ -108,7 +108,7 @@ public class DialogueLog : MonoBehaviour
         }
         else if (speaker.Equals("Lightning"))
         {
-            speakertext.color = namecolors[2];
+            speakertext.color = namecolors[6];
             chibi.sprite = chibisprites[2];
         }
         else if (speaker.Equals("Mustang"))
@@ -133,7 +133,7 @@ public class DialogueLog : MonoBehaviour
         }
         else
         {
-            speakertext.color = namecolors[2];
+            speakertext.color = namecolors[6];
             chibi.sprite = chibisprites[2];
             Debug.Log("NAME COLOR NOT FOUND");
         }
