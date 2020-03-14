@@ -4655,8 +4655,8 @@ MonoBehaviour:
   indicator: {fileID: 7223262541437304190}
   highlightwidth: 10
   highlightheight: 10
-  numrows: 0
-  numcolumns: 0
+  numrows: 1
+  numcolumns: 4
 --- !u!1 &2153579127824317823
 GameObject:
   m_ObjectHideFlags: 0
@@ -5603,7 +5603,7 @@ GameObject:
   - component: {fileID: 646953777288583032}
   - component: {fileID: 6906898166411759583}
   - component: {fileID: 7488460879655356716}
-  - component: {fileID: 7487417937317251537}
+  - component: {fileID: 4680515014815194137}
   m_Layer: 5
   m_Name: confmeter
   m_TagString: Untagged
@@ -5673,7 +5673,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7487417937317251537
+--- !u!114 &4680515014815194137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5682,16 +5682,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2698639947348423598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13e80f187325a2d41b55d422163f8cf9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b252e03b7ac75644b17a9d2bb168e10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gearpos:
+  dialpos:
   - {fileID: 1251756414896894964}
   - {fileID: 8337951469624086553}
   - {fileID: 1032029075434972051}
   - {fileID: 345002116389339669}
   - {fileID: 721158803630127419}
-  currentgear: {fileID: 1251756414896894964}
+  currentdial: {fileID: 1251756414896894964}
 --- !u!1 &2783023635824954294
 GameObject:
   m_ObjectHideFlags: 0
@@ -13210,7 +13210,7 @@ MonoBehaviour:
   playerbox: {fileID: 8902186155386187167}
   confnameobj: {fileID: 2116801359759491960}
   playernameobj: {fileID: 927888760605400836}
-  dialpos: {fileID: 7487417937317251537}
+  dialpos: {fileID: 4680515014815194137}
 --- !u!114 &6325541884964513773
 MonoBehaviour:
   m_ObjectHideFlags: 0

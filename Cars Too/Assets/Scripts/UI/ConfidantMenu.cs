@@ -31,7 +31,7 @@ public class ConfidantMenu : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playerbox;
     [SerializeField] private GameObject confnameobj;
     [SerializeField] private GameObject playernameobj;
-    [SerializeField] private StickShift dialpos;
+    [SerializeField] private ConfDial dialpos;
 
 
     private void Start()
@@ -158,7 +158,7 @@ public class ConfidantMenu : MonoBehaviour
         //Image i =confidantbar.GetComponent<Image>();
         //i.fillAmount = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname)/maxconfidantlevel;
         //confidantleveltext.text = DataManager.instance.GetConfidantLevel(currentNPC.Confidantname) + 1 + "/" + maxconfidantlevel;
-        dialpos.displaygear(DataManager.instance.GetConfidantLevel(currentNPC.Confidantname));
+        dialpos.updatedial(DataManager.instance.GetConfidantLevel(currentNPC.Confidantname));
     }
 
     private void SetConfidantPortrait(string n, Sprite s, Expression e)
