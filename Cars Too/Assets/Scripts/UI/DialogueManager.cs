@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private AutoDialoguePortrait adp = null; //character portrait for autodialogue
     [SerializeField] private GameObject blinker = null; //blinker obj to display when done reading text
 
-    [SerializeField] private List<Color> namecolors;
+    [SerializeField] public List<Color> namecolors;
     [SerializeField] private Image dboxoutline;
     [SerializeField] private Image sboxoutline;
     [SerializeField] private Image sboxoutline2;
