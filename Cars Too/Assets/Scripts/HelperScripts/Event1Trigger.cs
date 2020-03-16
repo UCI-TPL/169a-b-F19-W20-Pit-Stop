@@ -9,7 +9,12 @@ public class Event1Trigger : Id
     [SerializeField] public string destscene = "Event1"; //Scene to transition to
     [SerializeField] public int partsneeded = 2;          //Need to save player location, and potentially account for better settings for other events
                                                           //Once other event triggers are known.
+    private LoadingScreen ls;
 
+    private void Start()
+    {
+        ls = GameObject.FindObjectOfType<LoadingScreen>();
+    }
 
     void Update()
     {
@@ -17,7 +22,8 @@ public class Event1Trigger : Id
         if (DataManager.instance.carParts >= partsneeded)
         {
             DataManager.instance.AddID(GetID());
-            SceneManager.LoadScene(destscene);
+            ls.StartLoad(destscene);
+            //SceneManager.LoadScene(destscene);
         }
     }
 }
