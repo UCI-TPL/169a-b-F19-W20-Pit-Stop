@@ -13,12 +13,14 @@ public class KeyboardSelector : MonoBehaviour
     [SerializeField] private int highlightheight = 10;
     [SerializeField] private int numrows = 0;
     [SerializeField] private int numcolumns = 0;
-    private StickShift ss =null;
+    [SerializeField] private StickShift ss =null;
     private RectTransform rt;
     // Start is called before the first frame update
     void Start()
     {
-        ss = GameObject.FindObjectOfType<StickShift>();
+        if(ss== null)
+            ss = GameObject.FindObjectOfType<StickShift>();
+
         if (numrows == 0)
         {
             numrows = buttons.Count;
