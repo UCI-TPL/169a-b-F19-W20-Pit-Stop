@@ -2016,7 +2016,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 812ea9870b8387f448bed4d1b641cfbd, type: 3}
+    voiceline: {fileID: 8300000, guid: 8444eaf9f2c761640927cedef137aa78, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Anytime, Mustang.

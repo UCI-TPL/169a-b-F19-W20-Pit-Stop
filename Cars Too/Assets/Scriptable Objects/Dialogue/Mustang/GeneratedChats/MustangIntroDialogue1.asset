@@ -15,121 +15,233 @@ MonoBehaviour:
   convo:
   - speaker: ???
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: ???
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Erm...Hello?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: ???
     text: '...'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: '...Uh. Okay. I''ll move along then, I guess-'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: ???
     text: '*Beep!*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 812ea9870b8387f448bed4d1b641cfbd, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: '...Excuse me?'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: ???
     text: '*Beep Beep!*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 8a785ef985ffbe24392ff42fa433b123, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: That's. Uhm. That's nice? I'm just gonna head out-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: ???
     text: '*Beep Beep Be-* '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 8444eaf9f2c761640927cedef137aa78, type: 3}
+    newbg: {fileID: 0}
   - speaker: ???
     text: '*Click!*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: a7036387a6b05dc4ba0d2a804d0caab7, type: 3}
+    newbg: {fileID: 0}
   - speaker: ???
     text: Whoa hey! Sorry 'bout that! Dadgum transistors don't work as well as they
       used ta. Name's Mustang, slick! Pleasure ta meet the new motor!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 5e80abe3038e3bf4caf02d174b41be54, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh! Er, yeah. Hello, Mustang.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: I'm the techno-gizmo-whatever big bug 'round these parts.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 5f6cc6ce0434ccc478ab089c5145f378, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: So if ya got a fizzin' gadget, get a wiggle on back to me lickity split.
       Ya hear?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: d2d4b92a96d505049950485c6f426bfa, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: I...think?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Hah! I can set with that. Don't go gettin' rattled if yer at sea. The Simon
       pure is my transmitter gave out a long time ago, I ain't just hazing a tenderfoot.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 1e3a28eaf9c28db41ae9febdf5bd6b60, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Then again you ain't no tenderfoot. Been a roaming wolf, haven't cha? How
       many parts you got on yer own?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: b4045ac247288a1479b6c39bf2f90155, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Ah, *achem* well, I got, uhm, that is to say-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: 'Don''t go beatin'' ''round the bust now! '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: be2cce4fb05bd1845a4137193833366b, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: You got none, huh?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: a22e8594042c09f4abd2883f0509704a, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: '....Yeah.'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: '*laughs*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: That's what happens when ya don't go fixin' the coon right!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 285e9f5bc063f914d99aeb75c2a0852c, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Okay, that couldn't have EVER been a saying-
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: When yer 'round here, you'll be gettin' your gears dirty. You'll be findin'
       parts left 'n' right.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 52b443d09bfa59e48978e8c168abc62b, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: We'll see soon enough if ya got what it takes to rope 'em in.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 87391ec7d4caba94a8808fa61e24724d, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Good luck!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 4110b5df93fe60d4194a0d5a63772abc, type: 3}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
