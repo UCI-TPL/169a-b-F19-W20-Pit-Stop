@@ -1466,7 +1466,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 6c97586f633ee2a40b0af701205ade0f, type: 3}
+    voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: She has more to say than just "Humans are motorific!" and you're not giving
@@ -1523,7 +1523,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 782164e58d38a114c9f4a2f37b5b38ba, type: 3}
+    voiceline: {fileID: 8300000, guid: 6c97586f633ee2a40b0af701205ade0f, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: And I'm not about to let my hatred for those meat bags get in the way of
@@ -1532,7 +1532,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: bcb04187302dace4a80a5a3ed53dbba5, type: 3}
+    voiceline: {fileID: 8300000, guid: 782164e58d38a114c9f4a2f37b5b38ba, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: Piper, I owe you an apology.
@@ -1540,7 +1540,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 25f136b7f14cd194a9a18dda6d1aa80e, type: 3}
+    voiceline: {fileID: 8300000, guid: bcb04187302dace4a80a5a3ed53dbba5, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: I was so caught up in gettin' you to see how horrible those good-for-nothin's
@@ -1549,7 +1549,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 3151e36815106c243a43c105805a2932, type: 3}
+    voiceline: {fileID: 8300000, guid: 25f136b7f14cd194a9a18dda6d1aa80e, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: The truth is, I just didn't want you to GLORIFY those skeletons. I don't
@@ -1558,7 +1558,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 2a5b2c941ca35b24d9e40bcbe57d8d12, type: 3}
+    voiceline: {fileID: 8300000, guid: 3151e36815106c243a43c105805a2932, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: So...it's okay for you to tell me what's really on your mind about 'em.
@@ -1566,7 +1566,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: b2cf5e61b43f29b48b0ab26a4bf7db42, type: 3}
+    voiceline: {fileID: 8300000, guid: 2a5b2c941ca35b24d9e40bcbe57d8d12, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: R-Really? But you always peel out when I talk about the humans?
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 931741e2647654144bbbaaec555605c2, type: 3}
+    voiceline: {fileID: 8300000, guid: b2cf5e61b43f29b48b0ab26a4bf7db42, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: '...'
@@ -1598,7 +1598,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 245adf4ba02f1824a92100d457fea033, type: 3}
+    voiceline: {fileID: 8300000, guid: 931741e2647654144bbbaaec555605c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: S-Sorry, I'm just a little scrambled here. You've never, er, stayed this
@@ -1624,7 +1624,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 647f45328f1b65e4fa1a91d436f5d085, type: 3}
+    voiceline: {fileID: 8300000, guid: 245adf4ba02f1824a92100d457fea033, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: You're good to go.
@@ -1632,7 +1632,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 1380c59aa10166645a59c3e7ee10609d, type: 3}
+    voiceline: {fileID: 8300000, guid: 647f45328f1b65e4fa1a91d436f5d085, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Okay, well, first of all, I want you to understand that...
@@ -1830,7 +1830,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 716875601bc53dc428c2707befa9e524, type: 3}
+    voiceline: {fileID: 8300000, guid: 1380c59aa10166645a59c3e7ee10609d, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'That SOME of them did. '
@@ -2000,7 +2000,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 812ea9870b8387f448bed4d1b641cfbd, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: Thanks for reelin' me in back there.
@@ -2008,7 +2008,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8a785ef985ffbe24392ff42fa433b123, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: Sometimes, I could use someone to pull in my horns. It means a lot.
@@ -2016,7 +2016,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 812ea9870b8387f448bed4d1b641cfbd, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Anytime, Mustang.

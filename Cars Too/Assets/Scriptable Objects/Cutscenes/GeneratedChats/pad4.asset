@@ -67,7 +67,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7e367fe066b887c4d8930aa3010b881d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Mustang!?
