@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I won't hide the fact that some of them get on my nerves.
@@ -44,7 +44,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Do you get the picture now, new motor?
@@ -68,7 +68,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1dfcc9ba2d9901245bed15eb33f48774, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I don't know how else to say it but that "family" is sort of a foreign term
@@ -93,7 +93,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: '*laughs*'
@@ -101,7 +101,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: bcb9399962a16504da041aaac170f847, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Whoa, was that a real smile?
@@ -117,7 +117,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 51b84030f5a0f8448bdbf80a886fd2c1, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: That was a pity laugh, because THAT was probably the most pathetic thing
@@ -126,7 +126,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef3a99b4f563f85489ea216eaac8120b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh sure, thanks, I'm glad my existence is a joke to you.
@@ -142,7 +142,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 40976539464068345b3473411aee9ba8, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You sound like the type of person who could really use a family. At least
@@ -175,7 +175,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f5c4321b4875ed45abb63c5e42290b7, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

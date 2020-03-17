@@ -43,7 +43,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You'd have to pay me a heckuva lot and THEN some if you think I'd so much
@@ -94,7 +94,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1dfcc9ba2d9901245bed15eb33f48774, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I'm going to assume you had a bad time there-?
@@ -110,7 +110,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e1f040aaf3b105e42a59ce69d8ef699f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Right. So...
@@ -138,7 +138,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 40976539464068345b3473411aee9ba8, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I woulda gone with them either way. It was something new, something different.
@@ -163,7 +163,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'I won''t lie and say I''m just here for a safe place. I''m here because
@@ -174,10 +174,10 @@ MonoBehaviour:
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
-  - speaker: 'Springtrap: Even if I don''t think we''ll get there anytime soon'
-    text: $S5
+  - speaker: Springtrap
+    text: Even if I don't think we'll get there anytime soon.
     Scenesprite: {fileID: 0}
-    expression: {fileID: 0}
+    expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
@@ -196,7 +196,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Me? '
@@ -212,7 +212,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well, it's just like Piper probably already told you. I'm here to help.
@@ -261,7 +261,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cbd5c1c5ddb8bcf4d84d8c838afef909, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Piper and I didn't really get off to a great start.
@@ -301,7 +301,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: When I first got here, I tried to avoid her. But her personality can be...
@@ -326,7 +326,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 87fbd6d351916c64e8d44ba9ea77d65c, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I know the feeling.
@@ -360,7 +360,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: So even though I'll call her annoying sometimes - which she definitely is

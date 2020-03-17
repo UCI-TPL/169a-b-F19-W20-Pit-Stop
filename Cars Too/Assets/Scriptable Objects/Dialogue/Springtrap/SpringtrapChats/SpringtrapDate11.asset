@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Do you, uh, do you wanna hang out?
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5366a38148649a44d8b9654795d686d5, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well because...because uh, it'd give you a chance to keep your eye on me?
@@ -83,7 +83,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 170bd7cdda5ba104b82c41cef78bd6bb, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Piper put you up to this, didn't she?
@@ -107,7 +107,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 91939c494dacd784a95c2ef714e0a353, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: So, humor me then?
@@ -150,7 +150,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1dfcc9ba2d9901245bed15eb33f48774, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Well, it's A job.
@@ -158,7 +158,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I just keep an eye on everyone, make sure no one's doing anything to stir
@@ -176,7 +176,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I'm gonna assume you're talking about Dex?
@@ -193,7 +193,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 51b84030f5a0f8448bdbf80a886fd2c1, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: WHOA, okay I get the idea. Not gonna bring up Dex again, check.
@@ -237,7 +237,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: '- but this IS a team.'
@@ -263,7 +263,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 170bd7cdda5ba104b82c41cef78bd6bb, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Of course, I don't really think Mustang will be able to pull some hail-mary
