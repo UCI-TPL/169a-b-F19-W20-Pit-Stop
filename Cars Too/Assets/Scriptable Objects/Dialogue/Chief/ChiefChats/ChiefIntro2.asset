@@ -15,54 +15,94 @@ MonoBehaviour:
   convo:
   - speaker: Chief
     text: Any questions?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 461cbb97e3674594186c06fd7510ef00, type: 3}
+    newbg: {fileID: 0}
   Choice1: How long have you been doing this?
   Choice2: How did the Spirit crew come about?
   Route1:
   - speaker: Chief
     text: '*laughs*'
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 9a7c40fd2cf4534438b282a3eb334cd0, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: I know it might seem like I've been doing this for a while, but I'm not
       the first car in the crew to wake up.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 3bb7d0dfaee38df44b988736e8600f73, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: 'That honor goes Mustang. They''ve been here longer than any of us. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 9d2212a30a99f06429a25789f3138c05, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
-    text: 'They also figured out how to put on hats. Which, truth be told, I''m still
-      trying to figure out the science behind. '
-    expression: {fileID: 0}
+    text: 'They also figured out how to put on hats. Truth be told, I''m still trying
+      to figure out the science behind that. '
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: aff05c6c59e919b4c9b6146893910c4f, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: In any case...
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: ef367b80dc3f8564f8b00d068b103cb2, type: 3}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Chief
     text: The Spirit came about because of me, so to speak.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 4efa73e3f7aba314894985baef5fcd52, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: When I awoke, it didn't take me long to realize that the world as it is
       now, is not what it should be.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: b3b70adbf7d9d3a4bbc56602783133b4, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: 'I still don''t know what our exact place in it is, but I know we can have
       a part in restoring what once was. '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 59145c7d1127c95428e41b3cbd0ca92a, type: 3}
+    newbg: {fileID: 0}
   - speaker: Chief
     text: So I founded the Spirit. It was just me n Mustang to begin with, but we
       found Springtrap not long after. Dex came along, then Piper, and here we all
       are.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: b6e03a63dab7ed54583dc602338f724f, type: 3}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

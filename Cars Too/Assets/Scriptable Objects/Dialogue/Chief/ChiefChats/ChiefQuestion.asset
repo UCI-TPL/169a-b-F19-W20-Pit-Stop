@@ -17,8 +17,9 @@ MonoBehaviour:
     text: Would you like to move on?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2d2863205f8154943aef0644557246d1, type: 3}
     newbg: {fileID: 0}
   Choice1: Yes
   Choice2: No
@@ -27,6 +28,7 @@ MonoBehaviour:
     text: Spirit Crew, roll out!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -35,8 +37,9 @@ MonoBehaviour:
     text: Come back to me when you've collected enough parts.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 386c86bb2c068264d989eb1e1c7b2e40, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

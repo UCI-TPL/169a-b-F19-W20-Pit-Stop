@@ -17,12 +17,20 @@ MonoBehaviour:
     text: 'Come back to me when you have enough parts.
 
 '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 386c86bb2c068264d989eb1e1c7b2e40, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Alright, Chief!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
