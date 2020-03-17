@@ -83,7 +83,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4e86831dc3ece05439fc635e46ee673d, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (Mustang's own grapples shoot out and hook onto your fender. They start
@@ -100,7 +100,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b973a412dcab1bd4c8ee153d528f731e, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Don't have to tell me twice!
@@ -133,7 +133,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5db0cd6fd542bdf4ab588e4bff194e38, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
@@ -149,7 +149,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c4812bc5adbd89a479b07cd9e3da9b5b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...I missed you so goddamn much you funky western motherfucker.'
@@ -165,7 +165,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 661b49e1d8e1f86468d7ce6f79adfc87, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Oh thank GOODNESS you're all right! We were getting REAL scared by that
@@ -174,7 +174,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2af1b87e885ce0b4aa74756538e78a8d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: So you guys were listening?
@@ -190,7 +190,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 66fb9630982267c46bd80b489570f4b8, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: '"Headstrong moron".'
@@ -198,7 +198,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c45e4ee9940a10a4f81b0fdd283d6f2f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Great. Can we, uh, forget all about it?
@@ -214,7 +214,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 55520115f64259b48856261324462103, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Besides, it'll be a lot more fun to tease you this way, now that you gave
@@ -223,7 +223,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 50d016e893460094b9f29ff06dfad544, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Getting crushed to death is starting to sound like an appealing alternative
@@ -240,7 +240,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f8c0c9dfb49b95d47856fe827a4bc9c7, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Do you have ANY IDEA how WORRIED I was?
@@ -248,7 +248,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef80c649e19b7d041bf4dc6c66c035d4, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: We really thought you were gonna die!
@@ -256,7 +256,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cb4c561e43b204e4fb3badd18aa19e0b, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: You-You airbag!
@@ -264,7 +264,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5afca6a2a0bcef84c945d07b41cd7ee7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Ah, bringing out the real zingers now, huh?
@@ -280,7 +280,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f0cbab4e03edf604ba51ed45d0c4a60c, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I know, I'm sorry.
@@ -336,7 +336,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6682d4696a781ab41a68da90f8583788, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: NO! Gak took them!
@@ -352,7 +352,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a04146cd4eb0ac049803f8b90a44f2da, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 80ff8f024ab460e459a9a63a733de010, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I'll explain later, right now, we have to find them before they take off!
@@ -370,7 +370,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 952adfe0f9251a4439c56e564a315121, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Which is why we have to move fast.
@@ -386,7 +386,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5b65293f51745954396915f61a7d7f85, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: We can find more parts, we can't find more you!
@@ -394,7 +394,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1bd08f3fa86a8df438a6851605e32034, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...I know. You guys don''t have to stay. This is my fault anyway.'
@@ -418,7 +418,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 3bd1f43851281fc4086911ab5881f652, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: No matter what you say, I'm doing this. So don't try talking me out of it.
@@ -442,7 +442,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6d441d55d6d9174458121c91e4105910, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: No, you really don't have to-
@@ -459,7 +459,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2c5e4ba5d3220d8439974dd814219db4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: '''Sides, you said all we have to do is be fast right? You are speaking
@@ -468,7 +468,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 672b01ac00ad2e444855e88859d20065, type: 3}
     newbg: {fileID: 0}
   - speaker: 'Lightning:'
     text: But-
@@ -484,7 +484,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5054d4a0d3b6e4e40beff98ebe898e96, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: YOU wanted to play the stubborn game. And you are picking the WRONG people
@@ -493,7 +493,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4e1680578aabd5c4f91aebb1c02ca416, type: 3}
     newbg: {fileID: 0}
   - speaker: Chief
     text: Then let's hustle. Where's Gak?
@@ -501,7 +501,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c4cead11fe0260e469943ba93ba4794d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: They're probably in the center room where the rocket is, but they probably
@@ -518,7 +518,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 539697d50b3cac440b732a575af4f27d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Tell me what you need and let's get those parts back.
