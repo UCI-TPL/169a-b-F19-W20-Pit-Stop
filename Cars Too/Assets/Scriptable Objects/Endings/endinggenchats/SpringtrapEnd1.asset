@@ -378,7 +378,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ee5f9d10d9a2f354c9a7f30581eccb24, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I've HAD it with your complaining!
@@ -386,7 +386,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f71d5b4cf49d3164b9df3087373cefc4, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Springtrap-!
@@ -402,7 +402,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2e99917cf0f19934e85f7e9f2dc36342, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Gak, I know you don't go for the flowery stuff, so I'm gonna keep this short
@@ -411,7 +411,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2313b7738cd9ece42bd8f56bc1076503, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You are going to REALLY screw yourself if you keep headin' down this road.
@@ -419,7 +419,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ffe0217621cbe38418e210b27e2d0dee, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'What do you think is gonna happen when you get up there, huh? '
@@ -427,7 +427,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 68eccfbf282ee9d49af1a559dc4e0778, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You think all your problems are gonna magically disappear?
@@ -435,7 +435,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a52b60cad20fa0a4a870558a7087cd4f, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: What if there's nothing? No colony, no maintenance, no place to live. You'll
@@ -444,7 +444,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c162e0ff892f3a44bbba2b95771518de, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: If you're so wound up about investment, how's it gonna matter when you're
@@ -453,7 +453,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2b4cc7d3da6d8af4c972b15b5c5063d6, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'Think about it, Gak. There''s no one else. We''re all that''s left.You
@@ -462,7 +462,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ea0c9a48f1a720241ad491fe52f3097c, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: What do you have to lose if you stay?
@@ -470,7 +470,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a17d579d83912db4a8dd5f52b1491933, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

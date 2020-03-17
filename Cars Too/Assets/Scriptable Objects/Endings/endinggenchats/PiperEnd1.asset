@@ -378,7 +378,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cba3a2efe0b5261419aad10ba8c19a4f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: The past only matters where you let it matter!
@@ -386,7 +386,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 9c42e2a1a88da064399d8d4e59fabd2c, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: If you let it destroy you...then it destroys you.
@@ -394,7 +394,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: db928e33c2ea28540b3b641ee2919081, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: But if you let it help you, it'll never turn you down.
@@ -402,7 +402,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: eed486ae851fb404f92539e906c360ae, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: There is always room for growth.
@@ -410,7 +410,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 3188dad87352b4d47bf639a9254e8f38, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: That investment from before only matters because you WANT it to matter!
@@ -418,7 +418,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 787de8b47befbba46930438f966beb7f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: But it doesn't!
@@ -426,7 +426,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8762b8e58da75a0429ed122653e7686a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Don't make a terrible mistake just because you think you have to follow
@@ -435,7 +435,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1d6d3e1c969b9c4f91863bdcf2a6d36, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: You don't owe your past self anything!
@@ -443,7 +443,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: de70659293a58b2439f42730b56941c9, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Because the choice you make RIGHT NOW is the only one that counts.
@@ -451,7 +451,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d2465a400049c47478455380af48056c, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: So please...choose the right one.
@@ -459,7 +459,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e5b80851b69906c459222c1ddde6d015, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

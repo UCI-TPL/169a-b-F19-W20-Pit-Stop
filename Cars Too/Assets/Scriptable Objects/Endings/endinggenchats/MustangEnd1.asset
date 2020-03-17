@@ -753,7 +753,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b48b12b38deda9646892bea35a2c9677, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: 'Well, that ain''t what''s gonna happen. '
@@ -761,7 +761,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8b70d35c74a4a0b4ba1e2abef88c754d, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: This crew, these folks...
@@ -769,7 +769,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cfcee520f0c5b5349816f3ad8c08307f, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: We can fix things.
@@ -777,7 +777,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d762c9f4c2e0bd246961d1652f729e5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: You don't think it's possible? Just look at that rocket you made.
@@ -785,7 +785,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 15063a78ac43dee4e911d94659eb8e25, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: If you put even just half of that effort into gettin' this world back on
@@ -794,7 +794,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c9782adf1153efb49ae9b88492a57ddf, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: Don't worry about bitin' off more'n you can chew. Your mouth is probably
@@ -803,7 +803,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6decc0f0b68540f4bb969f3aadb62fe1, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

@@ -378,7 +378,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 98cf9653d7ab2fc40a9c91c60acd4305, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: We have no idea what you've been through.
@@ -386,7 +386,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 350d4451ff113b64fbca12179ebc2c7e, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: But take it from me, I know how it feels to be stuck.
@@ -394,7 +394,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b5277f7a5408beb42a7e876069a233a4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: To feel trapped here.
@@ -402,7 +402,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1c9d14a6c67d22644828b62ccf5fc706, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: With your skills, your rocket- Why-!?
@@ -410,7 +410,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 38e7d57541e2a1b4083f6f7eaba6cd4a, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: No wonder you feel like you aren't reaching your true potential!
@@ -418,7 +418,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 29306c6b915c8114a82af7ea21fe3be0, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Dex, we need to stop him from taking off, not give him a pep talk-!
@@ -434,7 +434,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f8e6164b021bb4e4991daf8bda533465, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Gak! There is great respect in aspiring to reach perfection in your skillset.
@@ -442,7 +442,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 76fffc6547a60d643b2482600a8feebc, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: But when you use your skills to only hurt others, then it isn't worth anything
@@ -451,7 +451,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a905c197a8242974b9c70a3c763074df, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: You can change so much with the power you have, but only if you use it the
@@ -460,7 +460,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7ea8370121a1d264686cffd8b77431a4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'I would tell you to chase your dreams, but only if they weren''t our nightmares! '
@@ -468,7 +468,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1fedb4c9982c7cc45869776dd3d508d8, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: So, Gak, I ask you. Is this a nightmare?
@@ -476,7 +476,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 6c2e1d56fb61f904493ce9128503c6b0, type: 3}
     newbg: {fileID: 0}
   - speaker: Gak
     text: '...'
