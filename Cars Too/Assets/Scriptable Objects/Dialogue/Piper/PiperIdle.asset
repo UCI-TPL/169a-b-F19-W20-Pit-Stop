@@ -14,14 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Piper
-    text: Hey Lightning, Whats Revvin?
-    expression: {fileID: 0}
+    text: Hiya Lightning, What's revvin?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 4869d4b8d38977746947cca3cd1bfa4e, type: 3}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: Hiya Lightining!
-    expression: {fileID: 0}
+    text: Hello there!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 5148ca804f0e630459d105c88dfa6480, type: 3}
+    newbg: {fileID: 0}
   - speaker: Piper
-    text: You find anything cool Lightning?
-    expression: {fileID: 0}
+    text: Today's going wheeltastic!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: bbe972ada971d564e943cad6f4686393, type: 3}
+    newbg: {fileID: 0}

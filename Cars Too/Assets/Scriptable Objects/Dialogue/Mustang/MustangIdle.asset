@@ -14,14 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Mustang
-    text: Howzy Doozy Lightning?
-    expression: {fileID: 0}
+    text: Howzy doozy Lightning?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 8a785ef985ffbe24392ff42fa433b123, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: You find any fancy tech out there?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 8444eaf9f2c761640927cedef137aa78, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
-    text: How goes it slick'.
-    expression: {fileID: 0}
+    text: How goes it, slick?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 812ea9870b8387f448bed4d1b641cfbd, type: 3}
+    newbg: {fileID: 0}

@@ -14,14 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Springtrap
-    text: Sup' Lightning.
-    expression: {fileID: 0}
+    text: Sup Lightning.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 1e989b23157fa394e96e1a28bc2ab00b, type: 3}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: Watch yourself kid.
-    expression: {fileID: 0}
+    text: Need something?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 61f07543295185f4dbf43364aab57d19, type: 3}
+    newbg: {fileID: 0}
   - speaker: Springtrap
-    text: You figured out how to be useful yet?
-    expression: {fileID: 0}
+    text: Do you want something?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: c3f4bd0e5ab650b4c95d14be52972fa1, type: 3}
+    newbg: {fileID: 0}

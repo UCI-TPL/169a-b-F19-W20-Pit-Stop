@@ -14,14 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Dex
-    text: Whats cookin good lookin?
-    expression: {fileID: 0}
+    text: Whats cookin' good lookin?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 831cb31e31918ed48947a5599a3342a9, type: 3}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: What's up?
-    expression: {fileID: 0}
+    text: Greetings!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 70a5016de7c75d440ae4c7bfd8ec8697, type: 3}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: How you doin?
-    expression: {fileID: 0}
+    text: Hello~
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: a1fd9c32efbb99745b95c868e6f2b0b7, type: 3}
+    newbg: {fileID: 0}
