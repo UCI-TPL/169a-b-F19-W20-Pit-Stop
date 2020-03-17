@@ -192,7 +192,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: cf83beb4ae580664894a830bfa4ecf86, type: 3}
+    voiceline: {fileID: 8300000, guid: 6f95ba487bf5a2240ae2849b8b3872ae, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: I see.
@@ -1601,13 +1601,13 @@ MonoBehaviour:
     voiceline: {fileID: 8300000, guid: 931741e2647654144bbbaaec555605c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
-    text: S-Sorry, I'm just a little scrambled here. You've never, er, stayed this
+    text: Sorry, I-I'm just a little scrambled here. You've never - er - stayed this
       long.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 34f63c08d302f0548a62391a38a7320a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: And you won't insult them while I talk? Because if you just make fun of

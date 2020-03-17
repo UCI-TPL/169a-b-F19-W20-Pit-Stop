@@ -43,7 +43,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 3b23eab1a5e904e4fa06efe37f0ec4c8, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: '!?'
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8f2ea7da4a71c784fb335de541a5024a, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (Piper is cut off by a commotion nearby.)
@@ -99,7 +99,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: decf8a92daff536409aaf79c95509560, type: 3}
+    voiceline: {fileID: 8300000, guid: ac5dd6dfb6422064ab429b9c54772884, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: And I'm telling YOU you have no sense of adventure! We won't get anywhere
@@ -222,7 +222,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: 60285cc7feeb01f4296f803169bd296c, type: 3}
+    voiceline: {fileID: 8300000, guid: d3a2761fbbf7cd047965972963f5dc1b, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: '...I''ll take yours.'
@@ -331,7 +331,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: aef44b646ca4c5748b8ca0b695f8c615, type: 3}
+    voiceline: {fileID: 8300000, guid: 4842461a9560ad04d8b6287faa56a8b5, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'How would you even know!? '
@@ -607,7 +607,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: fe8c7995e4bbfd448892240d40b98eb8, type: 3}
+    voiceline: {fileID: 8300000, guid: 8fdd240710de6ba418ebb736e192b60c, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: How else am I supposed to take it?
@@ -615,7 +615,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 8300000, guid: a99d30eb884e32f4da5203cefbb49d59, type: 3}
+    voiceline: {fileID: 8300000, guid: 4777ba7210c08a1459c3de8dde5acfca, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I-...*sigh* Let me explain.
