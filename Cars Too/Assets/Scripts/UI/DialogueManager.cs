@@ -82,6 +82,10 @@ public class DialogueManager : MonoBehaviour
         skipbutton.SetActive(false);
         DetermineNameColor(d.speaker);
         cm.Updatenames(d.speaker);
+        if (d.voiceline != null)
+        {
+            DataManager.instance.am.PlayVL(d.voiceline);
+        }
     }
 
     public void CloseLine()
