@@ -10536,6 +10536,8 @@ GameObject:
   - component: {fileID: 8137111420603991518}
   - component: {fileID: 2289008553411832442}
   - component: {fileID: 8782707823909404903}
+  - component: {fileID: 8984753848714307300}
+  - component: {fileID: 7584345841485160310}
   m_Layer: 8
   m_Name: TestPrefab
   m_TagString: Player
@@ -10733,6 +10735,117 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.013647315, y: 0.009161306, z: 0.012316357}
   m_Center: {x: 0.000029633222, y: 0.0017446239, z: -0.00021036174}
+--- !u!114 &8984753848714307300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab50b466133fc74b8af22005cf53b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enginesound: {fileID: 8300000, guid: 818f7f711bdaa48ba960398dcec20f19, type: 3}
+  enginestart: {fileID: 8300000, guid: 66753e6b7787e4d71b562b3ef3acac36, type: 3}
+  asource: {fileID: 7584345841485160310}
+--- !u!82 &7584345841485160310
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735282467803159115}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 216
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5170710280627742032
 GameObject:
   m_ObjectHideFlags: 0
@@ -11685,15 +11798,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b9d52c924f00e4b94a92e4c62f0901, type: 3}
---- !u!4 &6834140557782597428 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9196077001080246423, guid: f6b9d52c924f00e4b94a92e4c62f0901,
-    type: 3}
-  m_PrefabInstance: {fileID: 2398371240461971363}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8096928463882195389 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5843042724718919198, guid: f6b9d52c924f00e4b94a92e4c62f0901,
+    type: 3}
+  m_PrefabInstance: {fileID: 2398371240461971363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6834140557782597428 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9196077001080246423, guid: f6b9d52c924f00e4b94a92e4c62f0901,
     type: 3}
   m_PrefabInstance: {fileID: 2398371240461971363}
   m_PrefabAsset: {fileID: 0}
