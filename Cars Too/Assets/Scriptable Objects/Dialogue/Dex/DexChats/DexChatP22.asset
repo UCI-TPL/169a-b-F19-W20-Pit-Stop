@@ -22,13 +22,13 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Dex
-    text: You mean fly over it? I just made a new personal record jump! Don't tell
+    text: You mean FLYING over it? I just made a new personal record jump! Don't tell
       Springtrap though.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c146bd3ba09f4a340868774edecc4af9, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: I definitely went over the 50 feet limit.
@@ -36,7 +36,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Dex!
@@ -47,15 +47,16 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Dex
-    text: I know I know. But I got really curious.
+    text: I know I know! But I was feeling ambitious!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 684b3ffb871c9bc48a5b9641b6e31922, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: Please don't endanger yourself. You're an important member of this crew.
+    text: Ugh, PLEASE try not to endanger yourself like that. You're an important
+      member of this crew.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -68,7 +69,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lighting
     text: Oh shut up. Anyway, I gotta wheel outta here. Need to find parts.

@@ -17,6 +17,7 @@ MonoBehaviour:
     text: Hey Dex, think you could show me more of those tricks?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -24,14 +25,16 @@ MonoBehaviour:
     text: Think? Oh, I KNOW I can! C'mon!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (Dex takes you out to the same place he took you before. He has even more
       dazzling tricks!)
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -39,13 +42,15 @@ MonoBehaviour:
     text: And THAT is how one performs a perfect aerial cartwheel.'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Which is...hopping in the air and turning your wheel.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -53,6 +58,7 @@ MonoBehaviour:
     text: "Precisely! An \u201Caerial\u201D cart-\u201Cwheel\u201D."
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -60,6 +66,7 @@ MonoBehaviour:
     text: '*laughs* Wow, okay. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -67,6 +74,7 @@ MonoBehaviour:
     text: And what about you?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -74,6 +82,7 @@ MonoBehaviour:
     text: Me?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -82,13 +91,15 @@ MonoBehaviour:
       trail, braving the world on your own!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 847546331f48f3648bb61d28abda30de, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Really? You want to learn tricks from li'l ol', amateur me?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -96,13 +107,15 @@ MonoBehaviour:
     text: Oh, Lightning. NO ONE gets this good without learning a bit from others!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: And there it is.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -111,6 +124,7 @@ MonoBehaviour:
       there on my own.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -118,6 +132,7 @@ MonoBehaviour:
     text: There isn't really an audience to impress out in the desert.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -125,13 +140,15 @@ MonoBehaviour:
     text: Au contraire! There's always an audience!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 684b3ffb871c9bc48a5b9641b6e31922, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: You!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -139,6 +156,7 @@ MonoBehaviour:
     text: Me?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -146,6 +164,7 @@ MonoBehaviour:
     text: Absolutely!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -153,13 +172,15 @@ MonoBehaviour:
     text: Why, I impress myself all the time!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I'm not surprised.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -167,6 +188,7 @@ MonoBehaviour:
     text: There must be SOMETHING that impresses you!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -174,6 +196,7 @@ MonoBehaviour:
     text: Well...
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -184,6 +207,7 @@ MonoBehaviour:
     text: Well, I guess you could say I'm good at navigating.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -192,6 +216,7 @@ MonoBehaviour:
       where I was.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -199,13 +224,15 @@ MonoBehaviour:
     text: Really? How did you manage that?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: a04146cd4eb0ac049803f8b90a44f2da, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: dc5e7f3cc73683e4881617cf83e76f8b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'The stars. It''s actually pretty easy when you get the hang of it. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -213,6 +240,7 @@ MonoBehaviour:
     text: There's one bright star in the sky that always stays in the northern direction.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -221,6 +249,7 @@ MonoBehaviour:
       you''re going. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -229,6 +258,7 @@ MonoBehaviour:
       stars can't serve as landmarks for everything.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -237,6 +267,7 @@ MonoBehaviour:
       to really mark any specific place on their own. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -244,6 +275,7 @@ MonoBehaviour:
     text: But if you know the speed at which they rotate, it gets easy!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -251,6 +283,7 @@ MonoBehaviour:
     text: As long as there's a night sky, I'll never get lost.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -259,6 +292,7 @@ MonoBehaviour:
     text: I mean...if I had to choose, I suppose I'm good at being on my own.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -266,13 +300,15 @@ MonoBehaviour:
     text: On your own? Like when you were in the desert?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a0f6562ba43a28942b5986fb4c60ac7a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah. I didn't really care about other people. No offense.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -280,13 +316,15 @@ MonoBehaviour:
     text: 'None taken! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Although, I think I'd go crazy with no one else.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -294,13 +332,15 @@ MonoBehaviour:
     text: I mean look at me! I was always meant for display, not storage!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e9b2c77b0c50a3b43af742e67c4f9c89, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah, I can't imagine someone like you being kept on the shelf.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -308,6 +348,7 @@ MonoBehaviour:
     text: Precisely! So how did you do it?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -316,6 +357,7 @@ MonoBehaviour:
       and I found parts to maintain myself. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -323,6 +365,7 @@ MonoBehaviour:
     text: 'But it''s not like I did anything more than SURVIVE, to be honest. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -330,6 +373,7 @@ MonoBehaviour:
     text: I wasn't LIVING...not really.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -337,8 +381,9 @@ MonoBehaviour:
     text: But still...
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 31b6114931fd10a409604952f1dc61df, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

@@ -17,6 +17,7 @@ MonoBehaviour:
     text: Nowadays, supplies is handled and distributed as Chief sees fit!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -24,13 +25,15 @@ MonoBehaviour:
     text: Which is great because it means I get pampered the most!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Ah, yes, as you should.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -38,13 +41,15 @@ MonoBehaviour:
     text: Exactly!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4d8f5e4db4e62f744bb63a5df6fb0262, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Being a sports car, I require an awful lot of maintenance.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -52,14 +57,16 @@ MonoBehaviour:
     text: But of course, you can't argue with results.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: As the fastest one here, I do all the scouting and exploration with both
       efficiency AND -
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -67,6 +74,7 @@ MonoBehaviour:
     text: (Dex strikes a stunning pose!)
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -74,13 +82,15 @@ MonoBehaviour:
     text: Finesse!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 847546331f48f3648bb61d28abda30de, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '*laughs* '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -88,20 +98,23 @@ MonoBehaviour:
     text: 'Oh! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 27787b5bc9dcc954c9573789d1922f84, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: So the quiet one DOES laugh?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: a04146cd4eb0ac049803f8b90a44f2da, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a8aed4e3f1e81bb4cb57b6b4e735a2b8, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -109,6 +122,7 @@ MonoBehaviour:
     text: 'AHEM. Occasionally. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -116,13 +130,15 @@ MonoBehaviour:
     text: '...'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 684b3ffb871c9bc48a5b9641b6e31922, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: What? I'm not a robot.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -130,13 +146,15 @@ MonoBehaviour:
     text: I didn't say anything! But I appreciate hearing your amusement!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'We should do this more often, Lightning! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -144,8 +162,9 @@ MonoBehaviour:
     text: This was fun!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

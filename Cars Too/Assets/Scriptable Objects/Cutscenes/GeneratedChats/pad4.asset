@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f95c65f2597c3ad4da3caa39a8decefa, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I hate myself.
@@ -92,7 +92,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5086ac0aa0794d44db8c5c6b1e4f8b18, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: MOVE!
@@ -125,7 +125,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1e90feaa94ffe194097e4992495e61e6, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: Hoooo WEE! That was closer than a rattlesnake in a mongoose burrow!
@@ -152,7 +152,8 @@ MonoBehaviour:
     voiceline: {fileID: 8300000, guid: c4812bc5adbd89a479b07cd9e3da9b5b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: '...I missed you so goddamn much you funky western motherfucker.'
+    text: '...You have absolutely no idea how flipping happy I am to see you, you
+      funky western mother-'
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}

@@ -36,7 +36,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8bc7208cff1430445bfba1993c886088, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: HEY! What are you doing!?
@@ -134,7 +134,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 25dbaef0e2fc02f41a736129e054ef72, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (You feel your back wheels slip into the same ditch Gak was trapped in.)
@@ -142,7 +142,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8f7a46f53320cbd47befcb8a66475d9d, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (You fire up your engine, but your wheels spin uselessly against the rubbled
@@ -151,7 +151,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: dba01ca6bef76314fb5f154be88c46fa, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'No, Gak! '
@@ -219,12 +219,13 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Narrator
-    text: (Gak makes their way toward the door you opened for them.)
+    text: (After flipping a switch, Gak makes their way toward the door you opened
+      for them.)
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a7036387a6b05dc4ba0d2a804d0caab7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Gak, stop!
@@ -251,12 +252,12 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Narrator
-    text: (Gak rolls outside to safety.)
+    text: (Gak rolls outside to safety. The ceiling overhead begins to rumble)
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c6424b4b2426d9f47a15a4bbda1fa426, type: 3}
     newbg: {fileID: 0}
   - speaker: Gak
     text: I just don't care.

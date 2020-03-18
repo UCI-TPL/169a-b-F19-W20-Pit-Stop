@@ -18,6 +18,7 @@ MonoBehaviour:
       you.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -26,14 +27,16 @@ MonoBehaviour:
       glad I''ve never lost sight of that.'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: When you know in your engine what you're built for, it feels like magic
       to do it.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -44,14 +47,16 @@ MonoBehaviour:
     text: Ah, well, yes and no.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c5476b6dd839f9846a4cff1f008d3c8d, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: You see, when I first awoke and immediately bolted across the countryside,
       I hadn't quite realized one simple fact -
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -59,6 +64,7 @@ MonoBehaviour:
     text: That cars need fuel?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -66,6 +72,7 @@ MonoBehaviour:
     text: '- that cars need-'
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -73,6 +80,7 @@ MonoBehaviour:
     text: '...Yes, that.'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -81,13 +89,15 @@ MonoBehaviour:
       weeds to keep me company.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f37030d2defa3c642a675f1a311bf267, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: A very MINOR setback, of course.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -95,6 +105,7 @@ MonoBehaviour:
     text: I don't think that's quite how any other car would phrase that.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -102,6 +113,7 @@ MonoBehaviour:
     text: Anyhow, I would still be out there if it weren't for Chief!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -109,13 +121,15 @@ MonoBehaviour:
     text: Why, they found me and hauled me to the gas tanks themselves!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 684b3ffb871c9bc48a5b9641b6e31922, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'I will forever be in their debt for that. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -124,27 +138,31 @@ MonoBehaviour:
     text: Tune-ups?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a0f6562ba43a28942b5986fb4c60ac7a, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: '*laughs* Of course I do!'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: My model is HIGHLY sensitive!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e9b2c77b0c50a3b43af742e67c4f9c89, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: And Piper has also informed me that I was also highly expensive!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -152,6 +170,7 @@ MonoBehaviour:
     text: Ah to be objectified and worth a literal pile of money.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -159,13 +178,15 @@ MonoBehaviour:
     text: Ah yes! To have a price on your soul!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Now THAT would be the life!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -174,6 +195,7 @@ MonoBehaviour:
       take care of.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -181,6 +203,7 @@ MonoBehaviour:
     text: In more than one way, I'm presuming.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -188,6 +211,7 @@ MonoBehaviour:
     text: So getting regular tune-ups is incredibly important.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -196,13 +220,15 @@ MonoBehaviour:
       Springtrap does it!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Whoa, really? I thought she hated you.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -211,6 +237,7 @@ MonoBehaviour:
       do what I say!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -218,6 +245,7 @@ MonoBehaviour:
     text: 'Wow. Sounds cathartic. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -226,8 +254,9 @@ MonoBehaviour:
       at all.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

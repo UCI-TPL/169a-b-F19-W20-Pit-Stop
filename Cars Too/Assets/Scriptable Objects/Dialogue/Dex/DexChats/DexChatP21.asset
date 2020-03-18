@@ -22,12 +22,12 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Dex
-    text: I am already planning on starting a new circuit here.
+    text: I'm already planning on starting a new circuit here.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 684b3ffb871c9bc48a5b9641b6e31922, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: You really are quite the racer aren't you?
@@ -38,13 +38,13 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Dex
-    text: Before I met the Spirit, racing was my full time thing. I really miss those
-      days.
+    text: Well, as you know, before I met the Spirit, racing was my full time thing.
+      Sometimes I really miss those days.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: One of these days, you and I will have to race.
@@ -55,12 +55,12 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Dex
-    text: As you if you have a chance.
+    text: As if you have a chance.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f7435a2f0f44eed438d682f9f81ad1e2, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Challenge accepted!

@@ -14,64 +14,116 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Dex
-    text: Are these dice..
-    expression: {fileID: 0}
+    text: Are these dice...
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: a0f6562ba43a28942b5986fb4c60ac7a, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Yes?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: They're awesome! They will show the world just how magnificent the great
       and mighty Dex is.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightining
     text: I think I have regrets about this.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
-    text: No such thing as regrets when it comes to Dex.
-    expression: {fileID: 0}
+    text: No such thing as regrets when it comes to Dex!
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: Indeed
   Choice2: Indeed not
   Route1:
   - speaker: Dex
     text: 'Of course you are! '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: If there's gotta be one last racing champion, it's only natural that it
       be the BEST of the best!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Hm. Yes.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Your mirrors must get plenty of work.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Dex
     text: 'Of course you are! '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Dex
     text: If there's gotta be one last racing champion, it's only natural that it
       be the BEST of the best!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Hm. Yes.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Your mirrors must get plenty of work.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 1
   C1Reward: 25
   C2Reward: 25

@@ -18,13 +18,15 @@ MonoBehaviour:
       them by my side. Especially Chief.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Are you close to Chief?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -32,13 +34,15 @@ MonoBehaviour:
     text: Well, they're the leader after all!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: I don't see a reason not to be!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -46,6 +50,7 @@ MonoBehaviour:
     text: One day, that might be me, dishing out orders.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -53,6 +58,7 @@ MonoBehaviour:
     text: I've got to be prepared if that ever happens!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -60,14 +66,16 @@ MonoBehaviour:
     text: '*laughs* I don''t know if I could ever be as great as Chief is though!'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well, you never know. But you should probably learn a bit about "humility"
       first.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -75,13 +83,15 @@ MonoBehaviour:
     text: Hmmmmm I don't know that one!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a8aed4e3f1e81bb4cb57b6b4e735a2b8, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Is it a trick?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -89,6 +99,7 @@ MonoBehaviour:
     text: Er...How about we talk about it next time?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -96,8 +107,9 @@ MonoBehaviour:
     text: Sounds good!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 
