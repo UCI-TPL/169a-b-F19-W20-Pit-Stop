@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: "Uh\u2026..well, NOW it is."
@@ -35,7 +35,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

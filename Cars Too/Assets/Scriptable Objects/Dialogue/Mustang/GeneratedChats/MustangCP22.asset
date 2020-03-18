@@ -30,8 +30,8 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang
-    text: I found this fantastic long distance radio. It's very old but functional.
-      The humans might have made it.
+    text: I found this fantastic long distance radio. Gettin' up thar in age, but
+      functional. The humans might have made it.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -47,12 +47,12 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Mustang
-    text: My thoughts exactly!
+    text: Exact-a-mactly!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fe8d40169b1a96045ae7ceed12d2a833, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: We can use this to split up far and wide to scavange for parts while remaining
@@ -79,7 +79,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b20eef50f924ef144961d731ad3c0079, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

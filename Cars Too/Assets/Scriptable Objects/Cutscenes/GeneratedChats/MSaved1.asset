@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: bde62e2f384bc814688dcbb20d2cadbf, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: You almost gotchur radiator roasted, flying through like that!
@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a58421dbac843f84d843b2a040db7435, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Agh, yeah. Sorry for speeding like that.
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: afe6554abdb83bf418ecf11ae15f16ef, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: Lightning, you oughtta know, these grapples ain't exactly for unlimited
@@ -60,7 +60,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b20eef50f924ef144961d731ad3c0079, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well...at least we know it's good for two?
@@ -76,7 +76,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 13de56b4390e5a54b96ed0c7a7633e8d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Looks like your stuck with me, "pardner".
@@ -92,7 +92,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: afe6554abdb83bf418ecf11ae15f16ef, type: 3}
     newbg: {fileID: 0}
   - speaker: Mustang
     text: C'mon. Let's wrangle a Gak.
@@ -100,7 +100,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fe8d40169b1a96045ae7ceed12d2a833, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

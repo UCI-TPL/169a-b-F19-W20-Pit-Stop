@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0905190bceda67c4ba148992a63af57a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: DASHBOARD.
@@ -35,7 +35,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 55af081c2a4214f4e87078a1b2c0763d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Pfft, good one-
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 2dbd60893f6a2c0408a59b772d5a8711, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Hah, I''m sorry. Sarcasm''s sort of my default. '
@@ -75,7 +75,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f03af63ebd4f6834b9d4884f0ab042e3, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Let's do this together. Alright?
@@ -83,7 +83,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7d6ab13b6589a7f46ba4decf4b0376f3, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Right. Let's go.

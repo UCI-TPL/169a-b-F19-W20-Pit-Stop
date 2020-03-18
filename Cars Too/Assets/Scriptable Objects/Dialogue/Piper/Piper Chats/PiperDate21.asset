@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...On second thought.....'
@@ -43,7 +43,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e9246d2225b6a0448b2cc9bdf6d7474c, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: What game?
@@ -75,7 +75,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 10b6006bce2987241af9af4cdb8ea194, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I'm NOT-!
@@ -107,7 +107,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e2847ed50aef81a42bd78acb6709b7af, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: So what'd you wanna talk about?
@@ -134,7 +134,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fc87805f6bd985044b9777b20680594f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'That''s a toughie. '
@@ -168,7 +168,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d663592107526884791322520c0bdf9e, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Toys, art, inventions, skyscrapers, homes -
@@ -192,7 +192,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: But at the same time-
@@ -208,7 +208,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 739e4dca478bff3458f4ea49c8f1bf6a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: There USED to be people here.
@@ -240,7 +240,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 67e8598a596a01e49a51285190135d81, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Piper
@@ -249,7 +249,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 4dd8a05ebe75a544fbabf4e87173f97f, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fc87805f6bd985044b9777b20680594f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: That's a toughie.
@@ -265,7 +265,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f38f23a9e1168ae4a8ea25c752c3b99f, type: 3}
     newbg: {fileID: 0}
   - speaker: Narrator
     text: (Piper holds up a metal bowl with lots of tiny holes in it)
@@ -290,7 +290,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c7902fa573a0cba4391eef87e38fa521, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Or-Or from maybe falling debris when they were building these massive things!
@@ -306,7 +306,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: But tomorrow, it'll probably be something else, and something else after
@@ -323,7 +323,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d663592107526884791322520c0bdf9e, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

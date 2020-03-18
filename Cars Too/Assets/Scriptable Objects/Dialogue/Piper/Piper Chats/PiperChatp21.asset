@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 10b6006bce2987241af9af4cdb8ea194, type: 3}
     newbg: {fileID: 0}
   Choice1: Pass
   Choice2: Uh, sure?
@@ -38,7 +38,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: It's mooootorific!
@@ -70,7 +70,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fc87805f6bd985044b9777b20680594f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: I just thought you outta know a little somethin' about Springtrap!
@@ -95,7 +95,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e2847ed50aef81a42bd78acb6709b7af, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Try giving one to her, and you'll see.
@@ -112,7 +112,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fe575f67af686534ba9114b92b375257, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: I knew you were still a bit of a rebel engine.
@@ -144,7 +144,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fc87805f6bd985044b9777b20680594f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: It's not REALLY a secret.
@@ -177,7 +177,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e2847ed50aef81a42bd78acb6709b7af, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Try giving one to her, and you'll see.

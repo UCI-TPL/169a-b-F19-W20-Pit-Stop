@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: What's with the lame catchphrase?
@@ -36,7 +36,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d663592107526884791322520c0bdf9e, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I really don't see how making dumb puns is going to brighten my day.
@@ -63,7 +63,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e2847ed50aef81a42bd78acb6709b7af, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'See, you''ll get the hang of it! '
@@ -95,11 +95,11 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 10b6006bce2987241af9af4cdb8ea194, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: "What's wrong with just \uFFFDgbeing a car\uFFFDh? It looks like that other
-      yellow car doesn't care either-"
+    text: What's wrong with just being a car? It looks like that other yellow car
+      doesn't care either-
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Yeah...like I said: Not my style.'
@@ -137,7 +137,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5e328c7a943de5e498f304a1a985b675, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Piper
@@ -146,7 +146,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e2847ed50aef81a42bd78acb6709b7af, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'See, you''ll get the hang of it! '
@@ -178,11 +178,11 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 10b6006bce2987241af9af4cdb8ea194, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: "What's wrong with just \uFFFDgbeing a car\uFFFDh? It looks like that other
-      yellow car doesn't care either-"
+    text: What's wrong with just being a car? It looks like that other yellow car
+      doesn't care either-
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -204,7 +204,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Yeah...like I said: Not my style.'
@@ -220,7 +220,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5e328c7a943de5e498f304a1a985b675, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

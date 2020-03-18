@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Lightning
-    text: Hey, I was wondering'
+    text: Hey, I was wondering...
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 10b6006bce2987241af9af4cdb8ea194, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: If you wanted to...uh...I guess talk about that history some more?
@@ -59,7 +59,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: DON'T get your hopes up, it's not like any dead human is gonna keep me from
@@ -92,7 +92,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f38f23a9e1168ae4a8ea25c752c3b99f, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: What do you wanna talk about first?
@@ -111,7 +111,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: faa21fcdf38114c4fb2bfada39002014, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: I thought you said you wanted to learn more about what I do!
@@ -144,7 +144,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d663592107526884791322520c0bdf9e, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Piper
@@ -153,7 +153,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: No like that sound.
@@ -217,7 +217,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5e328c7a943de5e498f304a1a985b675, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I feel like you just waited for me to-
@@ -251,7 +251,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f1b7480842c90194d9df016f47c0abd7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: But it doesn't do anything?
@@ -276,7 +276,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e2847ed50aef81a42bd78acb6709b7af, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
