@@ -86,7 +86,7 @@ public class KeyboardSelector : MonoBehaviour
                 if (numcolumns == 1)
                     index -= numrows;
                 else
-                    index -= numcolumns;
+                    index -= numcolumns*numrows;
             }
             if (ss != null)
             {
@@ -103,7 +103,7 @@ public class KeyboardSelector : MonoBehaviour
                 if (numcolumns == 1)
                     index += numrows;
                 else
-                    index += numcolumns;
+                    index += numcolumns*numrows;
                 
             }
             if (ss != null)
