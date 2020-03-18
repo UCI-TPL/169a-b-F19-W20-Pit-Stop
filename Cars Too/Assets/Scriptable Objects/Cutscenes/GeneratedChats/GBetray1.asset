@@ -377,7 +377,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: aa50dd16de006cb439fb1d846f88c49d, type: 3}
     newbg: {fileID: 0}
   - speaker: Gak
     text: 'Phew. Glad that''s over with, finally. '
@@ -808,7 +808,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ecc71d30e55871f43ba63f4ad515b3dc, type: 3}
     newbg: {fileID: 0}
   - speaker: Gak
     text: Hmmm...yeah! Yeah this all looks like it'll work! Let's head down-
