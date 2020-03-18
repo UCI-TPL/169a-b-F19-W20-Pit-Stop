@@ -1,0 +1,46 @@
+Narrator:
+(Somewhere outside the darkness, you hear a car engine revving up.)
+
+Narrator:
+(You hear the debris begin to shift, and shafts of industrial lights pierce through the dark to reveal...)
+
+Piper:
+Lightning! Are you okay!?
+
+$P6
+
+Lightning:
+Ergh, yeah I'm fine. 
+
+Lightning:
+Thanks to you. 
+
+Piper:
+Just be more careful! Don't go speeding off like that.
+
+$P4
+
+Piper:
+If anything happened to you, I-I don't know what I'd do!
+
+Lightning:
+Piper...
+
+Piper:
+I mean it! You...You mean a lot to me, okay?
+
+$P3
+
+Piper:
+So, let's do this together!
+
+$P0
+
+Lightning:
+Right. 
+
+Lightning:
+Let's go.
+
+End
+

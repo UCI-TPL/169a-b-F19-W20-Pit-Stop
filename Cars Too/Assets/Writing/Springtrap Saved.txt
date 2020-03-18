@@ -1,0 +1,39 @@
+Lightning:
+Springtrap! You're-! 
+
+Springtrap:
+WHAT IN THE WORLD WERE YOU THINKING! Going off like that, you-you- 
+
+$S6
+
+Springtrap:
+DASHBOARD.
+
+Lightning:
+Pfft, good one-
+
+Springtrap:
+OH YOU HUSH UP! I'm too angry to think of witty puns right now!
+
+$S7
+
+Lightning:
+Hah, I'm sorry. Sarcasm's sort of my default. 
+
+Lightning:
+Thank you for saving me. I mean it.
+
+Springtrap:
+J-Just don't scare me like that.
+
+$S5
+
+Springtrap:
+Let's do this together. Alright?
+
+$S0
+
+Lightning:
+Right. Let's go.
+
+End

@@ -1,0 +1,46 @@
+Dex:
+Lightning! 
+
+$D6
+
+Dex:
+Oh thank WHEELS you're alright!
+
+$D4
+
+Lightning:
+Ergh, yeah I'm fine. 
+
+Lightning:
+Thanks to you. 
+
+Dex: 
+W-Well you better be! 
+
+$D3
+
+Dex:
+I didn't just get my paint job soiled for you to go flying into some other ditch!
+
+$D7
+
+Lightning:
+Starting to sound like Springtrap there.
+
+Dex:
+If that means worrying over someone I care about...
+
+$D3
+
+Dex:
+Then I'll take it.
+
+$D5
+
+Dex:
+Come on, Lightning. Let's do this together.
+
+Lightning:
+Right, let's go.
+
+End

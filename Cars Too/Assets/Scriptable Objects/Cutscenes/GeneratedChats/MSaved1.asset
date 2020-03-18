@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26124fdd7486d41439532a7dd495dca3, type: 3}
+  m_Name: MSaved1
+  m_EditorClassIdentifier: 
+  convo:
+  - speaker: Mustang
+    text: By jiminy, slick!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Mustang
+    text: You almost gotchur radiator roasted, flying through like that!
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Agh, yeah. Sorry for speeding like that.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: If it wasn't for you, I'd be-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Mustang
+    text: Darn RIGHT, "if it wasn't for me!"
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Mustang
+    text: Lightning, you oughtta know, these grapples ain't exactly for unlimited
+      use.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Well...at least we know it's good for two?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Mustang
+    text: I just can't keep your trunk outta trouble, can I?
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: Looks like your stuck with me, "pardner".
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Mustang
+    text: Oh don'tchu charm me now.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Mustang
+    text: C'mon. Let's wrangle a Gak.
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  Choice1: 
+  Choice2: 
+  Route1: []
+  Route2: []
+  isConversation: 1
+  C1Reward: 0
+  C2Reward: 0
+  abilityactivation: 0
+  carpartsgained: 0
+  path: 
