@@ -247,7 +247,7 @@ MonoBehaviour:
     expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
-    newbg: {fileID: 21300000, guid: 9328b2c25fd05114e856e907bfd4c812, type: 3}
+    newbg: {fileID: 21300000, guid: 99e8d0abff0dede45bb81855e8852fda, type: 3}
   - speaker: Gak
     text: 'Hah! It worked! '
     Scenesprite: {fileID: 0}
