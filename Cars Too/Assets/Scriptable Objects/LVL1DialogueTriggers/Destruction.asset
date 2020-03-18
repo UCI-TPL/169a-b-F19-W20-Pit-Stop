@@ -15,13 +15,12 @@ MonoBehaviour:
   convo:
   - speaker: Lightning
     text: I can see a part under this mess, but I it's too heavy to clear.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: Maybe if Springtrap can teach me how to plow through this if I'm extra nice
-      to her.
     expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

@@ -15,13 +15,12 @@ MonoBehaviour:
   convo:
   - speaker: Lightning
     text: That Part is just out of reach.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: I think if I got to know Mustang better they could teach me how to grab
-      it with a hat.
     expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []
