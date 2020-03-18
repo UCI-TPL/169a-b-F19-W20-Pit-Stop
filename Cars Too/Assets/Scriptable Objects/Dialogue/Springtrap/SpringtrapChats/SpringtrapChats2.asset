@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Is there a particular reason you're suspicious of me?
@@ -35,7 +35,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8f796add41384bc4a923d245e9722b87, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Strangers aren't exactly easy to come by in these parts with the roads bein'
@@ -53,7 +53,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I dunno much about how things worked before, but I do know trust is something

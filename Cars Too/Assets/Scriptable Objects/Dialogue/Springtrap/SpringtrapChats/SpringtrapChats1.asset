@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5366a38148649a44d8b9654795d686d5, type: 3}
     newbg: {fileID: 0}
   Choice1: Me too.
   Choice2: Why's that?
@@ -30,7 +30,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef3a99b4f563f85489ea216eaac8120b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You just don't seem the type to stick around. What made you stay?
@@ -55,7 +55,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 9214c78b01df83648a4d72cbc6d6642f, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Later.
@@ -72,7 +72,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: What made you?
@@ -89,7 +89,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a2c052e7a0ef4bb459d52cccead0efe5, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Later.

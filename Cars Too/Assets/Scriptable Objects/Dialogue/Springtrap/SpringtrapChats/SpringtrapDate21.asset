@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Have some more questions for the security guard?
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef3a99b4f563f85489ea216eaac8120b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Last week I timed the tumbleweeds in a race.
@@ -75,7 +75,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8f796add41384bc4a923d245e9722b87, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Why do you do this check anyway? What's there to look out for?
@@ -115,7 +115,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '....The sky?'
@@ -157,7 +157,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Luckily, my model came with temperature gauges and a couple more measurement
@@ -166,7 +166,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: I think we'd be able to see a tornado way beforehand-
@@ -219,7 +219,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef3a99b4f563f85489ea216eaac8120b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: But if you don't ask the good questions...then what's the point, right?
@@ -227,7 +227,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f5c4321b4875ed45abb63c5e42290b7, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: So...hm. What would I do if I didn't have to make sure Dex didn't blow himself
@@ -236,7 +236,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 319b08ac9d1ecd347a7fb7c4533dc5ca, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I guess I'd spend more time with the others.
@@ -260,7 +260,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f57cd3721fd3764aaece72c16d5f91d, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: No, it's just- I dunno. I thought you were more....you know....
@@ -292,7 +292,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cbd5c1c5ddb8bcf4d84d8c838afef909, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Now you're starting to sound like Dex.
@@ -308,7 +308,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 51b84030f5a0f8448bdbf80a886fd2c1, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Anyways, yeah, I would wanna spend more time with the Spirit Crew.
@@ -316,7 +316,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Even Dex?
@@ -333,7 +333,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ffa63d64d9ac8a44f9c37c05eead4d83, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Now, do NOT tell him I said this-
@@ -349,7 +349,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'SOMETIMES. '
@@ -373,7 +373,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Things you don't think of, you CAN'T think of on your own, just because
@@ -382,7 +382,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: If we're all that's left....there's gotta be something in knowing more about
@@ -416,7 +416,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 9214c78b01df83648a4d72cbc6d6642f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well, let me finish. I wanted to know if you would've liked to have seen
@@ -433,7 +433,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1dfcc9ba2d9901245bed15eb33f48774, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: That's an easy one.
@@ -441,7 +441,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Nope.
@@ -466,7 +466,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0999f9c85ecbf514e881b6e5528490ee, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well....that's true, but you're not even curious?
@@ -482,7 +482,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 170bd7cdda5ba104b82c41cef78bd6bb, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Besides, then where's the fun in Piper's crazy speculations?
@@ -490,7 +490,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 43c32ef06c8283e41aff0655929f6bd5, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: I wouldn't wanna let her down.
@@ -498,7 +498,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 64cd3a2c19712a74e8e1108c29e6cbda, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Well, what if it was just you?
@@ -514,7 +514,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef3a99b4f563f85489ea216eaac8120b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Although....
@@ -530,7 +530,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: a2c052e7a0ef4bb459d52cccead0efe5, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Then maybe I would know what it's like to be Chief.
@@ -547,7 +547,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: It's up to us to not do the same mistakes.

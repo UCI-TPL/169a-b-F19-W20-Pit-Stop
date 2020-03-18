@@ -43,7 +43,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e1f040aaf3b105e42a59ce69d8ef699f, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: But...
@@ -67,7 +67,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 738a4135e01ceb1428bd6c7f9fad4062, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Please.

@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5366a38148649a44d8b9654795d686d5, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Just a "thank-you" for fixing the bridge. '
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Heh, don't get compliments often?
@@ -67,7 +67,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Hey, what''d you expect? I thought you were the "rebel motor"? '
@@ -99,7 +99,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 64cd3a2c19712a74e8e1108c29e6cbda, type: 3}
     newbg: {fileID: 0}
   Choice1: That's kinda stupid
   Choice2: That's kinda sad
@@ -110,7 +110,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8899f7005a4363f44a7a18780f5eb7e9, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You wanna rePEAT THAT-
@@ -118,7 +118,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ffa63d64d9ac8a44f9c37c05eead4d83, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: OKAY WAIT WAIT-
@@ -150,7 +150,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Yeah, no, that's more Piper's shtick-
@@ -207,7 +207,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 319b08ac9d1ecd347a7fb7c4533dc5ca, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Springtrap, I don't think your street cred will be in ANY jeopardy if that's
@@ -232,7 +232,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 91939c494dacd784a95c2ef714e0a353, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Well, YOU'RE WELCOME, I guess, for the security work I do...
@@ -240,7 +240,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: So...
@@ -281,7 +281,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: But I think I need to work a bit on it, still.
@@ -289,7 +289,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 319b08ac9d1ecd347a7fb7c4533dc5ca, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Either way...thanks Lightning.
@@ -305,7 +305,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Springtrap
@@ -314,7 +314,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8899f7005a4363f44a7a18780f5eb7e9, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: You wanna rePEAT THAT-
@@ -322,7 +322,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 51b84030f5a0f8448bdbf80a886fd2c1, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: OKAY WAIT WAIT-
@@ -354,7 +354,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d3bec33915f59fc408d0473b80897b17, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Yeah, no, that's more Piper's shtick-
@@ -418,7 +418,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 319b08ac9d1ecd347a7fb7c4533dc5ca, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Springtrap, I don't think your street cred will be in ANY jeopardy if that's
@@ -443,7 +443,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 91939c494dacd784a95c2ef714e0a353, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Well, YOU'RE WELCOME, I guess, for the security work I do...
@@ -451,7 +451,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: So...
@@ -492,7 +492,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: But I think I need to work a bit on it, still.
@@ -500,7 +500,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 319b08ac9d1ecd347a7fb7c4533dc5ca, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Either way...thanks Lightning.
@@ -516,7 +516,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

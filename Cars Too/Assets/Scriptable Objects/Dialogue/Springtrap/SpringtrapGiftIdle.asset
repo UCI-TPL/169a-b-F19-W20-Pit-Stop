@@ -15,8 +15,12 @@ MonoBehaviour:
   convo:
   - speaker: Springtrap
     text: Something for me? I'd laugh if I wasn't so surprised.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: 5366a38148649a44d8b9654795d686d5, type: 3}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

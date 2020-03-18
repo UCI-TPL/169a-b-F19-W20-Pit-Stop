@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cbd5c1c5ddb8bcf4d84d8c838afef909, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Human mechanical engineering ain't no Sunday drive-
@@ -43,7 +43,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 170bd7cdda5ba104b82c41cef78bd6bb, type: 3}
     newbg: {fileID: 0}
   Choice1: You must be good with tools.
   Choice2: Boasting, much?
@@ -54,7 +54,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: All the more reason, you should be keeping your headlights on your OWN road.
@@ -62,7 +62,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 391659306f884bb4a9d9952cbf5bf3c5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f57cd3721fd3764aaece72c16d5f91d, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Don't wanna be caught at the business end of one of THESE do ya?
@@ -70,7 +70,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8f796add41384bc4a923d245e9722b87, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: True.
@@ -96,7 +96,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'When they''re not going on about their hat, they''re going on about some
@@ -121,7 +121,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Anyway, I gotta get back to work. Stop getting me sidetracked!
@@ -129,7 +129,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Springtrap
@@ -138,7 +138,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 9214c78b01df83648a4d72cbc6d6642f, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: In terms of self-indulgence, I ain't got NOTHIN' on Dex.
@@ -155,7 +155,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8f796add41384bc4a923d245e9722b87, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: True.
@@ -181,7 +181,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: 'When they''re not going on about their hat, they''re going on about some
@@ -206,7 +206,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22434abb87decd049ac0e557e346ed5a, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Anyway, I gotta get back to work. Stop getting me sidetracked!
@@ -214,7 +214,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4351a0bb118709f4c99e6d50da243b3b, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

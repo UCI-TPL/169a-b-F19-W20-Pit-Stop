@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f8e20f46cf98cc847b5430e7c8fca0bd, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1dfcc9ba2d9901245bed15eb33f48774, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yes? Why, something weird about-?
@@ -35,7 +35,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: What do you mean?
@@ -52,7 +52,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 319b08ac9d1ecd347a7fb7c4533dc5ca, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: You REALLY didn't have to do a voice.
@@ -68,7 +68,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f5c4321b4875ed45abb63c5e42290b7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '....'
@@ -93,7 +93,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: b7755e0dd4689204ebd7af35c52573f3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f57cd3721fd3764aaece72c16d5f91d, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: Hey, I've got a question for YOU.
@@ -101,7 +101,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh boy.
@@ -117,7 +117,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 0d1c5d9fc4dbf6745b9c112b9ebafbc5, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: ef3a99b4f563f85489ea216eaac8120b, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: What I wanna know is...
@@ -134,7 +134,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 48b39fd3b103da846bfe62b125aa45cf, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Why are they leaving?
@@ -151,7 +151,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 55af1010c233e11449b302fede8722f9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 170bd7cdda5ba104b82c41cef78bd6bb, type: 3}
     newbg: {fileID: 0}
   - speaker: Springtrap
     text: So? What would it be?
@@ -219,7 +219,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 2719a79097e37e544817ca0ecbc55cb3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 62f51c46c8a5954468f432c930144cb7, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Lightning
@@ -278,7 +278,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 76d693befe70a6146a4cfedc82daf742, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7f5c4321b4875ed45abb63c5e42290b7, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
