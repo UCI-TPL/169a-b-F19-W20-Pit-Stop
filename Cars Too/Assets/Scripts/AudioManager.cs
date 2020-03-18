@@ -139,4 +139,10 @@ public class AudioManager : MonoBehaviour
         bgmsource.volume = val;
         bgmvol = val;
     }
+
+    public void setvoicevol(float val)
+    {
+        voices.volume = val;
+        voicevol = val;
+    }
 }

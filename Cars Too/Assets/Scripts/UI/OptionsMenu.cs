@@ -9,9 +9,13 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] Slider txtspd;
     [SerializeField] Slider bgmvol;
     [SerializeField] Slider sfxvol;
+    [SerializeField] Slider vlvol;
     void Start()
     {
-        
+        txtspd.value = DataManager.instance.textspeed;
+        bgmvol.value = DataManager.instance.am.bgmvol;
+        sfxvol.value = DataManager.instance.am.sfxvol;
+        vlvol.value = DataManager.instance.am.voicevol;
     }
 
     // Update is called once per frame
@@ -25,5 +29,6 @@ public class OptionsMenu : MonoBehaviour
         DataManager.instance.textspeed = txtspd.value;
         DataManager.instance.am.setsfxvol(sfxvol.value);
         DataManager.instance.am.setbgmvol(bgmvol.value);
+        DataManager.instance.am.setvoicevol(vlvol.value);
     }
 }
