@@ -79,8 +79,21 @@ public class KeyboardSelector : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
-            index += numrows;
-
+            if (buttons.Count == 2)
+            {
+                if (index == 0)
+                {
+                    index = 1;
+                }
+                else
+                {
+                    index = 0;
+                }
+            }
+            else
+            {
+                index += numrows;
+            }
             if (index >= buttons.Count)
             {
                 if (numcolumns == 1)
@@ -95,7 +108,21 @@ public class KeyboardSelector : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
-            index -= numrows;
+            if (buttons.Count == 2)
+            {
+                if (index == 0)
+                {
+                    index = 1;
+                }
+                else
+                {
+                    index = 0;
+                }
+            }
+            else {
+                index -= numrows;
+            }
+            
 
             if (index < 0)
             {
