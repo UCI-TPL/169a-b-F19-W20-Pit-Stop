@@ -788,5 +788,13 @@ PrefabInstance:
       propertyPath: speakersandsprites.Array.data[6].speaker
       value: Gak
       objectReference: {fileID: 0}
+    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045170829, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f854a958657ac6547841f4f9bc4d13ff, type: 3}
