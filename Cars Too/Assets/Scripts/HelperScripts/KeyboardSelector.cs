@@ -84,7 +84,7 @@ public class KeyboardSelector : MonoBehaviour
             if (index >= buttons.Count)
             {
                 if (numcolumns == 1)
-                    index -= numrows;
+                    index = 0;
                 else
                     index -= numcolumns*numrows;
             }
@@ -99,11 +99,11 @@ public class KeyboardSelector : MonoBehaviour
 
             if (index < 0)
             {
-                
+
                 if (numcolumns == 1)
-                    index += numrows;
+                    index = buttons.Count - 1;
                 else
-                    index += numcolumns*numrows;
+                    index += numcolumns * numrows;
                 
             }
             if (ss != null)
