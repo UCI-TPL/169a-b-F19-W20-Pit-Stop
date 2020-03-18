@@ -14,6 +14,7 @@ public class Event1Trigger : Id
     private void Start()
     {
         ls = GameObject.FindObjectOfType<LoadingScreen>();
+        base.Start();
     }
 
     void Update()
