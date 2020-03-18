@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 public class EventTriggerStatic : Id
 {
     private static int partscollected = 0;
+    private LoadingScreen ls;
+
     // Start is called before the first frame update
     void Start()
     {
         base.Start();
         DataManager.instance.carPartAcquired.AddListener(IncrementParts);
+        ls = GameObject.FindObjectOfType<LoadingScreen>();
     }
 
     // Update is called once per frame
@@ -25,7 +28,8 @@ public class EventTriggerStatic : Id
         if (partscollected >= 2)
         {
             DataManager.instance.AddID(GetID());
-            SceneManager.LoadScene("Event3");
+            ls.StartLoad("Event3");
+            //SceneManager.LoadScene("Event3");
         }
     }
 }
