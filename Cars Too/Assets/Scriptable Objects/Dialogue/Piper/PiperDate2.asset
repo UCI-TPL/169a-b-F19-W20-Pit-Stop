@@ -17,6 +17,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2f6db82813d98434e8f5a8ff57c10efa, type: 2}
   - {fileID: 11400000, guid: ece6be01bde374b43b0560066e14717a, type: 2}
   - {fileID: 11400000, guid: 6c9d5715675a67747bbc929e6d16dd54, type: 2}
+  - {fileID: 11400000, guid: a58fc84acd5bd764ca5629282852ad57, type: 2}
   fileloc: /Writing/Piper date 2 dialogue.txt
   createpath: Assets/Scriptable Objects/Dialogue/Piper/Piper Chats/
   title: PiperDate2

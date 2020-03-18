@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'Secondly, they are just SO NEAT! '
@@ -52,7 +52,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Pipe fanclub member much?
@@ -76,7 +76,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f682e828141037e4391c970c6099a1ff, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: OMG, A PIPES FANCLUB!? Wouldn't that be motorific!
@@ -84,7 +84,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh boy.

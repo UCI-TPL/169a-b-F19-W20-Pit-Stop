@@ -28,7 +28,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b20eef50f924ef144961d731ad3c0079, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Parts? Parts for what?
@@ -52,10 +52,10 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: afe6554abdb83bf418ecf11ae15f16ef, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: These parts are very useful then. I'll go gather some more.
+    text: They could be pretty useful then. I'll go gather some more.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -68,7 +68,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: bde62e2f384bc814688dcbb20d2cadbf, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

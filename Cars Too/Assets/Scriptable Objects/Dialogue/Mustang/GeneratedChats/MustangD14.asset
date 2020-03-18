@@ -15,37 +15,71 @@ MonoBehaviour:
   convo:
   - speaker: Lightning
     text: Oh...er, thanks for the compliment.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
-    text: You're welcome! I take it you don't get 'em often?Lightning:No need to rub
-      it in-
-    expression: {fileID: 0}
+    text: You're welcome! I take it you don't get 'em often?
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
+  - speaker: Lightning
+    text: No need to rub it in-
+    Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
-    text: 'Nah, nah, heh, I don''t mean it like that. '
-    expression: {fileID: 0}
+    text: 'Nah, nah, heh, I don''t mean it like that.
+
+'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: d56d7029b593e2d4f84818bfcdea4eba, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: No, yeah, I know. I just...uhm...
-    expression: {fileID: 0}
+    text: No, yeah, I know. I just...uhm...I'm not used to getting compliments from
+      anyone other than Piper.
     Scenesprite: {fileID: 0}
-  - speaker: Lightning
-    text: I'm not used to getting compliments from anyone other than Piper.
     expression: {fileID: 0}
-    Scenesprite: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Oh, I gotcha. Well, stop by again sometime for more.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: b20eef50f924ef144961d731ad3c0079, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Although I can't guarantee they'll be untarnished by Western slang.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: It wouldn't be you if it wasn't.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

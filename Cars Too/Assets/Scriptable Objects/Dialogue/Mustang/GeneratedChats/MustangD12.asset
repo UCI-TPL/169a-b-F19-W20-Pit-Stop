@@ -14,61 +14,115 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Mustang
-    text: I am not man, I am not car,However, I can still wind up pretty far.
-    expression: {fileID: 0}
+    text: 'I am not man, I am not car,
+
+      However, I can still wind up pretty far.'
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
-    text: I sit atop a head of steel, That, somehow, can learn and feel.
-    expression: {fileID: 0}
+    text: "I sit atop a head of steel, \nThat, somehow, can learn and feel."
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: What am I?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: e038633b60d336c4eac8b27a869bfb6d, type: 3}
+    newbg: {fileID: 0}
   Choice1: Is it your hat?
   Choice2: Is it Dex's hair?
   Route1:
   - speaker: Lightning
     text: Uh....is it your hat?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Ding ding ding!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: fe8d40169b1a96045ae7ceed12d2a833, type: 3}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: 'You''re our lucky winner! '
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Alright, next one!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Route2:
   - speaker: Lightning
     text: Uh...psh, I dunno, Dex's hair?
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: EEEEHRRRRRRR wrong answer!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: Sorry, the right answer is -
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: My hat!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 8300000, guid: fe8d40169b1a96045ae7ceed12d2a833, type: 3}
+    newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh, darn. Oh well.
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Mustang
     text: That's alright, slick! You'll get it on the next one!
-    expression: {fileID: 0}
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0
   C2Reward: 0

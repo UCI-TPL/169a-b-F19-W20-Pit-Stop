@@ -19,7 +19,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: d4c9bc18dbebdba47a1a280321f8ce22, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f16bd387590ffcd4a9149a3a0356ce07, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Oh thank WHEELS you're alright!
@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: f0093c0f9e4035c4f87a3ad0acf276c9, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: cd5475e11a4e7214585ca36e013dd35a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Ergh, yeah I''m fine. '
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 397062a18aafdd84b8211a67e75191dc, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: I didn't just get my paint job soiled for you to go flying into some other
@@ -60,7 +60,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 75e1f2c26d9a88f44896aaf546d14c82, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Starting to sound like Springtrap there.
@@ -76,7 +76,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4ce1dad5af7f76a498ffaf217589a26c, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Then I'll take it.
@@ -84,7 +84,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 66d660c6152738046bf95e7cbf1cf75a, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Come on, Lightning. Let's do this together.
@@ -92,7 +92,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 07011402a0b464147be1a16dcfc7a973, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Right, let's go.

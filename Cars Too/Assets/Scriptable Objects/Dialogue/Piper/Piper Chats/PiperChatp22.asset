@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: After we woke up together and you decided to head into the desert...
@@ -51,7 +51,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 7aec931cd70bae94dbe671dcf9cd0e4d, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: I ended up getting myself stuck in a pothole.
@@ -67,7 +67,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e9246d2225b6a0448b2cc9bdf6d7474c, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Oh, hm, I guess it's not actually that long of a story.
@@ -91,7 +91,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Well, maybe it was a little one-sided at first.
@@ -99,7 +99,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 5e328c7a943de5e498f304a1a985b675, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: But she rolled around!
@@ -139,7 +139,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Chatting with everyone, having a great time!

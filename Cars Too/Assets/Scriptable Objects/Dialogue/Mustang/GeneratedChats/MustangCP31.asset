@@ -28,11 +28,10 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: afe6554abdb83bf418ecf11ae15f16ef, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
-    text: I am sorry. I didn't mean to hurt anyone's feelings. I just wanted a way
-      out.
+    text: I-I didn't mean to hurt anyone's feelings. I just wanted a way out.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -62,7 +61,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fe8d40169b1a96045ae7ceed12d2a833, type: 3}
     newbg: {fileID: 0}
   Choice1: 
   Choice2: 

@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convo:
   - speaker: Mustang
-    text: Go do something else, I'm busy right now.
-    expression: {fileID: 0}
+    text: Sorry, slick. I'm kinda busy right now.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   - speaker: Lightning
-    text: Well I guess so.
-    expression: {fileID: 0}
+    text: Alright. Later.
     Scenesprite: {fileID: 0}
+    expression: {fileID: 0}
+    expression2: {fileID: 0}
+    leavename: 
+    voiceline: {fileID: 0}
+    newbg: {fileID: 0}
   Choice1: 
   Choice2: 
   Route1: []

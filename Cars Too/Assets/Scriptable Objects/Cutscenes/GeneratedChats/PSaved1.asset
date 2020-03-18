@@ -36,7 +36,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 920b8e02118467c4bacef20b03b7d0af, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Ergh, yeah I''m fine. '
@@ -60,7 +60,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 6aca50d99ec2ee945938caf4128907a3, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: aaae4c3a31e75c042b638ff33289406c, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: If anything happened to you, I-I don't know what I'd do!
@@ -68,7 +68,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 000a3d2b3ce0dfd439fcc0b039b12389, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Piper...
@@ -84,7 +84,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: c73b8c5ea8b2ae047bb697e4eb62b672, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 0322b1482d2956644a789e967eccc7f0, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: So, let's do this together!
@@ -92,7 +92,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: a040f529ec35d664c850d292ab729a9e, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 8567583046bb2f346a4addff26f1c3eb, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Right. '

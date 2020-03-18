@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: e15e475ccf2772643bb867ed01a08192, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d663592107526884791322520c0bdf9e, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Thanks, Lightning. That makes me feel better!
@@ -35,7 +35,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: Well, I think we'd better hit the road again.

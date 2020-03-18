@@ -23,7 +23,7 @@ MonoBehaviour:
     newbg: {fileID: 0}
   - speaker: Mustang
     text: I reckon get back to work on that long distance communicator. If we're to
-      fix this damn place them humans messed up, we'll need all the we can get!
+      fix this damn place them humans messed up, we'll need all the help we can get!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
     expression2: {fileID: 0}
@@ -44,7 +44,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: fe8d40169b1a96045ae7ceed12d2a833, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: On it!

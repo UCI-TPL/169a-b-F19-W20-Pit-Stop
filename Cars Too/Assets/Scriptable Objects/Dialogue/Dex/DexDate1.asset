@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: DexDate1
   m_EditorClassIdentifier: 
   expl: {fileID: 11400000, guid: 32890db2f1837f642a6389dd1b1e40bf, type: 2}
-  chats: []
+  chats:
+  - {fileID: 11400000, guid: d27e13df3994d0543b03ded97363aa91, type: 2}
+  - {fileID: 11400000, guid: be163a216639c464e85a201173a9a6ef, type: 2}
+  - {fileID: 11400000, guid: 11e4a192f47c53c4ea53b59906071d22, type: 2}
   fileloc: /Writing/Dex Date 1.txt
   createpath: Assets/Scriptable Objects/Dialogue/Dex/DexChats/
   title: DexDate1

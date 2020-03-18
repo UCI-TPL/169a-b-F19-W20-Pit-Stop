@@ -27,7 +27,7 @@ MonoBehaviour:
     expression: {fileID: 0}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f1b7480842c90194d9df016f47c0abd7, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: '...'
@@ -59,7 +59,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 22c03798b26e69a4ea39b9764772de2a, type: 3}
     newbg: {fileID: 0}
   - speaker: Piper
     text: 'So that''s what I''m doing here. '
@@ -86,7 +86,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 50c8691d3bb67b54aab64a840b78f341, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 739e4dca478bff3458f4ea49c8f1bf6a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah. But you know what-
@@ -111,7 +111,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: fd7de53754dfc9540a6ca14134cb3037, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d1292fe8336c7164187a3c5befbc08c2, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Yeah. It's important for you guys to know what happened.
