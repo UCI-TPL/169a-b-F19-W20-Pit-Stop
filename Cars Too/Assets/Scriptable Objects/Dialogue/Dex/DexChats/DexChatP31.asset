@@ -22,12 +22,12 @@ MonoBehaviour:
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
   - speaker: Dex
-    text: I'm motortastic Lightning, what about you?
+    text: I'm motorific, Lightning, what about you?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Listen I just wanted to say I'm sorry about what happened...
@@ -44,7 +44,7 @@ MonoBehaviour:
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
     expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: d604baff55ba93a429504e71f426e03a, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Alright I guess we'll talk later...

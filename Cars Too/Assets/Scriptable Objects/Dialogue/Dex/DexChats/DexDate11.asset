@@ -17,6 +17,7 @@ MonoBehaviour:
     text: Hey Dex. You mentioned some racing tricks earlier, so I-
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -24,14 +25,16 @@ MonoBehaviour:
     text: Ohohohoho!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'Say no more, citizen! It would be my absolute PLEASURE to dazzle you with
       them! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -39,6 +42,7 @@ MonoBehaviour:
     text: That's actually not what-
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -46,6 +50,7 @@ MonoBehaviour:
     text: ONWARD!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -53,6 +58,7 @@ MonoBehaviour:
     text: (After some STUNNING racing tricks by Dex...)
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -60,6 +66,7 @@ MonoBehaviour:
     text: And THAT is how you perform a backspin into a triple axel...
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -67,14 +74,16 @@ MonoBehaviour:
     text: '...as a car.'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh is that what that was? It kinda looked like you just hopped on your axles
       a few times.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -82,13 +91,15 @@ MonoBehaviour:
     text: Exactly!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: A triple-
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -96,13 +107,15 @@ MonoBehaviour:
     text: AXLE!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e9b2c77b0c50a3b43af742e67c4f9c89, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Good grief.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -110,21 +123,24 @@ MonoBehaviour:
     text: Might you have any personal requests for a trick?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: f37030d2defa3c642a675f1a311bf267, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: OH! Or a race? Granted, you won't win, but seeing me in action is sure to
       be a trophy in itself!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 27787b5bc9dcc954c9573789d1922f84, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: 'Nope, I think I''m good for now. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -133,6 +149,7 @@ MonoBehaviour:
       trick related -
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -140,8 +157,9 @@ MonoBehaviour:
     text: I'm your car.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   Choice1: How did you get into racing?
   Choice2: How did you get into tricks?
@@ -150,13 +168,15 @@ MonoBehaviour:
     text: Oh well that's easy!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: c146bd3ba09f4a340868774edecc4af9, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: As you can tell, my model is a sports car, and not just ANY sports car-
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -164,13 +184,15 @@ MonoBehaviour:
     text: 'The BEST sports car. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 847546331f48f3648bb61d28abda30de, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'It was the most recent model developed before the Crash. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -178,14 +200,16 @@ MonoBehaviour:
     text: So when I awoke, well -
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: It was only natural for me to speed right out of that garage and hit that
       wide open dirt road.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -194,6 +218,7 @@ MonoBehaviour:
       -"
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -202,14 +227,16 @@ MonoBehaviour:
       -
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: Why, it's simply breathtaking just to think about! It's no wonder I picked
       up the skill so fast.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -217,13 +244,15 @@ MonoBehaviour:
     text: '*laughs* When I started out, I wanted to race everything I came across!'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: A tumbleweed, the clouds, anything that moved!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -231,6 +260,7 @@ MonoBehaviour:
     text: Which was silly of me, I know, but since then I've learned.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -239,21 +269,24 @@ MonoBehaviour:
       the coward.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: bd4b6bf20fd1b844d83a9c82d5573623, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: b4742d42b20b7924abba884682abe1b5, type: 3}
     newbg: {fileID: 0}
   Route2:
   - speaker: Dex
     text: Oh well that's easy!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: As you can tell, my model is a sports car, and not just ANY sports car-
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -261,13 +294,15 @@ MonoBehaviour:
     text: 'The BEST sports car. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 623b5901f21b9bd4493036590dc9109f, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'It was the most recent model developed before the Crash. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -275,6 +310,7 @@ MonoBehaviour:
     text: So when I awoke, I realized my increased dexterity compared to other cars.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -283,6 +319,7 @@ MonoBehaviour:
       tires could turn over a surface -
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -290,21 +327,24 @@ MonoBehaviour:
     text: '- just feeling the road slip beneath you, almost like ice.'
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'It''s exhilarating just to think about it! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1d82701b46f09ea408f8e13f1ac44e44, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'On one hand - or, tire, if you will - when you spin out, it''s so fast
       that when it''s over, you can barely come to terms with what just happened. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -312,14 +352,16 @@ MonoBehaviour:
     text: But on the other tire, in the moment, you wonder if it'll ever end.
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e81671d3efc172a4aa86af983823316f, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: That feeling is what I'll always be chasing, but in the meantime, I'll have
       to make do with coming up with new, better tricks!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -327,6 +369,7 @@ MonoBehaviour:
     text: 'Ones that humans would''ve never even dreamed of! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -334,13 +377,15 @@ MonoBehaviour:
     text: Triple axel? Why stop there? How about Quadruple? Sextuple? Sky's the limit!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 1512d6c9116ecf24782d17fb24c2ada4, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: One day, I'll be able to do a Septuple into a full-on-
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -348,6 +393,7 @@ MonoBehaviour:
     text: 'Backflip! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -355,6 +401,7 @@ MonoBehaviour:
     text: As a car?
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -362,8 +409,9 @@ MonoBehaviour:
     text: Of course!
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 4d8f5e4db4e62f744bb63a5df6fb0262, type: 3}
     newbg: {fileID: 0}
   isConversation: 0
   C1Reward: 0

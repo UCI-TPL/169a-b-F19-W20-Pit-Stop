@@ -17,6 +17,7 @@ MonoBehaviour:
     text: So, what, did you wake up on a race track or something?
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -24,13 +25,15 @@ MonoBehaviour:
     text: Oh! I'm SO glad you asked!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: dc5e7f3cc73683e4881617cf83e76f8b, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh no.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -38,13 +41,15 @@ MonoBehaviour:
     text: 'I was actually one of the first to wake up! '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 684b3ffb871c9bc48a5b9641b6e31922, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'There was a blinding light for a split second. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 75107e969190482419d6fac4e8feb957, type: 2}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
@@ -52,37 +57,42 @@ MonoBehaviour:
     text: And then, boom! I knew who I was!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 6936640f331cccd4894fdf17a327f4a5, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 27787b5bc9dcc954c9573789d1922f84, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: A champion!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 2bd267e8b127350498ad113d61b9b05d, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: e9b2c77b0c50a3b43af742e67c4f9c89, type: 3}
     newbg: {fileID: 0}
   - speaker: Dex
     text: 'I''m the only one around here with the blinding light story, so it must
       mean it was only for special cars. '
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
-  - speaker: 'Dex:'
+  - speaker: Dex
     text: So don't feel too bad if you didn't get to see it! It just wasn't meant
       for you!
     Scenesprite: {fileID: 0}
     expression: {fileID: 11400000, guid: 9ec7e35dc0140c948b05ffb4b1c9fada, type: 2}
+    expression2: {fileID: 0}
     leavename: 
-    voiceline: {fileID: 0}
+    voiceline: {fileID: 8300000, guid: 9c563f4b3f3a8014b814220e6e266019, type: 3}
     newbg: {fileID: 0}
   - speaker: Lightning
     text: Oh phew. Yeah that's REALLY been bothering me, but you sure made me feel
       better.
     Scenesprite: {fileID: 0}
     expression: {fileID: 0}
+    expression2: {fileID: 0}
     leavename: 
     voiceline: {fileID: 0}
     newbg: {fileID: 0}
