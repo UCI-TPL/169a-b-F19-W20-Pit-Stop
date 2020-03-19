@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    [SerializeField] private float speed = 1;
+    [SerializeField] private float speed = 30;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class Rotate : MonoBehaviour
     void Update()
     {
 
-        transform.Rotate(0, speed, 0);
+        transform.Rotate(0, speed*Time.deltaTime, 0);
     }
 }
