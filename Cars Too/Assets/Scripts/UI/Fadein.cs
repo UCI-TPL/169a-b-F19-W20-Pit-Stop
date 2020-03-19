@@ -33,10 +33,10 @@ public class Fadein : MonoBehaviour
         //start at 0% visible
         float i = 0.0f;
         //calculate total frames active
-        float activeframes = timer * 60.0f;
+        float activeframes = timer;
         //calculate how much visibility should increase each frame
         float incrementer = 1 / activeframes;
-        while (i <= 1)
+        while (i <= timer)
         {
             //change transparency of each if they have been assigned
             if (im != null)
@@ -44,7 +44,7 @@ public class Fadein : MonoBehaviour
             if (tx != null)
                 tx.color = new Color(tx.color.r, tx.color.b, tx.color.g, i);
             yield return null;
-            i += incrementer;
+            i += Time.deltaTime;
         }
 
         //make each component completely visible

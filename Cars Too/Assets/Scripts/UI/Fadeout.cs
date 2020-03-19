@@ -30,9 +30,9 @@ public class Fadeout : MonoBehaviour
     {
         donefadeing = false;
         //start at 100% visible
-        float i = 1.0f;
+        float i = timer;
         //calculate total frames active
-        float activeframes = timer*60.0f;
+        float activeframes = timer;
         //calculate how much visibility should decrease each frame
         float incrementer = i / activeframes;
         while (i >= 0)
@@ -43,7 +43,7 @@ public class Fadeout : MonoBehaviour
             if(tx!=null)
                 tx.color = new Color(tx.color.r, tx.color.b, tx.color.g, i);
             yield return null;
-            i -= incrementer;
+            i -= Time.deltaTime;
         }
         if (tx != null) { 
             tx.gameObject.SetActive(false);
