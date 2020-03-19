@@ -40,8 +40,8 @@ public class LoadingScreen : MonoBehaviour
         {
             loading = true;
             Debug.Log(loadlvl.progress);
-            tire1.transform.Rotate(0, 0, tirespeed * (loadlvl.progress+.25f));
-            tire2.transform.Rotate(0, 0, tirespeed * (loadlvl.progress + .25f));
+            tire1.transform.Rotate(0, 0, tirespeed * (loadlvl.progress+25f*Time.deltaTime));
+            tire2.transform.Rotate(0, 0, tirespeed * (loadlvl.progress + 25f*Time.deltaTime));
             yield return new WaitForEndOfFrame();
         }
     }
