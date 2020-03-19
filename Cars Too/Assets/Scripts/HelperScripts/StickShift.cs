@@ -23,8 +23,11 @@ public class StickShift : MonoBehaviour
     //generally, each is mapped to a button hover
     public void displaygear(int gearindex)
     {
-        currentgear.SetActive(false);
-        currentgear = gearpos[gearindex];
-        currentgear.SetActive(true);
+        if (gearindex < gearpos.Count)
+        {
+            currentgear.SetActive(false);
+            currentgear = gearpos[gearindex];
+            currentgear.SetActive(true);
+        }
     }
 }
