@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7947569714015546643}
   - component: {fileID: 4899069201450137350}
   - component: {fileID: 5730584144324970300}
+  - component: {fileID: 1934841534351241837}
   m_Layer: 5
   m_Name: NoButton
   m_TagString: Untagged
@@ -169,6 +170,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &1934841534351241837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33009521711179703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6774355871983991832}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &123957169429429298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,6 +2938,7 @@ GameObject:
   - component: {fileID: 8694449048422580050}
   - component: {fileID: 6727559086888379334}
   - component: {fileID: 6080844454618137953}
+  - component: {fileID: 7751459142347234474}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -3052,6 +3084,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &7751459142347234474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181955206778548272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5266765198889690045}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &1205979503891345882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4139,6 +4201,7 @@ GameObject:
   - component: {fileID: 1477627845990648474}
   - component: {fileID: 8521274943936143848}
   - component: {fileID: 7704547374970790297}
+  - component: {fileID: 8914503579934224237}
   m_Layer: 5
   m_Name: Main Menu Button
   m_TagString: Untagged
@@ -4284,6 +4347,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &8914503579934224237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722764666826594884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5266765198889690045}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &1795748257485793803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4866,7 +4959,6 @@ GameObject:
   - component: {fileID: 1727951047846429403}
   - component: {fileID: 5373965808308635326}
   - component: {fileID: 6898414553908147722}
-  - component: {fileID: 3215826178778114755}
   m_Layer: 5
   m_Name: YesButton
   m_TagString: Untagged
@@ -5023,18 +5115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
---- !u!114 &3215826178778114755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028397542947842808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70eecc494189f6740a86d9d519f96d4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2116801359759491960
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,14 +5944,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.848048, g: 0.8679245, b: 0.045033824, a: 1}
+  m_Color: {r: 0.8666667, g: 0.043137252, b: 0.65794516, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8269638b374478149815d1fed29e30b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72d71ffbb85109b409a600a99cb0e31c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6519,6 +6599,7 @@ GameObject:
   - component: {fileID: 5777262893549265484}
   - component: {fileID: 8486796290556599342}
   - component: {fileID: 6056785844422164653}
+  - component: {fileID: 9074136751760580710}
   m_Layer: 5
   m_Name: NoButton
   m_TagString: Untagged
@@ -6675,6 +6756,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &9074136751760580710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2658022817797640120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6022822436812592385}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &2698639947348423598
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +6900,7 @@ GameObject:
   - component: {fileID: 1666718387472176629}
   - component: {fileID: 3586611842563155839}
   - component: {fileID: 7745767203826765253}
+  - component: {fileID: 1546810051588088077}
   m_Layer: 5
   m_Name: YesButton
   m_TagString: Untagged
@@ -6968,6 +7080,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70eecc494189f6740a86d9d519f96d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1546810051588088077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783663510952417388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6022822436812592385}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &2799567163312825238
 GameObject:
   m_ObjectHideFlags: 0
@@ -8676,7 +8818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8301887, g: 0.09789959, b: 0.6801491, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8706,6 +8848,7 @@ GameObject:
   - component: {fileID: 2484723355684711557}
   - component: {fileID: 4238528929940310217}
   - component: {fileID: 1864253612572213106}
+  - component: {fileID: 2693261377872707591}
   m_Layer: 5
   m_Name: HowToButton
   m_TagString: Untagged
@@ -8726,7 +8869,7 @@ RectTransform:
   m_Children:
   - {fileID: 6571662488185157964}
   m_Father: {fileID: 6188723588424513190}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8851,6 +8994,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &2693261377872707591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3383259708030786737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5266765198889690045}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &3405567089794686194
 GameObject:
   m_ObjectHideFlags: 0
@@ -8942,6 +9115,7 @@ GameObject:
   - component: {fileID: 3516244290582395433}
   - component: {fileID: 2245558011731182636}
   - component: {fileID: 7706853600145946625}
+  - component: {fileID: 4998142454784709836}
   m_Layer: 5
   m_Name: SaveButton
   m_TagString: Untagged
@@ -9087,6 +9261,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &4998142454784709836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3442138890252908384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5266765198889690045}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &3501021481829698004
 GameObject:
   m_ObjectHideFlags: 0
@@ -9100,6 +9304,7 @@ GameObject:
   - component: {fileID: 1384719189482241240}
   - component: {fileID: 3521601526203367271}
   - component: {fileID: 2800602604526838404}
+  - component: {fileID: 6530869011412660340}
   m_Layer: 5
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -9120,7 +9325,7 @@ RectTransform:
   m_Children:
   - {fileID: 1541695576070221023}
   m_Father: {fileID: 6188723588424513190}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9245,6 +9450,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &6530869011412660340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501021481829698004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5266765198889690045}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &3533925570702781718
 GameObject:
   m_ObjectHideFlags: 0
@@ -9760,7 +9995,7 @@ GameObject:
   - component: {fileID: 3623371501361765091}
   - component: {fileID: 1848759277685059949}
   - component: {fileID: 7058758318516373397}
-  - component: {fileID: 7716886341944384619}
+  - component: {fileID: 7612677297319620508}
   m_Layer: 5
   m_Name: YesButton
   m_TagString: Untagged
@@ -9917,7 +10152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
---- !u!114 &7716886341944384619
+--- !u!114 &7612677297319620508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9926,9 +10161,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 3675599593432007808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70eecc494189f6740a86d9d519f96d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7556565246136286589}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &3691407310931669441
 GameObject:
   m_ObjectHideFlags: 0
@@ -11256,6 +11509,7 @@ GameObject:
   - component: {fileID: 2932946324480816305}
   - component: {fileID: 2039684246126698820}
   - component: {fileID: 6308026447347066909}
+  - component: {fileID: 1878407824716663799}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -11401,6 +11655,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &1878407824716663799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207641872346881908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5266765198889690045}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4243474501856938571
 GameObject:
   m_ObjectHideFlags: 0
@@ -12469,6 +12753,7 @@ GameObject:
   - component: {fileID: 4436490669178984458}
   - component: {fileID: 4436490669178984459}
   - component: {fileID: 4436490669178984456}
+  - component: {fileID: 6221753111926673053}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -12590,6 +12875,47 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &6221753111926673053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436490669178984462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5135273764189909124}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5182492419140864724}
+          m_MethodName: displaygear
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4436490669306374003
 GameObject:
   m_ObjectHideFlags: 0
@@ -14057,7 +14383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4436490669974284526
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15445,6 +15771,7 @@ GameObject:
   - component: {fileID: 4436490670440782515}
   - component: {fileID: 4436490670440782512}
   - component: {fileID: 4683003104366167974}
+  - component: {fileID: 8482159949258295681}
   m_Layer: 5
   m_Name: Chat
   m_TagString: Untagged
@@ -15580,6 +15907,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &8482159949258295681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436490670440782518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5135273764189909124}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5182492419140864724}
+          m_MethodName: displaygear
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4436490670479303402
 GameObject:
   m_ObjectHideFlags: 0
@@ -15726,6 +16094,7 @@ GameObject:
   - component: {fileID: 4436490670579272696}
   - component: {fileID: 7749122077673767375}
   - component: {fileID: 3480409992177480520}
+  - component: {fileID: 5400193289663379909}
   m_Layer: 5
   m_Name: Hang Out
   m_TagString: Untagged
@@ -15873,6 +16242,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd625a1826d9f4e4b8ca76cbbed95c56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5400193289663379909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436490670579272702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5135273764189909124}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5182492419140864724}
+          m_MethodName: displaygear
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4436490670663839980
 GameObject:
   m_ObjectHideFlags: 0
@@ -15977,6 +16387,7 @@ GameObject:
   - component: {fileID: 4436490670740822185}
   - component: {fileID: 4436490670740822190}
   - component: {fileID: 1001974328838024570}
+  - component: {fileID: 5811209961870681676}
   m_Layer: 5
   m_Name: Gift
   m_TagString: Untagged
@@ -16112,6 +16523,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &5811209961870681676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436490670740822188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5135273764189909124}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5182492419140864724}
+          m_MethodName: displaygear
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4436490670782946204
 GameObject:
   m_ObjectHideFlags: 0
@@ -17376,7 +17828,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8269638b374478149815d1fed29e30b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72d71ffbb85109b409a600a99cb0e31c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17841,7 +18293,7 @@ GameObject:
   - component: {fileID: 5413639228950059030}
   - component: {fileID: 5565162289917909248}
   - component: {fileID: 4393131971474642272}
-  - component: {fileID: 390006798222647401}
+  - component: {fileID: 1793831314418809505}
   m_Layer: 5
   m_Name: YesButton
   m_TagString: Untagged
@@ -17998,7 +18450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
---- !u!114 &390006798222647401
+--- !u!114 &1793831314418809505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18007,9 +18459,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 4840984580691118640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70eecc494189f6740a86d9d519f96d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6774355871983991832}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4841524077719160341
 GameObject:
   m_ObjectHideFlags: 0
@@ -25025,7 +25495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7169812, g: 0.1251335, b: 0.54823637, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -26321,6 +26791,7 @@ GameObject:
   - component: {fileID: 1716671496008000290}
   - component: {fileID: 6771687250753179819}
   - component: {fileID: 3945687843171992249}
+  - component: {fileID: 8078096829052693346}
   m_Layer: 5
   m_Name: NoButton
   m_TagString: Untagged
@@ -26477,6 +26948,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
+--- !u!114 &8078096829052693346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503574784002115603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7556565246136286589}
+          m_MethodName: OnMouseEnter
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &7565135652973909758
 GameObject:
   m_ObjectHideFlags: 0
@@ -29716,7 +30217,6 @@ GameObject:
   - component: {fileID: 6632615348762748743}
   - component: {fileID: 9098101339913648003}
   - component: {fileID: 7639432120886517377}
-  - component: {fileID: 6920341950865287521}
   - component: {fileID: 8716865566628599866}
   - component: {fileID: 1220651048400032382}
   - component: {fileID: 5664998928682616617}
@@ -29801,25 +30301,6 @@ MonoBehaviour:
   mypresent: 1
   amounttxt: {fileID: 1304405914459357557}
   nogifts: {fileID: 8300000, guid: 8487f55817e72c04c9c909d7c27b0ea6, type: 3}
---- !u!114 &6920341950865287521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8717075831368767357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &8716865566628599866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30074,8 +30555,8 @@ RectTransform:
   - {fileID: 1923029894565048690}
   - {fileID: 5018977527003678353}
   - {fileID: 1765375213036367371}
-  - {fileID: 8188477574411807705}
   - {fileID: 1057832776004365059}
+  - {fileID: 8188477574411807705}
   - {fileID: 7762172129361875514}
   - {fileID: 4297524112191975778}
   - {fileID: 5204794275097068070}
@@ -30336,7 +30817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4728529644198212342
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31122,7 +31603,6 @@ GameObject:
   - component: {fileID: 4281341830624341689}
   - component: {fileID: 3308767396096498333}
   - component: {fileID: 6932867134637916404}
-  - component: {fileID: 2801160588845446082}
   m_Layer: 5
   m_Name: YesButton
   m_TagString: Untagged
@@ -31279,18 +31759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isoutline: 0
---- !u!114 &2801160588845446082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183082185348532662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70eecc494189f6740a86d9d519f96d4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9192026151469654135
 GameObject:
   m_ObjectHideFlags: 0
@@ -31662,24 +32130,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4c270c2a48724b458244875485ec3bc, type: 3}
---- !u!224 &7000343569416132711 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6395946120817465534, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 4171670806635593945}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4044945120992463363 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 127869178292292314, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 4171670806635593945}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5662686141278002371 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8606703742320303130, guid: a4c270c2a48724b458244875485ec3bc,
@@ -31692,6 +32142,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4044945120992463363 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 127869178292292314, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4171670806635593945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &7000343569416132711 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6395946120817465534, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4171670806635593945}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &732017264569196029 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3732469988736916772, guid: a4c270c2a48724b458244875485ec3bc,
@@ -31934,18 +32402,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5586398361680167063}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4249138286926470285 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8606703742320303130, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 5586398361680167063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &9100290624946249139 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3732469988736916772, guid: a4c270c2a48724b458244875485ec3bc,
@@ -31956,6 +32412,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4249138286926470285 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8606703742320303130, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5586398361680167063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &5494558539425778253 stripped
@@ -32397,24 +32865,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &462185810500656578 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6395946120817465534, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 6820970567894746492}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6876641217067061158 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 127869178292292314, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 6820970567894746492}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3015674400545708390 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8606703742320303130, guid: a4c270c2a48724b458244875485ec3bc,
@@ -32427,6 +32877,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6876641217067061158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 127869178292292314, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6820970567894746492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &462185810500656578 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6395946120817465534, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6820970567894746492}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7974119304426095087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32663,24 +33131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &3921285479646615889 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6395946120817465534, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 7974119304426095087}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1862489367182958069 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8606703742320303130, guid: a4c270c2a48724b458244875485ec3bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 7974119304426095087}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8029789583693728565 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 127869178292292314, guid: a4c270c2a48724b458244875485ec3bc,
@@ -32693,3 +33143,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1862489367182958069 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8606703742320303130, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7974119304426095087}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &3921285479646615889 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6395946120817465534, guid: a4c270c2a48724b458244875485ec3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7974119304426095087}
+  m_PrefabAsset: {fileID: 0}
