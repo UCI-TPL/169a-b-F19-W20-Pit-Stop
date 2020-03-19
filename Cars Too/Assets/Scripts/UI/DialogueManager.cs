@@ -289,7 +289,7 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 //Otherwise display a number of chars determined by speed
-                for (int i = Mathf.CeilToInt(index); i < index + DataManager.instance.textspeed; i++)
+                for (int i = Mathf.CeilToInt(index); i < index + DataManager.instance.textspeed*Time.deltaTime*20; i++)
                 {
                     if (i >= dialoguetext.Length)
                     {
@@ -299,7 +299,7 @@ public class DialogueManager : MonoBehaviour
 
                     dialgouebox.text += dialoguetext[i];
                 }
-                index += DataManager.instance.textspeed;
+                index += DataManager.instance.textspeed*Time.deltaTime*20;
             }
 
             //Yield until next frame and then repeat
@@ -436,7 +436,7 @@ public class DialogueManager : MonoBehaviour
             //if the player has clicked display all text
 
                 //Otherwise display a number of chars determined by speed
-                for (int i = Mathf.CeilToInt(index); i < index + DataManager.instance.textspeed; i++)
+                for (int i = Mathf.CeilToInt(index); i < index + DataManager.instance.textspeed*Time.deltaTime*35; i++)
                 {
                     if (i >= dialoguetext.Length)
                     {
@@ -447,7 +447,7 @@ public class DialogueManager : MonoBehaviour
 
                     autodialoguebox.text += dialoguetext[i];
                 }
-                index += DataManager.instance.textspeed;
+                index += DataManager.instance.textspeed*Time.deltaTime * 35;
 
 
             //Yield until next frame and then repeat
